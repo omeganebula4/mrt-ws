@@ -1,36 +1,34 @@
-#!/usr/bin/env python
 import rclpy
-from std_msgs.msg import String
+from rclpy.node import Node
 
-def listener_callback(msg):
-    print('I heard: "%s"' % msg.data)
+from tutorial_interfaces.msg import Num        # CHANGE
+
+
+class MinimalSubscriber(Node):
+
+    def __init__(self):
+        super().__init__('minimal_subscriber')
+        self.subscription = self.create_subscription(
+            Num,                                              # CHANGE
+            'topic',
+            self.listener_callback,
+            10)
+        self.subscription
+
+    def listener_callback(self, msg):
+            self.get_logger().info('I heard: "%d"' % msg.num) # CHANGE
+
 
 def main(args=None):
-    # Initialize the ROS 2 system
     rclpy.init(args=args)
 
-    # Create a ROS 2 node named 'minimal_subscriber'
-    node = rclpy.create_node('minimal_subscriber')
+    minimal_subscriber = MinimalSubscriber()
 
-    # Create a subscription to the 'topic' with a message type of String
-    subscription = node.create_subscription(String, 'topic', listener_callback, 10)
+    rclpy.spin(minimal_subscriber)
 
-    # Prevent unused variable warning
-    subscription
+    minimal_subscriber.destroy_node()
+    rclpy.shutdown()
 
-    try:
-        # Start spinning the ROS 2 node
-        rclpy.spin(node)
-    finally:
-        # Destroy the node explicitly when done spinning
-        # (optional - otherwise it will be done automatically
-        # when the garbage collector destroys the node object)
-        node.destroy_node()
 
-        # Shutdown the ROS 2 system
-        rclpy.shutdown()
-
-# Entry point to the script
 if __name__ == '__main__':
-    # Call the main function if this script is the main module
     main()
