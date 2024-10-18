@@ -13,7 +13,6 @@ class MinimalSubscriber(Node):
             'topic',
             self.listener_callback,
             10)
-        self.subscription
 
     def listener_callback(self, msg):
             self.get_logger().info('I heard: "%d"' % msg.num) # CHANGE

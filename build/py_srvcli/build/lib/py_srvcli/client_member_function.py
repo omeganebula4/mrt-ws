@@ -18,11 +18,25 @@ class MinimalClientAsync(Node):
         self.req = ProcessImage.Request()                                   # CHANGE
 
     def send_request(self):
+
         img_path = str(sys.argv[1])
         gray = cv2.cvtColor(cv2.imread(img_path), cv2.COLOR_BGR2GRAY)
         image_message = bridge.cv2_to_imgmsg(gray, encoding="passthrough")
         self.req.img = image_message
         self.future = self.cli.call_async(self.req)
+
+        """
+        vid_path = str(sys.argv[1])
+        vid = cv2.VideoCapture(vid_path)
+
+        success=1
+        while success:
+            success, img = vid.read()
+            gray = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)
+            image_message = bridge.cv2_to_imgmsg(gray, encoding="passthrough")
+            self.req.img = image_message
+            self.future = self.cli.call_async(self.req)
+        """
 
 
 def main(args=None):
@@ -40,7 +54,16 @@ def main(args=None):
                 minimal_client.get_logger().info(
                     'Service call failed %r' % (e,))
             else:
-                minimal_client.get_logger().info(response.imgbounds.ids, '\n', response.imgbounds.bounds)
+                numAruco = len(response.imgbounds.ids)
+                output_string = "Number of ArUco markers detected: " + str(numAruco) + '\n'
+                for i in range(numAruco):
+                    output_string += "Marker " + str(i+1) + ": ID = " + str(response.imgbounds.ids[i]) + " Bounding Borders = "
+                    for j in range(4):
+                        output_string += '(' + ', '.join(map(str, response.imgbounds.bounds[i].rowpoints[j].coords)) + ') '
+                    output_string += '\n'
+
+                minimal_client.get_logger().info(output_string)
+
             break
 
     minimal_client.destroy_node()

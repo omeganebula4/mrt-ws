@@ -25,12 +25,10 @@ class MinimalService(Node):
         
         for i in range(len(corners)):
             for j in range(4):
-                print(corners[i][0][j])
                 response.imgbounds.bounds[i].rowpoints[j].coords = corners[i][0][j]
 
         print(ids.ravel())
         response.imgbounds.ids = ids.ravel().tolist()
-        #response.sum.num = request.a + request.b + request.c                                              # CHANGE
         self.get_logger().info('Incoming request') # CHANGE
 
         return response
