@@ -157,6 +157,10 @@ using AddThreeInts_Request =
 }  // namespace tutorial_interfaces
 
 
+// Include directives for member types
+// Member 'sum'
+#include "tutorial_interfaces/msg/detail/num__struct.hpp"
+
 #ifndef _WIN32
 # define DEPRECATED__tutorial_interfaces__srv__AddThreeInts_Response __attribute__((deprecated))
 #else
@@ -176,32 +180,25 @@ struct AddThreeInts_Response_
   using Type = AddThreeInts_Response_<ContainerAllocator>;
 
   explicit AddThreeInts_Response_(rosidl_runtime_cpp::MessageInitialization _init = rosidl_runtime_cpp::MessageInitialization::ALL)
+  : sum(_init)
   {
-    if (rosidl_runtime_cpp::MessageInitialization::ALL == _init ||
-      rosidl_runtime_cpp::MessageInitialization::ZERO == _init)
-    {
-      this->sum = 0ll;
-    }
+    (void)_init;
   }
 
   explicit AddThreeInts_Response_(const ContainerAllocator & _alloc, rosidl_runtime_cpp::MessageInitialization _init = rosidl_runtime_cpp::MessageInitialization::ALL)
+  : sum(_alloc, _init)
   {
-    (void)_alloc;
-    if (rosidl_runtime_cpp::MessageInitialization::ALL == _init ||
-      rosidl_runtime_cpp::MessageInitialization::ZERO == _init)
-    {
-      this->sum = 0ll;
-    }
+    (void)_init;
   }
 
   // field types and members
   using _sum_type =
-    int64_t;
+    tutorial_interfaces::msg::Num_<ContainerAllocator>;
   _sum_type sum;
 
   // setters for named parameter idiom
   Type & set__sum(
-    const int64_t & _arg)
+    const tutorial_interfaces::msg::Num_<ContainerAllocator> & _arg)
   {
     this->sum = _arg;
     return *this;

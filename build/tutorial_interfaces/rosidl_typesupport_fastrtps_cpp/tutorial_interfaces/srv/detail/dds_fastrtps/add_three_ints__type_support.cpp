@@ -269,6 +269,30 @@ ROSIDL_TYPESUPPORT_INTERFACE__MESSAGE_SYMBOL_NAME(rosidl_typesupport_fastrtps_cp
 
 
 // forward declaration of message dependencies and their conversion functions
+namespace tutorial_interfaces
+{
+namespace msg
+{
+namespace typesupport_fastrtps_cpp
+{
+bool cdr_serialize(
+  const tutorial_interfaces::msg::Num &,
+  eprosima::fastcdr::Cdr &);
+bool cdr_deserialize(
+  eprosima::fastcdr::Cdr &,
+  tutorial_interfaces::msg::Num &);
+size_t get_serialized_size(
+  const tutorial_interfaces::msg::Num &,
+  size_t current_alignment);
+size_t
+max_serialized_size_Num(
+  bool & full_bounded,
+  bool & is_plain,
+  size_t current_alignment);
+}  // namespace typesupport_fastrtps_cpp
+}  // namespace msg
+}  // namespace tutorial_interfaces
+
 
 namespace tutorial_interfaces
 {
@@ -286,7 +310,9 @@ cdr_serialize(
   eprosima::fastcdr::Cdr & cdr)
 {
   // Member: sum
-  cdr << ros_message.sum;
+  tutorial_interfaces::msg::typesupport_fastrtps_cpp::cdr_serialize(
+    ros_message.sum,
+    cdr);
   return true;
 }
 
@@ -297,7 +323,8 @@ cdr_deserialize(
   tutorial_interfaces::srv::AddThreeInts_Response & ros_message)
 {
   // Member: sum
-  cdr >> ros_message.sum;
+  tutorial_interfaces::msg::typesupport_fastrtps_cpp::cdr_deserialize(
+    cdr, ros_message.sum);
 
   return true;
 }
@@ -316,11 +343,10 @@ get_serialized_size(
   (void)wchar_size;
 
   // Member: sum
-  {
-    size_t item_size = sizeof(ros_message.sum);
-    current_alignment += item_size +
-      eprosima::fastcdr::Cdr::alignment(current_alignment, item_size);
-  }
+
+  current_alignment +=
+    tutorial_interfaces::msg::typesupport_fastrtps_cpp::get_serialized_size(
+    ros_message.sum, current_alignment);
 
   return current_alignment - initial_alignment;
 }
@@ -349,9 +375,19 @@ max_serialized_size_AddThreeInts_Response(
   {
     size_t array_size = 1;
 
-    last_member_size = array_size * sizeof(uint64_t);
-    current_alignment += array_size * sizeof(uint64_t) +
-      eprosima::fastcdr::Cdr::alignment(current_alignment, sizeof(uint64_t));
+
+    last_member_size = 0;
+    for (size_t index = 0; index < array_size; ++index) {
+      bool inner_full_bounded;
+      bool inner_is_plain;
+      size_t inner_size =
+        tutorial_interfaces::msg::typesupport_fastrtps_cpp::max_serialized_size_Num(
+        inner_full_bounded, inner_is_plain, current_alignment);
+      last_member_size += inner_size;
+      current_alignment += inner_size;
+      full_bounded &= inner_full_bounded;
+      is_plain &= inner_is_plain;
+    }
   }
 
   size_t ret_val = current_alignment - initial_alignment;

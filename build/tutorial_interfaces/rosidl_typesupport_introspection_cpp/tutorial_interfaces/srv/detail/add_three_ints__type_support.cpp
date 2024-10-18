@@ -193,9 +193,9 @@ void AddThreeInts_Response_fini_function(void * message_memory)
 static const ::rosidl_typesupport_introspection_cpp::MessageMember AddThreeInts_Response_message_member_array[1] = {
   {
     "sum",  // name
-    ::rosidl_typesupport_introspection_cpp::ROS_TYPE_INT64,  // type
+    ::rosidl_typesupport_introspection_cpp::ROS_TYPE_MESSAGE,  // type
     0,  // upper bound of string
-    nullptr,  // members of sub message
+    ::rosidl_typesupport_introspection_cpp::get_message_type_support_handle<tutorial_interfaces::msg::Num>(),  // members of sub message
     false,  // is array
     0,  // array size
     false,  // is upper bound

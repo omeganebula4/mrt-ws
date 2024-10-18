@@ -151,6 +151,8 @@ PyObject * tutorial_interfaces__srv__add_three_ints__request__convert_to_py(void
 // already included above
 // #include "tutorial_interfaces/srv/detail/add_three_ints__functions.h"
 
+bool tutorial_interfaces__msg__num__convert_from_py(PyObject * _pymsg, void * _ros_message);
+PyObject * tutorial_interfaces__msg__num__convert_to_py(void * raw_ros_message);
 
 ROSIDL_GENERATOR_C_EXPORT
 bool tutorial_interfaces__srv__add_three_ints__response__convert_from_py(PyObject * _pymsg, void * _ros_message)
@@ -190,8 +192,10 @@ bool tutorial_interfaces__srv__add_three_ints__response__convert_from_py(PyObjec
     if (!field) {
       return false;
     }
-    assert(PyLong_Check(field));
-    ros_message->sum = PyLong_AsLongLong(field);
+    if (!tutorial_interfaces__msg__num__convert_from_py(field, &ros_message->sum)) {
+      Py_DECREF(field);
+      return false;
+    }
     Py_DECREF(field);
   }
 
@@ -218,7 +222,10 @@ PyObject * tutorial_interfaces__srv__add_three_ints__response__convert_to_py(voi
   tutorial_interfaces__srv__AddThreeInts_Response * ros_message = (tutorial_interfaces__srv__AddThreeInts_Response *)raw_ros_message;
   {  // sum
     PyObject * field = NULL;
-    field = PyLong_FromLongLong(ros_message->sum);
+    field = tutorial_interfaces__msg__num__convert_to_py(&ros_message->sum);
+    if (!field) {
+      return NULL;
+    }
     {
       int rc = PyObject_SetAttrString(_pymessage, "sum", field);
       Py_DECREF(field);

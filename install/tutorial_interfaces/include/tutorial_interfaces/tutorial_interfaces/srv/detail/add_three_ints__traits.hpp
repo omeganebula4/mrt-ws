@@ -140,6 +140,10 @@ struct is_message<tutorial_interfaces::srv::AddThreeInts_Request>
 
 }  // namespace rosidl_generator_traits
 
+// Include directives for member types
+// Member 'sum'
+#include "tutorial_interfaces/msg/detail/num__traits.hpp"
+
 namespace tutorial_interfaces
 {
 
@@ -154,7 +158,7 @@ inline void to_flow_style_yaml(
   // member: sum
   {
     out << "sum: ";
-    rosidl_generator_traits::value_to_yaml(msg.sum, out);
+    to_flow_style_yaml(msg.sum, out);
   }
   out << "}";
 }  // NOLINT(readability/fn_size)
@@ -168,9 +172,8 @@ inline void to_block_style_yaml(
     if (indentation > 0) {
       out << std::string(indentation, ' ');
     }
-    out << "sum: ";
-    rosidl_generator_traits::value_to_yaml(msg.sum, out);
-    out << "\n";
+    out << "sum:\n";
+    to_block_style_yaml(msg.sum, out, indentation + 2);
   }
 }  // NOLINT(readability/fn_size)
 
@@ -220,11 +223,11 @@ inline const char * name<tutorial_interfaces::srv::AddThreeInts_Response>()
 
 template<>
 struct has_fixed_size<tutorial_interfaces::srv::AddThreeInts_Response>
-  : std::integral_constant<bool, true> {};
+  : std::integral_constant<bool, has_fixed_size<tutorial_interfaces::msg::Num>::value> {};
 
 template<>
 struct has_bounded_size<tutorial_interfaces::srv::AddThreeInts_Response>
-  : std::integral_constant<bool, true> {};
+  : std::integral_constant<bool, has_bounded_size<tutorial_interfaces::msg::Num>::value> {};
 
 template<>
 struct is_message<tutorial_interfaces::srv::AddThreeInts_Response>

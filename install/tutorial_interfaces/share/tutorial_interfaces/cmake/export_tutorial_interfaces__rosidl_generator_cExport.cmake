@@ -60,7 +60,7 @@ add_library(tutorial_interfaces::tutorial_interfaces__rosidl_generator_c SHARED 
 
 set_target_properties(tutorial_interfaces::tutorial_interfaces__rosidl_generator_c PROPERTIES
   INTERFACE_INCLUDE_DIRECTORIES "${_IMPORT_PREFIX}/include/tutorial_interfaces"
-  INTERFACE_LINK_LIBRARIES "geometry_msgs::geometry_msgs__rosidl_generator_c;std_msgs::std_msgs__rosidl_generator_c;rosidl_runtime_c::rosidl_runtime_c;rosidl_typesupport_interface::rosidl_typesupport_interface;rcutils::rcutils"
+  INTERFACE_LINK_LIBRARIES "sensor_msgs::sensor_msgs__rosidl_generator_c;builtin_interfaces::builtin_interfaces__rosidl_generator_c;geometry_msgs::geometry_msgs__rosidl_generator_c;std_msgs::std_msgs__rosidl_generator_c;rosidl_runtime_c::rosidl_runtime_c;rosidl_typesupport_interface::rosidl_typesupport_interface;rcutils::rcutils"
 )
 
 # Load information for each installed configuration.

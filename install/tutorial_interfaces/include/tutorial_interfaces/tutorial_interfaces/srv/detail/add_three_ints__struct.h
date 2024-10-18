@@ -38,10 +38,14 @@ typedef struct tutorial_interfaces__srv__AddThreeInts_Request__Sequence
 
 // Constants defined in the message
 
+// Include directives for member types
+// Member 'sum'
+#include "tutorial_interfaces/msg/detail/num__struct.h"
+
 /// Struct defined in srv/AddThreeInts in the package tutorial_interfaces.
 typedef struct tutorial_interfaces__srv__AddThreeInts_Response
 {
-  int64_t sum;
+  tutorial_interfaces__msg__Num sum;
 } tutorial_interfaces__srv__AddThreeInts_Response;
 
 // Struct for a sequence of tutorial_interfaces__srv__AddThreeInts_Response.

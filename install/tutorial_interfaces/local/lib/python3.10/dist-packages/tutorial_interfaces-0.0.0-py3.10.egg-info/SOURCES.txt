@@ -5,7 +5,12 @@ tutorial_interfaces.egg-info/SOURCES.txt
 tutorial_interfaces.egg-info/dependency_links.txt
 tutorial_interfaces.egg-info/top_level.txt
 tutorial_interfaces/msg/__init__.py
+tutorial_interfaces/msg/_image_bounds.py
 tutorial_interfaces/msg/_num.py
+tutorial_interfaces/msg/_point.py
+tutorial_interfaces/msg/_point2_d.py
+tutorial_interfaces/msg/_point_array.py
 tutorial_interfaces/msg/_sphere.py
 tutorial_interfaces/srv/__init__.py
 tutorial_interfaces/srv/_add_three_ints.py
+tutorial_interfaces/srv/_process_image.py

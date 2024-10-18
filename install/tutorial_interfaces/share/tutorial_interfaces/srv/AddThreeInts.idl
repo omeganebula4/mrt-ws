@@ -2,6 +2,7 @@
 // with input from tutorial_interfaces/srv/AddThreeInts.srv
 // generated code does not contain a copyright notice
 
+#include "tutorial_interfaces/msg/Num.idl"
 
 module tutorial_interfaces {
   module srv {
@@ -13,7 +14,7 @@ module tutorial_interfaces {
       int64 c;
     };
     struct AddThreeInts_Response {
-      int64 sum;
+      tutorial_interfaces::msg::Num sum;
     };
   };
 };

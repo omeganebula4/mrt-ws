@@ -1,0 +1,17 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from tutorial_interfaces/srv/ProcessImage.srv
+// generated code does not contain a copyright notice
+
+#include "sensor_msgs/msg/Image.idl"
+#include "tutorial_interfaces/msg/ImageBounds.idl"
+
+module tutorial_interfaces {
+  module srv {
+    struct ProcessImage_Request {
+      sensor_msgs::msg::Image img;
+    };
+    struct ProcessImage_Response {
+      tutorial_interfaces::msg::ImageBounds imgbounds;
+    };
+  };
+};

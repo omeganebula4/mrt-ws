@@ -276,8 +276,20 @@ extern "C"
 {
 #endif
 
+#include "tutorial_interfaces/msg/detail/num__functions.h"  // sum
 
 // forward declare type support functions
+size_t get_serialized_size_tutorial_interfaces__msg__Num(
+  const void * untyped_ros_message,
+  size_t current_alignment);
+
+size_t max_serialized_size_tutorial_interfaces__msg__Num(
+  bool & full_bounded,
+  bool & is_plain,
+  size_t current_alignment);
+
+const rosidl_message_type_support_t *
+  ROSIDL_TYPESUPPORT_INTERFACE__MESSAGE_SYMBOL_NAME(rosidl_typesupport_fastrtps_c, tutorial_interfaces, msg, Num)();
 
 
 using _AddThreeInts_Response__ros_msg_type = tutorial_interfaces__srv__AddThreeInts_Response;
@@ -293,7 +305,16 @@ static bool _AddThreeInts_Response__cdr_serialize(
   const _AddThreeInts_Response__ros_msg_type * ros_message = static_cast<const _AddThreeInts_Response__ros_msg_type *>(untyped_ros_message);
   // Field name: sum
   {
-    cdr << ros_message->sum;
+    const message_type_support_callbacks_t * callbacks =
+      static_cast<const message_type_support_callbacks_t *>(
+      ROSIDL_TYPESUPPORT_INTERFACE__MESSAGE_SYMBOL_NAME(
+        rosidl_typesupport_fastrtps_c, tutorial_interfaces, msg, Num
+      )()->data);
+    if (!callbacks->cdr_serialize(
+        &ros_message->sum, cdr))
+    {
+      return false;
+    }
   }
 
   return true;
@@ -310,7 +331,16 @@ static bool _AddThreeInts_Response__cdr_deserialize(
   _AddThreeInts_Response__ros_msg_type * ros_message = static_cast<_AddThreeInts_Response__ros_msg_type *>(untyped_ros_message);
   // Field name: sum
   {
-    cdr >> ros_message->sum;
+    const message_type_support_callbacks_t * callbacks =
+      static_cast<const message_type_support_callbacks_t *>(
+      ROSIDL_TYPESUPPORT_INTERFACE__MESSAGE_SYMBOL_NAME(
+        rosidl_typesupport_fastrtps_c, tutorial_interfaces, msg, Num
+      )()->data);
+    if (!callbacks->cdr_deserialize(
+        cdr, &ros_message->sum))
+    {
+      return false;
+    }
   }
 
   return true;
@@ -331,11 +361,9 @@ size_t get_serialized_size_tutorial_interfaces__srv__AddThreeInts_Response(
   (void)wchar_size;
 
   // field.name sum
-  {
-    size_t item_size = sizeof(ros_message->sum);
-    current_alignment += item_size +
-      eprosima::fastcdr::Cdr::alignment(current_alignment, item_size);
-  }
+
+  current_alignment += get_serialized_size_tutorial_interfaces__msg__Num(
+    &(ros_message->sum), current_alignment);
 
   return current_alignment - initial_alignment;
 }
@@ -369,9 +397,20 @@ size_t max_serialized_size_tutorial_interfaces__srv__AddThreeInts_Response(
   {
     size_t array_size = 1;
 
-    last_member_size = array_size * sizeof(uint64_t);
-    current_alignment += array_size * sizeof(uint64_t) +
-      eprosima::fastcdr::Cdr::alignment(current_alignment, sizeof(uint64_t));
+
+    last_member_size = 0;
+    for (size_t index = 0; index < array_size; ++index) {
+      bool inner_full_bounded;
+      bool inner_is_plain;
+      size_t inner_size;
+      inner_size =
+        max_serialized_size_tutorial_interfaces__msg__Num(
+        inner_full_bounded, inner_is_plain, current_alignment);
+      last_member_size += inner_size;
+      current_alignment += inner_size;
+      full_bounded &= inner_full_bounded;
+      is_plain &= inner_is_plain;
+    }
   }
 
   size_t ret_val = current_alignment - initial_alignment;

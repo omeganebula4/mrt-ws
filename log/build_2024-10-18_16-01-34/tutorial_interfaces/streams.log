@@ -1,0 +1,5 @@
+[0.012s] Invoking command in '/home/harshit/mrt_ws/build/tutorial_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/harshit/mrt_ws/install/week0_tutorials:/home/harshit/mrt_ws/install/py_srvcli:/home/harshit/mrt_ws/install/sauron:/opt/ros/humble /usr/bin/cmake --build /home/harshit/mrt_ws/build/tutorial_interfaces -- -j8 -l8
+[0.030s] [0mCMake Error: The source directory "/home/harshit/mrt_ws/src/tutorial_interfaces" does not exist.
+[0.031s] Specify --help for usage, or press the help button on the CMake GUI.[0m
+[0.031s] gmake: *** [Makefile:1395: cmake_check_build_system] Error 1
+[0.184s] Invoked command in '/home/harshit/mrt_ws/build/tutorial_interfaces' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/harshit/mrt_ws/install/week0_tutorials:/home/harshit/mrt_ws/install/py_srvcli:/home/harshit/mrt_ws/install/sauron:/opt/ros/humble /usr/bin/cmake --build /home/harshit/mrt_ws/build/tutorial_interfaces -- -j8 -l8

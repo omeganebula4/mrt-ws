@@ -209,6 +209,10 @@ class Metaclass_AddThreeInts_Response(type):
             cls._TYPE_SUPPORT = module.type_support_msg__srv__add_three_ints__response
             cls._DESTROY_ROS_MESSAGE = module.destroy_ros_message_msg__srv__add_three_ints__response
 
+            from tutorial_interfaces.msg import Num
+            if Num.__class__._TYPE_SUPPORT is None:
+                Num.__class__.__import_type_support__()
+
     @classmethod
     def __prepare__(cls, name, bases, **kwargs):
         # list constant names here so that they appear in the help text of
@@ -226,18 +230,19 @@ class AddThreeInts_Response(metaclass=Metaclass_AddThreeInts_Response):
     ]
 
     _fields_and_field_types = {
-        'sum': 'int64',
+        'sum': 'tutorial_interfaces/Num',
     }
 
     SLOT_TYPES = (
-        rosidl_parser.definition.BasicType('int64'),  # noqa: E501
+        rosidl_parser.definition.NamespacedType(['tutorial_interfaces', 'msg'], 'Num'),  # noqa: E501
     )
 
     def __init__(self, **kwargs):
         assert all('_' + key in self.__slots__ for key in kwargs.keys()), \
             'Invalid arguments passed to constructor: %s' % \
             ', '.join(sorted(k for k in kwargs.keys() if '_' + k not in self.__slots__))
-        self.sum = kwargs.get('sum', int())
+        from tutorial_interfaces.msg import Num
+        self.sum = kwargs.get('sum', Num())
 
     def __repr__(self):
         typename = self.__class__.__module__.split('.')
@@ -285,11 +290,10 @@ class AddThreeInts_Response(metaclass=Metaclass_AddThreeInts_Response):
     @sum.setter  # noqa: A003
     def sum(self, value):  # noqa: A003
         if __debug__:
+            from tutorial_interfaces.msg import Num
             assert \
-                isinstance(value, int), \
-                "The 'sum' field must be of type 'int'"
-            assert value >= -9223372036854775808 and value < 9223372036854775808, \
-                "The 'sum' field must be an integer in [-9223372036854775808, 9223372036854775807]"
+                isinstance(value, Num), \
+                "The 'sum' field must be a sub message of type 'Num'"
         self._sum = value
 
 

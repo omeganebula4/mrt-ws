@@ -134,6 +134,12 @@ ROSIDL_TYPESUPPORT_INTERFACE__MESSAGE_SYMBOL_NAME(rosidl_typesupport_introspecti
 // #include "tutorial_interfaces/srv/detail/add_three_ints__struct.h"
 
 
+// Include directives for member types
+// Member `sum`
+#include "tutorial_interfaces/msg/num.h"
+// Member `sum`
+#include "tutorial_interfaces/msg/detail/num__rosidl_typesupport_introspection_c.h"
+
 #ifdef __cplusplus
 extern "C"
 {
@@ -156,9 +162,9 @@ void tutorial_interfaces__srv__AddThreeInts_Response__rosidl_typesupport_introsp
 static rosidl_typesupport_introspection_c__MessageMember tutorial_interfaces__srv__AddThreeInts_Response__rosidl_typesupport_introspection_c__AddThreeInts_Response_message_member_array[1] = {
   {
     "sum",  // name
-    rosidl_typesupport_introspection_c__ROS_TYPE_INT64,  // type
+    rosidl_typesupport_introspection_c__ROS_TYPE_MESSAGE,  // type
     0,  // upper bound of string
-    NULL,  // members of sub message
+    NULL,  // members of sub message (initialized later)
     false,  // is array
     0,  // array size
     false,  // is upper bound
@@ -194,6 +200,8 @@ static rosidl_message_type_support_t tutorial_interfaces__srv__AddThreeInts_Resp
 ROSIDL_TYPESUPPORT_INTROSPECTION_C_EXPORT_tutorial_interfaces
 const rosidl_message_type_support_t *
 ROSIDL_TYPESUPPORT_INTERFACE__MESSAGE_SYMBOL_NAME(rosidl_typesupport_introspection_c, tutorial_interfaces, srv, AddThreeInts_Response)() {
+  tutorial_interfaces__srv__AddThreeInts_Response__rosidl_typesupport_introspection_c__AddThreeInts_Response_message_member_array[0].members_ =
+    ROSIDL_TYPESUPPORT_INTERFACE__MESSAGE_SYMBOL_NAME(rosidl_typesupport_introspection_c, tutorial_interfaces, msg, Num)();
   if (!tutorial_interfaces__srv__AddThreeInts_Response__rosidl_typesupport_introspection_c__AddThreeInts_Response_message_type_support_handle.typesupport_identifier) {
     tutorial_interfaces__srv__AddThreeInts_Response__rosidl_typesupport_introspection_c__AddThreeInts_Response_message_type_support_handle.typesupport_identifier =
       rosidl_typesupport_introspection_c__identifier;

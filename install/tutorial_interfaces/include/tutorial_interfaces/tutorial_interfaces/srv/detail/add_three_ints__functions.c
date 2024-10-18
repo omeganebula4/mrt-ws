@@ -251,6 +251,10 @@ tutorial_interfaces__srv__AddThreeInts_Request__Sequence__copy(
 }
 
 
+// Include directives for member types
+// Member `sum`
+#include "tutorial_interfaces/msg/detail/num__functions.h"
+
 bool
 tutorial_interfaces__srv__AddThreeInts_Response__init(tutorial_interfaces__srv__AddThreeInts_Response * msg)
 {
@@ -258,6 +262,10 @@ tutorial_interfaces__srv__AddThreeInts_Response__init(tutorial_interfaces__srv__
     return false;
   }
   // sum
+  if (!tutorial_interfaces__msg__Num__init(&msg->sum)) {
+    tutorial_interfaces__srv__AddThreeInts_Response__fini(msg);
+    return false;
+  }
   return true;
 }
 
@@ -268,6 +276,7 @@ tutorial_interfaces__srv__AddThreeInts_Response__fini(tutorial_interfaces__srv__
     return;
   }
   // sum
+  tutorial_interfaces__msg__Num__fini(&msg->sum);
 }
 
 bool
@@ -277,7 +286,9 @@ tutorial_interfaces__srv__AddThreeInts_Response__are_equal(const tutorial_interf
     return false;
   }
   // sum
-  if (lhs->sum != rhs->sum) {
+  if (!tutorial_interfaces__msg__Num__are_equal(
+      &(lhs->sum), &(rhs->sum)))
+  {
     return false;
   }
   return true;
@@ -292,7 +303,11 @@ tutorial_interfaces__srv__AddThreeInts_Response__copy(
     return false;
   }
   // sum
-  output->sum = input->sum;
+  if (!tutorial_interfaces__msg__Num__copy(
+      &(input->sum), &(output->sum)))
+  {
+    return false;
+  }
   return true;
 }
 
