@@ -1,9 +1,0 @@
-{
-  "package_name": "tutorial_interfaces",
-  "non_idl_tuples": [
-    "/home/harshit/mrt_ws/src/tutorial_interfaces:msg/Point.msg",
-    "/home/harshit/mrt_ws/src/tutorial_interfaces:msg/PointArray.msg",
-    "/home/harshit/mrt_ws/src/tutorial_interfaces:msg/ImageBounds.msg",
-    "/home/harshit/mrt_ws/src/tutorial_interfaces:srv/ProcessImage.srv"
-  ]
-}

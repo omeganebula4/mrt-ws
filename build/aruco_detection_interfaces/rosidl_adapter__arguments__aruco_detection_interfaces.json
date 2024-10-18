@@ -1,0 +1,9 @@
+{
+  "package_name": "aruco_detection_interfaces",
+  "non_idl_tuples": [
+    "/home/harshit/mrt_ws/src/aruco_detection_interfaces:msg/Point.msg",
+    "/home/harshit/mrt_ws/src/aruco_detection_interfaces:msg/PointArray.msg",
+    "/home/harshit/mrt_ws/src/aruco_detection_interfaces:msg/ImageBounds.msg",
+    "/home/harshit/mrt_ws/src/aruco_detection_interfaces:srv/ProcessImage.srv"
+  ]
+}

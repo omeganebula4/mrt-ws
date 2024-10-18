@@ -1,0 +1,25 @@
+file(REMOVE_RECURSE
+  "CMakeFiles/aruco_detection_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/aruco_detection_interfaces/msg/detail/image_bounds__type_support_c.cpp.o"
+  "CMakeFiles/aruco_detection_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/aruco_detection_interfaces/msg/detail/image_bounds__type_support_c.cpp.o.d"
+  "CMakeFiles/aruco_detection_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/aruco_detection_interfaces/msg/detail/point__type_support_c.cpp.o"
+  "CMakeFiles/aruco_detection_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/aruco_detection_interfaces/msg/detail/point__type_support_c.cpp.o.d"
+  "CMakeFiles/aruco_detection_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/aruco_detection_interfaces/msg/detail/point_array__type_support_c.cpp.o"
+  "CMakeFiles/aruco_detection_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/aruco_detection_interfaces/msg/detail/point_array__type_support_c.cpp.o.d"
+  "CMakeFiles/aruco_detection_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/aruco_detection_interfaces/srv/detail/process_image__type_support_c.cpp.o"
+  "CMakeFiles/aruco_detection_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/aruco_detection_interfaces/srv/detail/process_image__type_support_c.cpp.o.d"
+  "libaruco_detection_interfaces__rosidl_typesupport_fastrtps_c.pdb"
+  "libaruco_detection_interfaces__rosidl_typesupport_fastrtps_c.so"
+  "rosidl_typesupport_fastrtps_c/aruco_detection_interfaces/msg/detail/image_bounds__rosidl_typesupport_fastrtps_c.h"
+  "rosidl_typesupport_fastrtps_c/aruco_detection_interfaces/msg/detail/image_bounds__type_support_c.cpp"
+  "rosidl_typesupport_fastrtps_c/aruco_detection_interfaces/msg/detail/point__rosidl_typesupport_fastrtps_c.h"
+  "rosidl_typesupport_fastrtps_c/aruco_detection_interfaces/msg/detail/point__type_support_c.cpp"
+  "rosidl_typesupport_fastrtps_c/aruco_detection_interfaces/msg/detail/point_array__rosidl_typesupport_fastrtps_c.h"
+  "rosidl_typesupport_fastrtps_c/aruco_detection_interfaces/msg/detail/point_array__type_support_c.cpp"
+  "rosidl_typesupport_fastrtps_c/aruco_detection_interfaces/srv/detail/process_image__rosidl_typesupport_fastrtps_c.h"
+  "rosidl_typesupport_fastrtps_c/aruco_detection_interfaces/srv/detail/process_image__type_support_c.cpp"
+)
+
+# Per-language clean rules from dependency scanning.
+foreach(lang CXX)
+  include(CMakeFiles/aruco_detection_interfaces__rosidl_typesupport_fastrtps_c.dir/cmake_clean_${lang}.cmake OPTIONAL)
+endforeach()

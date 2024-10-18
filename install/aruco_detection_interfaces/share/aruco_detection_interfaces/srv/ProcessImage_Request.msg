@@ -1,0 +1,4 @@
+sensor_msgs/Image img
+string path
+bool imgorvid #0 for img, 1 for vid
+uint16 frame

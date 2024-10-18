@@ -1,0 +1,4 @@
+/home/harshit/mrt_ws/build/aruco_detection_interfaces/rosidl_adapter/aruco_detection_interfaces:msg/Point.idl
+/home/harshit/mrt_ws/build/aruco_detection_interfaces/rosidl_adapter/aruco_detection_interfaces:msg/PointArray.idl
+/home/harshit/mrt_ws/build/aruco_detection_interfaces/rosidl_adapter/aruco_detection_interfaces:msg/ImageBounds.idl
+/home/harshit/mrt_ws/build/aruco_detection_interfaces/rosidl_adapter/aruco_detection_interfaces:srv/ProcessImage.idl

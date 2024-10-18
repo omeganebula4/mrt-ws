@@ -1,0 +1,13 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from aruco_detection_interfaces/msg/Point.msg
+// generated code does not contain a copyright notice
+
+
+module aruco_detection_interfaces {
+  module msg {
+    typedef float float__2[2];
+    struct Point {
+      float__2 coords;
+    };
+  };
+};

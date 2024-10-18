@@ -1,0 +1,15 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from aruco_detection_interfaces/msg/PointArray.msg
+// generated code does not contain a copyright notice
+
+#include "aruco_detection_interfaces/msg/Point.idl"
+
+module aruco_detection_interfaces {
+  module msg {
+    typedef aruco_detection_interfaces::msg::Point aruco_detection_interfaces__msg__Point;
+    typedef aruco_detection_interfaces__msg__Point aruco_detection_interfaces__msg__Point__4[4];
+    struct PointArray {
+      aruco_detection_interfaces__msg__Point__4 rowpoints;
+    };
+  };
+};

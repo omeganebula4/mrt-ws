@@ -1,0 +1,12 @@
+setup.py
+aruco_detection_interfaces/__init__.py
+aruco_detection_interfaces.egg-info/PKG-INFO
+aruco_detection_interfaces.egg-info/SOURCES.txt
+aruco_detection_interfaces.egg-info/dependency_links.txt
+aruco_detection_interfaces.egg-info/top_level.txt
+aruco_detection_interfaces/msg/__init__.py
+aruco_detection_interfaces/msg/_image_bounds.py
+aruco_detection_interfaces/msg/_point.py
+aruco_detection_interfaces/msg/_point_array.py
+aruco_detection_interfaces/srv/__init__.py
+aruco_detection_interfaces/srv/_process_image.py

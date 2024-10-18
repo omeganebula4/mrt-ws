@@ -1,0 +1,5 @@
+[console_scripts]
+client-img = aruco_detection.client_img:main
+client-vid = aruco_detection.client_vid:main
+service = aruco_detection.service:main
+

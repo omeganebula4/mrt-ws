@@ -1,0 +1,43 @@
+[0.588s] Invoking command in '/home/harshit/mrt_ws/src/week0_tutorials': PYTHONPATH=/home/harshit/mrt_ws/build/week0_tutorials/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/harshit/mrt_ws/install/week0_tutorials/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/week0_tutorials build --build-base /home/harshit/mrt_ws/build/week0_tutorials/build install --record /home/harshit/mrt_ws/build/week0_tutorials/install.log --single-version-externally-managed install_data
+[0.769s] running egg_info
+[0.770s] creating ../../build/week0_tutorials/week0_tutorials.egg-info
+[0.770s] writing ../../build/week0_tutorials/week0_tutorials.egg-info/PKG-INFO
+[0.770s] writing dependency_links to ../../build/week0_tutorials/week0_tutorials.egg-info/dependency_links.txt
+[0.770s] writing entry points to ../../build/week0_tutorials/week0_tutorials.egg-info/entry_points.txt
+[0.770s] writing requirements to ../../build/week0_tutorials/week0_tutorials.egg-info/requires.txt
+[0.770s] writing top-level names to ../../build/week0_tutorials/week0_tutorials.egg-info/top_level.txt
+[0.770s] writing manifest file '../../build/week0_tutorials/week0_tutorials.egg-info/SOURCES.txt'
+[0.772s] reading manifest file '../../build/week0_tutorials/week0_tutorials.egg-info/SOURCES.txt'
+[0.773s] writing manifest file '../../build/week0_tutorials/week0_tutorials.egg-info/SOURCES.txt'
+[0.773s] running build
+[0.773s] running build_py
+[0.773s] creating /home/harshit/mrt_ws/build/week0_tutorials/build
+[0.773s] creating /home/harshit/mrt_ws/build/week0_tutorials/build/lib
+[0.773s] creating /home/harshit/mrt_ws/build/week0_tutorials/build/lib/week0_tutorials
+[0.773s] copying week0_tutorials/listener.py -> /home/harshit/mrt_ws/build/week0_tutorials/build/lib/week0_tutorials
+[0.773s] copying week0_tutorials/talker.py -> /home/harshit/mrt_ws/build/week0_tutorials/build/lib/week0_tutorials
+[0.774s] copying week0_tutorials/__init__.py -> /home/harshit/mrt_ws/build/week0_tutorials/build/lib/week0_tutorials
+[0.774s] running install
+[0.774s] running install_lib
+[0.775s] creating /home/harshit/mrt_ws/install/week0_tutorials/lib/python3.10/site-packages/week0_tutorials
+[0.775s] copying /home/harshit/mrt_ws/build/week0_tutorials/build/lib/week0_tutorials/listener.py -> /home/harshit/mrt_ws/install/week0_tutorials/lib/python3.10/site-packages/week0_tutorials
+[0.775s] copying /home/harshit/mrt_ws/build/week0_tutorials/build/lib/week0_tutorials/talker.py -> /home/harshit/mrt_ws/install/week0_tutorials/lib/python3.10/site-packages/week0_tutorials
+[0.775s] copying /home/harshit/mrt_ws/build/week0_tutorials/build/lib/week0_tutorials/__init__.py -> /home/harshit/mrt_ws/install/week0_tutorials/lib/python3.10/site-packages/week0_tutorials
+[0.776s] byte-compiling /home/harshit/mrt_ws/install/week0_tutorials/lib/python3.10/site-packages/week0_tutorials/listener.py to listener.cpython-310.pyc
+[0.776s] byte-compiling /home/harshit/mrt_ws/install/week0_tutorials/lib/python3.10/site-packages/week0_tutorials/talker.py to talker.cpython-310.pyc
+[0.777s] byte-compiling /home/harshit/mrt_ws/install/week0_tutorials/lib/python3.10/site-packages/week0_tutorials/__init__.py to __init__.cpython-310.pyc
+[0.777s] running install_data
+[0.777s] creating /home/harshit/mrt_ws/install/week0_tutorials/share/ament_index
+[0.777s] creating /home/harshit/mrt_ws/install/week0_tutorials/share/ament_index/resource_index
+[0.777s] creating /home/harshit/mrt_ws/install/week0_tutorials/share/ament_index/resource_index/packages
+[0.777s] copying resource/week0_tutorials -> /home/harshit/mrt_ws/install/week0_tutorials/share/ament_index/resource_index/packages
+[0.777s] copying package.xml -> /home/harshit/mrt_ws/install/week0_tutorials/share/week0_tutorials
+[0.777s] creating /home/harshit/mrt_ws/install/week0_tutorials/share/week0_tutorials/launch
+[0.777s] copying launch/pubsub_launch.py -> /home/harshit/mrt_ws/install/week0_tutorials/share/week0_tutorials/launch
+[0.777s] running install_egg_info
+[0.779s] Copying ../../build/week0_tutorials/week0_tutorials.egg-info to /home/harshit/mrt_ws/install/week0_tutorials/lib/python3.10/site-packages/week0_tutorials-0.0.0-py3.10.egg-info
+[0.780s] running install_scripts
+[0.797s] Installing publisher script to /home/harshit/mrt_ws/install/week0_tutorials/lib/week0_tutorials
+[0.797s] Installing subscriber script to /home/harshit/mrt_ws/install/week0_tutorials/lib/week0_tutorials
+[0.798s] writing list of installed files to '/home/harshit/mrt_ws/build/week0_tutorials/install.log'
+[0.820s] Invoked command in '/home/harshit/mrt_ws/src/week0_tutorials' returned '0': PYTHONPATH=/home/harshit/mrt_ws/build/week0_tutorials/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/harshit/mrt_ws/install/week0_tutorials/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/week0_tutorials build --build-base /home/harshit/mrt_ws/build/week0_tutorials/build install --record /home/harshit/mrt_ws/build/week0_tutorials/install.log --single-version-externally-managed install_data
