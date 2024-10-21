@@ -1,6 +1,9 @@
 from aruco_detection_interfaces.srv import ProcessImage
+from aruco_detection_interfaces.msg import Point
+from aruco_detection_interfaces.msg import PointArray
 import rclpy
 from rclpy.node import Node
+import numpy as np
 
 from cv_bridge import CvBridge
 import cv2
@@ -11,20 +14,31 @@ class MinimalService(Node):
 
     def __init__(self):
         super().__init__('service')
-        self.srv = self.create_service(ProcessImage, 'process_image', self.process_image_callback)        # CHANGE
+        self.srv = self.create_service(ProcessImage, 'process_image', self.process_image_callback)
 
     def process_image_callback(self, request, response):
-
         cv_image = bridge.imgmsg_to_cv2(request.img, desired_encoding='passthrough')
         aruco_dict = cv2.aruco.getPredefinedDictionary(cv2.aruco.DICT_4X4_250)
         parameters = cv2.aruco.DetectorParameters()
 
         detector = cv2.aruco.ArucoDetector(aruco_dict, parameters)
         corners, ids, rejected = detector.detectMarkers(cv_image)
+
+        '''
+        a = [coord for box in corners for point in box[0] for coord in point]
+        b = np.array(corners).reshape(len(corners)*8).tolist()
+        if a==b:
+            print("same")
+        response.imgbounds.bounds = a
+        '''
         
         for i in range(len(corners)):
+            box = PointArray()
             for j in range(4):
-                response.imgbounds.bounds[i].rowpoints[j].coords = corners[i][0][j]
+                p = Point()
+                p.coords = corners[i][0][j]
+                box.rowpoints[j] = p
+            response.imgbounds.bounds.append(box)
         
         if ids is None:
             pass

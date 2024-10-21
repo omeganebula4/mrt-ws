@@ -1,0 +1,327 @@
+[0.068s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.069s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=8, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x79a4099389a0>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x79a409a88e50>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x79a409a88e50>>)
+[0.169s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.169s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.169s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.169s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.169s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.169s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.169s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/harshit/mrt_ws'
+[0.170s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.170s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.170s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.170s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.170s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.170s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.170s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.170s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.170s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.177s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.177s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.177s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.177s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.177s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.177s] Level 1:colcon.colcon_core.package_identification:_identify(assignment_reports) by extensions ['ignore', 'ignore_ament_install']
+[0.177s] Level 1:colcon.colcon_core.package_identification:_identify(assignment_reports) by extension 'ignore'
+[0.177s] Level 1:colcon.colcon_core.package_identification:_identify(assignment_reports) by extension 'ignore_ament_install'
+[0.177s] Level 1:colcon.colcon_core.package_identification:_identify(assignment_reports) by extensions ['colcon_pkg']
+[0.177s] Level 1:colcon.colcon_core.package_identification:_identify(assignment_reports) by extension 'colcon_pkg'
+[0.177s] Level 1:colcon.colcon_core.package_identification:_identify(assignment_reports) by extensions ['colcon_meta']
+[0.177s] Level 1:colcon.colcon_core.package_identification:_identify(assignment_reports) by extension 'colcon_meta'
+[0.178s] Level 1:colcon.colcon_core.package_identification:_identify(assignment_reports) by extensions ['ros']
+[0.178s] Level 1:colcon.colcon_core.package_identification:_identify(assignment_reports) by extension 'ros'
+[0.178s] Level 1:colcon.colcon_core.package_identification:_identify(assignment_reports) by extensions ['cmake', 'python']
+[0.178s] Level 1:colcon.colcon_core.package_identification:_identify(assignment_reports) by extension 'cmake'
+[0.178s] Level 1:colcon.colcon_core.package_identification:_identify(assignment_reports) by extension 'python'
+[0.178s] Level 1:colcon.colcon_core.package_identification:_identify(assignment_reports) by extensions ['python_setup_py']
+[0.178s] Level 1:colcon.colcon_core.package_identification:_identify(assignment_reports) by extension 'python_setup_py'
+[0.178s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.178s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.178s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.178s] Level 1:colcon.colcon_core.package_identification:_identify(content) by extensions ['ignore', 'ignore_ament_install']
+[0.178s] Level 1:colcon.colcon_core.package_identification:_identify(content) by extension 'ignore'
+[0.178s] Level 1:colcon.colcon_core.package_identification:_identify(content) by extension 'ignore_ament_install'
+[0.178s] Level 1:colcon.colcon_core.package_identification:_identify(content) by extensions ['colcon_pkg']
+[0.178s] Level 1:colcon.colcon_core.package_identification:_identify(content) by extension 'colcon_pkg'
+[0.178s] Level 1:colcon.colcon_core.package_identification:_identify(content) by extensions ['colcon_meta']
+[0.178s] Level 1:colcon.colcon_core.package_identification:_identify(content) by extension 'colcon_meta'
+[0.178s] Level 1:colcon.colcon_core.package_identification:_identify(content) by extensions ['ros']
+[0.178s] Level 1:colcon.colcon_core.package_identification:_identify(content) by extension 'ros'
+[0.178s] Level 1:colcon.colcon_core.package_identification:_identify(content) by extensions ['cmake', 'python']
+[0.178s] Level 1:colcon.colcon_core.package_identification:_identify(content) by extension 'cmake'
+[0.178s] Level 1:colcon.colcon_core.package_identification:_identify(content) by extension 'python'
+[0.178s] Level 1:colcon.colcon_core.package_identification:_identify(content) by extensions ['python_setup_py']
+[0.178s] Level 1:colcon.colcon_core.package_identification:_identify(content) by extension 'python_setup_py'
+[0.179s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.179s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.179s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.179s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.179s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.179s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.179s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.179s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.179s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.179s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.179s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.179s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.179s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.179s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.179s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.179s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.179s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.179s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.179s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.179s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.179s] Level 1:colcon.colcon_core.package_identification:_identify(src/aruco_detection) by extensions ['ignore', 'ignore_ament_install']
+[0.179s] Level 1:colcon.colcon_core.package_identification:_identify(src/aruco_detection) by extension 'ignore'
+[0.179s] Level 1:colcon.colcon_core.package_identification:_identify(src/aruco_detection) by extension 'ignore_ament_install'
+[0.179s] Level 1:colcon.colcon_core.package_identification:_identify(src/aruco_detection) by extensions ['colcon_pkg']
+[0.179s] Level 1:colcon.colcon_core.package_identification:_identify(src/aruco_detection) by extension 'colcon_pkg'
+[0.179s] Level 1:colcon.colcon_core.package_identification:_identify(src/aruco_detection) by extensions ['colcon_meta']
+[0.179s] Level 1:colcon.colcon_core.package_identification:_identify(src/aruco_detection) by extension 'colcon_meta'
+[0.179s] Level 1:colcon.colcon_core.package_identification:_identify(src/aruco_detection) by extensions ['ros']
+[0.180s] Level 1:colcon.colcon_core.package_identification:_identify(src/aruco_detection) by extension 'ros'
+[0.181s] DEBUG:colcon.colcon_core.package_identification:Package 'src/aruco_detection' with type 'ros.ament_python' and name 'aruco_detection'
+[0.181s] Level 1:colcon.colcon_core.package_identification:_identify(src/aruco_detection_interfaces) by extensions ['ignore', 'ignore_ament_install']
+[0.181s] Level 1:colcon.colcon_core.package_identification:_identify(src/aruco_detection_interfaces) by extension 'ignore'
+[0.181s] Level 1:colcon.colcon_core.package_identification:_identify(src/aruco_detection_interfaces) by extension 'ignore_ament_install'
+[0.182s] Level 1:colcon.colcon_core.package_identification:_identify(src/aruco_detection_interfaces) by extensions ['colcon_pkg']
+[0.182s] Level 1:colcon.colcon_core.package_identification:_identify(src/aruco_detection_interfaces) by extension 'colcon_pkg'
+[0.182s] Level 1:colcon.colcon_core.package_identification:_identify(src/aruco_detection_interfaces) by extensions ['colcon_meta']
+[0.182s] Level 1:colcon.colcon_core.package_identification:_identify(src/aruco_detection_interfaces) by extension 'colcon_meta'
+[0.182s] Level 1:colcon.colcon_core.package_identification:_identify(src/aruco_detection_interfaces) by extensions ['ros']
+[0.182s] Level 1:colcon.colcon_core.package_identification:_identify(src/aruco_detection_interfaces) by extension 'ros'
+[0.182s] DEBUG:colcon.colcon_core.package_identification:Package 'src/aruco_detection_interfaces' with type 'ros.ament_cmake' and name 'aruco_detection_interfaces'
+[0.182s] Level 1:colcon.colcon_core.package_identification:_identify(src/sauron) by extensions ['ignore', 'ignore_ament_install']
+[0.182s] Level 1:colcon.colcon_core.package_identification:_identify(src/sauron) by extension 'ignore'
+[0.182s] Level 1:colcon.colcon_core.package_identification:_identify(src/sauron) by extension 'ignore_ament_install'
+[0.182s] Level 1:colcon.colcon_core.package_identification:_identify(src/sauron) by extensions ['colcon_pkg']
+[0.182s] Level 1:colcon.colcon_core.package_identification:_identify(src/sauron) by extension 'colcon_pkg'
+[0.182s] Level 1:colcon.colcon_core.package_identification:_identify(src/sauron) by extensions ['colcon_meta']
+[0.182s] Level 1:colcon.colcon_core.package_identification:_identify(src/sauron) by extension 'colcon_meta'
+[0.182s] Level 1:colcon.colcon_core.package_identification:_identify(src/sauron) by extensions ['ros']
+[0.182s] Level 1:colcon.colcon_core.package_identification:_identify(src/sauron) by extension 'ros'
+[0.183s] DEBUG:colcon.colcon_core.package_identification:Package 'src/sauron' with type 'ros.ament_python' and name 'sauron'
+[0.183s] Level 1:colcon.colcon_core.package_identification:_identify(src/week0_tutorials) by extensions ['ignore', 'ignore_ament_install']
+[0.183s] Level 1:colcon.colcon_core.package_identification:_identify(src/week0_tutorials) by extension 'ignore'
+[0.183s] Level 1:colcon.colcon_core.package_identification:_identify(src/week0_tutorials) by extension 'ignore_ament_install'
+[0.183s] Level 1:colcon.colcon_core.package_identification:_identify(src/week0_tutorials) by extensions ['colcon_pkg']
+[0.183s] Level 1:colcon.colcon_core.package_identification:_identify(src/week0_tutorials) by extension 'colcon_pkg'
+[0.183s] Level 1:colcon.colcon_core.package_identification:_identify(src/week0_tutorials) by extensions ['colcon_meta']
+[0.183s] Level 1:colcon.colcon_core.package_identification:_identify(src/week0_tutorials) by extension 'colcon_meta'
+[0.183s] Level 1:colcon.colcon_core.package_identification:_identify(src/week0_tutorials) by extensions ['ros']
+[0.183s] Level 1:colcon.colcon_core.package_identification:_identify(src/week0_tutorials) by extension 'ros'
+[0.183s] DEBUG:colcon.colcon_core.package_identification:Package 'src/week0_tutorials' with type 'ros.ament_python' and name 'week0_tutorials'
+[0.183s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.183s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.183s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.183s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.184s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.197s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.197s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.198s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 4 installed packages in /home/harshit/mrt_ws/install
+[0.199s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 287 installed packages in /opt/ros/humble
+[0.209s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.232s] Level 5:colcon.colcon_core.verb:set package 'aruco_detection_interfaces' build argument 'cmake_args' from command line to 'None'
+[0.232s] Level 5:colcon.colcon_core.verb:set package 'aruco_detection_interfaces' build argument 'cmake_target' from command line to 'None'
+[0.233s] Level 5:colcon.colcon_core.verb:set package 'aruco_detection_interfaces' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.233s] Level 5:colcon.colcon_core.verb:set package 'aruco_detection_interfaces' build argument 'cmake_clean_cache' from command line to 'False'
+[0.233s] Level 5:colcon.colcon_core.verb:set package 'aruco_detection_interfaces' build argument 'cmake_clean_first' from command line to 'False'
+[0.233s] Level 5:colcon.colcon_core.verb:set package 'aruco_detection_interfaces' build argument 'cmake_force_configure' from command line to 'False'
+[0.233s] Level 5:colcon.colcon_core.verb:set package 'aruco_detection_interfaces' build argument 'ament_cmake_args' from command line to 'None'
+[0.233s] Level 5:colcon.colcon_core.verb:set package 'aruco_detection_interfaces' build argument 'catkin_cmake_args' from command line to 'None'
+[0.233s] Level 5:colcon.colcon_core.verb:set package 'aruco_detection_interfaces' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.233s] DEBUG:colcon.colcon_core.verb:Building package 'aruco_detection_interfaces' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/harshit/mrt_ws/build/aruco_detection_interfaces', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/harshit/mrt_ws/install/aruco_detection_interfaces', 'merge_install': False, 'path': '/home/harshit/mrt_ws/src/aruco_detection_interfaces', 'symlink_install': False, 'test_result_base': None}
+[0.233s] Level 5:colcon.colcon_core.verb:set package 'sauron' build argument 'cmake_args' from command line to 'None'
+[0.233s] Level 5:colcon.colcon_core.verb:set package 'sauron' build argument 'cmake_target' from command line to 'None'
+[0.233s] Level 5:colcon.colcon_core.verb:set package 'sauron' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.233s] Level 5:colcon.colcon_core.verb:set package 'sauron' build argument 'cmake_clean_cache' from command line to 'False'
+[0.233s] Level 5:colcon.colcon_core.verb:set package 'sauron' build argument 'cmake_clean_first' from command line to 'False'
+[0.233s] Level 5:colcon.colcon_core.verb:set package 'sauron' build argument 'cmake_force_configure' from command line to 'False'
+[0.233s] Level 5:colcon.colcon_core.verb:set package 'sauron' build argument 'ament_cmake_args' from command line to 'None'
+[0.233s] Level 5:colcon.colcon_core.verb:set package 'sauron' build argument 'catkin_cmake_args' from command line to 'None'
+[0.233s] Level 5:colcon.colcon_core.verb:set package 'sauron' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.233s] DEBUG:colcon.colcon_core.verb:Building package 'sauron' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/harshit/mrt_ws/build/sauron', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/harshit/mrt_ws/install/sauron', 'merge_install': False, 'path': '/home/harshit/mrt_ws/src/sauron', 'symlink_install': False, 'test_result_base': None}
+[0.233s] Level 5:colcon.colcon_core.verb:set package 'week0_tutorials' build argument 'cmake_args' from command line to 'None'
+[0.233s] Level 5:colcon.colcon_core.verb:set package 'week0_tutorials' build argument 'cmake_target' from command line to 'None'
+[0.233s] Level 5:colcon.colcon_core.verb:set package 'week0_tutorials' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.233s] Level 5:colcon.colcon_core.verb:set package 'week0_tutorials' build argument 'cmake_clean_cache' from command line to 'False'
+[0.233s] Level 5:colcon.colcon_core.verb:set package 'week0_tutorials' build argument 'cmake_clean_first' from command line to 'False'
+[0.233s] Level 5:colcon.colcon_core.verb:set package 'week0_tutorials' build argument 'cmake_force_configure' from command line to 'False'
+[0.233s] Level 5:colcon.colcon_core.verb:set package 'week0_tutorials' build argument 'ament_cmake_args' from command line to 'None'
+[0.233s] Level 5:colcon.colcon_core.verb:set package 'week0_tutorials' build argument 'catkin_cmake_args' from command line to 'None'
+[0.233s] Level 5:colcon.colcon_core.verb:set package 'week0_tutorials' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.233s] DEBUG:colcon.colcon_core.verb:Building package 'week0_tutorials' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/harshit/mrt_ws/build/week0_tutorials', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/harshit/mrt_ws/install/week0_tutorials', 'merge_install': False, 'path': '/home/harshit/mrt_ws/src/week0_tutorials', 'symlink_install': False, 'test_result_base': None}
+[0.234s] Level 5:colcon.colcon_core.verb:set package 'aruco_detection' build argument 'cmake_args' from command line to 'None'
+[0.234s] Level 5:colcon.colcon_core.verb:set package 'aruco_detection' build argument 'cmake_target' from command line to 'None'
+[0.234s] Level 5:colcon.colcon_core.verb:set package 'aruco_detection' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.234s] Level 5:colcon.colcon_core.verb:set package 'aruco_detection' build argument 'cmake_clean_cache' from command line to 'False'
+[0.234s] Level 5:colcon.colcon_core.verb:set package 'aruco_detection' build argument 'cmake_clean_first' from command line to 'False'
+[0.234s] Level 5:colcon.colcon_core.verb:set package 'aruco_detection' build argument 'cmake_force_configure' from command line to 'False'
+[0.234s] Level 5:colcon.colcon_core.verb:set package 'aruco_detection' build argument 'ament_cmake_args' from command line to 'None'
+[0.234s] Level 5:colcon.colcon_core.verb:set package 'aruco_detection' build argument 'catkin_cmake_args' from command line to 'None'
+[0.234s] Level 5:colcon.colcon_core.verb:set package 'aruco_detection' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.234s] DEBUG:colcon.colcon_core.verb:Building package 'aruco_detection' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/harshit/mrt_ws/build/aruco_detection', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/harshit/mrt_ws/install/aruco_detection', 'merge_install': False, 'path': '/home/harshit/mrt_ws/src/aruco_detection', 'symlink_install': False, 'test_result_base': None}
+[0.234s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.235s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.235s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/harshit/mrt_ws/src/aruco_detection_interfaces' with build type 'ament_cmake'
+[0.235s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/harshit/mrt_ws/src/aruco_detection_interfaces'
+[0.236s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.236s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.236s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.239s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/harshit/mrt_ws/src/sauron' with build type 'ament_python'
+[0.239s] Level 1:colcon.colcon_core.shell:create_environment_hook('sauron', 'ament_prefix_path')
+[0.239s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/harshit/mrt_ws/install/sauron/share/sauron/hook/ament_prefix_path.ps1'
+[0.240s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/harshit/mrt_ws/install/sauron/share/sauron/hook/ament_prefix_path.dsv'
+[0.240s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/harshit/mrt_ws/install/sauron/share/sauron/hook/ament_prefix_path.sh'
+[0.240s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.240s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.243s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/harshit/mrt_ws/src/week0_tutorials' with build type 'ament_python'
+[0.244s] Level 1:colcon.colcon_core.shell:create_environment_hook('week0_tutorials', 'ament_prefix_path')
+[0.244s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/harshit/mrt_ws/install/week0_tutorials/share/week0_tutorials/hook/ament_prefix_path.ps1'
+[0.245s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/harshit/mrt_ws/install/week0_tutorials/share/week0_tutorials/hook/ament_prefix_path.dsv'
+[0.245s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/harshit/mrt_ws/install/week0_tutorials/share/week0_tutorials/hook/ament_prefix_path.sh'
+[0.246s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.246s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.253s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/harshit/mrt_ws/build/aruco_detection_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/harshit/mrt_ws/install/week0_tutorials:/home/harshit/mrt_ws/install/sauron:/home/harshit/mrt_ws/install/aruco_detection:/opt/ros/humble /usr/bin/cmake --build /home/harshit/mrt_ws/build/aruco_detection_interfaces -- -j8 -l8
+[0.437s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/harshit/mrt_ws/src/sauron'
+[0.437s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.437s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.607s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/harshit/mrt_ws/src/week0_tutorials'
+[0.607s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.607s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.612s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/harshit/mrt_ws/build/aruco_detection_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/harshit/mrt_ws/install/week0_tutorials:/home/harshit/mrt_ws/install/sauron:/home/harshit/mrt_ws/install/aruco_detection:/opt/ros/humble /usr/bin/cmake --build /home/harshit/mrt_ws/build/aruco_detection_interfaces -- -j8 -l8
+[0.703s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/harshit/mrt_ws/build/aruco_detection_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/harshit/mrt_ws/install/week0_tutorials:/home/harshit/mrt_ws/install/sauron:/home/harshit/mrt_ws/install/aruco_detection:/opt/ros/humble /usr/bin/cmake --install /home/harshit/mrt_ws/build/aruco_detection_interfaces
+[0.761s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(aruco_detection_interfaces)
+[0.761s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/harshit/mrt_ws/build/aruco_detection_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/harshit/mrt_ws/install/week0_tutorials:/home/harshit/mrt_ws/install/sauron:/home/harshit/mrt_ws/install/aruco_detection:/opt/ros/humble /usr/bin/cmake --install /home/harshit/mrt_ws/build/aruco_detection_interfaces
+[0.764s] Level 1:colcon.colcon_core.environment:checking '/home/harshit/mrt_ws/install/aruco_detection_interfaces' for CMake module files
+[0.764s] Level 1:colcon.colcon_core.environment:checking '/home/harshit/mrt_ws/install/aruco_detection_interfaces' for CMake config files
+[0.765s] Level 1:colcon.colcon_core.shell:create_environment_hook('aruco_detection_interfaces', 'cmake_prefix_path')
+[0.765s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/harshit/mrt_ws/install/aruco_detection_interfaces/share/aruco_detection_interfaces/hook/cmake_prefix_path.ps1'
+[0.766s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/harshit/mrt_ws/install/aruco_detection_interfaces/share/aruco_detection_interfaces/hook/cmake_prefix_path.dsv'
+[0.766s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/harshit/mrt_ws/install/aruco_detection_interfaces/share/aruco_detection_interfaces/hook/cmake_prefix_path.sh'
+[0.767s] Level 1:colcon.colcon_core.environment:checking '/home/harshit/mrt_ws/install/aruco_detection_interfaces/lib'
+[0.767s] Level 1:colcon.colcon_core.shell:create_environment_hook('aruco_detection_interfaces', 'ld_library_path_lib')
+[0.767s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/harshit/mrt_ws/install/aruco_detection_interfaces/share/aruco_detection_interfaces/hook/ld_library_path_lib.ps1'
+[0.767s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/harshit/mrt_ws/install/aruco_detection_interfaces/share/aruco_detection_interfaces/hook/ld_library_path_lib.dsv'
+[0.768s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/harshit/mrt_ws/install/aruco_detection_interfaces/share/aruco_detection_interfaces/hook/ld_library_path_lib.sh'
+[0.768s] Level 1:colcon.colcon_core.environment:checking '/home/harshit/mrt_ws/install/aruco_detection_interfaces/bin'
+[0.768s] Level 1:colcon.colcon_core.environment:checking '/home/harshit/mrt_ws/install/aruco_detection_interfaces/lib/pkgconfig/aruco_detection_interfaces.pc'
+[0.768s] Level 1:colcon.colcon_core.environment:checking '/home/harshit/mrt_ws/install/aruco_detection_interfaces/lib/python3.10/site-packages'
+[0.768s] Level 1:colcon.colcon_core.environment:checking '/home/harshit/mrt_ws/install/aruco_detection_interfaces/bin'
+[0.769s] INFO:colcon.colcon_core.shell:Creating package script '/home/harshit/mrt_ws/install/aruco_detection_interfaces/share/aruco_detection_interfaces/package.ps1'
+[0.770s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/harshit/mrt_ws/install/aruco_detection_interfaces/share/aruco_detection_interfaces/package.dsv'
+[0.770s] INFO:colcon.colcon_core.shell:Creating package script '/home/harshit/mrt_ws/install/aruco_detection_interfaces/share/aruco_detection_interfaces/package.sh'
+[0.771s] INFO:colcon.colcon_core.shell:Creating package script '/home/harshit/mrt_ws/install/aruco_detection_interfaces/share/aruco_detection_interfaces/package.bash'
+[0.772s] INFO:colcon.colcon_core.shell:Creating package script '/home/harshit/mrt_ws/install/aruco_detection_interfaces/share/aruco_detection_interfaces/package.zsh'
+[0.773s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/harshit/mrt_ws/install/aruco_detection_interfaces/share/colcon-core/packages/aruco_detection_interfaces)
+[0.839s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(aruco_detection_interfaces)
+[0.839s] Level 1:colcon.colcon_core.environment:checking '/home/harshit/mrt_ws/install/aruco_detection_interfaces' for CMake module files
+[0.840s] Level 1:colcon.colcon_core.environment:checking '/home/harshit/mrt_ws/install/aruco_detection_interfaces' for CMake config files
+[0.840s] Level 1:colcon.colcon_core.shell:create_environment_hook('aruco_detection_interfaces', 'cmake_prefix_path')
+[0.841s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/harshit/mrt_ws/install/aruco_detection_interfaces/share/aruco_detection_interfaces/hook/cmake_prefix_path.ps1'
+[0.841s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/harshit/mrt_ws/install/aruco_detection_interfaces/share/aruco_detection_interfaces/hook/cmake_prefix_path.dsv'
+[0.842s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/harshit/mrt_ws/install/aruco_detection_interfaces/share/aruco_detection_interfaces/hook/cmake_prefix_path.sh'
+[0.842s] Level 1:colcon.colcon_core.environment:checking '/home/harshit/mrt_ws/install/aruco_detection_interfaces/lib'
+[0.842s] Level 1:colcon.colcon_core.shell:create_environment_hook('aruco_detection_interfaces', 'ld_library_path_lib')
+[0.843s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/harshit/mrt_ws/install/aruco_detection_interfaces/share/aruco_detection_interfaces/hook/ld_library_path_lib.ps1'
+[0.843s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/harshit/mrt_ws/install/aruco_detection_interfaces/share/aruco_detection_interfaces/hook/ld_library_path_lib.dsv'
+[0.843s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/harshit/mrt_ws/install/aruco_detection_interfaces/share/aruco_detection_interfaces/hook/ld_library_path_lib.sh'
+[0.844s] Level 1:colcon.colcon_core.environment:checking '/home/harshit/mrt_ws/install/aruco_detection_interfaces/bin'
+[0.844s] Level 1:colcon.colcon_core.environment:checking '/home/harshit/mrt_ws/install/aruco_detection_interfaces/lib/pkgconfig/aruco_detection_interfaces.pc'
+[0.844s] Level 1:colcon.colcon_core.environment:checking '/home/harshit/mrt_ws/install/aruco_detection_interfaces/lib/python3.10/site-packages'
+[0.844s] Level 1:colcon.colcon_core.environment:checking '/home/harshit/mrt_ws/install/aruco_detection_interfaces/bin'
+[0.845s] INFO:colcon.colcon_core.shell:Creating package script '/home/harshit/mrt_ws/install/aruco_detection_interfaces/share/aruco_detection_interfaces/package.ps1'
+[0.845s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/harshit/mrt_ws/install/aruco_detection_interfaces/share/aruco_detection_interfaces/package.dsv'
+[0.846s] INFO:colcon.colcon_core.shell:Creating package script '/home/harshit/mrt_ws/install/aruco_detection_interfaces/share/aruco_detection_interfaces/package.sh'
+[0.846s] INFO:colcon.colcon_core.shell:Creating package script '/home/harshit/mrt_ws/install/aruco_detection_interfaces/share/aruco_detection_interfaces/package.bash'
+[0.847s] INFO:colcon.colcon_core.shell:Creating package script '/home/harshit/mrt_ws/install/aruco_detection_interfaces/share/aruco_detection_interfaces/package.zsh'
+[0.847s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/harshit/mrt_ws/install/aruco_detection_interfaces/share/colcon-core/packages/aruco_detection_interfaces)
+[0.848s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/harshit/mrt_ws/src/aruco_detection' with build type 'ament_python'
+[0.848s] Level 1:colcon.colcon_core.shell:create_environment_hook('aruco_detection', 'ament_prefix_path')
+[0.848s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/harshit/mrt_ws/install/aruco_detection/share/aruco_detection/hook/ament_prefix_path.ps1'
+[0.849s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/harshit/mrt_ws/install/aruco_detection/share/aruco_detection/hook/ament_prefix_path.dsv'
+[0.849s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/harshit/mrt_ws/install/aruco_detection/share/aruco_detection/hook/ament_prefix_path.sh'
+[0.850s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.850s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.028s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/harshit/mrt_ws/src/aruco_detection'
+[1.029s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.029s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.034s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/harshit/mrt_ws/src/sauron': PYTHONPATH=/home/harshit/mrt_ws/build/sauron/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/harshit/mrt_ws/install/sauron/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/sauron build --build-base /home/harshit/mrt_ws/build/sauron/build install --record /home/harshit/mrt_ws/build/sauron/install.log --single-version-externally-managed install_data
+[1.035s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/harshit/mrt_ws/src/week0_tutorials': PYTHONPATH=/home/harshit/mrt_ws/build/week0_tutorials/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/harshit/mrt_ws/install/week0_tutorials/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/week0_tutorials build --build-base /home/harshit/mrt_ws/build/week0_tutorials/build install --record /home/harshit/mrt_ws/build/week0_tutorials/install.log --single-version-externally-managed install_data
+[1.238s] Level 1:colcon.colcon_core.environment:checking '/home/harshit/mrt_ws/install/week0_tutorials' for CMake module files
+[1.239s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/harshit/mrt_ws/src/week0_tutorials' returned '0': PYTHONPATH=/home/harshit/mrt_ws/build/week0_tutorials/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/harshit/mrt_ws/install/week0_tutorials/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/week0_tutorials build --build-base /home/harshit/mrt_ws/build/week0_tutorials/build install --record /home/harshit/mrt_ws/build/week0_tutorials/install.log --single-version-externally-managed install_data
+[1.239s] Level 1:colcon.colcon_core.environment:checking '/home/harshit/mrt_ws/install/week0_tutorials' for CMake config files
+[1.239s] Level 1:colcon.colcon_core.environment:checking '/home/harshit/mrt_ws/install/week0_tutorials/lib'
+[1.239s] Level 1:colcon.colcon_core.environment:checking '/home/harshit/mrt_ws/install/week0_tutorials/bin'
+[1.239s] Level 1:colcon.colcon_core.environment:checking '/home/harshit/mrt_ws/install/week0_tutorials/lib/pkgconfig/week0_tutorials.pc'
+[1.240s] Level 1:colcon.colcon_core.environment:checking '/home/harshit/mrt_ws/install/week0_tutorials/lib/python3.10/site-packages'
+[1.240s] Level 1:colcon.colcon_core.shell:create_environment_hook('week0_tutorials', 'pythonpath')
+[1.240s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/harshit/mrt_ws/install/week0_tutorials/share/week0_tutorials/hook/pythonpath.ps1'
+[1.240s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/harshit/mrt_ws/install/week0_tutorials/share/week0_tutorials/hook/pythonpath.dsv'
+[1.240s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/harshit/mrt_ws/install/week0_tutorials/share/week0_tutorials/hook/pythonpath.sh'
+[1.241s] Level 1:colcon.colcon_core.environment:checking '/home/harshit/mrt_ws/install/week0_tutorials/bin'
+[1.241s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(week0_tutorials)
+[1.241s] INFO:colcon.colcon_core.shell:Creating package script '/home/harshit/mrt_ws/install/week0_tutorials/share/week0_tutorials/package.ps1'
+[1.242s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/harshit/mrt_ws/install/week0_tutorials/share/week0_tutorials/package.dsv'
+[1.242s] INFO:colcon.colcon_core.shell:Creating package script '/home/harshit/mrt_ws/install/week0_tutorials/share/week0_tutorials/package.sh'
+[1.242s] INFO:colcon.colcon_core.shell:Creating package script '/home/harshit/mrt_ws/install/week0_tutorials/share/week0_tutorials/package.bash'
+[1.243s] INFO:colcon.colcon_core.shell:Creating package script '/home/harshit/mrt_ws/install/week0_tutorials/share/week0_tutorials/package.zsh'
+[1.243s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/harshit/mrt_ws/install/week0_tutorials/share/colcon-core/packages/week0_tutorials)
+[1.244s] Level 1:colcon.colcon_core.environment:checking '/home/harshit/mrt_ws/install/sauron' for CMake module files
+[1.245s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/harshit/mrt_ws/src/sauron' returned '0': PYTHONPATH=/home/harshit/mrt_ws/build/sauron/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/harshit/mrt_ws/install/sauron/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/sauron build --build-base /home/harshit/mrt_ws/build/sauron/build install --record /home/harshit/mrt_ws/build/sauron/install.log --single-version-externally-managed install_data
+[1.245s] Level 1:colcon.colcon_core.environment:checking '/home/harshit/mrt_ws/install/sauron' for CMake config files
+[1.246s] Level 1:colcon.colcon_core.environment:checking '/home/harshit/mrt_ws/install/sauron/lib'
+[1.246s] Level 1:colcon.colcon_core.environment:checking '/home/harshit/mrt_ws/install/sauron/bin'
+[1.246s] Level 1:colcon.colcon_core.environment:checking '/home/harshit/mrt_ws/install/sauron/lib/pkgconfig/sauron.pc'
+[1.246s] Level 1:colcon.colcon_core.environment:checking '/home/harshit/mrt_ws/install/sauron/lib/python3.10/site-packages'
+[1.246s] Level 1:colcon.colcon_core.shell:create_environment_hook('sauron', 'pythonpath')
+[1.246s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/harshit/mrt_ws/install/sauron/share/sauron/hook/pythonpath.ps1'
+[1.247s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/harshit/mrt_ws/install/sauron/share/sauron/hook/pythonpath.dsv'
+[1.247s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/harshit/mrt_ws/install/sauron/share/sauron/hook/pythonpath.sh'
+[1.247s] Level 1:colcon.colcon_core.environment:checking '/home/harshit/mrt_ws/install/sauron/bin'
+[1.247s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(sauron)
+[1.248s] INFO:colcon.colcon_core.shell:Creating package script '/home/harshit/mrt_ws/install/sauron/share/sauron/package.ps1'
+[1.248s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/harshit/mrt_ws/install/sauron/share/sauron/package.dsv'
+[1.248s] INFO:colcon.colcon_core.shell:Creating package script '/home/harshit/mrt_ws/install/sauron/share/sauron/package.sh'
+[1.249s] INFO:colcon.colcon_core.shell:Creating package script '/home/harshit/mrt_ws/install/sauron/share/sauron/package.bash'
+[1.249s] INFO:colcon.colcon_core.shell:Creating package script '/home/harshit/mrt_ws/install/sauron/share/sauron/package.zsh'
+[1.249s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/harshit/mrt_ws/install/sauron/share/colcon-core/packages/sauron)
+[1.268s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/harshit/mrt_ws/src/aruco_detection': PYTHONPATH=/home/harshit/mrt_ws/build/aruco_detection/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/harshit/mrt_ws/install/aruco_detection/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/aruco_detection build --build-base /home/harshit/mrt_ws/build/aruco_detection/build install --record /home/harshit/mrt_ws/build/aruco_detection/install.log --single-version-externally-managed install_data
+[1.460s] Level 1:colcon.colcon_core.environment:checking '/home/harshit/mrt_ws/install/aruco_detection' for CMake module files
+[1.461s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/harshit/mrt_ws/src/aruco_detection' returned '0': PYTHONPATH=/home/harshit/mrt_ws/build/aruco_detection/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/harshit/mrt_ws/install/aruco_detection/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/aruco_detection build --build-base /home/harshit/mrt_ws/build/aruco_detection/build install --record /home/harshit/mrt_ws/build/aruco_detection/install.log --single-version-externally-managed install_data
+[1.461s] Level 1:colcon.colcon_core.environment:checking '/home/harshit/mrt_ws/install/aruco_detection' for CMake config files
+[1.461s] Level 1:colcon.colcon_core.environment:checking '/home/harshit/mrt_ws/install/aruco_detection/lib'
+[1.461s] Level 1:colcon.colcon_core.environment:checking '/home/harshit/mrt_ws/install/aruco_detection/bin'
+[1.462s] Level 1:colcon.colcon_core.environment:checking '/home/harshit/mrt_ws/install/aruco_detection/lib/pkgconfig/aruco_detection.pc'
+[1.462s] Level 1:colcon.colcon_core.environment:checking '/home/harshit/mrt_ws/install/aruco_detection/lib/python3.10/site-packages'
+[1.462s] Level 1:colcon.colcon_core.shell:create_environment_hook('aruco_detection', 'pythonpath')
+[1.462s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/harshit/mrt_ws/install/aruco_detection/share/aruco_detection/hook/pythonpath.ps1'
+[1.462s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/harshit/mrt_ws/install/aruco_detection/share/aruco_detection/hook/pythonpath.dsv'
+[1.463s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/harshit/mrt_ws/install/aruco_detection/share/aruco_detection/hook/pythonpath.sh'
+[1.463s] Level 1:colcon.colcon_core.environment:checking '/home/harshit/mrt_ws/install/aruco_detection/bin'
+[1.463s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(aruco_detection)
+[1.463s] INFO:colcon.colcon_core.shell:Creating package script '/home/harshit/mrt_ws/install/aruco_detection/share/aruco_detection/package.ps1'
+[1.464s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/harshit/mrt_ws/install/aruco_detection/share/aruco_detection/package.dsv'
+[1.464s] INFO:colcon.colcon_core.shell:Creating package script '/home/harshit/mrt_ws/install/aruco_detection/share/aruco_detection/package.sh'
+[1.464s] INFO:colcon.colcon_core.shell:Creating package script '/home/harshit/mrt_ws/install/aruco_detection/share/aruco_detection/package.bash'
+[1.465s] INFO:colcon.colcon_core.shell:Creating package script '/home/harshit/mrt_ws/install/aruco_detection/share/aruco_detection/package.zsh'
+[1.465s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/harshit/mrt_ws/install/aruco_detection/share/colcon-core/packages/aruco_detection)
+[1.465s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[1.465s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[1.465s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[1.465s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[1.469s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[1.469s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[1.469s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[1.478s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[1.478s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/harshit/mrt_ws/install/local_setup.ps1'
+[1.479s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/harshit/mrt_ws/install/_local_setup_util_ps1.py'
+[1.480s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/harshit/mrt_ws/install/setup.ps1'
+[1.481s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/harshit/mrt_ws/install/local_setup.sh'
+[1.482s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/harshit/mrt_ws/install/_local_setup_util_sh.py'
+[1.482s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/harshit/mrt_ws/install/setup.sh'
+[1.483s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/harshit/mrt_ws/install/local_setup.bash'
+[1.483s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/harshit/mrt_ws/install/setup.bash'
+[1.484s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/harshit/mrt_ws/install/local_setup.zsh'
+[1.484s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/harshit/mrt_ws/install/setup.zsh'

@@ -78,8 +78,9 @@ static bool _ImageBounds__cdr_serialize(
       ROSIDL_TYPESUPPORT_INTERFACE__MESSAGE_SYMBOL_NAME(
         rosidl_typesupport_fastrtps_c, aruco_detection_interfaces, msg, PointArray
       )()->data);
-    size_t size = 1000;
-    auto array_ptr = ros_message->bounds;
+    size_t size = ros_message->bounds.size;
+    auto array_ptr = ros_message->bounds.data;
+    cdr << static_cast<uint32_t>(size);
     for (size_t i = 0; i < size; ++i) {
       if (!callbacks->cdr_serialize(
           &array_ptr[i], cdr))
@@ -124,8 +125,17 @@ static bool _ImageBounds__cdr_deserialize(
       ROSIDL_TYPESUPPORT_INTERFACE__MESSAGE_SYMBOL_NAME(
         rosidl_typesupport_fastrtps_c, aruco_detection_interfaces, msg, PointArray
       )()->data);
-    size_t size = 1000;
-    auto array_ptr = ros_message->bounds;
+    uint32_t cdrSize;
+    cdr >> cdrSize;
+    size_t size = static_cast<size_t>(cdrSize);
+    if (ros_message->bounds.data) {
+      aruco_detection_interfaces__msg__PointArray__Sequence__fini(&ros_message->bounds);
+    }
+    if (!aruco_detection_interfaces__msg__PointArray__Sequence__init(&ros_message->bounds, size)) {
+      fprintf(stderr, "failed to create array for field 'bounds'");
+      return false;
+    }
+    auto array_ptr = ros_message->bounds.data;
     for (size_t i = 0; i < size; ++i) {
       if (!callbacks->cdr_deserialize(
           cdr, &array_ptr[i]))
@@ -165,8 +175,10 @@ size_t get_serialized_size_aruco_detection_interfaces__msg__ImageBounds(
   }
   // field.name bounds
   {
-    size_t array_size = 1000;
-    auto array_ptr = ros_message->bounds;
+    size_t array_size = ros_message->bounds.size;
+    auto array_ptr = ros_message->bounds.data;
+    current_alignment += padding +
+      eprosima::fastcdr::Cdr::alignment(current_alignment, padding);
 
     for (size_t index = 0; index < array_size; ++index) {
       current_alignment += get_serialized_size_aruco_detection_interfaces__msg__PointArray(
@@ -216,7 +228,11 @@ size_t max_serialized_size_aruco_detection_interfaces__msg__ImageBounds(
   }
   // member: bounds
   {
-    size_t array_size = 1000;
+    size_t array_size = 0;
+    full_bounded = false;
+    is_plain = false;
+    current_alignment += padding +
+      eprosima::fastcdr::Cdr::alignment(current_alignment, padding);
 
 
     last_member_size = 0;

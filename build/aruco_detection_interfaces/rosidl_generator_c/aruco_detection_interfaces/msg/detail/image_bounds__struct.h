@@ -27,7 +27,8 @@ extern "C"
 typedef struct aruco_detection_interfaces__msg__ImageBounds
 {
   rosidl_runtime_c__uint64__Sequence ids;
-  aruco_detection_interfaces__msg__PointArray bounds[1000];
+  /// float32[] bounds
+  aruco_detection_interfaces__msg__PointArray__Sequence bounds;
 } aruco_detection_interfaces__msg__ImageBounds;
 
 // Struct for a sequence of aruco_detection_interfaces__msg__ImageBounds.

@@ -6,12 +6,12 @@
 
 module aruco_detection_interfaces {
   module msg {
-    typedef aruco_detection_interfaces::msg::PointArray aruco_detection_interfaces__msg__PointArray;
-    typedef aruco_detection_interfaces__msg__PointArray aruco_detection_interfaces__msg__PointArray__1000[1000];
     struct ImageBounds {
       sequence<uint64> ids;
 
-      aruco_detection_interfaces__msg__PointArray__1000 bounds;
+      @verbatim (language="comment", text=
+        "float32[] bounds")
+      sequence<aruco_detection_interfaces::msg::PointArray> bounds;
     };
   };
 };

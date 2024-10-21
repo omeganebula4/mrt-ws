@@ -62,7 +62,9 @@ cdr_serialize(
   }
   // Member: bounds
   {
-    for (size_t i = 0; i < 1000; i++) {
+    size_t size = ros_message.bounds.size();
+    cdr << static_cast<uint32_t>(size);
+    for (size_t i = 0; i < size; i++) {
       aruco_detection_interfaces::msg::typesupport_fastrtps_cpp::cdr_serialize(
         ros_message.bounds[i],
         cdr);
@@ -84,10 +86,13 @@ cdr_deserialize(
 
   // Member: bounds
   {
-    for (size_t i = 0; i < 1000; i++) {
+    uint32_t cdrSize;
+    cdr >> cdrSize;
+    size_t size = static_cast<size_t>(cdrSize);
+    ros_message.bounds.resize(size);
+    for (size_t i = 0; i < size; i++) {
       aruco_detection_interfaces::msg::typesupport_fastrtps_cpp::cdr_deserialize(
-        cdr,
-        ros_message.bounds[i]);
+        cdr, ros_message.bounds[i]);
     }
   }
 
@@ -119,7 +124,10 @@ get_serialized_size(
   }
   // Member: bounds
   {
-    size_t array_size = 1000;
+    size_t array_size = ros_message.bounds.size();
+
+    current_alignment += padding +
+      eprosima::fastcdr::Cdr::alignment(current_alignment, padding);
 
     for (size_t index = 0; index < array_size; ++index) {
       current_alignment +=
@@ -166,7 +174,11 @@ max_serialized_size_ImageBounds(
 
   // Member: bounds
   {
-    size_t array_size = 1000;
+    size_t array_size = 0;
+    full_bounded = false;
+    is_plain = false;
+    current_alignment += padding +
+      eprosima::fastcdr::Cdr::alignment(current_alignment, padding);
 
 
     last_member_size = 0;

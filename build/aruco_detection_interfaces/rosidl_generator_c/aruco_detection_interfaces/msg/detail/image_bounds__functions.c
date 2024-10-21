@@ -29,11 +29,9 @@ aruco_detection_interfaces__msg__ImageBounds__init(aruco_detection_interfaces__m
     return false;
   }
   // bounds
-  for (size_t i = 0; i < 1000; ++i) {
-    if (!aruco_detection_interfaces__msg__PointArray__init(&msg->bounds[i])) {
-      aruco_detection_interfaces__msg__ImageBounds__fini(msg);
-      return false;
-    }
+  if (!aruco_detection_interfaces__msg__PointArray__Sequence__init(&msg->bounds, 0)) {
+    aruco_detection_interfaces__msg__ImageBounds__fini(msg);
+    return false;
   }
   return true;
 }
@@ -47,9 +45,7 @@ aruco_detection_interfaces__msg__ImageBounds__fini(aruco_detection_interfaces__m
   // ids
   rosidl_runtime_c__uint64__Sequence__fini(&msg->ids);
   // bounds
-  for (size_t i = 0; i < 1000; ++i) {
-    aruco_detection_interfaces__msg__PointArray__fini(&msg->bounds[i]);
-  }
+  aruco_detection_interfaces__msg__PointArray__Sequence__fini(&msg->bounds);
 }
 
 bool
@@ -65,12 +61,10 @@ aruco_detection_interfaces__msg__ImageBounds__are_equal(const aruco_detection_in
     return false;
   }
   // bounds
-  for (size_t i = 0; i < 1000; ++i) {
-    if (!aruco_detection_interfaces__msg__PointArray__are_equal(
-        &(lhs->bounds[i]), &(rhs->bounds[i])))
-    {
-      return false;
-    }
+  if (!aruco_detection_interfaces__msg__PointArray__Sequence__are_equal(
+      &(lhs->bounds), &(rhs->bounds)))
+  {
+    return false;
   }
   return true;
 }
@@ -90,12 +84,10 @@ aruco_detection_interfaces__msg__ImageBounds__copy(
     return false;
   }
   // bounds
-  for (size_t i = 0; i < 1000; ++i) {
-    if (!aruco_detection_interfaces__msg__PointArray__copy(
-        &(input->bounds[i]), &(output->bounds[i])))
-    {
-      return false;
-    }
+  if (!aruco_detection_interfaces__msg__PointArray__Sequence__copy(
+      &(input->bounds), &(output->bounds)))
+  {
+    return false;
   }
   return true;
 }

@@ -39,21 +39,13 @@ struct ImageBounds_
 
   explicit ImageBounds_(rosidl_runtime_cpp::MessageInitialization _init = rosidl_runtime_cpp::MessageInitialization::ALL)
   {
-    if (rosidl_runtime_cpp::MessageInitialization::ALL == _init ||
-      rosidl_runtime_cpp::MessageInitialization::ZERO == _init)
-    {
-      this->bounds.fill(aruco_detection_interfaces::msg::PointArray_<ContainerAllocator>{_init});
-    }
+    (void)_init;
   }
 
   explicit ImageBounds_(const ContainerAllocator & _alloc, rosidl_runtime_cpp::MessageInitialization _init = rosidl_runtime_cpp::MessageInitialization::ALL)
-  : bounds(_alloc)
   {
-    if (rosidl_runtime_cpp::MessageInitialization::ALL == _init ||
-      rosidl_runtime_cpp::MessageInitialization::ZERO == _init)
-    {
-      this->bounds.fill(aruco_detection_interfaces::msg::PointArray_<ContainerAllocator>{_alloc, _init});
-    }
+    (void)_init;
+    (void)_alloc;
   }
 
   // field types and members
@@ -61,7 +53,7 @@ struct ImageBounds_
     std::vector<uint64_t, typename std::allocator_traits<ContainerAllocator>::template rebind_alloc<uint64_t>>;
   _ids_type ids;
   using _bounds_type =
-    std::array<aruco_detection_interfaces::msg::PointArray_<ContainerAllocator>, 1000>;
+    std::vector<aruco_detection_interfaces::msg::PointArray_<ContainerAllocator>, typename std::allocator_traits<ContainerAllocator>::template rebind_alloc<aruco_detection_interfaces::msg::PointArray_<ContainerAllocator>>>;
   _bounds_type bounds;
 
   // setters for named parameter idiom
@@ -72,7 +64,7 @@ struct ImageBounds_
     return *this;
   }
   Type & set__bounds(
-    const std::array<aruco_detection_interfaces::msg::PointArray_<ContainerAllocator>, 1000> & _arg)
+    const std::vector<aruco_detection_interfaces::msg::PointArray_<ContainerAllocator>, typename std::allocator_traits<ContainerAllocator>::template rebind_alloc<aruco_detection_interfaces::msg::PointArray_<ContainerAllocator>>> & _arg)
   {
     this->bounds = _arg;
     return *this;

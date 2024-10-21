@@ -130,8 +130,19 @@ bool aruco_detection_interfaces__msg__image_bounds__convert_from_py(PyObject * _
       Py_DECREF(field);
       return false;
     }
-    Py_ssize_t size = 1000;
-    aruco_detection_interfaces__msg__PointArray * dest = ros_message->bounds;
+    Py_ssize_t size = PySequence_Size(field);
+    if (-1 == size) {
+      Py_DECREF(seq_field);
+      Py_DECREF(field);
+      return false;
+    }
+    if (!aruco_detection_interfaces__msg__PointArray__Sequence__init(&(ros_message->bounds), size)) {
+      PyErr_SetString(PyExc_RuntimeError, "unable to create aruco_detection_interfaces__msg__PointArray__Sequence ros_message");
+      Py_DECREF(seq_field);
+      Py_DECREF(field);
+      return false;
+    }
+    aruco_detection_interfaces__msg__PointArray * dest = ros_message->bounds.data;
     for (Py_ssize_t i = 0; i < size; ++i) {
       if (!aruco_detection_interfaces__msg__point_array__convert_from_py(PySequence_Fast_GET_ITEM(seq_field, i), &dest[i])) {
         Py_DECREF(seq_field);
@@ -223,14 +234,14 @@ PyObject * aruco_detection_interfaces__msg__image_bounds__convert_to_py(void * r
   }
   {  // bounds
     PyObject * field = NULL;
-    size_t size = 1000;
+    size_t size = ros_message->bounds.size;
     field = PyList_New(size);
     if (!field) {
       return NULL;
     }
     aruco_detection_interfaces__msg__PointArray * item;
     for (size_t i = 0; i < size; ++i) {
-      item = &(ros_message->bounds[i]);
+      item = &(ros_message->bounds.data[i]);
       PyObject * pyitem = aruco_detection_interfaces__msg__point_array__convert_to_py(item);
       if (!pyitem) {
         Py_DECREF(field);

@@ -12,10 +12,10 @@ class MinimalClientAsync(Node):
 
     def __init__(self):
         super().__init__('client_img_async')
-        self.cli = self.create_client(ProcessImage, 'process_image')       # CHANGE
+        self.cli = self.create_client(ProcessImage, 'process_image')
         while not self.cli.wait_for_service(timeout_sec=1.0):
             self.get_logger().info('service not available, waiting again...')
-        self.req = ProcessImage.Request()                                   # CHANGE
+        self.req = ProcessImage.Request()
 
     def send_request(self):
         img_path = str(sys.argv[1])
@@ -25,6 +25,8 @@ class MinimalClientAsync(Node):
         self.req.path = img_path
         self.req.imgorvid = False
         self.future = self.cli.call_async(self.req)
+        rclpy.spin_until_future_complete(self, self.future)
+        return self.future.result()
 
 
 def main(args=None):
@@ -39,8 +41,7 @@ def main(args=None):
             try:
                 response = minimal_client.future.result()
             except Exception as e:
-                minimal_client.get_logger().info(
-                    'Service call failed %r' % (e,))
+                minimal_client.get_logger().info('Service call failed %r' % (e,))
             else:
                 numAruco = len(response.imgbounds.ids)
                 output_string = "Number of ArUco markers detected: " + str(numAruco) + '\n'
@@ -48,6 +49,7 @@ def main(args=None):
                     output_string += "Marker " + str(i+1) + ": ID = " + str(response.imgbounds.ids[i]) + " Bounding Borders = "
                     for j in range(4):
                         output_string += '(' + ', '.join(map(str, response.imgbounds.bounds[i].rowpoints[j].coords)) + ') '
+                        # output_string += '(' + str(response.imgbounds.bounds[i + 2*j]) + ', ' + str(response.imgbounds.bounds[i+2*j+1]) + ') '
                     output_string += '\n'
 
                 minimal_client.get_logger().info(output_string)

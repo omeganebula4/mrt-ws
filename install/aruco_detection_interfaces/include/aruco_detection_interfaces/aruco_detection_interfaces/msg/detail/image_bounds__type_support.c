@@ -97,24 +97,25 @@ bool aruco_detection_interfaces__msg__ImageBounds__rosidl_typesupport_introspect
 size_t aruco_detection_interfaces__msg__ImageBounds__rosidl_typesupport_introspection_c__size_function__ImageBounds__bounds(
   const void * untyped_member)
 {
-  (void)untyped_member;
-  return 1000;
+  const aruco_detection_interfaces__msg__PointArray__Sequence * member =
+    (const aruco_detection_interfaces__msg__PointArray__Sequence *)(untyped_member);
+  return member->size;
 }
 
 const void * aruco_detection_interfaces__msg__ImageBounds__rosidl_typesupport_introspection_c__get_const_function__ImageBounds__bounds(
   const void * untyped_member, size_t index)
 {
-  const aruco_detection_interfaces__msg__PointArray * member =
-    (const aruco_detection_interfaces__msg__PointArray *)(untyped_member);
-  return &member[index];
+  const aruco_detection_interfaces__msg__PointArray__Sequence * member =
+    (const aruco_detection_interfaces__msg__PointArray__Sequence *)(untyped_member);
+  return &member->data[index];
 }
 
 void * aruco_detection_interfaces__msg__ImageBounds__rosidl_typesupport_introspection_c__get_function__ImageBounds__bounds(
   void * untyped_member, size_t index)
 {
-  aruco_detection_interfaces__msg__PointArray * member =
-    (aruco_detection_interfaces__msg__PointArray *)(untyped_member);
-  return &member[index];
+  aruco_detection_interfaces__msg__PointArray__Sequence * member =
+    (aruco_detection_interfaces__msg__PointArray__Sequence *)(untyped_member);
+  return &member->data[index];
 }
 
 void aruco_detection_interfaces__msg__ImageBounds__rosidl_typesupport_introspection_c__fetch_function__ImageBounds__bounds(
@@ -137,6 +138,15 @@ void aruco_detection_interfaces__msg__ImageBounds__rosidl_typesupport_introspect
   const aruco_detection_interfaces__msg__PointArray * value =
     (const aruco_detection_interfaces__msg__PointArray *)(untyped_value);
   *item = *value;
+}
+
+bool aruco_detection_interfaces__msg__ImageBounds__rosidl_typesupport_introspection_c__resize_function__ImageBounds__bounds(
+  void * untyped_member, size_t size)
+{
+  aruco_detection_interfaces__msg__PointArray__Sequence * member =
+    (aruco_detection_interfaces__msg__PointArray__Sequence *)(untyped_member);
+  aruco_detection_interfaces__msg__PointArray__Sequence__fini(member);
+  return aruco_detection_interfaces__msg__PointArray__Sequence__init(member, size);
 }
 
 static rosidl_typesupport_introspection_c__MessageMember aruco_detection_interfaces__msg__ImageBounds__rosidl_typesupport_introspection_c__ImageBounds_message_member_array[2] = {
@@ -163,7 +173,7 @@ static rosidl_typesupport_introspection_c__MessageMember aruco_detection_interfa
     0,  // upper bound of string
     NULL,  // members of sub message (initialized later)
     true,  // is array
-    1000,  // array size
+    0,  // array size
     false,  // is upper bound
     offsetof(aruco_detection_interfaces__msg__ImageBounds, bounds),  // bytes offset in struct
     NULL,  // default value
@@ -172,7 +182,7 @@ static rosidl_typesupport_introspection_c__MessageMember aruco_detection_interfa
     aruco_detection_interfaces__msg__ImageBounds__rosidl_typesupport_introspection_c__get_function__ImageBounds__bounds,  // get(index) function pointer
     aruco_detection_interfaces__msg__ImageBounds__rosidl_typesupport_introspection_c__fetch_function__ImageBounds__bounds,  // fetch(index, &value) function pointer
     aruco_detection_interfaces__msg__ImageBounds__rosidl_typesupport_introspection_c__assign_function__ImageBounds__bounds,  // assign(index, value) function pointer
-    NULL  // resize(index) function pointer
+    aruco_detection_interfaces__msg__ImageBounds__rosidl_typesupport_introspection_c__resize_function__ImageBounds__bounds  // resize(index) function pointer
   }
 };
 

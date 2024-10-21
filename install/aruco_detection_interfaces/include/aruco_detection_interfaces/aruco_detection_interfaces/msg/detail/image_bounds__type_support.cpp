@@ -84,21 +84,21 @@ void resize_function__ImageBounds__ids(void * untyped_member, size_t size)
 
 size_t size_function__ImageBounds__bounds(const void * untyped_member)
 {
-  (void)untyped_member;
-  return 1000;
+  const auto * member = reinterpret_cast<const std::vector<aruco_detection_interfaces::msg::PointArray> *>(untyped_member);
+  return member->size();
 }
 
 const void * get_const_function__ImageBounds__bounds(const void * untyped_member, size_t index)
 {
   const auto & member =
-    *reinterpret_cast<const std::array<aruco_detection_interfaces::msg::PointArray, 1000> *>(untyped_member);
+    *reinterpret_cast<const std::vector<aruco_detection_interfaces::msg::PointArray> *>(untyped_member);
   return &member[index];
 }
 
 void * get_function__ImageBounds__bounds(void * untyped_member, size_t index)
 {
   auto & member =
-    *reinterpret_cast<std::array<aruco_detection_interfaces::msg::PointArray, 1000> *>(untyped_member);
+    *reinterpret_cast<std::vector<aruco_detection_interfaces::msg::PointArray> *>(untyped_member);
   return &member[index];
 }
 
@@ -118,6 +118,13 @@ void assign_function__ImageBounds__bounds(
     get_function__ImageBounds__bounds(untyped_member, index));
   const auto & value = *reinterpret_cast<const aruco_detection_interfaces::msg::PointArray *>(untyped_value);
   item = value;
+}
+
+void resize_function__ImageBounds__bounds(void * untyped_member, size_t size)
+{
+  auto * member =
+    reinterpret_cast<std::vector<aruco_detection_interfaces::msg::PointArray> *>(untyped_member);
+  member->resize(size);
 }
 
 static const ::rosidl_typesupport_introspection_cpp::MessageMember ImageBounds_message_member_array[2] = {
@@ -144,7 +151,7 @@ static const ::rosidl_typesupport_introspection_cpp::MessageMember ImageBounds_m
     0,  // upper bound of string
     ::rosidl_typesupport_introspection_cpp::get_message_type_support_handle<aruco_detection_interfaces::msg::PointArray>(),  // members of sub message
     true,  // is array
-    1000,  // array size
+    0,  // array size
     false,  // is upper bound
     offsetof(aruco_detection_interfaces::msg::ImageBounds, bounds),  // bytes offset in struct
     nullptr,  // default value
@@ -153,7 +160,7 @@ static const ::rosidl_typesupport_introspection_cpp::MessageMember ImageBounds_m
     get_function__ImageBounds__bounds,  // get(index) function pointer
     fetch_function__ImageBounds__bounds,  // fetch(index, &value) function pointer
     assign_function__ImageBounds__bounds,  // assign(index, value) function pointer
-    nullptr  // resize(index) function pointer
+    resize_function__ImageBounds__bounds  // resize(index) function pointer
   }
 };
 

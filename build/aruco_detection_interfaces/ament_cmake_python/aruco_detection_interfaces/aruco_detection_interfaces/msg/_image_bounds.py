@@ -68,12 +68,12 @@ class ImageBounds(metaclass=Metaclass_ImageBounds):
 
     _fields_and_field_types = {
         'ids': 'sequence<uint64>',
-        'bounds': 'aruco_detection_interfaces/PointArray[1000]',
+        'bounds': 'sequence<aruco_detection_interfaces/PointArray>',
     }
 
     SLOT_TYPES = (
         rosidl_parser.definition.UnboundedSequence(rosidl_parser.definition.BasicType('uint64')),  # noqa: E501
-        rosidl_parser.definition.Array(rosidl_parser.definition.NamespacedType(['aruco_detection_interfaces', 'msg'], 'PointArray'), 1000),  # noqa: E501
+        rosidl_parser.definition.UnboundedSequence(rosidl_parser.definition.NamespacedType(['aruco_detection_interfaces', 'msg'], 'PointArray')),  # noqa: E501
     )
 
     def __init__(self, **kwargs):
@@ -81,11 +81,7 @@ class ImageBounds(metaclass=Metaclass_ImageBounds):
             'Invalid arguments passed to constructor: %s' % \
             ', '.join(sorted(k for k in kwargs.keys() if '_' + k not in self.__slots__))
         self.ids = array.array('Q', kwargs.get('ids', []))
-        from aruco_detection_interfaces.msg import PointArray
-        self.bounds = kwargs.get(
-            'bounds',
-            [PointArray() for x in range(1000)]
-        )
+        self.bounds = kwargs.get('bounds', [])
 
     def __repr__(self):
         typename = self.__class__.__module__.split('.')
@@ -174,8 +170,7 @@ class ImageBounds(metaclass=Metaclass_ImageBounds):
                   isinstance(value, UserList)) and
                  not isinstance(value, str) and
                  not isinstance(value, UserString) and
-                 len(value) == 1000 and
                  all(isinstance(v, PointArray) for v in value) and
                  True), \
-                "The 'bounds' field must be a set or sequence with length 1000 and each value of type 'PointArray'"
+                "The 'bounds' field must be a set or sequence and each value of type 'PointArray'"
         self._bounds = value
