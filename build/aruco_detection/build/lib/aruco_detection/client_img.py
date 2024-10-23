@@ -49,7 +49,6 @@ def main(args=None):
                     output_string += "Marker " + str(i+1) + ": ID = " + str(response.imgbounds.ids[i]) + " Bounding Borders = "
                     for j in range(4):
                         output_string += '(' + ', '.join(map(str, response.imgbounds.bounds[i].rowpoints[j].coords)) + ') '
-                        # output_string += '(' + str(response.imgbounds.bounds[i + 2*j]) + ', ' + str(response.imgbounds.bounds[i+2*j+1]) + ') '
                     output_string += '\n'
 
                 minimal_client.get_logger().info(output_string)

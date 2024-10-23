@@ -23,14 +23,6 @@ class MinimalService(Node):
 
         detector = cv2.aruco.ArucoDetector(aruco_dict, parameters)
         corners, ids, rejected = detector.detectMarkers(cv_image)
-
-        '''
-        a = [coord for box in corners for point in box[0] for coord in point]
-        b = np.array(corners).reshape(len(corners)*8).tolist()
-        if a==b:
-            print("same")
-        response.imgbounds.bounds = a
-        '''
         
         for i in range(len(corners)):
             box = PointArray()

@@ -1,0 +1,26 @@
+[0.467s] Invoking command in '/home/harshit/mrt_ws/src/aruco_detection': PYTHONPATH=/home/harshit/mrt_ws/build/aruco_detection/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/harshit/mrt_ws/install/aruco_detection/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/aruco_detection build --build-base /home/harshit/mrt_ws/build/aruco_detection/build install --record /home/harshit/mrt_ws/build/aruco_detection/install.log --single-version-externally-managed install_data
+[0.614s] running egg_info
+[0.615s] writing ../../build/aruco_detection/aruco_detection.egg-info/PKG-INFO
+[0.615s] writing dependency_links to ../../build/aruco_detection/aruco_detection.egg-info/dependency_links.txt
+[0.615s] writing entry points to ../../build/aruco_detection/aruco_detection.egg-info/entry_points.txt
+[0.615s] writing requirements to ../../build/aruco_detection/aruco_detection.egg-info/requires.txt
+[0.615s] writing top-level names to ../../build/aruco_detection/aruco_detection.egg-info/top_level.txt
+[0.616s] reading manifest file '../../build/aruco_detection/aruco_detection.egg-info/SOURCES.txt'
+[0.617s] writing manifest file '../../build/aruco_detection/aruco_detection.egg-info/SOURCES.txt'
+[0.617s] running build
+[0.617s] running build_py
+[0.617s] copying aruco_detection/service.py -> /home/harshit/mrt_ws/build/aruco_detection/build/lib/aruco_detection
+[0.617s] running install
+[0.617s] running install_lib
+[0.618s] copying /home/harshit/mrt_ws/build/aruco_detection/build/lib/aruco_detection/service.py -> /home/harshit/mrt_ws/install/aruco_detection/lib/python3.10/site-packages/aruco_detection
+[0.618s] byte-compiling /home/harshit/mrt_ws/install/aruco_detection/lib/python3.10/site-packages/aruco_detection/service.py to service.cpython-310.pyc
+[0.619s] running install_data
+[0.619s] running install_egg_info
+[0.620s] removing '/home/harshit/mrt_ws/install/aruco_detection/lib/python3.10/site-packages/aruco_detection-0.0.0-py3.10.egg-info' (and everything under it)
+[0.620s] Copying ../../build/aruco_detection/aruco_detection.egg-info to /home/harshit/mrt_ws/install/aruco_detection/lib/python3.10/site-packages/aruco_detection-0.0.0-py3.10.egg-info
+[0.621s] running install_scripts
+[0.634s] Installing client-img script to /home/harshit/mrt_ws/install/aruco_detection/lib/aruco_detection
+[0.634s] Installing client-vid script to /home/harshit/mrt_ws/install/aruco_detection/lib/aruco_detection
+[0.634s] Installing service script to /home/harshit/mrt_ws/install/aruco_detection/lib/aruco_detection
+[0.634s] writing list of installed files to '/home/harshit/mrt_ws/build/aruco_detection/install.log'
+[0.654s] Invoked command in '/home/harshit/mrt_ws/src/aruco_detection' returned '0': PYTHONPATH=/home/harshit/mrt_ws/build/aruco_detection/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/harshit/mrt_ws/install/aruco_detection/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/aruco_detection build --build-base /home/harshit/mrt_ws/build/aruco_detection/build install --record /home/harshit/mrt_ws/build/aruco_detection/install.log --single-version-externally-managed install_data

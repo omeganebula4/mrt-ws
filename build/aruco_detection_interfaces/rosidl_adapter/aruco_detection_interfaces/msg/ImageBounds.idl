@@ -9,8 +9,6 @@ module aruco_detection_interfaces {
     struct ImageBounds {
       sequence<uint64> ids;
 
-      @verbatim (language="comment", text=
-        "float32[] bounds")
       sequence<aruco_detection_interfaces::msg::PointArray> bounds;
     };
   };
