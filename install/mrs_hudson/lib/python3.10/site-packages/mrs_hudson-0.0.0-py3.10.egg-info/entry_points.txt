@@ -1,0 +1,6 @@
+[console_scripts]
+detect_marker = mrs_hudson.detect_marker:main
+display_camera = mrs_hudson.display_camera:main
+mrs_hudson_teleop = mrs_hudson.mrs_hudson_teleop:main
+vel_pub = mrs_hudson.vel_pub:main
+

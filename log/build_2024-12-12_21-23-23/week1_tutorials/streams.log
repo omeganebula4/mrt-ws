@@ -1,0 +1,37 @@
+[0.905s] Invoking command in '/home/harshit/mrt_ws/src/week1_tutorials': PYTHONPATH=/home/harshit/mrt_ws/build/week1_tutorials/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/harshit/mrt_ws/install/week1_tutorials/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/week1_tutorials build --build-base /home/harshit/mrt_ws/build/week1_tutorials/build install --record /home/harshit/mrt_ws/build/week1_tutorials/install.log --single-version-externally-managed install_data
+[1.198s] running egg_info
+[1.199s] creating ../../build/week1_tutorials/week1_tutorials.egg-info
+[1.199s] writing ../../build/week1_tutorials/week1_tutorials.egg-info/PKG-INFO
+[1.199s] writing dependency_links to ../../build/week1_tutorials/week1_tutorials.egg-info/dependency_links.txt
+[1.199s] writing entry points to ../../build/week1_tutorials/week1_tutorials.egg-info/entry_points.txt
+[1.199s] writing requirements to ../../build/week1_tutorials/week1_tutorials.egg-info/requires.txt
+[1.199s] writing top-level names to ../../build/week1_tutorials/week1_tutorials.egg-info/top_level.txt
+[1.200s] writing manifest file '../../build/week1_tutorials/week1_tutorials.egg-info/SOURCES.txt'
+[1.202s] reading manifest file '../../build/week1_tutorials/week1_tutorials.egg-info/SOURCES.txt'
+[1.203s] writing manifest file '../../build/week1_tutorials/week1_tutorials.egg-info/SOURCES.txt'
+[1.203s] running build
+[1.203s] running build_py
+[1.203s] creating /home/harshit/mrt_ws/build/week1_tutorials/build
+[1.203s] creating /home/harshit/mrt_ws/build/week1_tutorials/build/lib
+[1.203s] creating /home/harshit/mrt_ws/build/week1_tutorials/build/lib/week1_tutorials
+[1.203s] copying week1_tutorials/__init__.py -> /home/harshit/mrt_ws/build/week1_tutorials/build/lib/week1_tutorials
+[1.203s] running install
+[1.204s] running install_lib
+[1.205s] creating /home/harshit/mrt_ws/install/week1_tutorials/lib/python3.10/site-packages/week1_tutorials
+[1.205s] copying /home/harshit/mrt_ws/build/week1_tutorials/build/lib/week1_tutorials/__init__.py -> /home/harshit/mrt_ws/install/week1_tutorials/lib/python3.10/site-packages/week1_tutorials
+[1.206s] byte-compiling /home/harshit/mrt_ws/install/week1_tutorials/lib/python3.10/site-packages/week1_tutorials/__init__.py to __init__.cpython-310.pyc
+[1.206s] running install_data
+[1.206s] creating /home/harshit/mrt_ws/install/week1_tutorials/share/ament_index
+[1.206s] creating /home/harshit/mrt_ws/install/week1_tutorials/share/ament_index/resource_index
+[1.206s] creating /home/harshit/mrt_ws/install/week1_tutorials/share/ament_index/resource_index/packages
+[1.206s] copying resource/week1_tutorials -> /home/harshit/mrt_ws/install/week1_tutorials/share/ament_index/resource_index/packages
+[1.206s] copying package.xml -> /home/harshit/mrt_ws/install/week1_tutorials/share/week1_tutorials
+[1.206s] creating /home/harshit/mrt_ws/install/week1_tutorials/share/week1_tutorials/models
+[1.207s] copying models/cub_world.sdf -> /home/harshit/mrt_ws/install/week1_tutorials/share/week1_tutorials/models
+[1.207s] creating /home/harshit/mrt_ws/install/week1_tutorials/share/week1_tutorials/launch
+[1.207s] copying launch/cub.launch.py -> /home/harshit/mrt_ws/install/week1_tutorials/share/week1_tutorials/launch
+[1.207s] running install_egg_info
+[1.209s] Copying ../../build/week1_tutorials/week1_tutorials.egg-info to /home/harshit/mrt_ws/install/week1_tutorials/lib/python3.10/site-packages/week1_tutorials-0.0.0-py3.10.egg-info
+[1.210s] running install_scripts
+[1.236s] writing list of installed files to '/home/harshit/mrt_ws/build/week1_tutorials/install.log'
+[1.258s] Invoked command in '/home/harshit/mrt_ws/src/week1_tutorials' returned '0': PYTHONPATH=/home/harshit/mrt_ws/build/week1_tutorials/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/harshit/mrt_ws/install/week1_tutorials/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/week1_tutorials build --build-base /home/harshit/mrt_ws/build/week1_tutorials/build install --record /home/harshit/mrt_ws/build/week1_tutorials/install.log --single-version-externally-managed install_data

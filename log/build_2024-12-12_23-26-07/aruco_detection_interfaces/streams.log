@@ -1,0 +1,222 @@
+[0.028s] Invoking command in '/home/harshit/mrt_ws/build/aruco_detection_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/harshit/mrt_ws/install/mrs_hudson:/home/harshit/mrt_ws/install/week1_tutorials:/home/harshit/mrt_ws/install/week0_tutorials:/home/harshit/mrt_ws/install/sauron:/home/harshit/mrt_ws/install/aruco_detection:/home/harshit/urdf_rviz/install/urdf_testing:/home/harshit/urdf_rviz/install/robot_car:/opt/ros/humble /usr/bin/cmake --build /home/harshit/mrt_ws/build/aruco_detection_interfaces -- -j8 -l8
+[0.799s] [  1%] Built target aruco_detection_interfaces__cpp
+[0.799s] [ 12%] Built target aruco_detection_interfaces__rosidl_generator_c
+[0.799s] [ 12%] Built target ament_cmake_python_copy_aruco_detection_interfaces
+[0.799s] [ 23%] Built target aruco_detection_interfaces__rosidl_typesupport_fastrtps_cpp
+[0.799s] [ 36%] Built target aruco_detection_interfaces__rosidl_typesupport_cpp
+[0.799s] [ 45%] Built target aruco_detection_interfaces__rosidl_typesupport_introspection_cpp
+[0.799s] [ 56%] Built target aruco_detection_interfaces__rosidl_typesupport_introspection_c
+[0.799s] [ 67%] Built target aruco_detection_interfaces__rosidl_typesupport_c
+[0.799s] [ 78%] Built target aruco_detection_interfaces__rosidl_typesupport_fastrtps_c
+[0.799s] [ 78%] Built target aruco_detection_interfaces
+[0.799s] [ 80%] Built target aruco_detection_interfaces__py
+[0.799s] [ 89%] Built target aruco_detection_interfaces__rosidl_generator_py
+[0.799s] [ 92%] Built target aruco_detection_interfaces__rosidl_typesupport_fastrtps_c__pyext
+[0.800s] [ 96%] Built target aruco_detection_interfaces__rosidl_typesupport_c__pyext
+[0.800s] [100%] Built target aruco_detection_interfaces__rosidl_typesupport_introspection_c__pyext
+[0.800s] running egg_info
+[0.800s] writing aruco_detection_interfaces.egg-info/PKG-INFO
+[0.800s] writing dependency_links to aruco_detection_interfaces.egg-info/dependency_links.txt
+[0.800s] writing top-level names to aruco_detection_interfaces.egg-info/top_level.txt
+[0.800s] reading manifest file 'aruco_detection_interfaces.egg-info/SOURCES.txt'
+[0.800s] writing manifest file 'aruco_detection_interfaces.egg-info/SOURCES.txt'
+[0.800s] [100%] Built target ament_cmake_python_build_aruco_detection_interfaces_egg
+[0.982s] Invoked command in '/home/harshit/mrt_ws/build/aruco_detection_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/harshit/mrt_ws/install/mrs_hudson:/home/harshit/mrt_ws/install/week1_tutorials:/home/harshit/mrt_ws/install/week0_tutorials:/home/harshit/mrt_ws/install/sauron:/home/harshit/mrt_ws/install/aruco_detection:/home/harshit/urdf_rviz/install/urdf_testing:/home/harshit/urdf_rviz/install/robot_car:/opt/ros/humble /usr/bin/cmake --build /home/harshit/mrt_ws/build/aruco_detection_interfaces -- -j8 -l8
+[1.112s] Invoking command in '/home/harshit/mrt_ws/build/aruco_detection_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/harshit/mrt_ws/install/mrs_hudson:/home/harshit/mrt_ws/install/week1_tutorials:/home/harshit/mrt_ws/install/week0_tutorials:/home/harshit/mrt_ws/install/sauron:/home/harshit/mrt_ws/install/aruco_detection:/home/harshit/urdf_rviz/install/urdf_testing:/home/harshit/urdf_rviz/install/robot_car:/opt/ros/humble /usr/bin/cmake --install /home/harshit/mrt_ws/build/aruco_detection_interfaces
+[1.117s] -- Install configuration: ""
+[1.117s] -- Up-to-date: /home/harshit/mrt_ws/install/aruco_detection_interfaces/share/ament_index/resource_index/rosidl_interfaces/aruco_detection_interfaces
+[1.123s] -- Up-to-date: /home/harshit/mrt_ws/install/aruco_detection_interfaces/include/aruco_detection_interfaces/aruco_detection_interfaces
+[1.123s] -- Up-to-date: /home/harshit/mrt_ws/install/aruco_detection_interfaces/include/aruco_detection_interfaces/aruco_detection_interfaces/srv
+[1.123s] -- Up-to-date: /home/harshit/mrt_ws/install/aruco_detection_interfaces/include/aruco_detection_interfaces/aruco_detection_interfaces/srv/process_image.h
+[1.123s] -- Up-to-date: /home/harshit/mrt_ws/install/aruco_detection_interfaces/include/aruco_detection_interfaces/aruco_detection_interfaces/srv/detail
+[1.123s] -- Up-to-date: /home/harshit/mrt_ws/install/aruco_detection_interfaces/include/aruco_detection_interfaces/aruco_detection_interfaces/srv/detail/process_image__struct.h
+[1.123s] -- Up-to-date: /home/harshit/mrt_ws/install/aruco_detection_interfaces/include/aruco_detection_interfaces/aruco_detection_interfaces/srv/detail/process_image__functions.c
+[1.123s] -- Up-to-date: /home/harshit/mrt_ws/install/aruco_detection_interfaces/include/aruco_detection_interfaces/aruco_detection_interfaces/srv/detail/process_image__type_support.h
+[1.123s] -- Up-to-date: /home/harshit/mrt_ws/install/aruco_detection_interfaces/include/aruco_detection_interfaces/aruco_detection_interfaces/srv/detail/process_image__functions.h
+[1.123s] -- Up-to-date: /home/harshit/mrt_ws/install/aruco_detection_interfaces/include/aruco_detection_interfaces/aruco_detection_interfaces/msg
+[1.123s] -- Up-to-date: /home/harshit/mrt_ws/install/aruco_detection_interfaces/include/aruco_detection_interfaces/aruco_detection_interfaces/msg/rosidl_generator_c__visibility_control.h
+[1.123s] -- Up-to-date: /home/harshit/mrt_ws/install/aruco_detection_interfaces/include/aruco_detection_interfaces/aruco_detection_interfaces/msg/detail
+[1.123s] -- Up-to-date: /home/harshit/mrt_ws/install/aruco_detection_interfaces/include/aruco_detection_interfaces/aruco_detection_interfaces/msg/detail/point_array__struct.h
+[1.124s] -- Up-to-date: /home/harshit/mrt_ws/install/aruco_detection_interfaces/include/aruco_detection_interfaces/aruco_detection_interfaces/msg/detail/point__functions.c
+[1.124s] -- Up-to-date: /home/harshit/mrt_ws/install/aruco_detection_interfaces/include/aruco_detection_interfaces/aruco_detection_interfaces/msg/detail/point__struct.h
+[1.124s] -- Up-to-date: /home/harshit/mrt_ws/install/aruco_detection_interfaces/include/aruco_detection_interfaces/aruco_detection_interfaces/msg/detail/point__functions.h
+[1.124s] -- Up-to-date: /home/harshit/mrt_ws/install/aruco_detection_interfaces/include/aruco_detection_interfaces/aruco_detection_interfaces/msg/detail/image_bounds__functions.c
+[1.124s] -- Up-to-date: /home/harshit/mrt_ws/install/aruco_detection_interfaces/include/aruco_detection_interfaces/aruco_detection_interfaces/msg/detail/point_array__functions.h
+[1.124s] -- Up-to-date: /home/harshit/mrt_ws/install/aruco_detection_interfaces/include/aruco_detection_interfaces/aruco_detection_interfaces/msg/detail/point_array__type_support.h
+[1.124s] -- Up-to-date: /home/harshit/mrt_ws/install/aruco_detection_interfaces/include/aruco_detection_interfaces/aruco_detection_interfaces/msg/detail/point__type_support.h
+[1.124s] -- Up-to-date: /home/harshit/mrt_ws/install/aruco_detection_interfaces/include/aruco_detection_interfaces/aruco_detection_interfaces/msg/detail/image_bounds__struct.h
+[1.124s] -- Up-to-date: /home/harshit/mrt_ws/install/aruco_detection_interfaces/include/aruco_detection_interfaces/aruco_detection_interfaces/msg/detail/point_array__functions.c
+[1.124s] -- Up-to-date: /home/harshit/mrt_ws/install/aruco_detection_interfaces/include/aruco_detection_interfaces/aruco_detection_interfaces/msg/detail/image_bounds__functions.h
+[1.124s] -- Up-to-date: /home/harshit/mrt_ws/install/aruco_detection_interfaces/include/aruco_detection_interfaces/aruco_detection_interfaces/msg/detail/image_bounds__type_support.h
+[1.124s] -- Up-to-date: /home/harshit/mrt_ws/install/aruco_detection_interfaces/include/aruco_detection_interfaces/aruco_detection_interfaces/msg/image_bounds.h
+[1.124s] -- Up-to-date: /home/harshit/mrt_ws/install/aruco_detection_interfaces/include/aruco_detection_interfaces/aruco_detection_interfaces/msg/point.h
+[1.124s] -- Up-to-date: /home/harshit/mrt_ws/install/aruco_detection_interfaces/include/aruco_detection_interfaces/aruco_detection_interfaces/msg/point_array.h
+[1.124s] -- Up-to-date: /home/harshit/mrt_ws/install/aruco_detection_interfaces/share/aruco_detection_interfaces/environment/library_path.sh
+[1.125s] -- Up-to-date: /home/harshit/mrt_ws/install/aruco_detection_interfaces/share/aruco_detection_interfaces/environment/library_path.dsv
+[1.125s] -- Up-to-date: /home/harshit/mrt_ws/install/aruco_detection_interfaces/lib/libaruco_detection_interfaces__rosidl_generator_c.so
+[1.126s] -- Up-to-date: /home/harshit/mrt_ws/install/aruco_detection_interfaces/include/aruco_detection_interfaces/aruco_detection_interfaces
+[1.126s] -- Up-to-date: /home/harshit/mrt_ws/install/aruco_detection_interfaces/include/aruco_detection_interfaces/aruco_detection_interfaces/srv
+[1.126s] -- Up-to-date: /home/harshit/mrt_ws/install/aruco_detection_interfaces/include/aruco_detection_interfaces/aruco_detection_interfaces/srv/detail
+[1.126s] -- Up-to-date: /home/harshit/mrt_ws/install/aruco_detection_interfaces/include/aruco_detection_interfaces/aruco_detection_interfaces/srv/detail/process_image__rosidl_typesupport_fastrtps_c.h
+[1.126s] -- Up-to-date: /home/harshit/mrt_ws/install/aruco_detection_interfaces/include/aruco_detection_interfaces/aruco_detection_interfaces/msg
+[1.126s] -- Up-to-date: /home/harshit/mrt_ws/install/aruco_detection_interfaces/include/aruco_detection_interfaces/aruco_detection_interfaces/msg/detail
+[1.126s] -- Up-to-date: /home/harshit/mrt_ws/install/aruco_detection_interfaces/include/aruco_detection_interfaces/aruco_detection_interfaces/msg/detail/point_array__rosidl_typesupport_fastrtps_c.h
+[1.126s] -- Up-to-date: /home/harshit/mrt_ws/install/aruco_detection_interfaces/include/aruco_detection_interfaces/aruco_detection_interfaces/msg/detail/image_bounds__rosidl_typesupport_fastrtps_c.h
+[1.126s] -- Up-to-date: /home/harshit/mrt_ws/install/aruco_detection_interfaces/include/aruco_detection_interfaces/aruco_detection_interfaces/msg/detail/point__rosidl_typesupport_fastrtps_c.h
+[1.126s] -- Up-to-date: /home/harshit/mrt_ws/install/aruco_detection_interfaces/include/aruco_detection_interfaces/aruco_detection_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[1.126s] -- Up-to-date: /home/harshit/mrt_ws/install/aruco_detection_interfaces/lib/libaruco_detection_interfaces__rosidl_typesupport_fastrtps_c.so
+[1.126s] -- Up-to-date: /home/harshit/mrt_ws/install/aruco_detection_interfaces/include/aruco_detection_interfaces/aruco_detection_interfaces
+[1.126s] -- Up-to-date: /home/harshit/mrt_ws/install/aruco_detection_interfaces/include/aruco_detection_interfaces/aruco_detection_interfaces/srv
+[1.126s] -- Up-to-date: /home/harshit/mrt_ws/install/aruco_detection_interfaces/include/aruco_detection_interfaces/aruco_detection_interfaces/srv/detail
+[1.126s] -- Up-to-date: /home/harshit/mrt_ws/install/aruco_detection_interfaces/include/aruco_detection_interfaces/aruco_detection_interfaces/srv/detail/process_image__type_support.c
+[1.126s] -- Up-to-date: /home/harshit/mrt_ws/install/aruco_detection_interfaces/include/aruco_detection_interfaces/aruco_detection_interfaces/srv/detail/process_image__rosidl_typesupport_introspection_c.h
+[1.127s] -- Up-to-date: /home/harshit/mrt_ws/install/aruco_detection_interfaces/include/aruco_detection_interfaces/aruco_detection_interfaces/msg
+[1.127s] -- Up-to-date: /home/harshit/mrt_ws/install/aruco_detection_interfaces/include/aruco_detection_interfaces/aruco_detection_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[1.127s] -- Up-to-date: /home/harshit/mrt_ws/install/aruco_detection_interfaces/include/aruco_detection_interfaces/aruco_detection_interfaces/msg/detail
+[1.127s] -- Up-to-date: /home/harshit/mrt_ws/install/aruco_detection_interfaces/include/aruco_detection_interfaces/aruco_detection_interfaces/msg/detail/image_bounds__type_support.c
+[1.127s] -- Up-to-date: /home/harshit/mrt_ws/install/aruco_detection_interfaces/include/aruco_detection_interfaces/aruco_detection_interfaces/msg/detail/point_array__rosidl_typesupport_introspection_c.h
+[1.127s] -- Up-to-date: /home/harshit/mrt_ws/install/aruco_detection_interfaces/include/aruco_detection_interfaces/aruco_detection_interfaces/msg/detail/point__type_support.c
+[1.127s] -- Up-to-date: /home/harshit/mrt_ws/install/aruco_detection_interfaces/include/aruco_detection_interfaces/aruco_detection_interfaces/msg/detail/point__rosidl_typesupport_introspection_c.h
+[1.127s] -- Up-to-date: /home/harshit/mrt_ws/install/aruco_detection_interfaces/include/aruco_detection_interfaces/aruco_detection_interfaces/msg/detail/image_bounds__rosidl_typesupport_introspection_c.h
+[1.127s] -- Up-to-date: /home/harshit/mrt_ws/install/aruco_detection_interfaces/include/aruco_detection_interfaces/aruco_detection_interfaces/msg/detail/point_array__type_support.c
+[1.127s] -- Up-to-date: /home/harshit/mrt_ws/install/aruco_detection_interfaces/lib/libaruco_detection_interfaces__rosidl_typesupport_introspection_c.so
+[1.127s] -- Up-to-date: /home/harshit/mrt_ws/install/aruco_detection_interfaces/lib/libaruco_detection_interfaces__rosidl_typesupport_c.so
+[1.127s] -- Up-to-date: /home/harshit/mrt_ws/install/aruco_detection_interfaces/include/aruco_detection_interfaces/aruco_detection_interfaces
+[1.127s] -- Up-to-date: /home/harshit/mrt_ws/install/aruco_detection_interfaces/include/aruco_detection_interfaces/aruco_detection_interfaces/srv
+[1.127s] -- Up-to-date: /home/harshit/mrt_ws/install/aruco_detection_interfaces/include/aruco_detection_interfaces/aruco_detection_interfaces/srv/process_image.hpp
+[1.127s] -- Up-to-date: /home/harshit/mrt_ws/install/aruco_detection_interfaces/include/aruco_detection_interfaces/aruco_detection_interfaces/srv/detail
+[1.127s] -- Up-to-date: /home/harshit/mrt_ws/install/aruco_detection_interfaces/include/aruco_detection_interfaces/aruco_detection_interfaces/srv/detail/process_image__builder.hpp
+[1.128s] -- Up-to-date: /home/harshit/mrt_ws/install/aruco_detection_interfaces/include/aruco_detection_interfaces/aruco_detection_interfaces/srv/detail/process_image__traits.hpp
+[1.128s] -- Up-to-date: /home/harshit/mrt_ws/install/aruco_detection_interfaces/include/aruco_detection_interfaces/aruco_detection_interfaces/srv/detail/process_image__struct.hpp
+[1.128s] -- Up-to-date: /home/harshit/mrt_ws/install/aruco_detection_interfaces/include/aruco_detection_interfaces/aruco_detection_interfaces/srv/detail/process_image__type_support.hpp
+[1.128s] -- Up-to-date: /home/harshit/mrt_ws/install/aruco_detection_interfaces/include/aruco_detection_interfaces/aruco_detection_interfaces/msg
+[1.128s] -- Up-to-date: /home/harshit/mrt_ws/install/aruco_detection_interfaces/include/aruco_detection_interfaces/aruco_detection_interfaces/msg/point_array.hpp
+[1.128s] -- Up-to-date: /home/harshit/mrt_ws/install/aruco_detection_interfaces/include/aruco_detection_interfaces/aruco_detection_interfaces/msg/rosidl_generator_cpp__visibility_control.hpp
+[1.128s] -- Up-to-date: /home/harshit/mrt_ws/install/aruco_detection_interfaces/include/aruco_detection_interfaces/aruco_detection_interfaces/msg/image_bounds.hpp
+[1.128s] -- Up-to-date: /home/harshit/mrt_ws/install/aruco_detection_interfaces/include/aruco_detection_interfaces/aruco_detection_interfaces/msg/detail
+[1.128s] -- Up-to-date: /home/harshit/mrt_ws/install/aruco_detection_interfaces/include/aruco_detection_interfaces/aruco_detection_interfaces/msg/detail/point_array__builder.hpp
+[1.128s] -- Up-to-date: /home/harshit/mrt_ws/install/aruco_detection_interfaces/include/aruco_detection_interfaces/aruco_detection_interfaces/msg/detail/point__type_support.hpp
+[1.128s] -- Up-to-date: /home/harshit/mrt_ws/install/aruco_detection_interfaces/include/aruco_detection_interfaces/aruco_detection_interfaces/msg/detail/image_bounds__struct.hpp
+[1.128s] -- Up-to-date: /home/harshit/mrt_ws/install/aruco_detection_interfaces/include/aruco_detection_interfaces/aruco_detection_interfaces/msg/detail/point__struct.hpp
+[1.128s] -- Up-to-date: /home/harshit/mrt_ws/install/aruco_detection_interfaces/include/aruco_detection_interfaces/aruco_detection_interfaces/msg/detail/point_array__struct.hpp
+[1.128s] -- Up-to-date: /home/harshit/mrt_ws/install/aruco_detection_interfaces/include/aruco_detection_interfaces/aruco_detection_interfaces/msg/detail/image_bounds__builder.hpp
+[1.128s] -- Up-to-date: /home/harshit/mrt_ws/install/aruco_detection_interfaces/include/aruco_detection_interfaces/aruco_detection_interfaces/msg/detail/image_bounds__traits.hpp
+[1.129s] -- Up-to-date: /home/harshit/mrt_ws/install/aruco_detection_interfaces/include/aruco_detection_interfaces/aruco_detection_interfaces/msg/detail/point_array__type_support.hpp
+[1.129s] -- Up-to-date: /home/harshit/mrt_ws/install/aruco_detection_interfaces/include/aruco_detection_interfaces/aruco_detection_interfaces/msg/detail/point_array__traits.hpp
+[1.129s] -- Up-to-date: /home/harshit/mrt_ws/install/aruco_detection_interfaces/include/aruco_detection_interfaces/aruco_detection_interfaces/msg/detail/point__traits.hpp
+[1.129s] -- Up-to-date: /home/harshit/mrt_ws/install/aruco_detection_interfaces/include/aruco_detection_interfaces/aruco_detection_interfaces/msg/detail/image_bounds__type_support.hpp
+[1.129s] -- Up-to-date: /home/harshit/mrt_ws/install/aruco_detection_interfaces/include/aruco_detection_interfaces/aruco_detection_interfaces/msg/detail/point__builder.hpp
+[1.129s] -- Up-to-date: /home/harshit/mrt_ws/install/aruco_detection_interfaces/include/aruco_detection_interfaces/aruco_detection_interfaces/msg/point.hpp
+[1.129s] -- Up-to-date: /home/harshit/mrt_ws/install/aruco_detection_interfaces/include/aruco_detection_interfaces/aruco_detection_interfaces
+[1.129s] -- Up-to-date: /home/harshit/mrt_ws/install/aruco_detection_interfaces/include/aruco_detection_interfaces/aruco_detection_interfaces/srv
+[1.129s] -- Up-to-date: /home/harshit/mrt_ws/install/aruco_detection_interfaces/include/aruco_detection_interfaces/aruco_detection_interfaces/srv/detail
+[1.129s] -- Up-to-date: /home/harshit/mrt_ws/install/aruco_detection_interfaces/include/aruco_detection_interfaces/aruco_detection_interfaces/srv/detail/process_image__rosidl_typesupport_fastrtps_cpp.hpp
+[1.129s] -- Up-to-date: /home/harshit/mrt_ws/install/aruco_detection_interfaces/include/aruco_detection_interfaces/aruco_detection_interfaces/srv/detail/dds_fastrtps
+[1.129s] -- Up-to-date: /home/harshit/mrt_ws/install/aruco_detection_interfaces/include/aruco_detection_interfaces/aruco_detection_interfaces/msg
+[1.129s] -- Up-to-date: /home/harshit/mrt_ws/install/aruco_detection_interfaces/include/aruco_detection_interfaces/aruco_detection_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[1.129s] -- Up-to-date: /home/harshit/mrt_ws/install/aruco_detection_interfaces/include/aruco_detection_interfaces/aruco_detection_interfaces/msg/detail
+[1.129s] -- Up-to-date: /home/harshit/mrt_ws/install/aruco_detection_interfaces/include/aruco_detection_interfaces/aruco_detection_interfaces/msg/detail/point__rosidl_typesupport_fastrtps_cpp.hpp
+[1.129s] -- Up-to-date: /home/harshit/mrt_ws/install/aruco_detection_interfaces/include/aruco_detection_interfaces/aruco_detection_interfaces/msg/detail/image_bounds__rosidl_typesupport_fastrtps_cpp.hpp
+[1.130s] -- Up-to-date: /home/harshit/mrt_ws/install/aruco_detection_interfaces/include/aruco_detection_interfaces/aruco_detection_interfaces/msg/detail/point_array__rosidl_typesupport_fastrtps_cpp.hpp
+[1.130s] -- Up-to-date: /home/harshit/mrt_ws/install/aruco_detection_interfaces/include/aruco_detection_interfaces/aruco_detection_interfaces/msg/detail/dds_fastrtps
+[1.130s] -- Up-to-date: /home/harshit/mrt_ws/install/aruco_detection_interfaces/lib/libaruco_detection_interfaces__rosidl_typesupport_fastrtps_cpp.so
+[1.130s] -- Up-to-date: /home/harshit/mrt_ws/install/aruco_detection_interfaces/include/aruco_detection_interfaces/aruco_detection_interfaces
+[1.130s] -- Up-to-date: /home/harshit/mrt_ws/install/aruco_detection_interfaces/include/aruco_detection_interfaces/aruco_detection_interfaces/srv
+[1.130s] -- Up-to-date: /home/harshit/mrt_ws/install/aruco_detection_interfaces/include/aruco_detection_interfaces/aruco_detection_interfaces/srv/detail
+[1.130s] -- Up-to-date: /home/harshit/mrt_ws/install/aruco_detection_interfaces/include/aruco_detection_interfaces/aruco_detection_interfaces/srv/detail/process_image__rosidl_typesupport_introspection_cpp.hpp
+[1.130s] -- Up-to-date: /home/harshit/mrt_ws/install/aruco_detection_interfaces/include/aruco_detection_interfaces/aruco_detection_interfaces/srv/detail/process_image__type_support.cpp
+[1.130s] -- Up-to-date: /home/harshit/mrt_ws/install/aruco_detection_interfaces/include/aruco_detection_interfaces/aruco_detection_interfaces/msg
+[1.130s] -- Up-to-date: /home/harshit/mrt_ws/install/aruco_detection_interfaces/include/aruco_detection_interfaces/aruco_detection_interfaces/msg/detail
+[1.130s] -- Up-to-date: /home/harshit/mrt_ws/install/aruco_detection_interfaces/include/aruco_detection_interfaces/aruco_detection_interfaces/msg/detail/image_bounds__rosidl_typesupport_introspection_cpp.hpp
+[1.130s] -- Up-to-date: /home/harshit/mrt_ws/install/aruco_detection_interfaces/include/aruco_detection_interfaces/aruco_detection_interfaces/msg/detail/point__type_support.cpp
+[1.130s] -- Up-to-date: /home/harshit/mrt_ws/install/aruco_detection_interfaces/include/aruco_detection_interfaces/aruco_detection_interfaces/msg/detail/point_array__type_support.cpp
+[1.131s] -- Up-to-date: /home/harshit/mrt_ws/install/aruco_detection_interfaces/include/aruco_detection_interfaces/aruco_detection_interfaces/msg/detail/point_array__rosidl_typesupport_introspection_cpp.hpp
+[1.131s] -- Up-to-date: /home/harshit/mrt_ws/install/aruco_detection_interfaces/include/aruco_detection_interfaces/aruco_detection_interfaces/msg/detail/image_bounds__type_support.cpp
+[1.131s] -- Up-to-date: /home/harshit/mrt_ws/install/aruco_detection_interfaces/include/aruco_detection_interfaces/aruco_detection_interfaces/msg/detail/point__rosidl_typesupport_introspection_cpp.hpp
+[1.131s] -- Up-to-date: /home/harshit/mrt_ws/install/aruco_detection_interfaces/lib/libaruco_detection_interfaces__rosidl_typesupport_introspection_cpp.so
+[1.131s] -- Up-to-date: /home/harshit/mrt_ws/install/aruco_detection_interfaces/lib/libaruco_detection_interfaces__rosidl_typesupport_cpp.so
+[1.131s] -- Up-to-date: /home/harshit/mrt_ws/install/aruco_detection_interfaces/share/aruco_detection_interfaces/environment/pythonpath.sh
+[1.131s] -- Up-to-date: /home/harshit/mrt_ws/install/aruco_detection_interfaces/share/aruco_detection_interfaces/environment/pythonpath.dsv
+[1.131s] -- Up-to-date: /home/harshit/mrt_ws/install/aruco_detection_interfaces/local/lib/python3.10/dist-packages/aruco_detection_interfaces-0.0.0-py3.10.egg-info
+[1.131s] -- Installing: /home/harshit/mrt_ws/install/aruco_detection_interfaces/local/lib/python3.10/dist-packages/aruco_detection_interfaces-0.0.0-py3.10.egg-info/top_level.txt
+[1.131s] -- Installing: /home/harshit/mrt_ws/install/aruco_detection_interfaces/local/lib/python3.10/dist-packages/aruco_detection_interfaces-0.0.0-py3.10.egg-info/SOURCES.txt
+[1.131s] -- Installing: /home/harshit/mrt_ws/install/aruco_detection_interfaces/local/lib/python3.10/dist-packages/aruco_detection_interfaces-0.0.0-py3.10.egg-info/dependency_links.txt
+[1.131s] -- Installing: /home/harshit/mrt_ws/install/aruco_detection_interfaces/local/lib/python3.10/dist-packages/aruco_detection_interfaces-0.0.0-py3.10.egg-info/PKG-INFO
+[1.131s] -- Up-to-date: /home/harshit/mrt_ws/install/aruco_detection_interfaces/local/lib/python3.10/dist-packages/aruco_detection_interfaces
+[1.131s] -- Up-to-date: /home/harshit/mrt_ws/install/aruco_detection_interfaces/local/lib/python3.10/dist-packages/aruco_detection_interfaces/libaruco_detection_interfaces__rosidl_generator_py.so
+[1.131s] -- Up-to-date: /home/harshit/mrt_ws/install/aruco_detection_interfaces/local/lib/python3.10/dist-packages/aruco_detection_interfaces/srv
+[1.131s] -- Up-to-date: /home/harshit/mrt_ws/install/aruco_detection_interfaces/local/lib/python3.10/dist-packages/aruco_detection_interfaces/srv/_process_image.py
+[1.132s] -- Up-to-date: /home/harshit/mrt_ws/install/aruco_detection_interfaces/local/lib/python3.10/dist-packages/aruco_detection_interfaces/srv/_process_image_s.c
+[1.132s] -- Up-to-date: /home/harshit/mrt_ws/install/aruco_detection_interfaces/local/lib/python3.10/dist-packages/aruco_detection_interfaces/srv/__init__.py
+[1.132s] -- Up-to-date: /home/harshit/mrt_ws/install/aruco_detection_interfaces/local/lib/python3.10/dist-packages/aruco_detection_interfaces/aruco_detection_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[1.132s] -- Up-to-date: /home/harshit/mrt_ws/install/aruco_detection_interfaces/local/lib/python3.10/dist-packages/aruco_detection_interfaces/aruco_detection_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[1.132s] -- Up-to-date: /home/harshit/mrt_ws/install/aruco_detection_interfaces/local/lib/python3.10/dist-packages/aruco_detection_interfaces/_aruco_detection_interfaces_s.ep.rosidl_typesupport_c.c
+[1.132s] -- Up-to-date: /home/harshit/mrt_ws/install/aruco_detection_interfaces/local/lib/python3.10/dist-packages/aruco_detection_interfaces/msg
+[1.132s] -- Up-to-date: /home/harshit/mrt_ws/install/aruco_detection_interfaces/local/lib/python3.10/dist-packages/aruco_detection_interfaces/msg/_point_s.c
+[1.132s] -- Up-to-date: /home/harshit/mrt_ws/install/aruco_detection_interfaces/local/lib/python3.10/dist-packages/aruco_detection_interfaces/msg/_point_array_s.c
+[1.132s] -- Up-to-date: /home/harshit/mrt_ws/install/aruco_detection_interfaces/local/lib/python3.10/dist-packages/aruco_detection_interfaces/msg/_image_bounds_s.c
+[1.132s] -- Up-to-date: /home/harshit/mrt_ws/install/aruco_detection_interfaces/local/lib/python3.10/dist-packages/aruco_detection_interfaces/msg/_point.py
+[1.132s] -- Up-to-date: /home/harshit/mrt_ws/install/aruco_detection_interfaces/local/lib/python3.10/dist-packages/aruco_detection_interfaces/msg/_point_array.py
+[1.132s] -- Up-to-date: /home/harshit/mrt_ws/install/aruco_detection_interfaces/local/lib/python3.10/dist-packages/aruco_detection_interfaces/msg/_image_bounds.py
+[1.132s] -- Up-to-date: /home/harshit/mrt_ws/install/aruco_detection_interfaces/local/lib/python3.10/dist-packages/aruco_detection_interfaces/msg/__init__.py
+[1.132s] -- Up-to-date: /home/harshit/mrt_ws/install/aruco_detection_interfaces/local/lib/python3.10/dist-packages/aruco_detection_interfaces/_aruco_detection_interfaces_s.ep.rosidl_typesupport_introspection_c.c
+[1.132s] -- Up-to-date: /home/harshit/mrt_ws/install/aruco_detection_interfaces/local/lib/python3.10/dist-packages/aruco_detection_interfaces/_aruco_detection_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c
+[1.132s] -- Up-to-date: /home/harshit/mrt_ws/install/aruco_detection_interfaces/local/lib/python3.10/dist-packages/aruco_detection_interfaces/aruco_detection_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[1.132s] -- Up-to-date: /home/harshit/mrt_ws/install/aruco_detection_interfaces/local/lib/python3.10/dist-packages/aruco_detection_interfaces/__init__.py
+[1.165s] Listing '/home/harshit/mrt_ws/install/aruco_detection_interfaces/local/lib/python3.10/dist-packages/aruco_detection_interfaces'...
+[1.165s] Listing '/home/harshit/mrt_ws/install/aruco_detection_interfaces/local/lib/python3.10/dist-packages/aruco_detection_interfaces/msg'...
+[1.165s] Listing '/home/harshit/mrt_ws/install/aruco_detection_interfaces/local/lib/python3.10/dist-packages/aruco_detection_interfaces/srv'...
+[1.171s] -- Up-to-date: /home/harshit/mrt_ws/install/aruco_detection_interfaces/local/lib/python3.10/dist-packages/aruco_detection_interfaces/aruco_detection_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[1.171s] -- Up-to-date: /home/harshit/mrt_ws/install/aruco_detection_interfaces/local/lib/python3.10/dist-packages/aruco_detection_interfaces/aruco_detection_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[1.172s] -- Up-to-date: /home/harshit/mrt_ws/install/aruco_detection_interfaces/local/lib/python3.10/dist-packages/aruco_detection_interfaces/aruco_detection_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[1.172s] -- Up-to-date: /home/harshit/mrt_ws/install/aruco_detection_interfaces/lib/libaruco_detection_interfaces__rosidl_generator_py.so
+[1.172s] -- Up-to-date: /home/harshit/mrt_ws/install/aruco_detection_interfaces/share/aruco_detection_interfaces/msg/Point.idl
+[1.173s] -- Up-to-date: /home/harshit/mrt_ws/install/aruco_detection_interfaces/share/aruco_detection_interfaces/msg/PointArray.idl
+[1.173s] -- Up-to-date: /home/harshit/mrt_ws/install/aruco_detection_interfaces/share/aruco_detection_interfaces/msg/ImageBounds.idl
+[1.173s] -- Up-to-date: /home/harshit/mrt_ws/install/aruco_detection_interfaces/share/aruco_detection_interfaces/srv/ProcessImage.idl
+[1.173s] -- Up-to-date: /home/harshit/mrt_ws/install/aruco_detection_interfaces/share/aruco_detection_interfaces/msg/Point.msg
+[1.173s] -- Up-to-date: /home/harshit/mrt_ws/install/aruco_detection_interfaces/share/aruco_detection_interfaces/msg/PointArray.msg
+[1.173s] -- Up-to-date: /home/harshit/mrt_ws/install/aruco_detection_interfaces/share/aruco_detection_interfaces/msg/ImageBounds.msg
+[1.174s] -- Up-to-date: /home/harshit/mrt_ws/install/aruco_detection_interfaces/share/aruco_detection_interfaces/srv/ProcessImage.srv
+[1.174s] -- Up-to-date: /home/harshit/mrt_ws/install/aruco_detection_interfaces/share/aruco_detection_interfaces/srv/ProcessImage_Request.msg
+[1.174s] -- Up-to-date: /home/harshit/mrt_ws/install/aruco_detection_interfaces/share/aruco_detection_interfaces/srv/ProcessImage_Response.msg
+[1.174s] -- Up-to-date: /home/harshit/mrt_ws/install/aruco_detection_interfaces/share/ament_index/resource_index/package_run_dependencies/aruco_detection_interfaces
+[1.174s] -- Up-to-date: /home/harshit/mrt_ws/install/aruco_detection_interfaces/share/ament_index/resource_index/parent_prefix_path/aruco_detection_interfaces
+[1.175s] -- Up-to-date: /home/harshit/mrt_ws/install/aruco_detection_interfaces/share/aruco_detection_interfaces/environment/ament_prefix_path.sh
+[1.175s] -- Up-to-date: /home/harshit/mrt_ws/install/aruco_detection_interfaces/share/aruco_detection_interfaces/environment/ament_prefix_path.dsv
+[1.175s] -- Up-to-date: /home/harshit/mrt_ws/install/aruco_detection_interfaces/share/aruco_detection_interfaces/environment/path.sh
+[1.175s] -- Up-to-date: /home/harshit/mrt_ws/install/aruco_detection_interfaces/share/aruco_detection_interfaces/environment/path.dsv
+[1.175s] -- Up-to-date: /home/harshit/mrt_ws/install/aruco_detection_interfaces/share/aruco_detection_interfaces/local_setup.bash
+[1.175s] -- Up-to-date: /home/harshit/mrt_ws/install/aruco_detection_interfaces/share/aruco_detection_interfaces/local_setup.sh
+[1.176s] -- Up-to-date: /home/harshit/mrt_ws/install/aruco_detection_interfaces/share/aruco_detection_interfaces/local_setup.zsh
+[1.176s] -- Up-to-date: /home/harshit/mrt_ws/install/aruco_detection_interfaces/share/aruco_detection_interfaces/local_setup.dsv
+[1.176s] -- Installing: /home/harshit/mrt_ws/install/aruco_detection_interfaces/share/aruco_detection_interfaces/package.dsv
+[1.176s] -- Up-to-date: /home/harshit/mrt_ws/install/aruco_detection_interfaces/share/ament_index/resource_index/packages/aruco_detection_interfaces
+[1.177s] -- Up-to-date: /home/harshit/mrt_ws/install/aruco_detection_interfaces/share/aruco_detection_interfaces/cmake/export_aruco_detection_interfaces__rosidl_generator_cExport.cmake
+[1.177s] -- Up-to-date: /home/harshit/mrt_ws/install/aruco_detection_interfaces/share/aruco_detection_interfaces/cmake/export_aruco_detection_interfaces__rosidl_generator_cExport-noconfig.cmake
+[1.177s] -- Up-to-date: /home/harshit/mrt_ws/install/aruco_detection_interfaces/share/aruco_detection_interfaces/cmake/export_aruco_detection_interfaces__rosidl_typesupport_fastrtps_cExport.cmake
+[1.177s] -- Up-to-date: /home/harshit/mrt_ws/install/aruco_detection_interfaces/share/aruco_detection_interfaces/cmake/export_aruco_detection_interfaces__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[1.177s] -- Up-to-date: /home/harshit/mrt_ws/install/aruco_detection_interfaces/share/aruco_detection_interfaces/cmake/aruco_detection_interfaces__rosidl_typesupport_introspection_cExport.cmake
+[1.178s] -- Up-to-date: /home/harshit/mrt_ws/install/aruco_detection_interfaces/share/aruco_detection_interfaces/cmake/aruco_detection_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[1.178s] -- Up-to-date: /home/harshit/mrt_ws/install/aruco_detection_interfaces/share/aruco_detection_interfaces/cmake/aruco_detection_interfaces__rosidl_typesupport_cExport.cmake
+[1.178s] -- Up-to-date: /home/harshit/mrt_ws/install/aruco_detection_interfaces/share/aruco_detection_interfaces/cmake/aruco_detection_interfaces__rosidl_typesupport_cExport-noconfig.cmake
+[1.178s] -- Up-to-date: /home/harshit/mrt_ws/install/aruco_detection_interfaces/share/aruco_detection_interfaces/cmake/export_aruco_detection_interfaces__rosidl_generator_cppExport.cmake
+[1.178s] -- Up-to-date: /home/harshit/mrt_ws/install/aruco_detection_interfaces/share/aruco_detection_interfaces/cmake/export_aruco_detection_interfaces__rosidl_typesupport_fastrtps_cppExport.cmake
+[1.179s] -- Up-to-date: /home/harshit/mrt_ws/install/aruco_detection_interfaces/share/aruco_detection_interfaces/cmake/export_aruco_detection_interfaces__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[1.179s] -- Up-to-date: /home/harshit/mrt_ws/install/aruco_detection_interfaces/share/aruco_detection_interfaces/cmake/aruco_detection_interfaces__rosidl_typesupport_introspection_cppExport.cmake
+[1.179s] -- Up-to-date: /home/harshit/mrt_ws/install/aruco_detection_interfaces/share/aruco_detection_interfaces/cmake/aruco_detection_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[1.179s] -- Up-to-date: /home/harshit/mrt_ws/install/aruco_detection_interfaces/share/aruco_detection_interfaces/cmake/aruco_detection_interfaces__rosidl_typesupport_cppExport.cmake
+[1.179s] -- Up-to-date: /home/harshit/mrt_ws/install/aruco_detection_interfaces/share/aruco_detection_interfaces/cmake/aruco_detection_interfaces__rosidl_typesupport_cppExport-noconfig.cmake
+[1.180s] -- Up-to-date: /home/harshit/mrt_ws/install/aruco_detection_interfaces/share/aruco_detection_interfaces/cmake/export_aruco_detection_interfaces__rosidl_generator_pyExport.cmake
+[1.180s] -- Up-to-date: /home/harshit/mrt_ws/install/aruco_detection_interfaces/share/aruco_detection_interfaces/cmake/export_aruco_detection_interfaces__rosidl_generator_pyExport-noconfig.cmake
+[1.180s] -- Up-to-date: /home/harshit/mrt_ws/install/aruco_detection_interfaces/share/aruco_detection_interfaces/cmake/rosidl_cmake-extras.cmake
+[1.180s] -- Up-to-date: /home/harshit/mrt_ws/install/aruco_detection_interfaces/share/aruco_detection_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake
+[1.180s] -- Up-to-date: /home/harshit/mrt_ws/install/aruco_detection_interfaces/share/aruco_detection_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake
+[1.181s] -- Up-to-date: /home/harshit/mrt_ws/install/aruco_detection_interfaces/share/aruco_detection_interfaces/cmake/ament_cmake_export_libraries-extras.cmake
+[1.181s] -- Up-to-date: /home/harshit/mrt_ws/install/aruco_detection_interfaces/share/aruco_detection_interfaces/cmake/ament_cmake_export_targets-extras.cmake
+[1.181s] -- Up-to-date: /home/harshit/mrt_ws/install/aruco_detection_interfaces/share/aruco_detection_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[1.181s] -- Up-to-date: /home/harshit/mrt_ws/install/aruco_detection_interfaces/share/aruco_detection_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[1.181s] -- Up-to-date: /home/harshit/mrt_ws/install/aruco_detection_interfaces/share/aruco_detection_interfaces/cmake/aruco_detection_interfacesConfig.cmake
+[1.181s] -- Up-to-date: /home/harshit/mrt_ws/install/aruco_detection_interfaces/share/aruco_detection_interfaces/cmake/aruco_detection_interfacesConfig-version.cmake
+[1.182s] -- Up-to-date: /home/harshit/mrt_ws/install/aruco_detection_interfaces/share/aruco_detection_interfaces/package.xml
+[1.187s] Invoked command in '/home/harshit/mrt_ws/build/aruco_detection_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/harshit/mrt_ws/install/mrs_hudson:/home/harshit/mrt_ws/install/week1_tutorials:/home/harshit/mrt_ws/install/week0_tutorials:/home/harshit/mrt_ws/install/sauron:/home/harshit/mrt_ws/install/aruco_detection:/home/harshit/urdf_rviz/install/urdf_testing:/home/harshit/urdf_rviz/install/robot_car:/opt/ros/humble /usr/bin/cmake --install /home/harshit/mrt_ws/build/aruco_detection_interfaces

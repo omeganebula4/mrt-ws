@@ -1,0 +1,3 @@
+[console_scripts]
+odom_tf_publisher = odom_tf_publisher.odom_tf_publisher:main
+

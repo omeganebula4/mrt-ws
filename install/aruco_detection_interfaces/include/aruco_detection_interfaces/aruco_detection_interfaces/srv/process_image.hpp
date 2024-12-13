@@ -7,5 +7,6 @@
 #include "aruco_detection_interfaces/srv/detail/process_image__struct.hpp"
 #include "aruco_detection_interfaces/srv/detail/process_image__builder.hpp"
 #include "aruco_detection_interfaces/srv/detail/process_image__traits.hpp"
+#include "aruco_detection_interfaces/srv/detail/process_image__type_support.hpp"
 
 #endif  // ARUCO_DETECTION_INTERFACES__SRV__PROCESS_IMAGE_HPP_

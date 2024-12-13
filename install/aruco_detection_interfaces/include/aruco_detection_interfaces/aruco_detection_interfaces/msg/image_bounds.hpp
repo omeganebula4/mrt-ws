@@ -7,5 +7,6 @@
 #include "aruco_detection_interfaces/msg/detail/image_bounds__struct.hpp"
 #include "aruco_detection_interfaces/msg/detail/image_bounds__builder.hpp"
 #include "aruco_detection_interfaces/msg/detail/image_bounds__traits.hpp"
+#include "aruco_detection_interfaces/msg/detail/image_bounds__type_support.hpp"
 
 #endif  // ARUCO_DETECTION_INTERFACES__MSG__IMAGE_BOUNDS_HPP_

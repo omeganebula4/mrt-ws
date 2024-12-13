@@ -1,0 +1,62 @@
+[1.109s] Invoking command in '/home/harshit/mrt_ws/src/mrs_hudson': PYTHONPATH=/home/harshit/mrt_ws/build/mrs_hudson/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/harshit/mrt_ws/install/mrs_hudson/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/mrs_hudson build --build-base /home/harshit/mrt_ws/build/mrs_hudson/build install --record /home/harshit/mrt_ws/build/mrs_hudson/install.log --single-version-externally-managed install_data
+[1.305s] running egg_info
+[1.306s] creating ../../build/mrs_hudson/mrs_hudson.egg-info
+[1.306s] writing ../../build/mrs_hudson/mrs_hudson.egg-info/PKG-INFO
+[1.306s] writing dependency_links to ../../build/mrs_hudson/mrs_hudson.egg-info/dependency_links.txt
+[1.306s] writing entry points to ../../build/mrs_hudson/mrs_hudson.egg-info/entry_points.txt
+[1.306s] writing requirements to ../../build/mrs_hudson/mrs_hudson.egg-info/requires.txt
+[1.306s] writing top-level names to ../../build/mrs_hudson/mrs_hudson.egg-info/top_level.txt
+[1.307s] writing manifest file '../../build/mrs_hudson/mrs_hudson.egg-info/SOURCES.txt'
+[1.308s] reading manifest file '../../build/mrs_hudson/mrs_hudson.egg-info/SOURCES.txt'
+[1.309s] writing manifest file '../../build/mrs_hudson/mrs_hudson.egg-info/SOURCES.txt'
+[1.309s] running build
+[1.309s] running build_py
+[1.309s] creating /home/harshit/mrt_ws/build/mrs_hudson/build
+[1.309s] creating /home/harshit/mrt_ws/build/mrs_hudson/build/lib
+[1.309s] creating /home/harshit/mrt_ws/build/mrs_hudson/build/lib/mrs_hudson
+[1.310s] copying mrs_hudson/mrs_hudson_teleop.py -> /home/harshit/mrt_ws/build/mrs_hudson/build/lib/mrs_hudson
+[1.310s] copying mrs_hudson/display_camera.py -> /home/harshit/mrt_ws/build/mrs_hudson/build/lib/mrs_hudson
+[1.310s] copying mrs_hudson/detect_marker.py -> /home/harshit/mrt_ws/build/mrs_hudson/build/lib/mrs_hudson
+[1.310s] copying mrs_hudson/vel_pub.py -> /home/harshit/mrt_ws/build/mrs_hudson/build/lib/mrs_hudson
+[1.310s] copying mrs_hudson/__init__.py -> /home/harshit/mrt_ws/build/mrs_hudson/build/lib/mrs_hudson
+[1.310s] running install
+[1.311s] running install_lib
+[1.312s] creating /home/harshit/mrt_ws/install/mrs_hudson/lib/python3.10/site-packages/mrs_hudson
+[1.312s] copying /home/harshit/mrt_ws/build/mrs_hudson/build/lib/mrs_hudson/mrs_hudson_teleop.py -> /home/harshit/mrt_ws/install/mrs_hudson/lib/python3.10/site-packages/mrs_hudson
+[1.312s] copying /home/harshit/mrt_ws/build/mrs_hudson/build/lib/mrs_hudson/display_camera.py -> /home/harshit/mrt_ws/install/mrs_hudson/lib/python3.10/site-packages/mrs_hudson
+[1.312s] copying /home/harshit/mrt_ws/build/mrs_hudson/build/lib/mrs_hudson/detect_marker.py -> /home/harshit/mrt_ws/install/mrs_hudson/lib/python3.10/site-packages/mrs_hudson
+[1.312s] copying /home/harshit/mrt_ws/build/mrs_hudson/build/lib/mrs_hudson/vel_pub.py -> /home/harshit/mrt_ws/install/mrs_hudson/lib/python3.10/site-packages/mrs_hudson
+[1.312s] copying /home/harshit/mrt_ws/build/mrs_hudson/build/lib/mrs_hudson/__init__.py -> /home/harshit/mrt_ws/install/mrs_hudson/lib/python3.10/site-packages/mrs_hudson
+[1.313s] byte-compiling /home/harshit/mrt_ws/install/mrs_hudson/lib/python3.10/site-packages/mrs_hudson/mrs_hudson_teleop.py to mrs_hudson_teleop.cpython-310.pyc
+[1.314s] byte-compiling /home/harshit/mrt_ws/install/mrs_hudson/lib/python3.10/site-packages/mrs_hudson/display_camera.py to display_camera.cpython-310.pyc
+[1.315s] byte-compiling /home/harshit/mrt_ws/install/mrs_hudson/lib/python3.10/site-packages/mrs_hudson/detect_marker.py to detect_marker.cpython-310.pyc
+[1.316s] byte-compiling /home/harshit/mrt_ws/install/mrs_hudson/lib/python3.10/site-packages/mrs_hudson/vel_pub.py to vel_pub.cpython-310.pyc
+[1.316s] byte-compiling /home/harshit/mrt_ws/install/mrs_hudson/lib/python3.10/site-packages/mrs_hudson/__init__.py to __init__.cpython-310.pyc
+[1.316s] running install_data
+[1.316s] creating /home/harshit/mrt_ws/install/mrs_hudson/share/ament_index
+[1.316s] creating /home/harshit/mrt_ws/install/mrs_hudson/share/ament_index/resource_index
+[1.316s] creating /home/harshit/mrt_ws/install/mrs_hudson/share/ament_index/resource_index/packages
+[1.316s] copying resource/mrs_hudson -> /home/harshit/mrt_ws/install/mrs_hudson/share/ament_index/resource_index/packages
+[1.316s] copying package.xml -> /home/harshit/mrt_ws/install/mrs_hudson/share/mrs_hudson
+[1.316s] creating /home/harshit/mrt_ws/install/mrs_hudson/share/mrs_hudson/launch
+[1.316s] copying launch/mrs_hudson_empty_world.launch.py -> /home/harshit/mrt_ws/install/mrs_hudson/share/mrs_hudson/launch
+[1.317s] copying launch/mrs_hudson_gazebo_rviz.launch.py -> /home/harshit/mrt_ws/install/mrs_hudson/share/mrs_hudson/launch
+[1.317s] creating /home/harshit/mrt_ws/install/mrs_hudson/share/mrs_hudson/models
+[1.317s] copying models/mrs_hudson.urdf -> /home/harshit/mrt_ws/install/mrs_hudson/share/mrs_hudson/models
+[1.317s] creating /home/harshit/mrt_ws/install/mrs_hudson/share/mrs_hudson/config
+[1.317s] copying config/mrs_hudson.rviz -> /home/harshit/mrt_ws/install/mrs_hudson/share/mrs_hudson/config
+[1.317s] creating /home/harshit/mrt_ws/install/mrs_hudson/share/mrs_hudson/worlds
+[1.317s] copying worlds/mrs_hudson.sdf -> /home/harshit/mrt_ws/install/mrs_hudson/share/mrs_hudson/worlds
+[1.317s] copying launch/mrs_hudson_world.launch.py -> /home/harshit/mrt_ws/install/mrs_hudson/share/mrs_hudson/launch
+[1.317s] copying worlds/mrs_hudson_arena.sdf -> /home/harshit/mrt_ws/install/mrs_hudson/share/mrs_hudson/worlds
+[1.317s] copying launch/maze_aruco.launch.py -> /home/harshit/mrt_ws/install/mrs_hudson/share/mrs_hudson/launch
+[1.317s] copying worlds/maze_aruco.sdf -> /home/harshit/mrt_ws/install/mrs_hudson/share/mrs_hudson/worlds
+[1.317s] running install_egg_info
+[1.319s] Copying ../../build/mrs_hudson/mrs_hudson.egg-info to /home/harshit/mrt_ws/install/mrs_hudson/lib/python3.10/site-packages/mrs_hudson-0.0.0-py3.10.egg-info
+[1.319s] running install_scripts
+[1.340s] Installing detect_marker script to /home/harshit/mrt_ws/install/mrs_hudson/lib/mrs_hudson
+[1.342s] Installing display_camera script to /home/harshit/mrt_ws/install/mrs_hudson/lib/mrs_hudson
+[1.343s] Installing mrs_hudson_teleop script to /home/harshit/mrt_ws/install/mrs_hudson/lib/mrs_hudson
+[1.343s] Installing vel_pub script to /home/harshit/mrt_ws/install/mrs_hudson/lib/mrs_hudson
+[1.344s] writing list of installed files to '/home/harshit/mrt_ws/build/mrs_hudson/install.log'
+[1.368s] Invoked command in '/home/harshit/mrt_ws/src/mrs_hudson' returned '0': PYTHONPATH=/home/harshit/mrt_ws/build/mrs_hudson/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/harshit/mrt_ws/install/mrs_hudson/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/mrs_hudson build --build-base /home/harshit/mrt_ws/build/mrs_hudson/build install --record /home/harshit/mrt_ws/build/mrs_hudson/install.log --single-version-externally-managed install_data

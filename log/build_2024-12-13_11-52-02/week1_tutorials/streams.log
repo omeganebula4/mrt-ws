@@ -1,0 +1,20 @@
+[1.577s] Invoking command in '/home/harshit/mrt_ws/src/week1_tutorials': PYTHONPATH=/home/harshit/mrt_ws/build/week1_tutorials/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/harshit/mrt_ws/install/week1_tutorials/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/week1_tutorials build --build-base /home/harshit/mrt_ws/build/week1_tutorials/build install --record /home/harshit/mrt_ws/build/week1_tutorials/install.log --single-version-externally-managed install_data
+[1.860s] running egg_info
+[1.861s] writing ../../build/week1_tutorials/week1_tutorials.egg-info/PKG-INFO
+[1.861s] writing dependency_links to ../../build/week1_tutorials/week1_tutorials.egg-info/dependency_links.txt
+[1.861s] writing entry points to ../../build/week1_tutorials/week1_tutorials.egg-info/entry_points.txt
+[1.861s] writing requirements to ../../build/week1_tutorials/week1_tutorials.egg-info/requires.txt
+[1.861s] writing top-level names to ../../build/week1_tutorials/week1_tutorials.egg-info/top_level.txt
+[1.863s] reading manifest file '../../build/week1_tutorials/week1_tutorials.egg-info/SOURCES.txt'
+[1.864s] writing manifest file '../../build/week1_tutorials/week1_tutorials.egg-info/SOURCES.txt'
+[1.864s] running build
+[1.864s] running build_py
+[1.864s] running install
+[1.864s] running install_lib
+[1.865s] running install_data
+[1.865s] running install_egg_info
+[1.870s] removing '/home/harshit/mrt_ws/install/week1_tutorials/lib/python3.10/site-packages/week1_tutorials-0.0.0-py3.10.egg-info' (and everything under it)
+[1.870s] Copying ../../build/week1_tutorials/week1_tutorials.egg-info to /home/harshit/mrt_ws/install/week1_tutorials/lib/python3.10/site-packages/week1_tutorials-0.0.0-py3.10.egg-info
+[1.870s] running install_scripts
+[1.893s] writing list of installed files to '/home/harshit/mrt_ws/build/week1_tutorials/install.log'
+[1.951s] Invoked command in '/home/harshit/mrt_ws/src/week1_tutorials' returned '0': PYTHONPATH=/home/harshit/mrt_ws/build/week1_tutorials/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/harshit/mrt_ws/install/week1_tutorials/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/week1_tutorials build --build-base /home/harshit/mrt_ws/build/week1_tutorials/build install --record /home/harshit/mrt_ws/build/week1_tutorials/install.log --single-version-externally-managed install_data

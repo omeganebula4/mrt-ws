@@ -1,0 +1,35 @@
+running egg_info
+creating ../../build/week1_tutorials/week1_tutorials.egg-info
+writing ../../build/week1_tutorials/week1_tutorials.egg-info/PKG-INFO
+writing dependency_links to ../../build/week1_tutorials/week1_tutorials.egg-info/dependency_links.txt
+writing entry points to ../../build/week1_tutorials/week1_tutorials.egg-info/entry_points.txt
+writing requirements to ../../build/week1_tutorials/week1_tutorials.egg-info/requires.txt
+writing top-level names to ../../build/week1_tutorials/week1_tutorials.egg-info/top_level.txt
+writing manifest file '../../build/week1_tutorials/week1_tutorials.egg-info/SOURCES.txt'
+reading manifest file '../../build/week1_tutorials/week1_tutorials.egg-info/SOURCES.txt'
+writing manifest file '../../build/week1_tutorials/week1_tutorials.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/harshit/mrt_ws/build/week1_tutorials/build
+creating /home/harshit/mrt_ws/build/week1_tutorials/build/lib
+creating /home/harshit/mrt_ws/build/week1_tutorials/build/lib/week1_tutorials
+copying week1_tutorials/__init__.py -> /home/harshit/mrt_ws/build/week1_tutorials/build/lib/week1_tutorials
+running install
+running install_lib
+creating /home/harshit/mrt_ws/install/week1_tutorials/lib/python3.10/site-packages/week1_tutorials
+copying /home/harshit/mrt_ws/build/week1_tutorials/build/lib/week1_tutorials/__init__.py -> /home/harshit/mrt_ws/install/week1_tutorials/lib/python3.10/site-packages/week1_tutorials
+byte-compiling /home/harshit/mrt_ws/install/week1_tutorials/lib/python3.10/site-packages/week1_tutorials/__init__.py to __init__.cpython-310.pyc
+running install_data
+creating /home/harshit/mrt_ws/install/week1_tutorials/share/ament_index
+creating /home/harshit/mrt_ws/install/week1_tutorials/share/ament_index/resource_index
+creating /home/harshit/mrt_ws/install/week1_tutorials/share/ament_index/resource_index/packages
+copying resource/week1_tutorials -> /home/harshit/mrt_ws/install/week1_tutorials/share/ament_index/resource_index/packages
+copying package.xml -> /home/harshit/mrt_ws/install/week1_tutorials/share/week1_tutorials
+creating /home/harshit/mrt_ws/install/week1_tutorials/share/week1_tutorials/models
+copying models/cub_world.sdf -> /home/harshit/mrt_ws/install/week1_tutorials/share/week1_tutorials/models
+creating /home/harshit/mrt_ws/install/week1_tutorials/share/week1_tutorials/launch
+copying launch/cub.launch.py -> /home/harshit/mrt_ws/install/week1_tutorials/share/week1_tutorials/launch
+running install_egg_info
+Copying ../../build/week1_tutorials/week1_tutorials.egg-info to /home/harshit/mrt_ws/install/week1_tutorials/lib/python3.10/site-packages/week1_tutorials-0.0.0-py3.10.egg-info
+running install_scripts
+writing list of installed files to '/home/harshit/mrt_ws/build/week1_tutorials/install.log'

@@ -1,0 +1,60 @@
+running egg_info
+creating ../../build/mrs_hudson/mrs_hudson.egg-info
+writing ../../build/mrs_hudson/mrs_hudson.egg-info/PKG-INFO
+writing dependency_links to ../../build/mrs_hudson/mrs_hudson.egg-info/dependency_links.txt
+writing entry points to ../../build/mrs_hudson/mrs_hudson.egg-info/entry_points.txt
+writing requirements to ../../build/mrs_hudson/mrs_hudson.egg-info/requires.txt
+writing top-level names to ../../build/mrs_hudson/mrs_hudson.egg-info/top_level.txt
+writing manifest file '../../build/mrs_hudson/mrs_hudson.egg-info/SOURCES.txt'
+reading manifest file '../../build/mrs_hudson/mrs_hudson.egg-info/SOURCES.txt'
+writing manifest file '../../build/mrs_hudson/mrs_hudson.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/harshit/mrt_ws/build/mrs_hudson/build
+creating /home/harshit/mrt_ws/build/mrs_hudson/build/lib
+creating /home/harshit/mrt_ws/build/mrs_hudson/build/lib/mrs_hudson
+copying mrs_hudson/mrs_hudson_teleop.py -> /home/harshit/mrt_ws/build/mrs_hudson/build/lib/mrs_hudson
+copying mrs_hudson/display_camera.py -> /home/harshit/mrt_ws/build/mrs_hudson/build/lib/mrs_hudson
+copying mrs_hudson/detect_marker.py -> /home/harshit/mrt_ws/build/mrs_hudson/build/lib/mrs_hudson
+copying mrs_hudson/vel_pub.py -> /home/harshit/mrt_ws/build/mrs_hudson/build/lib/mrs_hudson
+copying mrs_hudson/__init__.py -> /home/harshit/mrt_ws/build/mrs_hudson/build/lib/mrs_hudson
+running install
+running install_lib
+creating /home/harshit/mrt_ws/install/mrs_hudson/lib/python3.10/site-packages/mrs_hudson
+copying /home/harshit/mrt_ws/build/mrs_hudson/build/lib/mrs_hudson/mrs_hudson_teleop.py -> /home/harshit/mrt_ws/install/mrs_hudson/lib/python3.10/site-packages/mrs_hudson
+copying /home/harshit/mrt_ws/build/mrs_hudson/build/lib/mrs_hudson/display_camera.py -> /home/harshit/mrt_ws/install/mrs_hudson/lib/python3.10/site-packages/mrs_hudson
+copying /home/harshit/mrt_ws/build/mrs_hudson/build/lib/mrs_hudson/detect_marker.py -> /home/harshit/mrt_ws/install/mrs_hudson/lib/python3.10/site-packages/mrs_hudson
+copying /home/harshit/mrt_ws/build/mrs_hudson/build/lib/mrs_hudson/vel_pub.py -> /home/harshit/mrt_ws/install/mrs_hudson/lib/python3.10/site-packages/mrs_hudson
+copying /home/harshit/mrt_ws/build/mrs_hudson/build/lib/mrs_hudson/__init__.py -> /home/harshit/mrt_ws/install/mrs_hudson/lib/python3.10/site-packages/mrs_hudson
+byte-compiling /home/harshit/mrt_ws/install/mrs_hudson/lib/python3.10/site-packages/mrs_hudson/mrs_hudson_teleop.py to mrs_hudson_teleop.cpython-310.pyc
+byte-compiling /home/harshit/mrt_ws/install/mrs_hudson/lib/python3.10/site-packages/mrs_hudson/display_camera.py to display_camera.cpython-310.pyc
+byte-compiling /home/harshit/mrt_ws/install/mrs_hudson/lib/python3.10/site-packages/mrs_hudson/detect_marker.py to detect_marker.cpython-310.pyc
+byte-compiling /home/harshit/mrt_ws/install/mrs_hudson/lib/python3.10/site-packages/mrs_hudson/vel_pub.py to vel_pub.cpython-310.pyc
+byte-compiling /home/harshit/mrt_ws/install/mrs_hudson/lib/python3.10/site-packages/mrs_hudson/__init__.py to __init__.cpython-310.pyc
+running install_data
+creating /home/harshit/mrt_ws/install/mrs_hudson/share/ament_index
+creating /home/harshit/mrt_ws/install/mrs_hudson/share/ament_index/resource_index
+creating /home/harshit/mrt_ws/install/mrs_hudson/share/ament_index/resource_index/packages
+copying resource/mrs_hudson -> /home/harshit/mrt_ws/install/mrs_hudson/share/ament_index/resource_index/packages
+copying package.xml -> /home/harshit/mrt_ws/install/mrs_hudson/share/mrs_hudson
+creating /home/harshit/mrt_ws/install/mrs_hudson/share/mrs_hudson/launch
+copying launch/mrs_hudson_empty_world.launch.py -> /home/harshit/mrt_ws/install/mrs_hudson/share/mrs_hudson/launch
+copying launch/mrs_hudson_gazebo_rviz.launch.py -> /home/harshit/mrt_ws/install/mrs_hudson/share/mrs_hudson/launch
+creating /home/harshit/mrt_ws/install/mrs_hudson/share/mrs_hudson/models
+copying models/mrs_hudson.urdf -> /home/harshit/mrt_ws/install/mrs_hudson/share/mrs_hudson/models
+creating /home/harshit/mrt_ws/install/mrs_hudson/share/mrs_hudson/config
+copying config/mrs_hudson.rviz -> /home/harshit/mrt_ws/install/mrs_hudson/share/mrs_hudson/config
+creating /home/harshit/mrt_ws/install/mrs_hudson/share/mrs_hudson/worlds
+copying worlds/mrs_hudson.sdf -> /home/harshit/mrt_ws/install/mrs_hudson/share/mrs_hudson/worlds
+copying launch/mrs_hudson_world.launch.py -> /home/harshit/mrt_ws/install/mrs_hudson/share/mrs_hudson/launch
+copying worlds/mrs_hudson_arena.sdf -> /home/harshit/mrt_ws/install/mrs_hudson/share/mrs_hudson/worlds
+copying launch/maze_aruco.launch.py -> /home/harshit/mrt_ws/install/mrs_hudson/share/mrs_hudson/launch
+copying worlds/maze_aruco.sdf -> /home/harshit/mrt_ws/install/mrs_hudson/share/mrs_hudson/worlds
+running install_egg_info
+Copying ../../build/mrs_hudson/mrs_hudson.egg-info to /home/harshit/mrt_ws/install/mrs_hudson/lib/python3.10/site-packages/mrs_hudson-0.0.0-py3.10.egg-info
+running install_scripts
+Installing detect_marker script to /home/harshit/mrt_ws/install/mrs_hudson/lib/mrs_hudson
+Installing display_camera script to /home/harshit/mrt_ws/install/mrs_hudson/lib/mrs_hudson
+Installing mrs_hudson_teleop script to /home/harshit/mrt_ws/install/mrs_hudson/lib/mrs_hudson
+Installing vel_pub script to /home/harshit/mrt_ws/install/mrs_hudson/lib/mrs_hudson
+writing list of installed files to '/home/harshit/mrt_ws/build/mrs_hudson/install.log'
