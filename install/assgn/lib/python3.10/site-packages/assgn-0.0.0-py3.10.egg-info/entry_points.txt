@@ -1,0 +1,3 @@
+[console_scripts]
+96 = assgn.96:main
+

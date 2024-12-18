@@ -1,0 +1,24 @@
+[2.001s] Invoking command in '/home/harshit/mrt_ws/src/mrs_hudson': PYTHONPATH=/home/harshit/mrt_ws/build/mrs_hudson/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/harshit/mrt_ws/install/mrs_hudson/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/mrs_hudson build --build-base /home/harshit/mrt_ws/build/mrs_hudson/build install --record /home/harshit/mrt_ws/build/mrs_hudson/install.log --single-version-externally-managed install_data
+[2.255s] running egg_info
+[2.256s] writing ../../build/mrs_hudson/mrs_hudson.egg-info/PKG-INFO
+[2.256s] writing dependency_links to ../../build/mrs_hudson/mrs_hudson.egg-info/dependency_links.txt
+[2.256s] writing entry points to ../../build/mrs_hudson/mrs_hudson.egg-info/entry_points.txt
+[2.256s] writing requirements to ../../build/mrs_hudson/mrs_hudson.egg-info/requires.txt
+[2.256s] writing top-level names to ../../build/mrs_hudson/mrs_hudson.egg-info/top_level.txt
+[2.260s] reading manifest file '../../build/mrs_hudson/mrs_hudson.egg-info/SOURCES.txt'
+[2.261s] writing manifest file '../../build/mrs_hudson/mrs_hudson.egg-info/SOURCES.txt'
+[2.261s] running build
+[2.261s] running build_py
+[2.261s] running install
+[2.261s] running install_lib
+[2.262s] running install_data
+[2.263s] running install_egg_info
+[2.264s] removing '/home/harshit/mrt_ws/install/mrs_hudson/lib/python3.10/site-packages/mrs_hudson-0.0.0-py3.10.egg-info' (and everything under it)
+[2.265s] Copying ../../build/mrs_hudson/mrs_hudson.egg-info to /home/harshit/mrt_ws/install/mrs_hudson/lib/python3.10/site-packages/mrs_hudson-0.0.0-py3.10.egg-info
+[2.265s] running install_scripts
+[2.286s] Installing detect_marker script to /home/harshit/mrt_ws/install/mrs_hudson/lib/mrs_hudson
+[2.286s] Installing display_camera script to /home/harshit/mrt_ws/install/mrs_hudson/lib/mrs_hudson
+[2.286s] Installing mrs_hudson_teleop script to /home/harshit/mrt_ws/install/mrs_hudson/lib/mrs_hudson
+[2.287s] Installing vel_pub script to /home/harshit/mrt_ws/install/mrs_hudson/lib/mrs_hudson
+[2.287s] writing list of installed files to '/home/harshit/mrt_ws/build/mrs_hudson/install.log'
+[2.318s] Invoked command in '/home/harshit/mrt_ws/src/mrs_hudson' returned '0': PYTHONPATH=/home/harshit/mrt_ws/build/mrs_hudson/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/harshit/mrt_ws/install/mrs_hudson/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/mrs_hudson build --build-base /home/harshit/mrt_ws/build/mrs_hudson/build install --record /home/harshit/mrt_ws/build/mrs_hudson/install.log --single-version-externally-managed install_data

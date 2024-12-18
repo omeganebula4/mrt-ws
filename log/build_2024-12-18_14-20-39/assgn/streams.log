@@ -1,0 +1,24 @@
+[1.670s] Invoking command in '/home/harshit/mrt_ws/src/assgn': PYTHONPATH=/home/harshit/mrt_ws/build/assgn/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/harshit/mrt_ws/install/assgn/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/assgn build --build-base /home/harshit/mrt_ws/build/assgn/build install --record /home/harshit/mrt_ws/build/assgn/install.log --single-version-externally-managed install_data
+[1.863s] running egg_info
+[1.864s] writing ../../build/assgn/assgn.egg-info/PKG-INFO
+[1.864s] writing dependency_links to ../../build/assgn/assgn.egg-info/dependency_links.txt
+[1.864s] writing entry points to ../../build/assgn/assgn.egg-info/entry_points.txt
+[1.864s] writing requirements to ../../build/assgn/assgn.egg-info/requires.txt
+[1.864s] writing top-level names to ../../build/assgn/assgn.egg-info/top_level.txt
+[1.866s] reading manifest file '../../build/assgn/assgn.egg-info/SOURCES.txt'
+[1.867s] writing manifest file '../../build/assgn/assgn.egg-info/SOURCES.txt'
+[1.867s] running build
+[1.867s] running build_py
+[1.867s] copying assgn/96.py -> /home/harshit/mrt_ws/build/assgn/build/lib/assgn
+[1.867s] running install
+[1.868s] running install_lib
+[1.869s] copying /home/harshit/mrt_ws/build/assgn/build/lib/assgn/96.py -> /home/harshit/mrt_ws/install/assgn/lib/python3.10/site-packages/assgn
+[1.869s] byte-compiling /home/harshit/mrt_ws/install/assgn/lib/python3.10/site-packages/assgn/96.py to 96.cpython-310.pyc
+[1.870s] running install_data
+[1.870s] running install_egg_info
+[1.872s] removing '/home/harshit/mrt_ws/install/assgn/lib/python3.10/site-packages/assgn-0.0.0-py3.10.egg-info' (and everything under it)
+[1.872s] Copying ../../build/assgn/assgn.egg-info to /home/harshit/mrt_ws/install/assgn/lib/python3.10/site-packages/assgn-0.0.0-py3.10.egg-info
+[1.872s] running install_scripts
+[1.889s] Installing 96 script to /home/harshit/mrt_ws/install/assgn/lib/assgn
+[1.889s] writing list of installed files to '/home/harshit/mrt_ws/build/assgn/install.log'
+[1.928s] Invoked command in '/home/harshit/mrt_ws/src/assgn' returned '0': PYTHONPATH=/home/harshit/mrt_ws/build/assgn/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/harshit/mrt_ws/install/assgn/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/assgn build --build-base /home/harshit/mrt_ws/build/assgn/build install --record /home/harshit/mrt_ws/build/assgn/install.log --single-version-externally-managed install_data
