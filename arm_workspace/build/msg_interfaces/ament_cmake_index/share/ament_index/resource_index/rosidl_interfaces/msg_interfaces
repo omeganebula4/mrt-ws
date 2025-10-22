@@ -1,0 +1,4 @@
+msg/ArmEndMotion.idl
+msg/ArmEndMotion.msg
+msg/EncoderArm.idl
+msg/EncoderArm.msg

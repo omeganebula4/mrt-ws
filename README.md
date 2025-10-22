@@ -20,3 +20,21 @@ These dependencies are manually populated in the package.xml file by the package
 
 ## Launch Files
 For packages with launch files, it is a good idea to add an `exec_depend` dependency on the `ros2launch` package in your package’s `package.xml` using `<exec_depend>ros2launch</exec_depend>`
+
+## Message Interface `CMakeLists.txt`
+For the message interfaces package, the `CMakeLists.txt` file should start with something like this:
+
+```
+cmake_minimum_required(VERSION 3.14.4)
+project(<PROJECT_NAME>)
+
+if(POLICY CMP0148)
+  cmake_policy(SET CMP0148 OLD)
+endif()
+
+if(CMAKE_COMPILER_IS_GNUCXX OR CMAKE_CXX_COMPILER_ID MATCHES "Clang")
+  add_compile_options(-Wall -Wextra -Wpedantic)
+endif()
+
+-- other code here --
+```
