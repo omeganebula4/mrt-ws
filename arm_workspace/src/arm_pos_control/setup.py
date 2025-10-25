@@ -15,7 +15,7 @@ setup(
     zip_safe=True,
     maintainer='harshit',
     maintainer_email='harshitsomani09@gmail.com',
-    description='TODO: Package description',
+    description='Arm Position Command Controller',
     license='Apache-2.0',
     extras_require={
         'test': [
@@ -24,6 +24,8 @@ setup(
     },
     entry_points={
         'console_scripts': [
+            'commander = arm_pos_control.command_publisher:main',
+            'pid_controller = arm_pos_control.controller:main',
         ],
     },
 )

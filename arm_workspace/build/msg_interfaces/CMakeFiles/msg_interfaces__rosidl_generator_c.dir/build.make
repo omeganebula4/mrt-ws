@@ -69,58 +69,88 @@ include CMakeFiles/msg_interfaces__rosidl_generator_c.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/msg_interfaces__rosidl_generator_c.dir/flags.make
 
-rosidl_generator_c/msg_interfaces/msg/arm_end_motion.h: /opt/ros/humble/lib/rosidl_generator_c/rosidl_generator_c
-rosidl_generator_c/msg_interfaces/msg/arm_end_motion.h: /opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_generator_c/__init__.py
-rosidl_generator_c/msg_interfaces/msg/arm_end_motion.h: /opt/ros/humble/share/rosidl_generator_c/resource/action__type_support.h.em
-rosidl_generator_c/msg_interfaces/msg/arm_end_motion.h: /opt/ros/humble/share/rosidl_generator_c/resource/idl.h.em
-rosidl_generator_c/msg_interfaces/msg/arm_end_motion.h: /opt/ros/humble/share/rosidl_generator_c/resource/idl__functions.c.em
-rosidl_generator_c/msg_interfaces/msg/arm_end_motion.h: /opt/ros/humble/share/rosidl_generator_c/resource/idl__functions.h.em
-rosidl_generator_c/msg_interfaces/msg/arm_end_motion.h: /opt/ros/humble/share/rosidl_generator_c/resource/idl__struct.h.em
-rosidl_generator_c/msg_interfaces/msg/arm_end_motion.h: /opt/ros/humble/share/rosidl_generator_c/resource/idl__type_support.h.em
-rosidl_generator_c/msg_interfaces/msg/arm_end_motion.h: /opt/ros/humble/share/rosidl_generator_c/resource/msg__functions.c.em
-rosidl_generator_c/msg_interfaces/msg/arm_end_motion.h: /opt/ros/humble/share/rosidl_generator_c/resource/msg__functions.h.em
-rosidl_generator_c/msg_interfaces/msg/arm_end_motion.h: /opt/ros/humble/share/rosidl_generator_c/resource/msg__struct.h.em
-rosidl_generator_c/msg_interfaces/msg/arm_end_motion.h: /opt/ros/humble/share/rosidl_generator_c/resource/msg__type_support.h.em
-rosidl_generator_c/msg_interfaces/msg/arm_end_motion.h: /opt/ros/humble/share/rosidl_generator_c/resource/srv__type_support.h.em
-rosidl_generator_c/msg_interfaces/msg/arm_end_motion.h: rosidl_adapter/msg_interfaces/msg/ArmEndMotion.idl
-rosidl_generator_c/msg_interfaces/msg/arm_end_motion.h: rosidl_adapter/msg_interfaces/msg/EncoderArm.idl
+rosidl_generator_c/msg_interfaces/msg/user_command.h: /opt/ros/humble/lib/rosidl_generator_c/rosidl_generator_c
+rosidl_generator_c/msg_interfaces/msg/user_command.h: /opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_generator_c/__init__.py
+rosidl_generator_c/msg_interfaces/msg/user_command.h: /opt/ros/humble/share/rosidl_generator_c/resource/action__type_support.h.em
+rosidl_generator_c/msg_interfaces/msg/user_command.h: /opt/ros/humble/share/rosidl_generator_c/resource/idl.h.em
+rosidl_generator_c/msg_interfaces/msg/user_command.h: /opt/ros/humble/share/rosidl_generator_c/resource/idl__functions.c.em
+rosidl_generator_c/msg_interfaces/msg/user_command.h: /opt/ros/humble/share/rosidl_generator_c/resource/idl__functions.h.em
+rosidl_generator_c/msg_interfaces/msg/user_command.h: /opt/ros/humble/share/rosidl_generator_c/resource/idl__struct.h.em
+rosidl_generator_c/msg_interfaces/msg/user_command.h: /opt/ros/humble/share/rosidl_generator_c/resource/idl__type_support.h.em
+rosidl_generator_c/msg_interfaces/msg/user_command.h: /opt/ros/humble/share/rosidl_generator_c/resource/msg__functions.c.em
+rosidl_generator_c/msg_interfaces/msg/user_command.h: /opt/ros/humble/share/rosidl_generator_c/resource/msg__functions.h.em
+rosidl_generator_c/msg_interfaces/msg/user_command.h: /opt/ros/humble/share/rosidl_generator_c/resource/msg__struct.h.em
+rosidl_generator_c/msg_interfaces/msg/user_command.h: /opt/ros/humble/share/rosidl_generator_c/resource/msg__type_support.h.em
+rosidl_generator_c/msg_interfaces/msg/user_command.h: /opt/ros/humble/share/rosidl_generator_c/resource/srv__type_support.h.em
+rosidl_generator_c/msg_interfaces/msg/user_command.h: rosidl_adapter/msg_interfaces/msg/UserCommand.idl
+rosidl_generator_c/msg_interfaces/msg/user_command.h: rosidl_adapter/msg_interfaces/msg/ArmEndMotion.idl
+rosidl_generator_c/msg_interfaces/msg/user_command.h: rosidl_adapter/msg_interfaces/msg/EncoderArm.idl
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/harshit/mrt_ws/arm_workspace/build/msg_interfaces/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating C code for ROS interfaces"
 	/usr/bin/python3 /opt/ros/humble/share/rosidl_generator_c/cmake/../../../lib/rosidl_generator_c/rosidl_generator_c --generator-arguments-file /home/harshit/mrt_ws/arm_workspace/build/msg_interfaces/rosidl_generator_c__arguments.json
 
-rosidl_generator_c/msg_interfaces/msg/detail/arm_end_motion__functions.h: rosidl_generator_c/msg_interfaces/msg/arm_end_motion.h
+rosidl_generator_c/msg_interfaces/msg/detail/user_command__functions.h: rosidl_generator_c/msg_interfaces/msg/user_command.h
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_c/msg_interfaces/msg/detail/user_command__functions.h
+
+rosidl_generator_c/msg_interfaces/msg/detail/user_command__struct.h: rosidl_generator_c/msg_interfaces/msg/user_command.h
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_c/msg_interfaces/msg/detail/user_command__struct.h
+
+rosidl_generator_c/msg_interfaces/msg/detail/user_command__type_support.h: rosidl_generator_c/msg_interfaces/msg/user_command.h
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_c/msg_interfaces/msg/detail/user_command__type_support.h
+
+rosidl_generator_c/msg_interfaces/msg/arm_end_motion.h: rosidl_generator_c/msg_interfaces/msg/user_command.h
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_c/msg_interfaces/msg/arm_end_motion.h
+
+rosidl_generator_c/msg_interfaces/msg/detail/arm_end_motion__functions.h: rosidl_generator_c/msg_interfaces/msg/user_command.h
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_c/msg_interfaces/msg/detail/arm_end_motion__functions.h
 
-rosidl_generator_c/msg_interfaces/msg/detail/arm_end_motion__struct.h: rosidl_generator_c/msg_interfaces/msg/arm_end_motion.h
+rosidl_generator_c/msg_interfaces/msg/detail/arm_end_motion__struct.h: rosidl_generator_c/msg_interfaces/msg/user_command.h
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_c/msg_interfaces/msg/detail/arm_end_motion__struct.h
 
-rosidl_generator_c/msg_interfaces/msg/detail/arm_end_motion__type_support.h: rosidl_generator_c/msg_interfaces/msg/arm_end_motion.h
+rosidl_generator_c/msg_interfaces/msg/detail/arm_end_motion__type_support.h: rosidl_generator_c/msg_interfaces/msg/user_command.h
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_c/msg_interfaces/msg/detail/arm_end_motion__type_support.h
 
-rosidl_generator_c/msg_interfaces/msg/encoder_arm.h: rosidl_generator_c/msg_interfaces/msg/arm_end_motion.h
+rosidl_generator_c/msg_interfaces/msg/encoder_arm.h: rosidl_generator_c/msg_interfaces/msg/user_command.h
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_c/msg_interfaces/msg/encoder_arm.h
 
-rosidl_generator_c/msg_interfaces/msg/detail/encoder_arm__functions.h: rosidl_generator_c/msg_interfaces/msg/arm_end_motion.h
+rosidl_generator_c/msg_interfaces/msg/detail/encoder_arm__functions.h: rosidl_generator_c/msg_interfaces/msg/user_command.h
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_c/msg_interfaces/msg/detail/encoder_arm__functions.h
 
-rosidl_generator_c/msg_interfaces/msg/detail/encoder_arm__struct.h: rosidl_generator_c/msg_interfaces/msg/arm_end_motion.h
+rosidl_generator_c/msg_interfaces/msg/detail/encoder_arm__struct.h: rosidl_generator_c/msg_interfaces/msg/user_command.h
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_c/msg_interfaces/msg/detail/encoder_arm__struct.h
 
-rosidl_generator_c/msg_interfaces/msg/detail/encoder_arm__type_support.h: rosidl_generator_c/msg_interfaces/msg/arm_end_motion.h
+rosidl_generator_c/msg_interfaces/msg/detail/encoder_arm__type_support.h: rosidl_generator_c/msg_interfaces/msg/user_command.h
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_c/msg_interfaces/msg/detail/encoder_arm__type_support.h
 
-rosidl_generator_c/msg_interfaces/msg/detail/arm_end_motion__functions.c: rosidl_generator_c/msg_interfaces/msg/arm_end_motion.h
+rosidl_generator_c/msg_interfaces/msg/detail/user_command__functions.c: rosidl_generator_c/msg_interfaces/msg/user_command.h
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_c/msg_interfaces/msg/detail/user_command__functions.c
+
+rosidl_generator_c/msg_interfaces/msg/detail/arm_end_motion__functions.c: rosidl_generator_c/msg_interfaces/msg/user_command.h
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_c/msg_interfaces/msg/detail/arm_end_motion__functions.c
 
-rosidl_generator_c/msg_interfaces/msg/detail/encoder_arm__functions.c: rosidl_generator_c/msg_interfaces/msg/arm_end_motion.h
+rosidl_generator_c/msg_interfaces/msg/detail/encoder_arm__functions.c: rosidl_generator_c/msg_interfaces/msg/user_command.h
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_c/msg_interfaces/msg/detail/encoder_arm__functions.c
 
 CMakeFiles/msg_interfaces__rosidl_generator_c.dir/codegen:
 .PHONY : CMakeFiles/msg_interfaces__rosidl_generator_c.dir/codegen
 
+CMakeFiles/msg_interfaces__rosidl_generator_c.dir/rosidl_generator_c/msg_interfaces/msg/detail/user_command__functions.c.o: CMakeFiles/msg_interfaces__rosidl_generator_c.dir/flags.make
+CMakeFiles/msg_interfaces__rosidl_generator_c.dir/rosidl_generator_c/msg_interfaces/msg/detail/user_command__functions.c.o: rosidl_generator_c/msg_interfaces/msg/detail/user_command__functions.c
+CMakeFiles/msg_interfaces__rosidl_generator_c.dir/rosidl_generator_c/msg_interfaces/msg/detail/user_command__functions.c.o: CMakeFiles/msg_interfaces__rosidl_generator_c.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/harshit/mrt_ws/arm_workspace/build/msg_interfaces/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/msg_interfaces__rosidl_generator_c.dir/rosidl_generator_c/msg_interfaces/msg/detail/user_command__functions.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/msg_interfaces__rosidl_generator_c.dir/rosidl_generator_c/msg_interfaces/msg/detail/user_command__functions.c.o -MF CMakeFiles/msg_interfaces__rosidl_generator_c.dir/rosidl_generator_c/msg_interfaces/msg/detail/user_command__functions.c.o.d -o CMakeFiles/msg_interfaces__rosidl_generator_c.dir/rosidl_generator_c/msg_interfaces/msg/detail/user_command__functions.c.o -c /home/harshit/mrt_ws/arm_workspace/build/msg_interfaces/rosidl_generator_c/msg_interfaces/msg/detail/user_command__functions.c
+
+CMakeFiles/msg_interfaces__rosidl_generator_c.dir/rosidl_generator_c/msg_interfaces/msg/detail/user_command__functions.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/msg_interfaces__rosidl_generator_c.dir/rosidl_generator_c/msg_interfaces/msg/detail/user_command__functions.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/harshit/mrt_ws/arm_workspace/build/msg_interfaces/rosidl_generator_c/msg_interfaces/msg/detail/user_command__functions.c > CMakeFiles/msg_interfaces__rosidl_generator_c.dir/rosidl_generator_c/msg_interfaces/msg/detail/user_command__functions.c.i
+
+CMakeFiles/msg_interfaces__rosidl_generator_c.dir/rosidl_generator_c/msg_interfaces/msg/detail/user_command__functions.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/msg_interfaces__rosidl_generator_c.dir/rosidl_generator_c/msg_interfaces/msg/detail/user_command__functions.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/harshit/mrt_ws/arm_workspace/build/msg_interfaces/rosidl_generator_c/msg_interfaces/msg/detail/user_command__functions.c -o CMakeFiles/msg_interfaces__rosidl_generator_c.dir/rosidl_generator_c/msg_interfaces/msg/detail/user_command__functions.c.s
+
 CMakeFiles/msg_interfaces__rosidl_generator_c.dir/rosidl_generator_c/msg_interfaces/msg/detail/arm_end_motion__functions.c.o: CMakeFiles/msg_interfaces__rosidl_generator_c.dir/flags.make
 CMakeFiles/msg_interfaces__rosidl_generator_c.dir/rosidl_generator_c/msg_interfaces/msg/detail/arm_end_motion__functions.c.o: rosidl_generator_c/msg_interfaces/msg/detail/arm_end_motion__functions.c
 CMakeFiles/msg_interfaces__rosidl_generator_c.dir/rosidl_generator_c/msg_interfaces/msg/detail/arm_end_motion__functions.c.o: CMakeFiles/msg_interfaces__rosidl_generator_c.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/harshit/mrt_ws/arm_workspace/build/msg_interfaces/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/msg_interfaces__rosidl_generator_c.dir/rosidl_generator_c/msg_interfaces/msg/detail/arm_end_motion__functions.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/harshit/mrt_ws/arm_workspace/build/msg_interfaces/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/msg_interfaces__rosidl_generator_c.dir/rosidl_generator_c/msg_interfaces/msg/detail/arm_end_motion__functions.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/msg_interfaces__rosidl_generator_c.dir/rosidl_generator_c/msg_interfaces/msg/detail/arm_end_motion__functions.c.o -MF CMakeFiles/msg_interfaces__rosidl_generator_c.dir/rosidl_generator_c/msg_interfaces/msg/detail/arm_end_motion__functions.c.o.d -o CMakeFiles/msg_interfaces__rosidl_generator_c.dir/rosidl_generator_c/msg_interfaces/msg/detail/arm_end_motion__functions.c.o -c /home/harshit/mrt_ws/arm_workspace/build/msg_interfaces/rosidl_generator_c/msg_interfaces/msg/detail/arm_end_motion__functions.c
 
 CMakeFiles/msg_interfaces__rosidl_generator_c.dir/rosidl_generator_c/msg_interfaces/msg/detail/arm_end_motion__functions.c.i: cmake_force
@@ -134,7 +164,7 @@ CMakeFiles/msg_interfaces__rosidl_generator_c.dir/rosidl_generator_c/msg_interfa
 CMakeFiles/msg_interfaces__rosidl_generator_c.dir/rosidl_generator_c/msg_interfaces/msg/detail/encoder_arm__functions.c.o: CMakeFiles/msg_interfaces__rosidl_generator_c.dir/flags.make
 CMakeFiles/msg_interfaces__rosidl_generator_c.dir/rosidl_generator_c/msg_interfaces/msg/detail/encoder_arm__functions.c.o: rosidl_generator_c/msg_interfaces/msg/detail/encoder_arm__functions.c
 CMakeFiles/msg_interfaces__rosidl_generator_c.dir/rosidl_generator_c/msg_interfaces/msg/detail/encoder_arm__functions.c.o: CMakeFiles/msg_interfaces__rosidl_generator_c.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/harshit/mrt_ws/arm_workspace/build/msg_interfaces/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/msg_interfaces__rosidl_generator_c.dir/rosidl_generator_c/msg_interfaces/msg/detail/encoder_arm__functions.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/harshit/mrt_ws/arm_workspace/build/msg_interfaces/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/msg_interfaces__rosidl_generator_c.dir/rosidl_generator_c/msg_interfaces/msg/detail/encoder_arm__functions.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/msg_interfaces__rosidl_generator_c.dir/rosidl_generator_c/msg_interfaces/msg/detail/encoder_arm__functions.c.o -MF CMakeFiles/msg_interfaces__rosidl_generator_c.dir/rosidl_generator_c/msg_interfaces/msg/detail/encoder_arm__functions.c.o.d -o CMakeFiles/msg_interfaces__rosidl_generator_c.dir/rosidl_generator_c/msg_interfaces/msg/detail/encoder_arm__functions.c.o -c /home/harshit/mrt_ws/arm_workspace/build/msg_interfaces/rosidl_generator_c/msg_interfaces/msg/detail/encoder_arm__functions.c
 
 CMakeFiles/msg_interfaces__rosidl_generator_c.dir/rosidl_generator_c/msg_interfaces/msg/detail/encoder_arm__functions.c.i: cmake_force
@@ -147,19 +177,21 @@ CMakeFiles/msg_interfaces__rosidl_generator_c.dir/rosidl_generator_c/msg_interfa
 
 # Object files for target msg_interfaces__rosidl_generator_c
 msg_interfaces__rosidl_generator_c_OBJECTS = \
+"CMakeFiles/msg_interfaces__rosidl_generator_c.dir/rosidl_generator_c/msg_interfaces/msg/detail/user_command__functions.c.o" \
 "CMakeFiles/msg_interfaces__rosidl_generator_c.dir/rosidl_generator_c/msg_interfaces/msg/detail/arm_end_motion__functions.c.o" \
 "CMakeFiles/msg_interfaces__rosidl_generator_c.dir/rosidl_generator_c/msg_interfaces/msg/detail/encoder_arm__functions.c.o"
 
 # External object files for target msg_interfaces__rosidl_generator_c
 msg_interfaces__rosidl_generator_c_EXTERNAL_OBJECTS =
 
+libmsg_interfaces__rosidl_generator_c.so: CMakeFiles/msg_interfaces__rosidl_generator_c.dir/rosidl_generator_c/msg_interfaces/msg/detail/user_command__functions.c.o
 libmsg_interfaces__rosidl_generator_c.so: CMakeFiles/msg_interfaces__rosidl_generator_c.dir/rosidl_generator_c/msg_interfaces/msg/detail/arm_end_motion__functions.c.o
 libmsg_interfaces__rosidl_generator_c.so: CMakeFiles/msg_interfaces__rosidl_generator_c.dir/rosidl_generator_c/msg_interfaces/msg/detail/encoder_arm__functions.c.o
 libmsg_interfaces__rosidl_generator_c.so: CMakeFiles/msg_interfaces__rosidl_generator_c.dir/build.make
 libmsg_interfaces__rosidl_generator_c.so: /opt/ros/humble/lib/librosidl_runtime_c.so
 libmsg_interfaces__rosidl_generator_c.so: /opt/ros/humble/lib/librcutils.so
 libmsg_interfaces__rosidl_generator_c.so: CMakeFiles/msg_interfaces__rosidl_generator_c.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/harshit/mrt_ws/arm_workspace/build/msg_interfaces/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking C shared library libmsg_interfaces__rosidl_generator_c.so"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/harshit/mrt_ws/arm_workspace/build/msg_interfaces/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking C shared library libmsg_interfaces__rosidl_generator_c.so"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/msg_interfaces__rosidl_generator_c.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -179,7 +211,12 @@ CMakeFiles/msg_interfaces__rosidl_generator_c.dir/depend: rosidl_generator_c/msg
 CMakeFiles/msg_interfaces__rosidl_generator_c.dir/depend: rosidl_generator_c/msg_interfaces/msg/detail/encoder_arm__functions.h
 CMakeFiles/msg_interfaces__rosidl_generator_c.dir/depend: rosidl_generator_c/msg_interfaces/msg/detail/encoder_arm__struct.h
 CMakeFiles/msg_interfaces__rosidl_generator_c.dir/depend: rosidl_generator_c/msg_interfaces/msg/detail/encoder_arm__type_support.h
+CMakeFiles/msg_interfaces__rosidl_generator_c.dir/depend: rosidl_generator_c/msg_interfaces/msg/detail/user_command__functions.c
+CMakeFiles/msg_interfaces__rosidl_generator_c.dir/depend: rosidl_generator_c/msg_interfaces/msg/detail/user_command__functions.h
+CMakeFiles/msg_interfaces__rosidl_generator_c.dir/depend: rosidl_generator_c/msg_interfaces/msg/detail/user_command__struct.h
+CMakeFiles/msg_interfaces__rosidl_generator_c.dir/depend: rosidl_generator_c/msg_interfaces/msg/detail/user_command__type_support.h
 CMakeFiles/msg_interfaces__rosidl_generator_c.dir/depend: rosidl_generator_c/msg_interfaces/msg/encoder_arm.h
+CMakeFiles/msg_interfaces__rosidl_generator_c.dir/depend: rosidl_generator_c/msg_interfaces/msg/user_command.h
 	cd /home/harshit/mrt_ws/arm_workspace/build/msg_interfaces && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/harshit/mrt_ws/arm_workspace/src/msg_interfaces /home/harshit/mrt_ws/arm_workspace/src/msg_interfaces /home/harshit/mrt_ws/arm_workspace/build/msg_interfaces /home/harshit/mrt_ws/arm_workspace/build/msg_interfaces /home/harshit/mrt_ws/arm_workspace/build/msg_interfaces/CMakeFiles/msg_interfaces__rosidl_generator_c.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : CMakeFiles/msg_interfaces__rosidl_generator_c.dir/depend
 

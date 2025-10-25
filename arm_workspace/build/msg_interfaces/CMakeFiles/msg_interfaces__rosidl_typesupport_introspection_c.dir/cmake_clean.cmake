@@ -3,12 +3,16 @@ file(REMOVE_RECURSE
   "CMakeFiles/msg_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/msg_interfaces/msg/detail/arm_end_motion__type_support.c.o.d"
   "CMakeFiles/msg_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/msg_interfaces/msg/detail/encoder_arm__type_support.c.o"
   "CMakeFiles/msg_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/msg_interfaces/msg/detail/encoder_arm__type_support.c.o.d"
+  "CMakeFiles/msg_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/msg_interfaces/msg/detail/user_command__type_support.c.o"
+  "CMakeFiles/msg_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/msg_interfaces/msg/detail/user_command__type_support.c.o.d"
   "libmsg_interfaces__rosidl_typesupport_introspection_c.pdb"
   "libmsg_interfaces__rosidl_typesupport_introspection_c.so"
   "rosidl_typesupport_introspection_c/msg_interfaces/msg/detail/arm_end_motion__rosidl_typesupport_introspection_c.h"
   "rosidl_typesupport_introspection_c/msg_interfaces/msg/detail/arm_end_motion__type_support.c"
   "rosidl_typesupport_introspection_c/msg_interfaces/msg/detail/encoder_arm__rosidl_typesupport_introspection_c.h"
   "rosidl_typesupport_introspection_c/msg_interfaces/msg/detail/encoder_arm__type_support.c"
+  "rosidl_typesupport_introspection_c/msg_interfaces/msg/detail/user_command__rosidl_typesupport_introspection_c.h"
+  "rosidl_typesupport_introspection_c/msg_interfaces/msg/detail/user_command__type_support.c"
 )
 
 # Per-language clean rules from dependency scanning.

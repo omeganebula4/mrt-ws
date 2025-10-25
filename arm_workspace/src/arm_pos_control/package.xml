@@ -3,7 +3,7 @@
 <package format="3">
   <name>arm_pos_control</name>
   <version>0.0.0</version>
-  <description>TODO: Package description</description>
+  <description>Arm Position Command Controller</description>
   <maintainer email="harshitsomani09@gmail.com">harshit</maintainer>
   <license>Apache-2.0</license>
 
@@ -12,6 +12,9 @@
   <test_depend>ament_pep257</test_depend>
   <test_depend>python3-pytest</test_depend>
 
+  <exec_depend>rclpy</exec_depend>
+  <exec_depend>msg_interfaces</exec_depend>
+  
   <export>
     <build_type>ament_python</build_type>
   </export>

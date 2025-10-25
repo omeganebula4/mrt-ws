@@ -66,6 +66,11 @@ include CMakeFiles/msg_interfaces__cpp.dir/compiler_depend.make
 # Include the progress variables for this target.
 include CMakeFiles/msg_interfaces__cpp.dir/progress.make
 
+CMakeFiles/msg_interfaces__cpp: rosidl_generator_cpp/msg_interfaces/msg/user_command.hpp
+CMakeFiles/msg_interfaces__cpp: rosidl_generator_cpp/msg_interfaces/msg/detail/user_command__builder.hpp
+CMakeFiles/msg_interfaces__cpp: rosidl_generator_cpp/msg_interfaces/msg/detail/user_command__struct.hpp
+CMakeFiles/msg_interfaces__cpp: rosidl_generator_cpp/msg_interfaces/msg/detail/user_command__traits.hpp
+CMakeFiles/msg_interfaces__cpp: rosidl_generator_cpp/msg_interfaces/msg/detail/user_command__type_support.hpp
 CMakeFiles/msg_interfaces__cpp: rosidl_generator_cpp/msg_interfaces/msg/arm_end_motion.hpp
 CMakeFiles/msg_interfaces__cpp: rosidl_generator_cpp/msg_interfaces/msg/detail/arm_end_motion__builder.hpp
 CMakeFiles/msg_interfaces__cpp: rosidl_generator_cpp/msg_interfaces/msg/detail/arm_end_motion__struct.hpp
@@ -78,51 +83,67 @@ CMakeFiles/msg_interfaces__cpp: rosidl_generator_cpp/msg_interfaces/msg/detail/e
 CMakeFiles/msg_interfaces__cpp: rosidl_generator_cpp/msg_interfaces/msg/detail/encoder_arm__type_support.hpp
 CMakeFiles/msg_interfaces__cpp: rosidl_generator_cpp/msg_interfaces/msg/rosidl_generator_cpp__visibility_control.hpp
 
-rosidl_generator_cpp/msg_interfaces/msg/arm_end_motion.hpp: /opt/ros/humble/lib/rosidl_generator_cpp/rosidl_generator_cpp
-rosidl_generator_cpp/msg_interfaces/msg/arm_end_motion.hpp: /opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_generator_cpp/__init__.py
-rosidl_generator_cpp/msg_interfaces/msg/arm_end_motion.hpp: /opt/ros/humble/share/rosidl_generator_cpp/resource/action__builder.hpp.em
-rosidl_generator_cpp/msg_interfaces/msg/arm_end_motion.hpp: /opt/ros/humble/share/rosidl_generator_cpp/resource/action__struct.hpp.em
-rosidl_generator_cpp/msg_interfaces/msg/arm_end_motion.hpp: /opt/ros/humble/share/rosidl_generator_cpp/resource/action__traits.hpp.em
-rosidl_generator_cpp/msg_interfaces/msg/arm_end_motion.hpp: /opt/ros/humble/share/rosidl_generator_cpp/resource/idl.hpp.em
-rosidl_generator_cpp/msg_interfaces/msg/arm_end_motion.hpp: /opt/ros/humble/share/rosidl_generator_cpp/resource/idl__builder.hpp.em
-rosidl_generator_cpp/msg_interfaces/msg/arm_end_motion.hpp: /opt/ros/humble/share/rosidl_generator_cpp/resource/idl__struct.hpp.em
-rosidl_generator_cpp/msg_interfaces/msg/arm_end_motion.hpp: /opt/ros/humble/share/rosidl_generator_cpp/resource/idl__traits.hpp.em
-rosidl_generator_cpp/msg_interfaces/msg/arm_end_motion.hpp: /opt/ros/humble/share/rosidl_generator_cpp/resource/msg__builder.hpp.em
-rosidl_generator_cpp/msg_interfaces/msg/arm_end_motion.hpp: /opt/ros/humble/share/rosidl_generator_cpp/resource/msg__struct.hpp.em
-rosidl_generator_cpp/msg_interfaces/msg/arm_end_motion.hpp: /opt/ros/humble/share/rosidl_generator_cpp/resource/msg__traits.hpp.em
-rosidl_generator_cpp/msg_interfaces/msg/arm_end_motion.hpp: /opt/ros/humble/share/rosidl_generator_cpp/resource/srv__builder.hpp.em
-rosidl_generator_cpp/msg_interfaces/msg/arm_end_motion.hpp: /opt/ros/humble/share/rosidl_generator_cpp/resource/srv__struct.hpp.em
-rosidl_generator_cpp/msg_interfaces/msg/arm_end_motion.hpp: /opt/ros/humble/share/rosidl_generator_cpp/resource/srv__traits.hpp.em
-rosidl_generator_cpp/msg_interfaces/msg/arm_end_motion.hpp: rosidl_adapter/msg_interfaces/msg/ArmEndMotion.idl
-rosidl_generator_cpp/msg_interfaces/msg/arm_end_motion.hpp: rosidl_adapter/msg_interfaces/msg/EncoderArm.idl
+rosidl_generator_cpp/msg_interfaces/msg/user_command.hpp: /opt/ros/humble/lib/rosidl_generator_cpp/rosidl_generator_cpp
+rosidl_generator_cpp/msg_interfaces/msg/user_command.hpp: /opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_generator_cpp/__init__.py
+rosidl_generator_cpp/msg_interfaces/msg/user_command.hpp: /opt/ros/humble/share/rosidl_generator_cpp/resource/action__builder.hpp.em
+rosidl_generator_cpp/msg_interfaces/msg/user_command.hpp: /opt/ros/humble/share/rosidl_generator_cpp/resource/action__struct.hpp.em
+rosidl_generator_cpp/msg_interfaces/msg/user_command.hpp: /opt/ros/humble/share/rosidl_generator_cpp/resource/action__traits.hpp.em
+rosidl_generator_cpp/msg_interfaces/msg/user_command.hpp: /opt/ros/humble/share/rosidl_generator_cpp/resource/idl.hpp.em
+rosidl_generator_cpp/msg_interfaces/msg/user_command.hpp: /opt/ros/humble/share/rosidl_generator_cpp/resource/idl__builder.hpp.em
+rosidl_generator_cpp/msg_interfaces/msg/user_command.hpp: /opt/ros/humble/share/rosidl_generator_cpp/resource/idl__struct.hpp.em
+rosidl_generator_cpp/msg_interfaces/msg/user_command.hpp: /opt/ros/humble/share/rosidl_generator_cpp/resource/idl__traits.hpp.em
+rosidl_generator_cpp/msg_interfaces/msg/user_command.hpp: /opt/ros/humble/share/rosidl_generator_cpp/resource/msg__builder.hpp.em
+rosidl_generator_cpp/msg_interfaces/msg/user_command.hpp: /opt/ros/humble/share/rosidl_generator_cpp/resource/msg__struct.hpp.em
+rosidl_generator_cpp/msg_interfaces/msg/user_command.hpp: /opt/ros/humble/share/rosidl_generator_cpp/resource/msg__traits.hpp.em
+rosidl_generator_cpp/msg_interfaces/msg/user_command.hpp: /opt/ros/humble/share/rosidl_generator_cpp/resource/srv__builder.hpp.em
+rosidl_generator_cpp/msg_interfaces/msg/user_command.hpp: /opt/ros/humble/share/rosidl_generator_cpp/resource/srv__struct.hpp.em
+rosidl_generator_cpp/msg_interfaces/msg/user_command.hpp: /opt/ros/humble/share/rosidl_generator_cpp/resource/srv__traits.hpp.em
+rosidl_generator_cpp/msg_interfaces/msg/user_command.hpp: rosidl_adapter/msg_interfaces/msg/UserCommand.idl
+rosidl_generator_cpp/msg_interfaces/msg/user_command.hpp: rosidl_adapter/msg_interfaces/msg/ArmEndMotion.idl
+rosidl_generator_cpp/msg_interfaces/msg/user_command.hpp: rosidl_adapter/msg_interfaces/msg/EncoderArm.idl
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/harshit/mrt_ws/arm_workspace/build/msg_interfaces/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating C++ code for ROS interfaces"
 	/usr/bin/python3 /opt/ros/humble/share/rosidl_generator_cpp/cmake/../../../lib/rosidl_generator_cpp/rosidl_generator_cpp --generator-arguments-file /home/harshit/mrt_ws/arm_workspace/build/msg_interfaces/rosidl_generator_cpp__arguments.json
 
-rosidl_generator_cpp/msg_interfaces/msg/detail/arm_end_motion__builder.hpp: rosidl_generator_cpp/msg_interfaces/msg/arm_end_motion.hpp
+rosidl_generator_cpp/msg_interfaces/msg/detail/user_command__builder.hpp: rosidl_generator_cpp/msg_interfaces/msg/user_command.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/msg_interfaces/msg/detail/user_command__builder.hpp
+
+rosidl_generator_cpp/msg_interfaces/msg/detail/user_command__struct.hpp: rosidl_generator_cpp/msg_interfaces/msg/user_command.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/msg_interfaces/msg/detail/user_command__struct.hpp
+
+rosidl_generator_cpp/msg_interfaces/msg/detail/user_command__traits.hpp: rosidl_generator_cpp/msg_interfaces/msg/user_command.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/msg_interfaces/msg/detail/user_command__traits.hpp
+
+rosidl_generator_cpp/msg_interfaces/msg/detail/user_command__type_support.hpp: rosidl_generator_cpp/msg_interfaces/msg/user_command.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/msg_interfaces/msg/detail/user_command__type_support.hpp
+
+rosidl_generator_cpp/msg_interfaces/msg/arm_end_motion.hpp: rosidl_generator_cpp/msg_interfaces/msg/user_command.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/msg_interfaces/msg/arm_end_motion.hpp
+
+rosidl_generator_cpp/msg_interfaces/msg/detail/arm_end_motion__builder.hpp: rosidl_generator_cpp/msg_interfaces/msg/user_command.hpp
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/msg_interfaces/msg/detail/arm_end_motion__builder.hpp
 
-rosidl_generator_cpp/msg_interfaces/msg/detail/arm_end_motion__struct.hpp: rosidl_generator_cpp/msg_interfaces/msg/arm_end_motion.hpp
+rosidl_generator_cpp/msg_interfaces/msg/detail/arm_end_motion__struct.hpp: rosidl_generator_cpp/msg_interfaces/msg/user_command.hpp
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/msg_interfaces/msg/detail/arm_end_motion__struct.hpp
 
-rosidl_generator_cpp/msg_interfaces/msg/detail/arm_end_motion__traits.hpp: rosidl_generator_cpp/msg_interfaces/msg/arm_end_motion.hpp
+rosidl_generator_cpp/msg_interfaces/msg/detail/arm_end_motion__traits.hpp: rosidl_generator_cpp/msg_interfaces/msg/user_command.hpp
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/msg_interfaces/msg/detail/arm_end_motion__traits.hpp
 
-rosidl_generator_cpp/msg_interfaces/msg/detail/arm_end_motion__type_support.hpp: rosidl_generator_cpp/msg_interfaces/msg/arm_end_motion.hpp
+rosidl_generator_cpp/msg_interfaces/msg/detail/arm_end_motion__type_support.hpp: rosidl_generator_cpp/msg_interfaces/msg/user_command.hpp
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/msg_interfaces/msg/detail/arm_end_motion__type_support.hpp
 
-rosidl_generator_cpp/msg_interfaces/msg/encoder_arm.hpp: rosidl_generator_cpp/msg_interfaces/msg/arm_end_motion.hpp
+rosidl_generator_cpp/msg_interfaces/msg/encoder_arm.hpp: rosidl_generator_cpp/msg_interfaces/msg/user_command.hpp
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/msg_interfaces/msg/encoder_arm.hpp
 
-rosidl_generator_cpp/msg_interfaces/msg/detail/encoder_arm__builder.hpp: rosidl_generator_cpp/msg_interfaces/msg/arm_end_motion.hpp
+rosidl_generator_cpp/msg_interfaces/msg/detail/encoder_arm__builder.hpp: rosidl_generator_cpp/msg_interfaces/msg/user_command.hpp
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/msg_interfaces/msg/detail/encoder_arm__builder.hpp
 
-rosidl_generator_cpp/msg_interfaces/msg/detail/encoder_arm__struct.hpp: rosidl_generator_cpp/msg_interfaces/msg/arm_end_motion.hpp
+rosidl_generator_cpp/msg_interfaces/msg/detail/encoder_arm__struct.hpp: rosidl_generator_cpp/msg_interfaces/msg/user_command.hpp
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/msg_interfaces/msg/detail/encoder_arm__struct.hpp
 
-rosidl_generator_cpp/msg_interfaces/msg/detail/encoder_arm__traits.hpp: rosidl_generator_cpp/msg_interfaces/msg/arm_end_motion.hpp
+rosidl_generator_cpp/msg_interfaces/msg/detail/encoder_arm__traits.hpp: rosidl_generator_cpp/msg_interfaces/msg/user_command.hpp
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/msg_interfaces/msg/detail/encoder_arm__traits.hpp
 
-rosidl_generator_cpp/msg_interfaces/msg/detail/encoder_arm__type_support.hpp: rosidl_generator_cpp/msg_interfaces/msg/arm_end_motion.hpp
+rosidl_generator_cpp/msg_interfaces/msg/detail/encoder_arm__type_support.hpp: rosidl_generator_cpp/msg_interfaces/msg/user_command.hpp
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/msg_interfaces/msg/detail/encoder_arm__type_support.hpp
 
 CMakeFiles/msg_interfaces__cpp.dir/codegen:
@@ -138,7 +159,12 @@ msg_interfaces__cpp: rosidl_generator_cpp/msg_interfaces/msg/detail/encoder_arm_
 msg_interfaces__cpp: rosidl_generator_cpp/msg_interfaces/msg/detail/encoder_arm__struct.hpp
 msg_interfaces__cpp: rosidl_generator_cpp/msg_interfaces/msg/detail/encoder_arm__traits.hpp
 msg_interfaces__cpp: rosidl_generator_cpp/msg_interfaces/msg/detail/encoder_arm__type_support.hpp
+msg_interfaces__cpp: rosidl_generator_cpp/msg_interfaces/msg/detail/user_command__builder.hpp
+msg_interfaces__cpp: rosidl_generator_cpp/msg_interfaces/msg/detail/user_command__struct.hpp
+msg_interfaces__cpp: rosidl_generator_cpp/msg_interfaces/msg/detail/user_command__traits.hpp
+msg_interfaces__cpp: rosidl_generator_cpp/msg_interfaces/msg/detail/user_command__type_support.hpp
 msg_interfaces__cpp: rosidl_generator_cpp/msg_interfaces/msg/encoder_arm.hpp
+msg_interfaces__cpp: rosidl_generator_cpp/msg_interfaces/msg/user_command.hpp
 msg_interfaces__cpp: CMakeFiles/msg_interfaces__cpp.dir/build.make
 .PHONY : msg_interfaces__cpp
 

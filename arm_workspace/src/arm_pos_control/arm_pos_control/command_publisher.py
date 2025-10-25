@@ -1,4 +1,4 @@
-from min_jerk import min_jerk
+from arm_pos_control.min_jerk import min_jerk
 import numpy as np
 import math
 import time
@@ -6,29 +6,50 @@ import threading
 import ast
 import rclpy
 from rclpy.node import Node
-from geometry_msgs.msg import Point
+from msg_interfaces.msg import UserCommand
 
 queue_size = 10
 
 class CommandPublisher(Node):
     def __init__(self):
         super().__init__('command_publisher')
-        self.publisher_ = self.create_publisher(Point, 'user_commands', queue_size)
+        self.publisher_ = self.create_publisher(UserCommand, 'user_commands', queue_size)
     
-    def publish_command(self, desired_pos):
-        msg = Point()
+    def publish_pos_command(self, desired_pos):
+        msg = UserCommand()
         msg.x = float(desired_pos[0])
         msg.y = float(desired_pos[1])
         msg.z = 0.0
+        msg.sys_check = False
+        msg.reset = False
         self.publisher_.publish(msg)
         self.get_logger().info(f'Publishing: x={msg.x}, y={msg.y}')
-
+    
+    def publish_reset_command(self):
+        msg = UserCommand()
+        msg.x = 0.0
+        msg.y = 0.0
+        msg.z = 0.0
+        msg.sys_check = False
+        msg.reset = True
+        self.publisher_.publish(msg)
+        self.get_logger().info('Reset')
+    
+    def publish_check_command(self):
+        msg = UserCommand()
+        msg.x = 0.0
+        msg.y = 0.0
+        msg.z = 0.0
+        msg.sys_check = True
+        msg.reset = False
+        self.publisher_.publish(msg)
+        self.get_logger().info('System Check')
 
 class QueueCommand:
     def __init__(self, freq):
         self.queue = []
         self.idle = True
-        self.current_pos = [0, 0]
+        self.current_pos = [0.615, 0.49]
         self.sample_freq = freq
     
     def peek(self):
@@ -65,7 +86,7 @@ def getCommandList(current_pos, waypoints, timepoints, sample_freq):
 def sendCommand(desired_pos, t, publisher_node):
     global queue
     
-    publisher_node.publish_command(desired_pos)
+    publisher_node.publish_pos_command(desired_pos)
     
     time.sleep(t)
     queue.current_pos = desired_pos
@@ -77,14 +98,26 @@ def execCommand(traj, t, publisher_node):
         sendCommand(traj[idx+1], t[idx+1] - t[idx], publisher_node)
 
 
-def getInput(lock):
+def getInput(lock, publisher_node):
     global queue
     while True:
         inp = input()
-        coords, times = ast.literal_eval(f"({inp})")
-        coords = [[coords[i], coords[i+1]] for i in range(0, len(coords), 2)]
-        with lock:
-            queue.add((coords, times))
+
+        if inp == "reset":
+            publisher_node.publish_reset_command()
+        
+        elif inp == "check":
+            cnt = 0
+            while cnt < 10:
+                publisher_node.publish_check_command()
+                time.sleep(0.2)
+                cnt += 1
+
+        else:
+            coords, times = ast.literal_eval(f"({inp})")
+            coords = [[coords[i], coords[i+1]] for i in range(0, len(coords), 2)]
+            with lock:
+                queue.add((coords, times))
 
 
 def processCommands(lock, publisher_node):
@@ -92,33 +125,30 @@ def processCommands(lock, publisher_node):
     while True:
         with lock:
             if len(queue.queue) == 0:
-                time.sleep(0.01)  # Small sleep to prevent busy waiting
+                time.sleep(0.001)  # Small sleep to prevent busy waiting
                 continue
             
             queue.idle = False
             wp, tp = queue.dequeue()
-        
-        execCommand(*getCommandList(queue.current_pos, wp, tp, queue.sample_freq), publisher_node)
-        
-        with lock:
+            execCommand(*getCommandList(queue.current_pos, wp, tp, queue.sample_freq), publisher_node)
             queue.idle = True
 
 
-def main():
+def main(args=None):
     global queue
     
     # Initialize ROS2
-    rclpy.init()
+    rclpy.init(args=args)
     
     # Create the publisher node
     publisher_node = CommandPublisher()
     
-    queue = QueueCommand(10)
+    queue = QueueCommand(100)
     lock = threading.Lock()
 
     # Create threads
-    t1 = threading.Thread(target=processCommands, args=(lock, publisher_node), daemon=True)
-    t2 = threading.Thread(target=getInput, args=(lock,), daemon=True)
+    t1 = threading.Thread(target=processCommands, args=(lock, publisher_node,), daemon=True)
+    t2 = threading.Thread(target=getInput, args=(lock, publisher_node,), daemon=True)
     
     t1.start()
     t2.start()

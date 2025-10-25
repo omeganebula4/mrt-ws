@@ -8,6 +8,9 @@ CMakeFiles/msg_interfaces__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_gener
   rosidl_generator_c/msg_interfaces/msg/detail/encoder_arm__functions.h \
   rosidl_generator_c/msg_interfaces/msg/detail/encoder_arm__struct.h \
   rosidl_generator_c/msg_interfaces/msg/detail/encoder_arm__type_support.h \
+  rosidl_generator_c/msg_interfaces/msg/detail/user_command__functions.h \
+  rosidl_generator_c/msg_interfaces/msg/detail/user_command__struct.h \
+  rosidl_generator_c/msg_interfaces/msg/detail/user_command__type_support.h \
   rosidl_generator_c/msg_interfaces/msg/rosidl_generator_c__visibility_control.h \
   /opt/ros/humble/include/rosidl_runtime_c/rosidl_runtime_c/action_type_support_struct.h \
   /opt/ros/humble/include/rosidl_runtime_c/rosidl_runtime_c/message_type_support_struct.h \
@@ -396,7 +399,9 @@ CMakeFiles/msg_interfaces__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_gener
 
 /usr/include/python3.10/sysmodule.h:
 
-/usr/include/python3.10/cpython/code.h:
+/usr/include/string.h:
+
+/usr/include/python3.10/setobject.h:
 
 /usr/include/x86_64-linux-gnu/bits/wchar.h:
 
@@ -409,8 +414,6 @@ CMakeFiles/msg_interfaces__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_gener
 /usr/include/python3.10/patchlevel.h:
 
 /usr/include/python3.10/complexobject.h:
-
-/usr/include/python3.10/compile.h:
 
 /usr/include/python3.10/classobject.h:
 
@@ -425,20 +428,6 @@ CMakeFiles/msg_interfaces__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_gener
 /usr/include/linux/stddef.h:
 
 /usr/include/python3.10/cpython/object.h:
-
-/usr/include/x86_64-linux-gnu/sys/select.h:
-
-/usr/include/x86_64-linux-gnu/bits/stdint-uintn.h:
-
-/usr/include/unistd.h:
-
-/usr/include/python3.10/cpython/dictobject.h:
-
-/usr/include/x86_64-linux-gnu/bits/xopen_lim.h:
-
-/usr/include/x86_64-linux-gnu/bits/stat.h:
-
-/usr/include/python3.10/cpython/pydebug.h:
 
 /usr/include/x86_64-linux-gnu/bits/types/struct_statx_timestamp.h:
 
@@ -460,9 +449,31 @@ CMakeFiles/msg_interfaces__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_gener
 
 /usr/include/linux/close_range.h:
 
+/usr/include/x86_64-linux-gnu/bits/confname.h:
+
+/usr/include/python3.10/codecs.h:
+
+/usr/include/x86_64-linux-gnu/bits/posix1_lim.h:
+
+/usr/include/python3.10/weakrefobject.h:
+
+/usr/include/asm-generic/bitsperlong.h:
+
+/usr/include/python3.10/cpython/listobject.h:
+
+/usr/include/python3.10/compile.h:
+
+rosidl_generator_c/msg_interfaces/msg/detail/user_command__struct.h:
+
+rosidl_generator_c/msg_interfaces/msg/detail/encoder_arm__type_support.h:
+
 /usr/include/x86_64-linux-gnu/bits/iscanonical.h:
 
 /opt/ros/humble/include/rosidl_runtime_c/rosidl_runtime_c/service_type_support_struct.h:
+
+/usr/include/python3.10/sliceobject.h:
+
+/usr/include/features.h:
 
 /usr/include/x86_64-linux-gnu/sys/types.h:
 
@@ -473,6 +484,8 @@ CMakeFiles/msg_interfaces__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_gener
 /usr/include/python3.10/fileutils.h:
 
 /usr/include/pthread.h:
+
+rosidl_generator_c/msg_interfaces/msg/detail/user_command__functions.h:
 
 rosidl_generator_c/msg_interfaces/msg/detail/encoder_arm__functions.h:
 
@@ -510,18 +523,6 @@ rosidl_generator_c/msg_interfaces/msg/detail/arm_end_motion__functions.h:
 
 /usr/include/python3.10/namespaceobject.h:
 
-/usr/include/x86_64-linux-gnu/bits/posix1_lim.h:
-
-/usr/include/python3.10/weakrefobject.h:
-
-/usr/include/asm-generic/bitsperlong.h:
-
-/usr/include/python3.10/cpython/listobject.h:
-
-/usr/include/x86_64-linux-gnu/bits/confname.h:
-
-/usr/include/python3.10/codecs.h:
-
 /usr/include/stdio.h:
 
 /usr/include/python3.10/bltinmodule.h:
@@ -536,9 +537,15 @@ rosidl_generator_py/msg_interfaces/_msg_interfaces_s.ep.rosidl_typesupport_fastr
 
 /usr/include/python3.10/pythonrun.h:
 
+rosidl_generator_c/msg_interfaces/msg/detail/user_command__type_support.h:
+
 /usr/include/math.h:
 
 /usr/include/python3.10/cpython/pyctype.h:
+
+/usr/include/python3.10/rangeobject.h:
+
+/usr/include/python3.10/cpython/pyfpe.h:
 
 /usr/include/x86_64-linux-gnu/bits/errno.h:
 
@@ -580,7 +587,21 @@ rosidl_generator_c/msg_interfaces/msg/detail/encoder_arm__struct.h:
 
 rosidl_generator_c/msg_interfaces/msg/rosidl_generator_c__visibility_control.h:
 
-rosidl_generator_c/msg_interfaces/msg/detail/encoder_arm__type_support.h:
+/usr/include/python3.10/cpython/code.h:
+
+/usr/include/x86_64-linux-gnu/sys/select.h:
+
+/usr/include/x86_64-linux-gnu/bits/stdint-uintn.h:
+
+/usr/include/unistd.h:
+
+/usr/include/python3.10/cpython/dictobject.h:
+
+/usr/include/x86_64-linux-gnu/bits/xopen_lim.h:
+
+/usr/include/x86_64-linux-gnu/bits/stat.h:
+
+/usr/include/python3.10/cpython/pydebug.h:
 
 /usr/include/python3.10/cpython/fileobject.h:
 
@@ -692,10 +713,6 @@ rosidl_generator_c/msg_interfaces/msg/detail/arm_end_motion__type_support.h:
 
 /usr/include/python3.10/funcobject.h:
 
-/usr/include/python3.10/cpython/pyfpe.h:
-
-/usr/include/python3.10/rangeobject.h:
-
 /usr/include/python3.10/cpython/ceval.h:
 
 /usr/include/python3.10/genericaliasobject.h:
@@ -741,11 +758,3 @@ rosidl_generator_c/msg_interfaces/msg/detail/arm_end_motion__type_support.h:
 /usr/include/python3.10/pymem.h:
 
 /usr/include/python3.10/pystrcmp.h:
-
-/usr/include/string.h:
-
-/usr/include/python3.10/setobject.h:
-
-/usr/include/features.h:
-
-/usr/include/python3.10/sliceobject.h:

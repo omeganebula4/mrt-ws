@@ -3,6 +3,7 @@
   "output_dir": "/home/harshit/mrt_ws/arm_workspace/build/msg_interfaces/rosidl_typesupport_c/msg_interfaces",
   "template_dir": "/opt/ros/humble/share/rosidl_typesupport_c/resource",
   "idl_tuples": [
+    "/home/harshit/mrt_ws/arm_workspace/build/msg_interfaces/rosidl_adapter/msg_interfaces:msg/UserCommand.idl",
     "/home/harshit/mrt_ws/arm_workspace/build/msg_interfaces/rosidl_adapter/msg_interfaces:msg/ArmEndMotion.idl",
     "/home/harshit/mrt_ws/arm_workspace/build/msg_interfaces/rosidl_adapter/msg_interfaces:msg/EncoderArm.idl"
   ],
@@ -13,6 +14,7 @@
     "/opt/ros/humble/share/rosidl_typesupport_c/resource/idl__type_support.cpp.em",
     "/opt/ros/humble/share/rosidl_typesupport_c/resource/msg__type_support.cpp.em",
     "/opt/ros/humble/share/rosidl_typesupport_c/resource/srv__type_support.cpp.em",
+    "/home/harshit/mrt_ws/arm_workspace/build/msg_interfaces/rosidl_adapter/msg_interfaces/msg/UserCommand.idl",
     "/home/harshit/mrt_ws/arm_workspace/build/msg_interfaces/rosidl_adapter/msg_interfaces/msg/ArmEndMotion.idl",
     "/home/harshit/mrt_ws/arm_workspace/build/msg_interfaces/rosidl_adapter/msg_interfaces/msg/EncoderArm.idl"
   ]

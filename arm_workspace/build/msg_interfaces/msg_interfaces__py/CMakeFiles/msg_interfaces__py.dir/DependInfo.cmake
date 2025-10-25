@@ -19,6 +19,8 @@ set(CMAKE_MULTIPLE_OUTPUT_PAIRS
   "/home/harshit/mrt_ws/arm_workspace/build/msg_interfaces/rosidl_generator_py/msg_interfaces/msg/_arm_end_motion_s.c" "/home/harshit/mrt_ws/arm_workspace/build/msg_interfaces/rosidl_generator_py/msg_interfaces/_msg_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c"
   "/home/harshit/mrt_ws/arm_workspace/build/msg_interfaces/rosidl_generator_py/msg_interfaces/msg/_encoder_arm.py" "/home/harshit/mrt_ws/arm_workspace/build/msg_interfaces/rosidl_generator_py/msg_interfaces/_msg_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c"
   "/home/harshit/mrt_ws/arm_workspace/build/msg_interfaces/rosidl_generator_py/msg_interfaces/msg/_encoder_arm_s.c" "/home/harshit/mrt_ws/arm_workspace/build/msg_interfaces/rosidl_generator_py/msg_interfaces/_msg_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c"
+  "/home/harshit/mrt_ws/arm_workspace/build/msg_interfaces/rosidl_generator_py/msg_interfaces/msg/_user_command.py" "/home/harshit/mrt_ws/arm_workspace/build/msg_interfaces/rosidl_generator_py/msg_interfaces/_msg_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c"
+  "/home/harshit/mrt_ws/arm_workspace/build/msg_interfaces/rosidl_generator_py/msg_interfaces/msg/_user_command_s.c" "/home/harshit/mrt_ws/arm_workspace/build/msg_interfaces/rosidl_generator_py/msg_interfaces/_msg_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c"
   )
 
 

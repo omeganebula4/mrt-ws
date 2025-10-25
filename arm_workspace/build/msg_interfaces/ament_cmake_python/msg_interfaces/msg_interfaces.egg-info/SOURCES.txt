@@ -7,3 +7,4 @@ msg_interfaces.egg-info/top_level.txt
 msg_interfaces/msg/__init__.py
 msg_interfaces/msg/_arm_end_motion.py
 msg_interfaces/msg/_encoder_arm.py
+msg_interfaces/msg/_user_command.py

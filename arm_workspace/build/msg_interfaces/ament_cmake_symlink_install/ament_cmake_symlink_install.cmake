@@ -358,11 +358,17 @@ include("/home/harshit/mrt_ws/arm_workspace/build/msg_interfaces/ament_cmake_sym
 # install("TARGETS" "msg_interfaces__rosidl_typesupport_c__pyext" "DESTINATION" "local/lib/python3.10/dist-packages/msg_interfaces")
 include("/home/harshit/mrt_ws/arm_workspace/build/msg_interfaces/ament_cmake_symlink_install_targets_2_${CMAKE_INSTALL_CONFIG_NAME}.cmake")
 
+# install(FILES "/home/harshit/mrt_ws/arm_workspace/build/msg_interfaces/rosidl_adapter/msg_interfaces/msg/UserCommand.idl" "DESTINATION" "share/msg_interfaces/msg")
+ament_cmake_symlink_install_files("/home/harshit/mrt_ws/arm_workspace/src/msg_interfaces" FILES "/home/harshit/mrt_ws/arm_workspace/build/msg_interfaces/rosidl_adapter/msg_interfaces/msg/UserCommand.idl" "DESTINATION" "share/msg_interfaces/msg")
+
 # install(FILES "/home/harshit/mrt_ws/arm_workspace/build/msg_interfaces/rosidl_adapter/msg_interfaces/msg/ArmEndMotion.idl" "DESTINATION" "share/msg_interfaces/msg")
 ament_cmake_symlink_install_files("/home/harshit/mrt_ws/arm_workspace/src/msg_interfaces" FILES "/home/harshit/mrt_ws/arm_workspace/build/msg_interfaces/rosidl_adapter/msg_interfaces/msg/ArmEndMotion.idl" "DESTINATION" "share/msg_interfaces/msg")
 
 # install(FILES "/home/harshit/mrt_ws/arm_workspace/build/msg_interfaces/rosidl_adapter/msg_interfaces/msg/EncoderArm.idl" "DESTINATION" "share/msg_interfaces/msg")
 ament_cmake_symlink_install_files("/home/harshit/mrt_ws/arm_workspace/src/msg_interfaces" FILES "/home/harshit/mrt_ws/arm_workspace/build/msg_interfaces/rosidl_adapter/msg_interfaces/msg/EncoderArm.idl" "DESTINATION" "share/msg_interfaces/msg")
+
+# install(FILES "/home/harshit/mrt_ws/arm_workspace/src/msg_interfaces/msg/UserCommand.msg" "DESTINATION" "share/msg_interfaces/msg")
+ament_cmake_symlink_install_files("/home/harshit/mrt_ws/arm_workspace/src/msg_interfaces" FILES "/home/harshit/mrt_ws/arm_workspace/src/msg_interfaces/msg/UserCommand.msg" "DESTINATION" "share/msg_interfaces/msg")
 
 # install(FILES "/home/harshit/mrt_ws/arm_workspace/src/msg_interfaces/msg/ArmEndMotion.msg" "DESTINATION" "share/msg_interfaces/msg")
 ament_cmake_symlink_install_files("/home/harshit/mrt_ws/arm_workspace/src/msg_interfaces" FILES "/home/harshit/mrt_ws/arm_workspace/src/msg_interfaces/msg/ArmEndMotion.msg" "DESTINATION" "share/msg_interfaces/msg")

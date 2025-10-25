@@ -69,9 +69,11 @@ include /home/harshit/mrt_ws/arm_workspace/build/msg_interfaces/msg_interfaces__
 /home/harshit/mrt_ws/arm_workspace/build/msg_interfaces/msg_interfaces__py/CMakeFiles/msg_interfaces__py: rosidl_generator_py/msg_interfaces/_msg_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c
 /home/harshit/mrt_ws/arm_workspace/build/msg_interfaces/msg_interfaces__py/CMakeFiles/msg_interfaces__py: rosidl_generator_py/msg_interfaces/_msg_interfaces_s.ep.rosidl_typesupport_introspection_c.c
 /home/harshit/mrt_ws/arm_workspace/build/msg_interfaces/msg_interfaces__py/CMakeFiles/msg_interfaces__py: rosidl_generator_py/msg_interfaces/_msg_interfaces_s.ep.rosidl_typesupport_c.c
+/home/harshit/mrt_ws/arm_workspace/build/msg_interfaces/msg_interfaces__py/CMakeFiles/msg_interfaces__py: rosidl_generator_py/msg_interfaces/msg/_user_command.py
 /home/harshit/mrt_ws/arm_workspace/build/msg_interfaces/msg_interfaces__py/CMakeFiles/msg_interfaces__py: rosidl_generator_py/msg_interfaces/msg/_arm_end_motion.py
 /home/harshit/mrt_ws/arm_workspace/build/msg_interfaces/msg_interfaces__py/CMakeFiles/msg_interfaces__py: rosidl_generator_py/msg_interfaces/msg/_encoder_arm.py
 /home/harshit/mrt_ws/arm_workspace/build/msg_interfaces/msg_interfaces__py/CMakeFiles/msg_interfaces__py: rosidl_generator_py/msg_interfaces/msg/__init__.py
+/home/harshit/mrt_ws/arm_workspace/build/msg_interfaces/msg_interfaces__py/CMakeFiles/msg_interfaces__py: rosidl_generator_py/msg_interfaces/msg/_user_command_s.c
 /home/harshit/mrt_ws/arm_workspace/build/msg_interfaces/msg_interfaces__py/CMakeFiles/msg_interfaces__py: rosidl_generator_py/msg_interfaces/msg/_arm_end_motion_s.c
 /home/harshit/mrt_ws/arm_workspace/build/msg_interfaces/msg_interfaces__py/CMakeFiles/msg_interfaces__py: rosidl_generator_py/msg_interfaces/msg/_encoder_arm_s.c
 
@@ -88,6 +90,7 @@ rosidl_generator_py/msg_interfaces/_msg_interfaces_s.ep.rosidl_typesupport_fastr
 rosidl_generator_py/msg_interfaces/_msg_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c: /opt/ros/humble/share/rosidl_generator_py/resource/_msg.py.em
 rosidl_generator_py/msg_interfaces/_msg_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c: /opt/ros/humble/share/rosidl_generator_py/resource/_srv_pkg_typesupport_entry_point.c.em
 rosidl_generator_py/msg_interfaces/_msg_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c: /opt/ros/humble/share/rosidl_generator_py/resource/_srv.py.em
+rosidl_generator_py/msg_interfaces/_msg_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c: rosidl_adapter/msg_interfaces/msg/UserCommand.idl
 rosidl_generator_py/msg_interfaces/_msg_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c: rosidl_adapter/msg_interfaces/msg/ArmEndMotion.idl
 rosidl_generator_py/msg_interfaces/_msg_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c: rosidl_adapter/msg_interfaces/msg/EncoderArm.idl
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/harshit/mrt_ws/arm_workspace/build/msg_interfaces/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating Python code for ROS interfaces"
@@ -99,6 +102,9 @@ rosidl_generator_py/msg_interfaces/_msg_interfaces_s.ep.rosidl_typesupport_intro
 rosidl_generator_py/msg_interfaces/_msg_interfaces_s.ep.rosidl_typesupport_c.c: rosidl_generator_py/msg_interfaces/_msg_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_py/msg_interfaces/_msg_interfaces_s.ep.rosidl_typesupport_c.c
 
+rosidl_generator_py/msg_interfaces/msg/_user_command.py: rosidl_generator_py/msg_interfaces/_msg_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_py/msg_interfaces/msg/_user_command.py
+
 rosidl_generator_py/msg_interfaces/msg/_arm_end_motion.py: rosidl_generator_py/msg_interfaces/_msg_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_py/msg_interfaces/msg/_arm_end_motion.py
 
@@ -107,6 +113,9 @@ rosidl_generator_py/msg_interfaces/msg/_encoder_arm.py: rosidl_generator_py/msg_
 
 rosidl_generator_py/msg_interfaces/msg/__init__.py: rosidl_generator_py/msg_interfaces/_msg_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_py/msg_interfaces/msg/__init__.py
+
+rosidl_generator_py/msg_interfaces/msg/_user_command_s.c: rosidl_generator_py/msg_interfaces/_msg_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_py/msg_interfaces/msg/_user_command_s.c
 
 rosidl_generator_py/msg_interfaces/msg/_arm_end_motion_s.c: rosidl_generator_py/msg_interfaces/_msg_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_py/msg_interfaces/msg/_arm_end_motion_s.c
@@ -126,6 +135,8 @@ msg_interfaces__py: rosidl_generator_py/msg_interfaces/msg/_arm_end_motion.py
 msg_interfaces__py: rosidl_generator_py/msg_interfaces/msg/_arm_end_motion_s.c
 msg_interfaces__py: rosidl_generator_py/msg_interfaces/msg/_encoder_arm.py
 msg_interfaces__py: rosidl_generator_py/msg_interfaces/msg/_encoder_arm_s.c
+msg_interfaces__py: rosidl_generator_py/msg_interfaces/msg/_user_command.py
+msg_interfaces__py: rosidl_generator_py/msg_interfaces/msg/_user_command_s.c
 msg_interfaces__py: /home/harshit/mrt_ws/arm_workspace/build/msg_interfaces/msg_interfaces__py/CMakeFiles/msg_interfaces__py.dir/build.make
 .PHONY : msg_interfaces__py
 

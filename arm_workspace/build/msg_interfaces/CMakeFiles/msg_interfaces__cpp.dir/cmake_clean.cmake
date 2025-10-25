@@ -9,7 +9,12 @@ file(REMOVE_RECURSE
   "rosidl_generator_cpp/msg_interfaces/msg/detail/encoder_arm__struct.hpp"
   "rosidl_generator_cpp/msg_interfaces/msg/detail/encoder_arm__traits.hpp"
   "rosidl_generator_cpp/msg_interfaces/msg/detail/encoder_arm__type_support.hpp"
+  "rosidl_generator_cpp/msg_interfaces/msg/detail/user_command__builder.hpp"
+  "rosidl_generator_cpp/msg_interfaces/msg/detail/user_command__struct.hpp"
+  "rosidl_generator_cpp/msg_interfaces/msg/detail/user_command__traits.hpp"
+  "rosidl_generator_cpp/msg_interfaces/msg/detail/user_command__type_support.hpp"
   "rosidl_generator_cpp/msg_interfaces/msg/encoder_arm.hpp"
+  "rosidl_generator_cpp/msg_interfaces/msg/user_command.hpp"
 )
 
 # Per-language clean rules from dependency scanning.

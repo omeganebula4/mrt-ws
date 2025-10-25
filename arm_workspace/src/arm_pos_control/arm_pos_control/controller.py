@@ -1,38 +1,54 @@
 import rclpy
 from rclpy.node import Node
-from msg_interfaces.msg import ArmEndMotion, EncoderArm
-from geometry_msgs.msg import Point
+from msg_interfaces.msg import ArmEndMotion, EncoderArm, UserCommand
 
 import math
 
 
-class BigBoi:
-    l_s = 0.2
-    l_e = 0.2
+'''
+TODO:
+manage packages properly and handle all dependencies
+check calculation of encoder values
+add armcan.py
+'''
 
-    Kp = 98767876
+class BigBoi:
+    meow_s = 0.49
+    meow_e = 0.515
+    meow_nigga = 0.1
+
+    l_s = math.sqrt(meow_s**2 + meow_nigga**2)
+    l_e = meow_e
+    alpha = math.atan(meow_nigga / meow_s)
+
+    Kp = 75
 
     MAX_OUTPUT = 5
 
     def __init__(self):
         self.encoder_history = []
+        # print(f'shoulder length: {self.l_s}')
+        # print(f'elbow length: {self.l_e}')
+        # print(f'alpha: {self.alpha}')
 
     def IK(self, px, py):
         r = (px **2 + py ** 2) ** 0.5
         theta = math.atan2(py, px)
 
-        # angle btw origin-end and origin-joint
+        # angle from origin-end to origin-joint
         phi = math.acos((self.l_s ** 2 + r ** 2 - self.l_e ** 2) / (2 * self.l_s * r))
-        # always +ve
+        # always +ve (coz we always want the joint above the origin-end line)
 
-        q_s = theta + phi
-        q_e = math.acos((self.l_s ** 2 + self.l_e ** 2 - r ** 2) / (2 * self.l_s * self.l_e))
+        q_s = theta + phi + self.alpha
+
+        # angle from joint-end to origin-joint
+        q_e = math.pi - math.acos((self.l_s ** 2 + self.l_e ** 2 - r ** 2) / (2 * self.l_s * self.l_e)) + self.alpha
 
         return q_s, q_e
 
     def K(self, q_s, q_e):
-        px = self.l_s * math.cos(q_s) + self.l_e * math.cos(q_e)
-        py = self.l_s * math.sin(q_s) + self.l_e * math.sin(q_e)
+        px = self.l_s * math.cos(q_s - self.alpha) + self.l_e * math.cos(q_s - q_e)
+        py = self.l_s * math.sin(q_s - self.alpha) + self.l_e * math.sin(q_s - q_e)
 
         return px, py
 
@@ -42,7 +58,7 @@ class BigBoi:
         :param q_e: ideal elbow angle
         :param a_s: real shoulder angle
         :param a_e: real elbow angle
-        :return: ((PWM_s, dir_s), (PWM_e, dir_e))
+        :return:
         """
 
         Q = [q_s, q_e]
@@ -62,22 +78,25 @@ class BigBoi:
             if output > self.MAX_OUTPUT:
                 output = self.MAX_OUTPUT
 
-            to_return.append((output, rev))
+            to_return.append((int(output * 51), rev))
 
         return tuple(to_return)
 
 queue_size = 10
 
 class ControllerNode(Node):
+
     def __init__(self):
         super().__init__('PID_Controller')
         self.arm_publisher = self.create_publisher(ArmEndMotion, 'arm_commands', queue_size)
         self.receive_encoder = self.create_subscription(EncoderArm, '/encoder_arm', self.encoder_callback, queue_size)
-        self.receive_command = self.create_subscription(Point, 'user_commands', self.send_command, queue_size)
+        self.receive_command = self.create_subscription(UserCommand, 'user_commands', self.update_desired_pos, queue_size)
         self.ik_handler = BigBoi()
 
-        self.q = [0, -0.57, -0.12] # current base, shoulder, elbow "angles"
-        self.desired_pos = [0, 0]
+        self.q = [0, 1.57, 1.57] # current base, shoulder, elbow "angles"
+        self.desired_pos = [self.ik_handler.meow_nigga+self.ik_handler.meow_e, self.ik_handler.meow_s]
+
+        self.stop = False
 
     def encoder_callback(self, msg):
         current_base_pos = msg.arm_node2[0] # min - 10698, home - 65536, max - 117678
@@ -86,20 +105,71 @@ class ControllerNode(Node):
 
         # Convert from continuous joint angles to desired encoder positions
         self.q[0] = -0.21 + ((0.45 * (current_base_pos)) / 117678) # motor_side - 0.24, home (middle) - 0.0, other_side - -0.21
-        self.q[1] = -2.13 + ((3.13 * (current_shoulder_pos + 8650)) / 17330) # home (90 deg) - -0.57, min (0 deg) - -2.13, max (180 deg) - 1.0 
-        self.q[2] = -3.27 + ((4.71 * (current_elbow_pos + 9361)) / 14041) # home (90 deg) -0.12, min (0 deg) - -3.27, max (180 deg) - 1.44
+        self.q[1] = math.pi / 2 + current_shoulder_pos / 5263
+        self.q[2] = math.pi / 2 - current_elbow_pos / 5714
+
+        if self.q[1] > 0.75 * math.pi or self.q[1] < 0.25 * math.pi:
+            self.stop = True
+        
+        if self.q[2] < 0.25 * math.pi:
+            self.stop = True
     
     def update_desired_pos(self, msg):
+        arm_command = ArmEndMotion()
+
+        if self.stop:
+            arm_command.direction = [0, 0, 0, 0, 0]
+            arm_command.speed = [0, 0, 0, 0, 0]
+            arm_command.sys_check = True
+            arm_command.reset = False
+            self.arm_publisher.publish(arm_command)
+
+        if msg.reset:
+            arm_command.direction = [0, 0, 0, 0, 0]
+            arm_command.speed = [0, 0, 0, 0, 0]
+            arm_command.sys_check = False
+            arm_command.reset = True
+            self.arm_publisher.publish(arm_command)
+            return
+
+        if msg.sys_check:
+            arm_command.direction = [0, 0, 0, 0, 0]
+            arm_command.speed = [0, 0, 0, 0, 0]
+            arm_command.sys_check = True
+            arm_command.reset = False
+            self.arm_publisher.publish(arm_command)
+            return
+
         self.desired_pos[0] = msg.x
         self.desired_pos[1] = msg.y
 
-        desired_angles = self.ik_handler.IK(*self.desired_pos)
-        arm_command = ArmEndMotion()
-        pwm_s, dir_s, pwm_e, dir_e = self.ik_handler.PIDs(*desired_angles, self.q[1], self.q[2])
+        desired_q_s, desired_q_e = self.ik_handler.IK(*self.desired_pos)
+        tuple_s, tuple_e = self.ik_handler.PIDs(desired_q_s, desired_q_e, self.q[1], self.q[2])
 
-        arm_command.direction = [dir_s, dir_e, 0, 0, 0]
-        arm_command.speed = [pwm_s, pwm_e, 0, 0, 0]
-        arm_command.sys_check = 0
-        arm_command.reset = 0
+        arm_command.direction = [tuple_s[1], tuple_e[1]]
+        arm_command.speed = [tuple_s[0], tuple_e[0]]
+        arm_command.sys_check = False
+        arm_command.reset = False
+        
+        self.get_logger().info(f'PWM: {arm_command.speed}\nDirection: {arm_command.direction}')
 
         self.arm_publisher.publish(arm_command)
+
+        
+
+def main(args=None):
+    rclpy.init(args=args)
+
+    controller = ControllerNode()
+
+    rclpy.spin(controller)
+
+    # Destroy the node explicitly
+    # (optional - otherwise it will be done automatically
+    # when the garbage collector destroys the node object)
+    controller.destroy_node()
+    rclpy.shutdown()
+
+
+if __name__ == '__main__':
+    main()

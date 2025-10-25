@@ -29,6 +29,7 @@ endif()
 
 find_package(rosidl_default_generators REQUIRED)
 rosidl_generate_interfaces(${PROJECT_NAME}
+  "msg/UserCommand.msg"
   "msg/ArmEndMotion.msg"
   "msg/EncoderArm.msg"
 )

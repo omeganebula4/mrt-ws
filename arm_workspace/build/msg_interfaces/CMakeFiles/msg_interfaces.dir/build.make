@@ -66,6 +66,7 @@ include CMakeFiles/msg_interfaces.dir/compiler_depend.make
 # Include the progress variables for this target.
 include CMakeFiles/msg_interfaces.dir/progress.make
 
+CMakeFiles/msg_interfaces: /home/harshit/mrt_ws/arm_workspace/src/msg_interfaces/msg/UserCommand.msg
 CMakeFiles/msg_interfaces: /home/harshit/mrt_ws/arm_workspace/src/msg_interfaces/msg/ArmEndMotion.msg
 CMakeFiles/msg_interfaces: /home/harshit/mrt_ws/arm_workspace/src/msg_interfaces/msg/EncoderArm.msg
 
