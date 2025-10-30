@@ -1,0 +1,9 @@
+setup.py
+arm_pos_interfaces/__init__.py
+arm_pos_interfaces.egg-info/PKG-INFO
+arm_pos_interfaces.egg-info/SOURCES.txt
+arm_pos_interfaces.egg-info/dependency_links.txt
+arm_pos_interfaces.egg-info/top_level.txt
+arm_pos_interfaces/msg/__init__.py
+arm_pos_interfaces/msg/_arm_end_motion.py
+arm_pos_interfaces/msg/_encoder_arm.py

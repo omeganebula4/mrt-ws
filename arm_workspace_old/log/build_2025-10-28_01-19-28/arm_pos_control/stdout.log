@@ -1,0 +1,15 @@
+running develop
+running egg_info
+writing arm_pos_control.egg-info/PKG-INFO
+writing dependency_links to arm_pos_control.egg-info/dependency_links.txt
+writing entry points to arm_pos_control.egg-info/entry_points.txt
+writing requirements to arm_pos_control.egg-info/requires.txt
+writing top-level names to arm_pos_control.egg-info/top_level.txt
+reading manifest file 'arm_pos_control.egg-info/SOURCES.txt'
+writing manifest file 'arm_pos_control.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/harshit/mrt_ws/arm_workspace/install/arm_pos_control/lib/python3.10/site-packages/arm-pos-control.egg-link (link to .)
+Installing input_handler script to /home/harshit/mrt_ws/arm_workspace/install/arm_pos_control/lib/arm_pos_control
+
+Installed /home/harshit/mrt_ws/arm_workspace/build/arm_pos_control
+running symlink_data

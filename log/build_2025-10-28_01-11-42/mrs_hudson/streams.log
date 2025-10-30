@@ -1,0 +1,31 @@
+[2.113s] Invoking command in '/home/harshit/mrt_ws/build/mrs_hudson': PYTHONPATH=/home/harshit/mrt_ws/build/mrs_hudson/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/harshit/mrt_ws/install/mrs_hudson/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/harshit/mrt_ws/build/mrs_hudson/build --no-deps symlink_data --force
+[2.614s] running develop
+[2.969s] running egg_info
+[2.969s] writing mrs_hudson.egg-info/PKG-INFO
+[2.970s] writing dependency_links to mrs_hudson.egg-info/dependency_links.txt
+[2.970s] writing entry points to mrs_hudson.egg-info/entry_points.txt
+[2.971s] writing requirements to mrs_hudson.egg-info/requires.txt
+[2.972s] writing top-level names to mrs_hudson.egg-info/top_level.txt
+[2.976s] reading manifest file 'mrs_hudson.egg-info/SOURCES.txt'
+[2.980s] writing manifest file 'mrs_hudson.egg-info/SOURCES.txt'
+[3.066s] running build_ext
+[3.067s] Creating /home/harshit/mrt_ws/install/mrs_hudson/lib/python3.10/site-packages/mrs-hudson.egg-link (link to .)
+[3.072s] Installing detect_marker script to /home/harshit/mrt_ws/install/mrs_hudson/lib/mrs_hudson
+[3.072s] Installing display_camera script to /home/harshit/mrt_ws/install/mrs_hudson/lib/mrs_hudson
+[3.073s] Installing mrs_hudson_teleop script to /home/harshit/mrt_ws/install/mrs_hudson/lib/mrs_hudson
+[3.073s] Installing vel_pub script to /home/harshit/mrt_ws/install/mrs_hudson/lib/mrs_hudson
+[3.073s] 
+[3.073s] Installed /home/harshit/mrt_ws/build/mrs_hudson
+[3.073s] running symlink_data
+[3.073s] symbolically linking /home/harshit/mrt_ws/build/mrs_hudson/resource/mrs_hudson -> /home/harshit/mrt_ws/install/mrs_hudson/share/ament_index/resource_index/packages
+[3.073s] symbolically linking /home/harshit/mrt_ws/build/mrs_hudson/package.xml -> /home/harshit/mrt_ws/install/mrs_hudson/share/mrs_hudson
+[3.073s] symbolically linking /home/harshit/mrt_ws/build/mrs_hudson/launch/mrs_hudson_empty_world.launch.py -> /home/harshit/mrt_ws/install/mrs_hudson/share/mrs_hudson/launch
+[3.073s] symbolically linking /home/harshit/mrt_ws/build/mrs_hudson/launch/mrs_hudson_gazebo_rviz.launch.py -> /home/harshit/mrt_ws/install/mrs_hudson/share/mrs_hudson/launch
+[3.073s] symbolically linking /home/harshit/mrt_ws/build/mrs_hudson/models/mrs_hudson.urdf -> /home/harshit/mrt_ws/install/mrs_hudson/share/mrs_hudson/models
+[3.073s] symbolically linking /home/harshit/mrt_ws/build/mrs_hudson/config/mrs_hudson.rviz -> /home/harshit/mrt_ws/install/mrs_hudson/share/mrs_hudson/config
+[3.073s] symbolically linking /home/harshit/mrt_ws/build/mrs_hudson/worlds/mrs_hudson.sdf -> /home/harshit/mrt_ws/install/mrs_hudson/share/mrs_hudson/worlds
+[3.073s] symbolically linking /home/harshit/mrt_ws/build/mrs_hudson/launch/mrs_hudson_world.launch.py -> /home/harshit/mrt_ws/install/mrs_hudson/share/mrs_hudson/launch
+[3.073s] symbolically linking /home/harshit/mrt_ws/build/mrs_hudson/worlds/mrs_hudson_arena.sdf -> /home/harshit/mrt_ws/install/mrs_hudson/share/mrs_hudson/worlds
+[3.074s] symbolically linking /home/harshit/mrt_ws/build/mrs_hudson/launch/maze_aruco.launch.py -> /home/harshit/mrt_ws/install/mrs_hudson/share/mrs_hudson/launch
+[3.074s] symbolically linking /home/harshit/mrt_ws/build/mrs_hudson/worlds/maze_aruco.sdf -> /home/harshit/mrt_ws/install/mrs_hudson/share/mrs_hudson/worlds
+[3.455s] Invoked command in '/home/harshit/mrt_ws/build/mrs_hudson' returned '0': PYTHONPATH=/home/harshit/mrt_ws/build/mrs_hudson/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/harshit/mrt_ws/install/mrs_hudson/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/harshit/mrt_ws/build/mrs_hudson/build --no-deps symlink_data --force

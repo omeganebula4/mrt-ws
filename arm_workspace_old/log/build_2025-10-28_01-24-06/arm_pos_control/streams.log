@@ -1,0 +1,46 @@
+[0.650s] Invoking command in '/home/harshit/mrt_ws/arm_workspace/build/arm_pos_control': PYTHONPATH=/home/harshit/mrt_ws/arm_workspace/build/arm_pos_control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/harshit/mrt_ws/arm_workspace/install/arm_pos_control/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --uninstall --editable --build-directory /home/harshit/mrt_ws/arm_workspace/build/arm_pos_control/build
+[0.870s] running develop
+[1.036s] Removing /home/harshit/mrt_ws/arm_workspace/install/arm_pos_control/lib/python3.10/site-packages/arm-pos-control.egg-link (link to .)
+[1.063s] Invoked command in '/home/harshit/mrt_ws/arm_workspace/build/arm_pos_control' returned '0': PYTHONPATH=/home/harshit/mrt_ws/arm_workspace/build/arm_pos_control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/harshit/mrt_ws/arm_workspace/install/arm_pos_control/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --uninstall --editable --build-directory /home/harshit/mrt_ws/arm_workspace/build/arm_pos_control/build
+[1.064s] Invoking command in '/home/harshit/mrt_ws/arm_workspace/src/arm_pos_control': PYTHONPATH=/home/harshit/mrt_ws/arm_workspace/build/arm_pos_control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/harshit/mrt_ws/arm_workspace/install/arm_pos_control/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/arm_pos_control build --build-base /home/harshit/mrt_ws/arm_workspace/build/arm_pos_control/build install --record /home/harshit/mrt_ws/arm_workspace/build/arm_pos_control/install.log --single-version-externally-managed install_data --force
+[1.273s] running egg_info
+[1.274s] writing ../../build/arm_pos_control/arm_pos_control.egg-info/PKG-INFO
+[1.274s] writing dependency_links to ../../build/arm_pos_control/arm_pos_control.egg-info/dependency_links.txt
+[1.274s] writing entry points to ../../build/arm_pos_control/arm_pos_control.egg-info/entry_points.txt
+[1.274s] writing requirements to ../../build/arm_pos_control/arm_pos_control.egg-info/requires.txt
+[1.274s] writing top-level names to ../../build/arm_pos_control/arm_pos_control.egg-info/top_level.txt
+[1.277s] reading manifest file '../../build/arm_pos_control/arm_pos_control.egg-info/SOURCES.txt'
+[1.277s] adding license file 'LICENSE'
+[1.277s] writing manifest file '../../build/arm_pos_control/arm_pos_control.egg-info/SOURCES.txt'
+[1.278s] running build
+[1.278s] running build_py
+[1.278s] creating /home/harshit/mrt_ws/arm_workspace/build/arm_pos_control/build
+[1.278s] creating /home/harshit/mrt_ws/arm_workspace/build/arm_pos_control/build/lib
+[1.278s] creating /home/harshit/mrt_ws/arm_workspace/build/arm_pos_control/build/lib/arm_pos_control
+[1.278s] copying arm_pos_control/input_handler.py -> /home/harshit/mrt_ws/arm_workspace/build/arm_pos_control/build/lib/arm_pos_control
+[1.278s] copying arm_pos_control/controller.py -> /home/harshit/mrt_ws/arm_workspace/build/arm_pos_control/build/lib/arm_pos_control
+[1.278s] copying arm_pos_control/min_jerk.py -> /home/harshit/mrt_ws/arm_workspace/build/arm_pos_control/build/lib/arm_pos_control
+[1.278s] copying arm_pos_control/command_publisher.py -> /home/harshit/mrt_ws/arm_workspace/build/arm_pos_control/build/lib/arm_pos_control
+[1.278s] copying arm_pos_control/__init__.py -> /home/harshit/mrt_ws/arm_workspace/build/arm_pos_control/build/lib/arm_pos_control
+[1.278s] running install
+[1.279s] running install_lib
+[1.279s] creating /home/harshit/mrt_ws/arm_workspace/install/arm_pos_control/lib/python3.10/site-packages/arm_pos_control
+[1.279s] copying /home/harshit/mrt_ws/arm_workspace/build/arm_pos_control/build/lib/arm_pos_control/input_handler.py -> /home/harshit/mrt_ws/arm_workspace/install/arm_pos_control/lib/python3.10/site-packages/arm_pos_control
+[1.279s] copying /home/harshit/mrt_ws/arm_workspace/build/arm_pos_control/build/lib/arm_pos_control/controller.py -> /home/harshit/mrt_ws/arm_workspace/install/arm_pos_control/lib/python3.10/site-packages/arm_pos_control
+[1.280s] copying /home/harshit/mrt_ws/arm_workspace/build/arm_pos_control/build/lib/arm_pos_control/min_jerk.py -> /home/harshit/mrt_ws/arm_workspace/install/arm_pos_control/lib/python3.10/site-packages/arm_pos_control
+[1.280s] copying /home/harshit/mrt_ws/arm_workspace/build/arm_pos_control/build/lib/arm_pos_control/command_publisher.py -> /home/harshit/mrt_ws/arm_workspace/install/arm_pos_control/lib/python3.10/site-packages/arm_pos_control
+[1.280s] copying /home/harshit/mrt_ws/arm_workspace/build/arm_pos_control/build/lib/arm_pos_control/__init__.py -> /home/harshit/mrt_ws/arm_workspace/install/arm_pos_control/lib/python3.10/site-packages/arm_pos_control
+[1.280s] byte-compiling /home/harshit/mrt_ws/arm_workspace/install/arm_pos_control/lib/python3.10/site-packages/arm_pos_control/input_handler.py to input_handler.cpython-310.pyc
+[1.281s] byte-compiling /home/harshit/mrt_ws/arm_workspace/install/arm_pos_control/lib/python3.10/site-packages/arm_pos_control/controller.py to controller.cpython-310.pyc
+[1.282s] byte-compiling /home/harshit/mrt_ws/arm_workspace/install/arm_pos_control/lib/python3.10/site-packages/arm_pos_control/min_jerk.py to min_jerk.cpython-310.pyc
+[1.284s] byte-compiling /home/harshit/mrt_ws/arm_workspace/install/arm_pos_control/lib/python3.10/site-packages/arm_pos_control/command_publisher.py to command_publisher.cpython-310.pyc
+[1.285s] byte-compiling /home/harshit/mrt_ws/arm_workspace/install/arm_pos_control/lib/python3.10/site-packages/arm_pos_control/__init__.py to __init__.cpython-310.pyc
+[1.285s] running install_data
+[1.285s] copying resource/arm_pos_control -> /home/harshit/mrt_ws/arm_workspace/install/arm_pos_control/share/ament_index/resource_index/packages
+[1.286s] copying package.xml -> /home/harshit/mrt_ws/arm_workspace/install/arm_pos_control/share/arm_pos_control
+[1.286s] running install_egg_info
+[1.288s] Copying ../../build/arm_pos_control/arm_pos_control.egg-info to /home/harshit/mrt_ws/arm_workspace/install/arm_pos_control/lib/python3.10/site-packages/arm_pos_control-0.0.0-py3.10.egg-info
+[1.288s] running install_scripts
+[1.305s] Installing input_handler script to /home/harshit/mrt_ws/arm_workspace/install/arm_pos_control/lib/arm_pos_control
+[1.305s] writing list of installed files to '/home/harshit/mrt_ws/arm_workspace/build/arm_pos_control/install.log'
+[1.329s] Invoked command in '/home/harshit/mrt_ws/arm_workspace/src/arm_pos_control' returned '0': PYTHONPATH=/home/harshit/mrt_ws/arm_workspace/build/arm_pos_control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/harshit/mrt_ws/arm_workspace/install/arm_pos_control/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/arm_pos_control build --build-base /home/harshit/mrt_ws/arm_workspace/build/arm_pos_control/build install --record /home/harshit/mrt_ws/arm_workspace/build/arm_pos_control/install.log --single-version-externally-managed install_data --force

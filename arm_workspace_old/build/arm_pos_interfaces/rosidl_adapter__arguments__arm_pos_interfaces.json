@@ -1,0 +1,7 @@
+{
+  "package_name": "arm_pos_interfaces",
+  "non_idl_tuples": [
+    "/home/harshit/mrt_ws/arm_workspace/src/arm_pos_interfaces:msg/ArmEndMotion.msg",
+    "/home/harshit/mrt_ws/arm_workspace/src/arm_pos_interfaces:msg/EncoderArm.msg"
+  ]
+}

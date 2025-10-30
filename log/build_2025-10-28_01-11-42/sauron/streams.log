@@ -1,0 +1,22 @@
+[2.321s] Invoking command in '/home/harshit/mrt_ws/build/sauron': PYTHONPATH=/home/harshit/mrt_ws/build/sauron/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/harshit/mrt_ws/install/sauron/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/harshit/mrt_ws/build/sauron/build --no-deps symlink_data --force
+[2.978s] running develop
+[3.193s] running egg_info
+[3.193s] writing sauron.egg-info/PKG-INFO
+[3.194s] writing dependency_links to sauron.egg-info/dependency_links.txt
+[3.194s] writing entry points to sauron.egg-info/entry_points.txt
+[3.194s] writing requirements to sauron.egg-info/requires.txt
+[3.195s] writing top-level names to sauron.egg-info/top_level.txt
+[3.197s] reading manifest file 'sauron.egg-info/SOURCES.txt'
+[3.201s] writing manifest file 'sauron.egg-info/SOURCES.txt'
+[3.251s] running build_ext
+[3.253s] Creating /home/harshit/mrt_ws/install/sauron/lib/python3.10/site-packages/sauron.egg-link (link to .)
+[3.253s] Installing publisher1 script to /home/harshit/mrt_ws/install/sauron/lib/sauron
+[3.253s] Installing publisher2 script to /home/harshit/mrt_ws/install/sauron/lib/sauron
+[3.253s] Installing subscriber script to /home/harshit/mrt_ws/install/sauron/lib/sauron
+[3.253s] 
+[3.253s] Installed /home/harshit/mrt_ws/build/sauron
+[3.253s] running symlink_data
+[3.253s] symbolically linking /home/harshit/mrt_ws/build/sauron/resource/sauron -> /home/harshit/mrt_ws/install/sauron/share/ament_index/resource_index/packages
+[3.253s] symbolically linking /home/harshit/mrt_ws/build/sauron/package.xml -> /home/harshit/mrt_ws/install/sauron/share/sauron
+[3.254s] symbolically linking /home/harshit/mrt_ws/build/sauron/launch/pubsub_launch.py -> /home/harshit/mrt_ws/install/sauron/share/sauron/launch
+[3.466s] Invoked command in '/home/harshit/mrt_ws/build/sauron' returned '0': PYTHONPATH=/home/harshit/mrt_ws/build/sauron/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/harshit/mrt_ws/install/sauron/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/harshit/mrt_ws/build/sauron/build --no-deps symlink_data --force

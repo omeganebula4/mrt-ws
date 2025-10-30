@@ -1,0 +1,3 @@
+/home/harshit/mrt_ws/arm_workspace/build/pos_control_interfaces/rosidl_adapter/pos_control_interfaces:msg/ArmEndMotion.idl
+/home/harshit/mrt_ws/arm_workspace/build/pos_control_interfaces/rosidl_adapter/pos_control_interfaces:msg/EncoderArm.idl
+/home/harshit/mrt_ws/arm_workspace/build/pos_control_interfaces/rosidl_adapter/pos_control_interfaces:action/Trajectory.idl

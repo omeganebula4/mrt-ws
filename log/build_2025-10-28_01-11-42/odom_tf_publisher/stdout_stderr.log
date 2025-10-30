@@ -1,0 +1,17 @@
+running develop
+running egg_info
+writing odom_tf_publisher.egg-info/PKG-INFO
+writing dependency_links to odom_tf_publisher.egg-info/dependency_links.txt
+writing entry points to odom_tf_publisher.egg-info/entry_points.txt
+writing requirements to odom_tf_publisher.egg-info/requires.txt
+writing top-level names to odom_tf_publisher.egg-info/top_level.txt
+reading manifest file 'odom_tf_publisher.egg-info/SOURCES.txt'
+writing manifest file 'odom_tf_publisher.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/harshit/mrt_ws/install/odom_tf_publisher/lib/python3.10/site-packages/odom-tf-publisher.egg-link (link to .)
+Installing odom_tf_publisher script to /home/harshit/mrt_ws/install/odom_tf_publisher/lib/odom_tf_publisher
+
+Installed /home/harshit/mrt_ws/build/odom_tf_publisher
+running symlink_data
+symbolically linking /home/harshit/mrt_ws/build/odom_tf_publisher/resource/odom_tf_publisher -> /home/harshit/mrt_ws/install/odom_tf_publisher/share/ament_index/resource_index/packages
+symbolically linking /home/harshit/mrt_ws/build/odom_tf_publisher/package.xml -> /home/harshit/mrt_ws/install/odom_tf_publisher/share/odom_tf_publisher

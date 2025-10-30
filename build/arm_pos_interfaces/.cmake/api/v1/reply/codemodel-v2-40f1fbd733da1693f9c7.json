@@ -1,0 +1,233 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-a4fe3c447258363114db.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17
+					]
+				},
+				{
+					"build" : "arm_pos_interfaces__py",
+					"jsonFile" : "directory-arm_pos_interfaces__py-3b6d51f108f87fcec162.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/home/harshit/mrt_ws/build/arm_pos_interfaces/arm_pos_interfaces__py",
+					"targetIndexes" : 
+					[
+						4
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1
+					],
+					"name" : "arm_pos_interfaces",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_build_arm_pos_interfaces_egg::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_build_arm_pos_interfaces_egg-183fc059c02958dcce32.json",
+					"name" : "ament_cmake_python_build_arm_pos_interfaces_egg",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_symlink_arm_pos_interfaces::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_symlink_arm_pos_interfaces-7bc623e39235578e1a14.json",
+					"name" : "ament_cmake_python_symlink_arm_pos_interfaces",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "arm_pos_interfaces::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-arm_pos_interfaces-45adb4b0a2e3a41b81fc.json",
+					"name" : "arm_pos_interfaces",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "arm_pos_interfaces__cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-arm_pos_interfaces__cpp-2811964f63e6406e5a1c.json",
+					"name" : "arm_pos_interfaces__cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "arm_pos_interfaces__py::@be4d43816b7305624631",
+					"jsonFile" : "target-arm_pos_interfaces__py-6088ed56bee8c6183864.json",
+					"name" : "arm_pos_interfaces__py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "arm_pos_interfaces__rosidl_generator_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-arm_pos_interfaces__rosidl_generator_c-eb72a8dcd880a8ce6bf8.json",
+					"name" : "arm_pos_interfaces__rosidl_generator_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "arm_pos_interfaces__rosidl_generator_py::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-arm_pos_interfaces__rosidl_generator_py-63f8475c4af51ca74c70.json",
+					"name" : "arm_pos_interfaces__rosidl_generator_py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "arm_pos_interfaces__rosidl_typesupport_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-arm_pos_interfaces__rosidl_typesupport_c-210ff1ce36032cc92ed5.json",
+					"name" : "arm_pos_interfaces__rosidl_typesupport_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "arm_pos_interfaces__rosidl_typesupport_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-arm_pos_interfaces__rosidl_typesupport_c__pyext-271c8ec8e6a7818e6bf2.json",
+					"name" : "arm_pos_interfaces__rosidl_typesupport_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "arm_pos_interfaces__rosidl_typesupport_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-arm_pos_interfaces__rosidl_typesupport_cpp-89b3481e079879c65197.json",
+					"name" : "arm_pos_interfaces__rosidl_typesupport_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "arm_pos_interfaces__rosidl_typesupport_fastrtps_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-arm_pos_interfaces__rosidl_typesupport_fastrtps_c-ecef2ae6178eb5ec7546.json",
+					"name" : "arm_pos_interfaces__rosidl_typesupport_fastrtps_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "arm_pos_interfaces__rosidl_typesupport_fastrtps_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-arm_pos_interfaces__rosidl_typesupport_fastrtps_c__pyext-00297e646ca646894a94.json",
+					"name" : "arm_pos_interfaces__rosidl_typesupport_fastrtps_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "arm_pos_interfaces__rosidl_typesupport_fastrtps_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-arm_pos_interfaces__rosidl_typesupport_fastrtps_cpp-1d4cf45da956d6046c23.json",
+					"name" : "arm_pos_interfaces__rosidl_typesupport_fastrtps_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "arm_pos_interfaces__rosidl_typesupport_introspection_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-arm_pos_interfaces__rosidl_typesupport_introspection_c-3cbcdadbb818b417f7f7.json",
+					"name" : "arm_pos_interfaces__rosidl_typesupport_introspection_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "arm_pos_interfaces__rosidl_typesupport_introspection_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-arm_pos_interfaces__rosidl_typesupport_introspection_c__pyext-63e52b90826e405c638d.json",
+					"name" : "arm_pos_interfaces__rosidl_typesupport_introspection_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "arm_pos_interfaces__rosidl_typesupport_introspection_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-arm_pos_interfaces__rosidl_typesupport_introspection_cpp-44047bf5126e878eb7c2.json",
+					"name" : "arm_pos_interfaces__rosidl_typesupport_introspection_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "arm_pos_interfaces_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-arm_pos_interfaces_uninstall-2c9a6a7857fc3213e0e4.json",
+					"name" : "arm_pos_interfaces_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-3b2bbd7ce374251b7882.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/harshit/mrt_ws/build/arm_pos_interfaces",
+		"source" : "/home/harshit/mrt_ws/arm_workspace/src/arm_pos_interfaces"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 8
+	}
+}

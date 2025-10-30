@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "aruco_detection_interfaces__py",
+		"source" : "/home/harshit/mrt_ws/build/aruco_detection_interfaces/aruco_detection_interfaces__py"
+	}
+}

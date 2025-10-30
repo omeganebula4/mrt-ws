@@ -19,10 +19,14 @@ mrs_hudson/detect_marker.py
 mrs_hudson/display_camera.py
 mrs_hudson/mrs_hudson_teleop.py
 mrs_hudson/vel_pub.py
+mrs_hudson.egg-info/PKG-INFO
+mrs_hudson.egg-info/SOURCES.txt
+mrs_hudson.egg-info/dependency_links.txt
+mrs_hudson.egg-info/entry_points.txt
+mrs_hudson.egg-info/requires.txt
+mrs_hudson.egg-info/top_level.txt
+mrs_hudson.egg-info/zip-safe
 resource/mrs_hudson
-test/test_copyright.py
-test/test_flake8.py
-test/test_pep257.py
 worlds/maze_aruco.sdf
 worlds/mrs_hudson.sdf
 worlds/mrs_hudson_arena.sdf

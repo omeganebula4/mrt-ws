@@ -15,8 +15,8 @@ setup(
     zip_safe=True,
     maintainer='harshit',
     maintainer_email='harshitsomani09@gmail.com',
-    description='Arm Position Command Controller',
-    license='Apache-2.0',
+    description='MRT IITB 2025: Package for Position Control of Robotic Arm',
+    license='Apache License 2.0',
     extras_require={
         'test': [
             'pytest',
@@ -24,8 +24,7 @@ setup(
     },
     entry_points={
         'console_scripts': [
-            'commander = arm_pos_control.command_publisher:main',
-            'pid_controller = arm_pos_control.controller:main',
+            'input_handler = arm_pos_control.input_handler:main',
         ],
     },
 )

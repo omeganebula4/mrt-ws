@@ -1,0 +1,305 @@
+[0.011s] Invoking command in '/home/harshit/mrt_ws/arm_workspace/build/pos_control_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/harshit/mrt_ws/install/week1_tutorials:/home/harshit/mrt_ws/install/week0_tutorials:/home/harshit/mrt_ws/install/sauron:/home/harshit/mrt_ws/install/odom_tf_publisher:/home/harshit/mrt_ws/install/mrs_hudson:/home/harshit/mrt_ws/install/assgn:/home/harshit/mrt_ws/install/aruco_detection:/home/harshit/mrt_ws/install/arm_pos_control:/home/harshit/urdf_rviz/install/urdf_testing:/home/harshit/urdf_rviz/install/robot_car:/home/harshit/mrt_ws/arm_workspace/install/arm_pos_control:/opt/ros/humble /usr/bin/cmake --build /home/harshit/mrt_ws/arm_workspace/build/pos_control_interfaces -- -j8 -l8
+[0.106s] -- The C compiler identification is GNU 11.4.0
+[0.168s] -- The CXX compiler identification is GNU 11.4.0
+[0.176s] -- Detecting C compiler ABI info
+[0.218s] -- Detecting C compiler ABI info - done
+[0.229s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.229s] -- Detecting C compile features
+[0.230s] -- Detecting C compile features - done
+[0.239s] -- Detecting CXX compiler ABI info
+[0.285s] -- Detecting CXX compiler ABI info - done
+[0.300s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.300s] -- Detecting CXX compile features
+[0.301s] -- Detecting CXX compile features - done
+[0.306s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.541s] -- Found geometry_msgs: 4.9.0 (/opt/ros/humble/share/geometry_msgs/cmake)
+[0.571s] -- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.574s] -- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.581s] -- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.593s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.606s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.649s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[1.167s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[2.056s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.411s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.445s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[2.472s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[2.472s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[2.472s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[2.511s] -- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[2.529s] -- Added test 'lint_cmake' to check CMake code style
+[2.530s] -- Added test 'xmllint' to check XML markup files
+[2.533s] -- Configuring done (2.5s)
+[2.575s] -- Generating done (0.0s)
+[2.591s] -- Build files have been written to: /home/harshit/mrt_ws/arm_workspace/build/pos_control_interfaces
+[2.606s] [  2%] [1m[34mGenerating C code for ROS interfaces[0m
+[2.610s] [  4%] [1m[34mGenerating C++ code for ROS interfaces[0m
+[2.616s] [  4%] Built target ament_cmake_python_copy_pos_control_interfaces
+[2.830s] running egg_info
+[2.831s] writing pos_control_interfaces.egg-info/PKG-INFO
+[2.831s] writing dependency_links to pos_control_interfaces.egg-info/dependency_links.txt
+[2.831s] writing top-level names to pos_control_interfaces.egg-info/top_level.txt
+[2.834s] reading manifest file 'pos_control_interfaces.egg-info/SOURCES.txt'
+[2.834s] writing manifest file 'pos_control_interfaces.egg-info/SOURCES.txt'
+[2.856s] [  4%] Built target ament_cmake_python_build_pos_control_interfaces_egg
+[3.034s] [  4%] Built target pos_control_interfaces__cpp
+[3.038s] [  6%] [1m[34mGenerating C++ type support dispatch for ROS interfaces[0m
+[3.039s] [ 10%] [1m[34mGenerating C++ type support for eProsima Fast-RTPS[0m
+[3.040s] [ 10%] [1m[34mGenerating C++ introspection for ROS interfaces[0m
+[3.090s] [ 12%] [32mBuilding C object CMakeFiles/pos_control_interfaces__rosidl_generator_c.dir/rosidl_generator_c/pos_control_interfaces/msg/detail/arm_end_motion__functions.c.o[0m
+[3.091s] [ 14%] [32mBuilding C object CMakeFiles/pos_control_interfaces__rosidl_generator_c.dir/rosidl_generator_c/pos_control_interfaces/msg/detail/encoder_arm__functions.c.o[0m
+[3.096s] [ 17%] [32mBuilding C object CMakeFiles/pos_control_interfaces__rosidl_generator_c.dir/rosidl_generator_c/pos_control_interfaces/action/detail/trajectory__functions.c.o[0m
+[3.221s] [ 19%] [1m[32mLinking C shared library libpos_control_interfaces__rosidl_generator_c.so[0m
+[3.254s] [ 19%] Built target pos_control_interfaces__rosidl_generator_c
+[3.261s] [ 23%] [1m[34mGenerating C introspection for ROS interfaces[0m
+[3.261s] [ 23%] [1m[34mGenerating C type support for eProsima Fast-RTPS[0m
+[3.262s] [ 25%] [1m[34mGenerating C type support dispatch for ROS interfaces[0m
+[3.522s] [ 27%] [32mBuilding CXX object CMakeFiles/pos_control_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/pos_control_interfaces/msg/encoder_arm__type_support.cpp.o[0m
+[3.529s] [ 29%] [32mBuilding CXX object CMakeFiles/pos_control_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/pos_control_interfaces/action/trajectory__type_support.cpp.o[0m
+[3.537s] [ 31%] [32mBuilding CXX object CMakeFiles/pos_control_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/pos_control_interfaces/msg/arm_end_motion__type_support.cpp.o[0m
+[3.788s] [ 34%] [32mBuilding CXX object CMakeFiles/pos_control_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/pos_control_interfaces/msg/detail/arm_end_motion__type_support.cpp.o[0m
+[3.868s] [ 36%] [32mBuilding CXX object CMakeFiles/pos_control_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/pos_control_interfaces/msg/arm_end_motion__type_support.cpp.o[0m
+[3.883s] [ 38%] [32mBuilding CXX object CMakeFiles/pos_control_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/pos_control_interfaces/msg/detail/dds_fastrtps/arm_end_motion__type_support.cpp.o[0m
+[3.941s] [ 40%] [32mBuilding CXX object CMakeFiles/pos_control_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/pos_control_interfaces/msg/encoder_arm__type_support.cpp.o[0m
+[3.986s] [ 42%] [32mBuilding CXX object CMakeFiles/pos_control_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/pos_control_interfaces/action/trajectory__type_support.cpp.o[0m
+[4.030s] [ 44%] [32mBuilding CXX object CMakeFiles/pos_control_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/pos_control_interfaces/msg/detail/encoder_arm__type_support.cpp.o[0m
+[4.061s] [ 46%] [32mBuilding CXX object CMakeFiles/pos_control_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/pos_control_interfaces/action/detail/trajectory__type_support.cpp.o[0m
+[4.095s] [ 48%] [1m[32mLinking CXX shared library libpos_control_interfaces__rosidl_typesupport_c.so[0m
+[4.109s] [ 51%] [32mBuilding CXX object CMakeFiles/pos_control_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/pos_control_interfaces/msg/detail/arm_end_motion__type_support_c.cpp.o[0m
+[4.144s] [ 53%] [32mBuilding C object CMakeFiles/pos_control_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/pos_control_interfaces/msg/detail/arm_end_motion__type_support.c.o[0m
+[4.176s] [ 53%] Built target pos_control_interfaces__rosidl_typesupport_c
+[4.181s] [ 55%] [32mBuilding CXX object CMakeFiles/pos_control_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/pos_control_interfaces/msg/detail/dds_fastrtps/encoder_arm__type_support.cpp.o[0m
+[4.236s] [ 57%] [32mBuilding C object CMakeFiles/pos_control_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/pos_control_interfaces/msg/detail/encoder_arm__type_support.c.o[0m
+[4.303s] [ 59%] [1m[32mLinking CXX shared library libpos_control_interfaces__rosidl_typesupport_cpp.so[0m
+[4.320s] [ 61%] [32mBuilding C object CMakeFiles/pos_control_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/pos_control_interfaces/action/detail/trajectory__type_support.c.o[0m
+[4.412s] [ 61%] Built target pos_control_interfaces__rosidl_typesupport_cpp
+[4.429s] [ 63%] [32mBuilding CXX object CMakeFiles/pos_control_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/pos_control_interfaces/action/detail/dds_fastrtps/trajectory__type_support.cpp.o[0m
+[4.437s] [ 65%] [1m[32mLinking C shared library libpos_control_interfaces__rosidl_typesupport_introspection_c.so[0m
+[4.507s] [ 65%] Built target pos_control_interfaces__rosidl_typesupport_introspection_c
+[4.516s] [ 68%] [32mBuilding CXX object CMakeFiles/pos_control_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/pos_control_interfaces/msg/detail/encoder_arm__type_support_c.cpp.o[0m
+[4.559s] [ 70%] [32mBuilding CXX object CMakeFiles/pos_control_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/pos_control_interfaces/action/detail/trajectory__type_support_c.cpp.o[0m
+[4.751s] [ 72%] [1m[32mLinking CXX shared library libpos_control_interfaces__rosidl_typesupport_introspection_cpp.so[0m
+[4.874s] [ 72%] Built target pos_control_interfaces__rosidl_typesupport_introspection_cpp
+[5.012s] [ 74%] [1m[32mLinking CXX shared library libpos_control_interfaces__rosidl_typesupport_fastrtps_c.so[0m
+[5.083s] [ 74%] Built target pos_control_interfaces__rosidl_typesupport_fastrtps_c
+[5.137s] [ 76%] [1m[32mLinking CXX shared library libpos_control_interfaces__rosidl_typesupport_fastrtps_cpp.so[0m
+[5.218s] [ 76%] Built target pos_control_interfaces__rosidl_typesupport_fastrtps_cpp
+[5.228s] [ 76%] Built target pos_control_interfaces
+[5.242s] [ 78%] [1m[34mGenerating Python code for ROS interfaces[0m
+[5.935s] [ 78%] Built target pos_control_interfaces__py
+[5.948s] [ 85%] [32mBuilding C object CMakeFiles/pos_control_interfaces__rosidl_generator_py.dir/rosidl_generator_py/pos_control_interfaces/msg/_encoder_arm_s.c.o[0m
+[5.948s] [ 85%] [32mBuilding C object CMakeFiles/pos_control_interfaces__rosidl_generator_py.dir/rosidl_generator_py/pos_control_interfaces/msg/_arm_end_motion_s.c.o[0m
+[5.948s] [ 85%] [32mBuilding C object CMakeFiles/pos_control_interfaces__rosidl_generator_py.dir/rosidl_generator_py/pos_control_interfaces/action/_trajectory_s.c.o[0m
+[6.062s] [ 87%] [1m[32mLinking C shared library rosidl_generator_py/pos_control_interfaces/libpos_control_interfaces__rosidl_generator_py.so[0m
+[6.095s] [ 87%] Built target pos_control_interfaces__rosidl_generator_py
+[6.106s] [ 89%] [32mBuilding C object CMakeFiles/pos_control_interfaces__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/pos_control_interfaces/_pos_control_interfaces_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[6.109s] [ 93%] [32mBuilding C object CMakeFiles/pos_control_interfaces__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/pos_control_interfaces/_pos_control_interfaces_s.ep.rosidl_typesupport_c.c.o[0m
+[6.110s] [ 93%] [32mBuilding C object CMakeFiles/pos_control_interfaces__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/pos_control_interfaces/_pos_control_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[6.201s] [ 95%] [1m[32mLinking C shared library rosidl_generator_py/pos_control_interfaces/pos_control_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so[0m
+[6.223s] [ 97%] [1m[32mLinking C shared library rosidl_generator_py/pos_control_interfaces/pos_control_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so[0m
+[6.223s] [100%] [1m[32mLinking C shared library rosidl_generator_py/pos_control_interfaces/pos_control_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so[0m
+[6.248s] [100%] Built target pos_control_interfaces__rosidl_typesupport_introspection_c__pyext
+[6.256s] [100%] Built target pos_control_interfaces__rosidl_typesupport_c__pyext
+[6.256s] [100%] Built target pos_control_interfaces__rosidl_typesupport_fastrtps_c__pyext
+[6.261s] Invoked command in '/home/harshit/mrt_ws/arm_workspace/build/pos_control_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/harshit/mrt_ws/install/week1_tutorials:/home/harshit/mrt_ws/install/week0_tutorials:/home/harshit/mrt_ws/install/sauron:/home/harshit/mrt_ws/install/odom_tf_publisher:/home/harshit/mrt_ws/install/mrs_hudson:/home/harshit/mrt_ws/install/assgn:/home/harshit/mrt_ws/install/aruco_detection:/home/harshit/mrt_ws/install/arm_pos_control:/home/harshit/urdf_rviz/install/urdf_testing:/home/harshit/urdf_rviz/install/robot_car:/home/harshit/mrt_ws/arm_workspace/install/arm_pos_control:/opt/ros/humble /usr/bin/cmake --build /home/harshit/mrt_ws/arm_workspace/build/pos_control_interfaces -- -j8 -l8
+[6.266s] Invoking command in '/home/harshit/mrt_ws/arm_workspace/build/pos_control_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/harshit/mrt_ws/install/week1_tutorials:/home/harshit/mrt_ws/install/week0_tutorials:/home/harshit/mrt_ws/install/sauron:/home/harshit/mrt_ws/install/odom_tf_publisher:/home/harshit/mrt_ws/install/mrs_hudson:/home/harshit/mrt_ws/install/assgn:/home/harshit/mrt_ws/install/aruco_detection:/home/harshit/mrt_ws/install/arm_pos_control:/home/harshit/urdf_rviz/install/urdf_testing:/home/harshit/urdf_rviz/install/robot_car:/home/harshit/mrt_ws/arm_workspace/install/arm_pos_control:/opt/ros/humble /usr/bin/cmake --install /home/harshit/mrt_ws/arm_workspace/build/pos_control_interfaces
+[6.269s] -- Install configuration: ""
+[6.270s] -- Up-to-date: /home/harshit/mrt_ws/arm_workspace/install/pos_control_interfaces/share/ament_index/resource_index/rosidl_interfaces/pos_control_interfaces
+[6.270s] -- Up-to-date: /home/harshit/mrt_ws/arm_workspace/install/pos_control_interfaces/include/pos_control_interfaces/pos_control_interfaces
+[6.270s] -- Up-to-date: /home/harshit/mrt_ws/arm_workspace/install/pos_control_interfaces/include/pos_control_interfaces/pos_control_interfaces/action
+[6.270s] -- Installing: /home/harshit/mrt_ws/arm_workspace/install/pos_control_interfaces/include/pos_control_interfaces/pos_control_interfaces/action/trajectory.h
+[6.270s] -- Up-to-date: /home/harshit/mrt_ws/arm_workspace/install/pos_control_interfaces/include/pos_control_interfaces/pos_control_interfaces/action/detail
+[6.270s] -- Installing: /home/harshit/mrt_ws/arm_workspace/install/pos_control_interfaces/include/pos_control_interfaces/pos_control_interfaces/action/detail/trajectory__type_support.h
+[6.270s] -- Installing: /home/harshit/mrt_ws/arm_workspace/install/pos_control_interfaces/include/pos_control_interfaces/pos_control_interfaces/action/detail/trajectory__struct.h
+[6.270s] -- Installing: /home/harshit/mrt_ws/arm_workspace/install/pos_control_interfaces/include/pos_control_interfaces/pos_control_interfaces/action/detail/trajectory__functions.c
+[6.270s] -- Installing: /home/harshit/mrt_ws/arm_workspace/install/pos_control_interfaces/include/pos_control_interfaces/pos_control_interfaces/action/detail/trajectory__functions.h
+[6.270s] -- Up-to-date: /home/harshit/mrt_ws/arm_workspace/install/pos_control_interfaces/include/pos_control_interfaces/pos_control_interfaces/msg
+[6.270s] -- Installing: /home/harshit/mrt_ws/arm_workspace/install/pos_control_interfaces/include/pos_control_interfaces/pos_control_interfaces/msg/arm_end_motion.h
+[6.270s] -- Up-to-date: /home/harshit/mrt_ws/arm_workspace/install/pos_control_interfaces/include/pos_control_interfaces/pos_control_interfaces/msg/rosidl_generator_c__visibility_control.h
+[6.270s] -- Up-to-date: /home/harshit/mrt_ws/arm_workspace/install/pos_control_interfaces/include/pos_control_interfaces/pos_control_interfaces/msg/detail
+[6.270s] -- Installing: /home/harshit/mrt_ws/arm_workspace/install/pos_control_interfaces/include/pos_control_interfaces/pos_control_interfaces/msg/detail/encoder_arm__functions.c
+[6.271s] -- Installing: /home/harshit/mrt_ws/arm_workspace/install/pos_control_interfaces/include/pos_control_interfaces/pos_control_interfaces/msg/detail/arm_end_motion__functions.h
+[6.272s] -- Installing: /home/harshit/mrt_ws/arm_workspace/install/pos_control_interfaces/include/pos_control_interfaces/pos_control_interfaces/msg/detail/encoder_arm__struct.h
+[6.272s] -- Installing: /home/harshit/mrt_ws/arm_workspace/install/pos_control_interfaces/include/pos_control_interfaces/pos_control_interfaces/msg/detail/arm_end_motion__functions.c
+[6.272s] -- Installing: /home/harshit/mrt_ws/arm_workspace/install/pos_control_interfaces/include/pos_control_interfaces/pos_control_interfaces/msg/detail/encoder_arm__type_support.h
+[6.272s] -- Installing: /home/harshit/mrt_ws/arm_workspace/install/pos_control_interfaces/include/pos_control_interfaces/pos_control_interfaces/msg/detail/arm_end_motion__struct.h
+[6.272s] -- Installing: /home/harshit/mrt_ws/arm_workspace/install/pos_control_interfaces/include/pos_control_interfaces/pos_control_interfaces/msg/detail/arm_end_motion__type_support.h
+[6.272s] -- Installing: /home/harshit/mrt_ws/arm_workspace/install/pos_control_interfaces/include/pos_control_interfaces/pos_control_interfaces/msg/detail/encoder_arm__functions.h
+[6.272s] -- Installing: /home/harshit/mrt_ws/arm_workspace/install/pos_control_interfaces/include/pos_control_interfaces/pos_control_interfaces/msg/encoder_arm.h
+[6.272s] -- Up-to-date: /home/harshit/mrt_ws/arm_workspace/install/pos_control_interfaces/share/pos_control_interfaces/environment/library_path.sh
+[6.272s] -- Installing: /home/harshit/mrt_ws/arm_workspace/install/pos_control_interfaces/share/pos_control_interfaces/environment/library_path.dsv
+[6.272s] -- Installing: /home/harshit/mrt_ws/arm_workspace/install/pos_control_interfaces/lib/libpos_control_interfaces__rosidl_generator_c.so
+[6.273s] -- Set non-toolchain portion of runtime path of "/home/harshit/mrt_ws/arm_workspace/install/pos_control_interfaces/lib/libpos_control_interfaces__rosidl_generator_c.so" to ""
+[6.273s] -- Up-to-date: /home/harshit/mrt_ws/arm_workspace/install/pos_control_interfaces/include/pos_control_interfaces/pos_control_interfaces
+[6.273s] -- Up-to-date: /home/harshit/mrt_ws/arm_workspace/install/pos_control_interfaces/include/pos_control_interfaces/pos_control_interfaces/action
+[6.273s] -- Up-to-date: /home/harshit/mrt_ws/arm_workspace/install/pos_control_interfaces/include/pos_control_interfaces/pos_control_interfaces/action/detail
+[6.273s] -- Installing: /home/harshit/mrt_ws/arm_workspace/install/pos_control_interfaces/include/pos_control_interfaces/pos_control_interfaces/action/detail/trajectory__rosidl_typesupport_fastrtps_c.h
+[6.273s] -- Up-to-date: /home/harshit/mrt_ws/arm_workspace/install/pos_control_interfaces/include/pos_control_interfaces/pos_control_interfaces/msg
+[6.273s] -- Up-to-date: /home/harshit/mrt_ws/arm_workspace/install/pos_control_interfaces/include/pos_control_interfaces/pos_control_interfaces/msg/detail
+[6.273s] -- Installing: /home/harshit/mrt_ws/arm_workspace/install/pos_control_interfaces/include/pos_control_interfaces/pos_control_interfaces/msg/detail/encoder_arm__rosidl_typesupport_fastrtps_c.h
+[6.273s] -- Installing: /home/harshit/mrt_ws/arm_workspace/install/pos_control_interfaces/include/pos_control_interfaces/pos_control_interfaces/msg/detail/arm_end_motion__rosidl_typesupport_fastrtps_c.h
+[6.273s] -- Up-to-date: /home/harshit/mrt_ws/arm_workspace/install/pos_control_interfaces/include/pos_control_interfaces/pos_control_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[6.274s] -- Installing: /home/harshit/mrt_ws/arm_workspace/install/pos_control_interfaces/lib/libpos_control_interfaces__rosidl_typesupport_fastrtps_c.so
+[6.274s] -- Set non-toolchain portion of runtime path of "/home/harshit/mrt_ws/arm_workspace/install/pos_control_interfaces/lib/libpos_control_interfaces__rosidl_typesupport_fastrtps_c.so" to ""
+[6.274s] -- Up-to-date: /home/harshit/mrt_ws/arm_workspace/install/pos_control_interfaces/include/pos_control_interfaces/pos_control_interfaces
+[6.274s] -- Up-to-date: /home/harshit/mrt_ws/arm_workspace/install/pos_control_interfaces/include/pos_control_interfaces/pos_control_interfaces/action
+[6.274s] -- Up-to-date: /home/harshit/mrt_ws/arm_workspace/install/pos_control_interfaces/include/pos_control_interfaces/pos_control_interfaces/action/detail
+[6.274s] -- Installing: /home/harshit/mrt_ws/arm_workspace/install/pos_control_interfaces/include/pos_control_interfaces/pos_control_interfaces/action/detail/trajectory__struct.hpp
+[6.275s] -- Installing: /home/harshit/mrt_ws/arm_workspace/install/pos_control_interfaces/include/pos_control_interfaces/pos_control_interfaces/action/detail/trajectory__type_support.hpp
+[6.275s] -- Installing: /home/harshit/mrt_ws/arm_workspace/install/pos_control_interfaces/include/pos_control_interfaces/pos_control_interfaces/action/detail/trajectory__traits.hpp
+[6.275s] -- Installing: /home/harshit/mrt_ws/arm_workspace/install/pos_control_interfaces/include/pos_control_interfaces/pos_control_interfaces/action/detail/trajectory__builder.hpp
+[6.275s] -- Installing: /home/harshit/mrt_ws/arm_workspace/install/pos_control_interfaces/include/pos_control_interfaces/pos_control_interfaces/action/trajectory.hpp
+[6.275s] -- Up-to-date: /home/harshit/mrt_ws/arm_workspace/install/pos_control_interfaces/include/pos_control_interfaces/pos_control_interfaces/msg
+[6.275s] -- Up-to-date: /home/harshit/mrt_ws/arm_workspace/install/pos_control_interfaces/include/pos_control_interfaces/pos_control_interfaces/msg/rosidl_generator_cpp__visibility_control.hpp
+[6.275s] -- Up-to-date: /home/harshit/mrt_ws/arm_workspace/install/pos_control_interfaces/include/pos_control_interfaces/pos_control_interfaces/msg/detail
+[6.275s] -- Installing: /home/harshit/mrt_ws/arm_workspace/install/pos_control_interfaces/include/pos_control_interfaces/pos_control_interfaces/msg/detail/encoder_arm__type_support.hpp
+[6.275s] -- Installing: /home/harshit/mrt_ws/arm_workspace/install/pos_control_interfaces/include/pos_control_interfaces/pos_control_interfaces/msg/detail/encoder_arm__struct.hpp
+[6.275s] -- Installing: /home/harshit/mrt_ws/arm_workspace/install/pos_control_interfaces/include/pos_control_interfaces/pos_control_interfaces/msg/detail/encoder_arm__traits.hpp
+[6.276s] -- Installing: /home/harshit/mrt_ws/arm_workspace/install/pos_control_interfaces/include/pos_control_interfaces/pos_control_interfaces/msg/detail/arm_end_motion__traits.hpp
+[6.276s] -- Installing: /home/harshit/mrt_ws/arm_workspace/install/pos_control_interfaces/include/pos_control_interfaces/pos_control_interfaces/msg/detail/encoder_arm__builder.hpp
+[6.276s] -- Installing: /home/harshit/mrt_ws/arm_workspace/install/pos_control_interfaces/include/pos_control_interfaces/pos_control_interfaces/msg/detail/arm_end_motion__type_support.hpp
+[6.276s] -- Installing: /home/harshit/mrt_ws/arm_workspace/install/pos_control_interfaces/include/pos_control_interfaces/pos_control_interfaces/msg/detail/arm_end_motion__struct.hpp
+[6.276s] -- Installing: /home/harshit/mrt_ws/arm_workspace/install/pos_control_interfaces/include/pos_control_interfaces/pos_control_interfaces/msg/detail/arm_end_motion__builder.hpp
+[6.276s] -- Installing: /home/harshit/mrt_ws/arm_workspace/install/pos_control_interfaces/include/pos_control_interfaces/pos_control_interfaces/msg/encoder_arm.hpp
+[6.276s] -- Installing: /home/harshit/mrt_ws/arm_workspace/install/pos_control_interfaces/include/pos_control_interfaces/pos_control_interfaces/msg/arm_end_motion.hpp
+[6.277s] -- Up-to-date: /home/harshit/mrt_ws/arm_workspace/install/pos_control_interfaces/include/pos_control_interfaces/pos_control_interfaces
+[6.277s] -- Up-to-date: /home/harshit/mrt_ws/arm_workspace/install/pos_control_interfaces/include/pos_control_interfaces/pos_control_interfaces/action
+[6.277s] -- Up-to-date: /home/harshit/mrt_ws/arm_workspace/install/pos_control_interfaces/include/pos_control_interfaces/pos_control_interfaces/action/detail
+[6.277s] -- Up-to-date: /home/harshit/mrt_ws/arm_workspace/install/pos_control_interfaces/include/pos_control_interfaces/pos_control_interfaces/action/detail/dds_fastrtps
+[6.277s] -- Installing: /home/harshit/mrt_ws/arm_workspace/install/pos_control_interfaces/include/pos_control_interfaces/pos_control_interfaces/action/detail/trajectory__rosidl_typesupport_fastrtps_cpp.hpp
+[6.277s] -- Up-to-date: /home/harshit/mrt_ws/arm_workspace/install/pos_control_interfaces/include/pos_control_interfaces/pos_control_interfaces/msg
+[6.277s] -- Up-to-date: /home/harshit/mrt_ws/arm_workspace/install/pos_control_interfaces/include/pos_control_interfaces/pos_control_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[6.277s] -- Up-to-date: /home/harshit/mrt_ws/arm_workspace/install/pos_control_interfaces/include/pos_control_interfaces/pos_control_interfaces/msg/detail
+[6.277s] -- Installing: /home/harshit/mrt_ws/arm_workspace/install/pos_control_interfaces/include/pos_control_interfaces/pos_control_interfaces/msg/detail/arm_end_motion__rosidl_typesupport_fastrtps_cpp.hpp
+[6.277s] -- Up-to-date: /home/harshit/mrt_ws/arm_workspace/install/pos_control_interfaces/include/pos_control_interfaces/pos_control_interfaces/msg/detail/dds_fastrtps
+[6.277s] -- Installing: /home/harshit/mrt_ws/arm_workspace/install/pos_control_interfaces/include/pos_control_interfaces/pos_control_interfaces/msg/detail/encoder_arm__rosidl_typesupport_fastrtps_cpp.hpp
+[6.278s] -- Installing: /home/harshit/mrt_ws/arm_workspace/install/pos_control_interfaces/lib/libpos_control_interfaces__rosidl_typesupport_fastrtps_cpp.so
+[6.278s] -- Set non-toolchain portion of runtime path of "/home/harshit/mrt_ws/arm_workspace/install/pos_control_interfaces/lib/libpos_control_interfaces__rosidl_typesupport_fastrtps_cpp.so" to ""
+[6.278s] -- Up-to-date: /home/harshit/mrt_ws/arm_workspace/install/pos_control_interfaces/include/pos_control_interfaces/pos_control_interfaces
+[6.278s] -- Up-to-date: /home/harshit/mrt_ws/arm_workspace/install/pos_control_interfaces/include/pos_control_interfaces/pos_control_interfaces/action
+[6.279s] -- Up-to-date: /home/harshit/mrt_ws/arm_workspace/install/pos_control_interfaces/include/pos_control_interfaces/pos_control_interfaces/action/detail
+[6.279s] -- Installing: /home/harshit/mrt_ws/arm_workspace/install/pos_control_interfaces/include/pos_control_interfaces/pos_control_interfaces/action/detail/trajectory__rosidl_typesupport_introspection_c.h
+[6.279s] -- Installing: /home/harshit/mrt_ws/arm_workspace/install/pos_control_interfaces/include/pos_control_interfaces/pos_control_interfaces/action/detail/trajectory__type_support.c
+[6.279s] -- Up-to-date: /home/harshit/mrt_ws/arm_workspace/install/pos_control_interfaces/include/pos_control_interfaces/pos_control_interfaces/msg
+[6.279s] -- Up-to-date: /home/harshit/mrt_ws/arm_workspace/install/pos_control_interfaces/include/pos_control_interfaces/pos_control_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[6.279s] -- Up-to-date: /home/harshit/mrt_ws/arm_workspace/install/pos_control_interfaces/include/pos_control_interfaces/pos_control_interfaces/msg/detail
+[6.279s] -- Installing: /home/harshit/mrt_ws/arm_workspace/install/pos_control_interfaces/include/pos_control_interfaces/pos_control_interfaces/msg/detail/encoder_arm__rosidl_typesupport_introspection_c.h
+[6.279s] -- Installing: /home/harshit/mrt_ws/arm_workspace/install/pos_control_interfaces/include/pos_control_interfaces/pos_control_interfaces/msg/detail/arm_end_motion__rosidl_typesupport_introspection_c.h
+[6.279s] -- Installing: /home/harshit/mrt_ws/arm_workspace/install/pos_control_interfaces/include/pos_control_interfaces/pos_control_interfaces/msg/detail/encoder_arm__type_support.c
+[6.279s] -- Installing: /home/harshit/mrt_ws/arm_workspace/install/pos_control_interfaces/include/pos_control_interfaces/pos_control_interfaces/msg/detail/arm_end_motion__type_support.c
+[6.280s] -- Installing: /home/harshit/mrt_ws/arm_workspace/install/pos_control_interfaces/lib/libpos_control_interfaces__rosidl_typesupport_introspection_c.so
+[6.281s] -- Set non-toolchain portion of runtime path of "/home/harshit/mrt_ws/arm_workspace/install/pos_control_interfaces/lib/libpos_control_interfaces__rosidl_typesupport_introspection_c.so" to ""
+[6.281s] -- Installing: /home/harshit/mrt_ws/arm_workspace/install/pos_control_interfaces/lib/libpos_control_interfaces__rosidl_typesupport_c.so
+[6.281s] -- Set non-toolchain portion of runtime path of "/home/harshit/mrt_ws/arm_workspace/install/pos_control_interfaces/lib/libpos_control_interfaces__rosidl_typesupport_c.so" to ""
+[6.281s] -- Up-to-date: /home/harshit/mrt_ws/arm_workspace/install/pos_control_interfaces/include/pos_control_interfaces/pos_control_interfaces
+[6.281s] -- Up-to-date: /home/harshit/mrt_ws/arm_workspace/install/pos_control_interfaces/include/pos_control_interfaces/pos_control_interfaces/action
+[6.281s] -- Up-to-date: /home/harshit/mrt_ws/arm_workspace/install/pos_control_interfaces/include/pos_control_interfaces/pos_control_interfaces/action/detail
+[6.281s] -- Installing: /home/harshit/mrt_ws/arm_workspace/install/pos_control_interfaces/include/pos_control_interfaces/pos_control_interfaces/action/detail/trajectory__rosidl_typesupport_introspection_cpp.hpp
+[6.282s] -- Installing: /home/harshit/mrt_ws/arm_workspace/install/pos_control_interfaces/include/pos_control_interfaces/pos_control_interfaces/action/detail/trajectory__type_support.cpp
+[6.282s] -- Up-to-date: /home/harshit/mrt_ws/arm_workspace/install/pos_control_interfaces/include/pos_control_interfaces/pos_control_interfaces/msg
+[6.282s] -- Up-to-date: /home/harshit/mrt_ws/arm_workspace/install/pos_control_interfaces/include/pos_control_interfaces/pos_control_interfaces/msg/detail
+[6.282s] -- Installing: /home/harshit/mrt_ws/arm_workspace/install/pos_control_interfaces/include/pos_control_interfaces/pos_control_interfaces/msg/detail/encoder_arm__rosidl_typesupport_introspection_cpp.hpp
+[6.282s] -- Installing: /home/harshit/mrt_ws/arm_workspace/install/pos_control_interfaces/include/pos_control_interfaces/pos_control_interfaces/msg/detail/arm_end_motion__rosidl_typesupport_introspection_cpp.hpp
+[6.282s] -- Installing: /home/harshit/mrt_ws/arm_workspace/install/pos_control_interfaces/include/pos_control_interfaces/pos_control_interfaces/msg/detail/encoder_arm__type_support.cpp
+[6.282s] -- Installing: /home/harshit/mrt_ws/arm_workspace/install/pos_control_interfaces/include/pos_control_interfaces/pos_control_interfaces/msg/detail/arm_end_motion__type_support.cpp
+[6.283s] -- Installing: /home/harshit/mrt_ws/arm_workspace/install/pos_control_interfaces/lib/libpos_control_interfaces__rosidl_typesupport_introspection_cpp.so
+[6.284s] -- Set non-toolchain portion of runtime path of "/home/harshit/mrt_ws/arm_workspace/install/pos_control_interfaces/lib/libpos_control_interfaces__rosidl_typesupport_introspection_cpp.so" to ""
+[6.284s] -- Installing: /home/harshit/mrt_ws/arm_workspace/install/pos_control_interfaces/lib/libpos_control_interfaces__rosidl_typesupport_cpp.so
+[6.284s] -- Set non-toolchain portion of runtime path of "/home/harshit/mrt_ws/arm_workspace/install/pos_control_interfaces/lib/libpos_control_interfaces__rosidl_typesupport_cpp.so" to ""
+[6.284s] -- Up-to-date: /home/harshit/mrt_ws/arm_workspace/install/pos_control_interfaces/share/pos_control_interfaces/environment/pythonpath.sh
+[6.285s] -- Installing: /home/harshit/mrt_ws/arm_workspace/install/pos_control_interfaces/share/pos_control_interfaces/environment/pythonpath.dsv
+[6.285s] -- Up-to-date: /home/harshit/mrt_ws/arm_workspace/install/pos_control_interfaces/local/lib/python3.10/dist-packages/pos_control_interfaces-0.0.0-py3.10.egg-info
+[6.285s] -- Installing: /home/harshit/mrt_ws/arm_workspace/install/pos_control_interfaces/local/lib/python3.10/dist-packages/pos_control_interfaces-0.0.0-py3.10.egg-info/top_level.txt
+[6.285s] -- Installing: /home/harshit/mrt_ws/arm_workspace/install/pos_control_interfaces/local/lib/python3.10/dist-packages/pos_control_interfaces-0.0.0-py3.10.egg-info/SOURCES.txt
+[6.285s] -- Installing: /home/harshit/mrt_ws/arm_workspace/install/pos_control_interfaces/local/lib/python3.10/dist-packages/pos_control_interfaces-0.0.0-py3.10.egg-info/dependency_links.txt
+[6.285s] -- Installing: /home/harshit/mrt_ws/arm_workspace/install/pos_control_interfaces/local/lib/python3.10/dist-packages/pos_control_interfaces-0.0.0-py3.10.egg-info/PKG-INFO
+[6.285s] -- Up-to-date: /home/harshit/mrt_ws/arm_workspace/install/pos_control_interfaces/local/lib/python3.10/dist-packages/pos_control_interfaces
+[6.286s] -- Installing: /home/harshit/mrt_ws/arm_workspace/install/pos_control_interfaces/local/lib/python3.10/dist-packages/pos_control_interfaces/pos_control_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[6.286s] -- Installing: /home/harshit/mrt_ws/arm_workspace/install/pos_control_interfaces/local/lib/python3.10/dist-packages/pos_control_interfaces/_pos_control_interfaces_s.ep.rosidl_typesupport_c.c
+[6.286s] -- Installing: /home/harshit/mrt_ws/arm_workspace/install/pos_control_interfaces/local/lib/python3.10/dist-packages/pos_control_interfaces/pos_control_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[6.286s] -- Installing: /home/harshit/mrt_ws/arm_workspace/install/pos_control_interfaces/local/lib/python3.10/dist-packages/pos_control_interfaces/_pos_control_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c
+[6.286s] -- Installing: /home/harshit/mrt_ws/arm_workspace/install/pos_control_interfaces/local/lib/python3.10/dist-packages/pos_control_interfaces/libpos_control_interfaces__rosidl_generator_py.so
+[6.286s] -- Up-to-date: /home/harshit/mrt_ws/arm_workspace/install/pos_control_interfaces/local/lib/python3.10/dist-packages/pos_control_interfaces/action
+[6.286s] -- Installing: /home/harshit/mrt_ws/arm_workspace/install/pos_control_interfaces/local/lib/python3.10/dist-packages/pos_control_interfaces/action/_trajectory.py
+[6.287s] -- Installing: /home/harshit/mrt_ws/arm_workspace/install/pos_control_interfaces/local/lib/python3.10/dist-packages/pos_control_interfaces/action/_trajectory_s.c
+[6.287s] -- Installing: /home/harshit/mrt_ws/arm_workspace/install/pos_control_interfaces/local/lib/python3.10/dist-packages/pos_control_interfaces/action/__init__.py
+[6.287s] -- Installing: /home/harshit/mrt_ws/arm_workspace/install/pos_control_interfaces/local/lib/python3.10/dist-packages/pos_control_interfaces/pos_control_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[6.287s] -- Installing: /home/harshit/mrt_ws/arm_workspace/install/pos_control_interfaces/local/lib/python3.10/dist-packages/pos_control_interfaces/_pos_control_interfaces_s.ep.rosidl_typesupport_introspection_c.c
+[6.287s] -- Up-to-date: /home/harshit/mrt_ws/arm_workspace/install/pos_control_interfaces/local/lib/python3.10/dist-packages/pos_control_interfaces/msg
+[6.287s] -- Installing: /home/harshit/mrt_ws/arm_workspace/install/pos_control_interfaces/local/lib/python3.10/dist-packages/pos_control_interfaces/msg/_arm_end_motion_s.c
+[6.287s] -- Installing: /home/harshit/mrt_ws/arm_workspace/install/pos_control_interfaces/local/lib/python3.10/dist-packages/pos_control_interfaces/msg/_encoder_arm_s.c
+[6.288s] -- Installing: /home/harshit/mrt_ws/arm_workspace/install/pos_control_interfaces/local/lib/python3.10/dist-packages/pos_control_interfaces/msg/_encoder_arm.py
+[6.288s] -- Installing: /home/harshit/mrt_ws/arm_workspace/install/pos_control_interfaces/local/lib/python3.10/dist-packages/pos_control_interfaces/msg/_arm_end_motion.py
+[6.288s] -- Installing: /home/harshit/mrt_ws/arm_workspace/install/pos_control_interfaces/local/lib/python3.10/dist-packages/pos_control_interfaces/msg/__init__.py
+[6.288s] -- Installing: /home/harshit/mrt_ws/arm_workspace/install/pos_control_interfaces/local/lib/python3.10/dist-packages/pos_control_interfaces/__init__.py
+[6.329s] Listing '/home/harshit/mrt_ws/arm_workspace/install/pos_control_interfaces/local/lib/python3.10/dist-packages/pos_control_interfaces'...
+[6.330s] Compiling '/home/harshit/mrt_ws/arm_workspace/install/pos_control_interfaces/local/lib/python3.10/dist-packages/pos_control_interfaces/__init__.py'...
+[6.330s] Listing '/home/harshit/mrt_ws/arm_workspace/install/pos_control_interfaces/local/lib/python3.10/dist-packages/pos_control_interfaces/action'...
+[6.330s] Compiling '/home/harshit/mrt_ws/arm_workspace/install/pos_control_interfaces/local/lib/python3.10/dist-packages/pos_control_interfaces/action/__init__.py'...
+[6.330s] Compiling '/home/harshit/mrt_ws/arm_workspace/install/pos_control_interfaces/local/lib/python3.10/dist-packages/pos_control_interfaces/action/_trajectory.py'...
+[6.330s] Listing '/home/harshit/mrt_ws/arm_workspace/install/pos_control_interfaces/local/lib/python3.10/dist-packages/pos_control_interfaces/msg'...
+[6.330s] Compiling '/home/harshit/mrt_ws/arm_workspace/install/pos_control_interfaces/local/lib/python3.10/dist-packages/pos_control_interfaces/msg/__init__.py'...
+[6.330s] Compiling '/home/harshit/mrt_ws/arm_workspace/install/pos_control_interfaces/local/lib/python3.10/dist-packages/pos_control_interfaces/msg/_arm_end_motion.py'...
+[6.330s] Compiling '/home/harshit/mrt_ws/arm_workspace/install/pos_control_interfaces/local/lib/python3.10/dist-packages/pos_control_interfaces/msg/_encoder_arm.py'...
+[6.334s] -- Installing: /home/harshit/mrt_ws/arm_workspace/install/pos_control_interfaces/local/lib/python3.10/dist-packages/pos_control_interfaces/pos_control_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[6.335s] -- Set non-toolchain portion of runtime path of "/home/harshit/mrt_ws/arm_workspace/install/pos_control_interfaces/local/lib/python3.10/dist-packages/pos_control_interfaces/pos_control_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so" to ""
+[6.335s] -- Installing: /home/harshit/mrt_ws/arm_workspace/install/pos_control_interfaces/local/lib/python3.10/dist-packages/pos_control_interfaces/pos_control_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[6.335s] -- Set non-toolchain portion of runtime path of "/home/harshit/mrt_ws/arm_workspace/install/pos_control_interfaces/local/lib/python3.10/dist-packages/pos_control_interfaces/pos_control_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so" to ""
+[6.335s] -- Installing: /home/harshit/mrt_ws/arm_workspace/install/pos_control_interfaces/local/lib/python3.10/dist-packages/pos_control_interfaces/pos_control_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[6.336s] -- Set non-toolchain portion of runtime path of "/home/harshit/mrt_ws/arm_workspace/install/pos_control_interfaces/local/lib/python3.10/dist-packages/pos_control_interfaces/pos_control_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so" to ""
+[6.336s] -- Installing: /home/harshit/mrt_ws/arm_workspace/install/pos_control_interfaces/lib/libpos_control_interfaces__rosidl_generator_py.so
+[6.337s] -- Set non-toolchain portion of runtime path of "/home/harshit/mrt_ws/arm_workspace/install/pos_control_interfaces/lib/libpos_control_interfaces__rosidl_generator_py.so" to ""
+[6.337s] -- Up-to-date: /home/harshit/mrt_ws/arm_workspace/install/pos_control_interfaces/share/pos_control_interfaces/msg/ArmEndMotion.idl
+[6.337s] -- Up-to-date: /home/harshit/mrt_ws/arm_workspace/install/pos_control_interfaces/share/pos_control_interfaces/msg/EncoderArm.idl
+[6.337s] -- Installing: /home/harshit/mrt_ws/arm_workspace/install/pos_control_interfaces/share/pos_control_interfaces/action/Trajectory.idl
+[6.337s] -- Up-to-date: /home/harshit/mrt_ws/arm_workspace/install/pos_control_interfaces/share/pos_control_interfaces/msg/ArmEndMotion.msg
+[6.337s] -- Up-to-date: /home/harshit/mrt_ws/arm_workspace/install/pos_control_interfaces/share/pos_control_interfaces/msg/EncoderArm.msg
+[6.337s] -- Installing: /home/harshit/mrt_ws/arm_workspace/install/pos_control_interfaces/share/pos_control_interfaces/action/Trajectory.action
+[6.337s] -- Up-to-date: /home/harshit/mrt_ws/arm_workspace/install/pos_control_interfaces/share/ament_index/resource_index/package_run_dependencies/pos_control_interfaces
+[6.337s] -- Installing: /home/harshit/mrt_ws/arm_workspace/install/pos_control_interfaces/share/ament_index/resource_index/parent_prefix_path/pos_control_interfaces
+[6.337s] -- Up-to-date: /home/harshit/mrt_ws/arm_workspace/install/pos_control_interfaces/share/pos_control_interfaces/environment/ament_prefix_path.sh
+[6.337s] -- Installing: /home/harshit/mrt_ws/arm_workspace/install/pos_control_interfaces/share/pos_control_interfaces/environment/ament_prefix_path.dsv
+[6.337s] -- Up-to-date: /home/harshit/mrt_ws/arm_workspace/install/pos_control_interfaces/share/pos_control_interfaces/environment/path.sh
+[6.338s] -- Installing: /home/harshit/mrt_ws/arm_workspace/install/pos_control_interfaces/share/pos_control_interfaces/environment/path.dsv
+[6.338s] -- Up-to-date: /home/harshit/mrt_ws/arm_workspace/install/pos_control_interfaces/share/pos_control_interfaces/local_setup.bash
+[6.338s] -- Up-to-date: /home/harshit/mrt_ws/arm_workspace/install/pos_control_interfaces/share/pos_control_interfaces/local_setup.sh
+[6.338s] -- Up-to-date: /home/harshit/mrt_ws/arm_workspace/install/pos_control_interfaces/share/pos_control_interfaces/local_setup.zsh
+[6.338s] -- Installing: /home/harshit/mrt_ws/arm_workspace/install/pos_control_interfaces/share/pos_control_interfaces/local_setup.dsv
+[6.338s] -- Installing: /home/harshit/mrt_ws/arm_workspace/install/pos_control_interfaces/share/pos_control_interfaces/package.dsv
+[6.338s] -- Up-to-date: /home/harshit/mrt_ws/arm_workspace/install/pos_control_interfaces/share/ament_index/resource_index/packages/pos_control_interfaces
+[6.338s] -- Old export file "/home/harshit/mrt_ws/arm_workspace/install/pos_control_interfaces/share/pos_control_interfaces/cmake/export_pos_control_interfaces__rosidl_generator_cExport.cmake" will be replaced.  Removing files [/home/harshit/mrt_ws/arm_workspace/install/pos_control_interfaces/share/pos_control_interfaces/cmake/export_pos_control_interfaces__rosidl_generator_cExport-noconfig.cmake].
+[6.338s] -- Installing: /home/harshit/mrt_ws/arm_workspace/install/pos_control_interfaces/share/pos_control_interfaces/cmake/export_pos_control_interfaces__rosidl_generator_cExport.cmake
+[6.338s] -- Installing: /home/harshit/mrt_ws/arm_workspace/install/pos_control_interfaces/share/pos_control_interfaces/cmake/export_pos_control_interfaces__rosidl_generator_cExport-noconfig.cmake
+[6.339s] -- Old export file "/home/harshit/mrt_ws/arm_workspace/install/pos_control_interfaces/share/pos_control_interfaces/cmake/export_pos_control_interfaces__rosidl_typesupport_fastrtps_cExport.cmake" will be replaced.  Removing files [/home/harshit/mrt_ws/arm_workspace/install/pos_control_interfaces/share/pos_control_interfaces/cmake/export_pos_control_interfaces__rosidl_typesupport_fastrtps_cExport-noconfig.cmake].
+[6.339s] -- Installing: /home/harshit/mrt_ws/arm_workspace/install/pos_control_interfaces/share/pos_control_interfaces/cmake/export_pos_control_interfaces__rosidl_typesupport_fastrtps_cExport.cmake
+[6.339s] -- Installing: /home/harshit/mrt_ws/arm_workspace/install/pos_control_interfaces/share/pos_control_interfaces/cmake/export_pos_control_interfaces__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[6.339s] -- Installing: /home/harshit/mrt_ws/arm_workspace/install/pos_control_interfaces/share/pos_control_interfaces/cmake/export_pos_control_interfaces__rosidl_generator_cppExport.cmake
+[6.339s] -- Old export file "/home/harshit/mrt_ws/arm_workspace/install/pos_control_interfaces/share/pos_control_interfaces/cmake/export_pos_control_interfaces__rosidl_typesupport_fastrtps_cppExport.cmake" will be replaced.  Removing files [/home/harshit/mrt_ws/arm_workspace/install/pos_control_interfaces/share/pos_control_interfaces/cmake/export_pos_control_interfaces__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake].
+[6.339s] -- Installing: /home/harshit/mrt_ws/arm_workspace/install/pos_control_interfaces/share/pos_control_interfaces/cmake/export_pos_control_interfaces__rosidl_typesupport_fastrtps_cppExport.cmake
+[6.339s] -- Installing: /home/harshit/mrt_ws/arm_workspace/install/pos_control_interfaces/share/pos_control_interfaces/cmake/export_pos_control_interfaces__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[6.339s] -- Old export file "/home/harshit/mrt_ws/arm_workspace/install/pos_control_interfaces/share/pos_control_interfaces/cmake/pos_control_interfaces__rosidl_typesupport_introspection_cExport.cmake" will be replaced.  Removing files [/home/harshit/mrt_ws/arm_workspace/install/pos_control_interfaces/share/pos_control_interfaces/cmake/pos_control_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake].
+[6.339s] -- Installing: /home/harshit/mrt_ws/arm_workspace/install/pos_control_interfaces/share/pos_control_interfaces/cmake/pos_control_interfaces__rosidl_typesupport_introspection_cExport.cmake
+[6.340s] -- Installing: /home/harshit/mrt_ws/arm_workspace/install/pos_control_interfaces/share/pos_control_interfaces/cmake/pos_control_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[6.340s] -- Old export file "/home/harshit/mrt_ws/arm_workspace/install/pos_control_interfaces/share/pos_control_interfaces/cmake/pos_control_interfaces__rosidl_typesupport_cExport.cmake" will be replaced.  Removing files [/home/harshit/mrt_ws/arm_workspace/install/pos_control_interfaces/share/pos_control_interfaces/cmake/pos_control_interfaces__rosidl_typesupport_cExport-noconfig.cmake].
+[6.340s] -- Installing: /home/harshit/mrt_ws/arm_workspace/install/pos_control_interfaces/share/pos_control_interfaces/cmake/pos_control_interfaces__rosidl_typesupport_cExport.cmake
+[6.340s] -- Installing: /home/harshit/mrt_ws/arm_workspace/install/pos_control_interfaces/share/pos_control_interfaces/cmake/pos_control_interfaces__rosidl_typesupport_cExport-noconfig.cmake
+[6.340s] -- Old export file "/home/harshit/mrt_ws/arm_workspace/install/pos_control_interfaces/share/pos_control_interfaces/cmake/pos_control_interfaces__rosidl_typesupport_introspection_cppExport.cmake" will be replaced.  Removing files [/home/harshit/mrt_ws/arm_workspace/install/pos_control_interfaces/share/pos_control_interfaces/cmake/pos_control_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake].
+[6.340s] -- Installing: /home/harshit/mrt_ws/arm_workspace/install/pos_control_interfaces/share/pos_control_interfaces/cmake/pos_control_interfaces__rosidl_typesupport_introspection_cppExport.cmake
+[6.340s] -- Installing: /home/harshit/mrt_ws/arm_workspace/install/pos_control_interfaces/share/pos_control_interfaces/cmake/pos_control_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[6.340s] -- Old export file "/home/harshit/mrt_ws/arm_workspace/install/pos_control_interfaces/share/pos_control_interfaces/cmake/pos_control_interfaces__rosidl_typesupport_cppExport.cmake" will be replaced.  Removing files [/home/harshit/mrt_ws/arm_workspace/install/pos_control_interfaces/share/pos_control_interfaces/cmake/pos_control_interfaces__rosidl_typesupport_cppExport-noconfig.cmake].
+[6.341s] -- Installing: /home/harshit/mrt_ws/arm_workspace/install/pos_control_interfaces/share/pos_control_interfaces/cmake/pos_control_interfaces__rosidl_typesupport_cppExport.cmake
+[6.341s] -- Installing: /home/harshit/mrt_ws/arm_workspace/install/pos_control_interfaces/share/pos_control_interfaces/cmake/pos_control_interfaces__rosidl_typesupport_cppExport-noconfig.cmake
+[6.341s] -- Old export file "/home/harshit/mrt_ws/arm_workspace/install/pos_control_interfaces/share/pos_control_interfaces/cmake/export_pos_control_interfaces__rosidl_generator_pyExport.cmake" will be replaced.  Removing files [/home/harshit/mrt_ws/arm_workspace/install/pos_control_interfaces/share/pos_control_interfaces/cmake/export_pos_control_interfaces__rosidl_generator_pyExport-noconfig.cmake].
+[6.341s] -- Installing: /home/harshit/mrt_ws/arm_workspace/install/pos_control_interfaces/share/pos_control_interfaces/cmake/export_pos_control_interfaces__rosidl_generator_pyExport.cmake
+[6.341s] -- Installing: /home/harshit/mrt_ws/arm_workspace/install/pos_control_interfaces/share/pos_control_interfaces/cmake/export_pos_control_interfaces__rosidl_generator_pyExport-noconfig.cmake
+[6.341s] -- Up-to-date: /home/harshit/mrt_ws/arm_workspace/install/pos_control_interfaces/share/pos_control_interfaces/cmake/rosidl_cmake-extras.cmake
+[6.341s] -- Up-to-date: /home/harshit/mrt_ws/arm_workspace/install/pos_control_interfaces/share/pos_control_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake
+[6.341s] -- Up-to-date: /home/harshit/mrt_ws/arm_workspace/install/pos_control_interfaces/share/pos_control_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake
+[6.341s] -- Up-to-date: /home/harshit/mrt_ws/arm_workspace/install/pos_control_interfaces/share/pos_control_interfaces/cmake/ament_cmake_export_libraries-extras.cmake
+[6.341s] -- Up-to-date: /home/harshit/mrt_ws/arm_workspace/install/pos_control_interfaces/share/pos_control_interfaces/cmake/ament_cmake_export_targets-extras.cmake
+[6.342s] -- Up-to-date: /home/harshit/mrt_ws/arm_workspace/install/pos_control_interfaces/share/pos_control_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[6.342s] -- Up-to-date: /home/harshit/mrt_ws/arm_workspace/install/pos_control_interfaces/share/pos_control_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[6.342s] -- Up-to-date: /home/harshit/mrt_ws/arm_workspace/install/pos_control_interfaces/share/pos_control_interfaces/cmake/pos_control_interfacesConfig.cmake
+[6.342s] -- Up-to-date: /home/harshit/mrt_ws/arm_workspace/install/pos_control_interfaces/share/pos_control_interfaces/cmake/pos_control_interfacesConfig-version.cmake
+[6.342s] -- Installing: /home/harshit/mrt_ws/arm_workspace/install/pos_control_interfaces/share/pos_control_interfaces/package.xml
+[6.343s] Invoked command in '/home/harshit/mrt_ws/arm_workspace/build/pos_control_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/harshit/mrt_ws/install/week1_tutorials:/home/harshit/mrt_ws/install/week0_tutorials:/home/harshit/mrt_ws/install/sauron:/home/harshit/mrt_ws/install/odom_tf_publisher:/home/harshit/mrt_ws/install/mrs_hudson:/home/harshit/mrt_ws/install/assgn:/home/harshit/mrt_ws/install/aruco_detection:/home/harshit/mrt_ws/install/arm_pos_control:/home/harshit/urdf_rviz/install/urdf_testing:/home/harshit/urdf_rviz/install/robot_car:/home/harshit/mrt_ws/arm_workspace/install/arm_pos_control:/opt/ros/humble /usr/bin/cmake --install /home/harshit/mrt_ws/arm_workspace/build/pos_control_interfaces

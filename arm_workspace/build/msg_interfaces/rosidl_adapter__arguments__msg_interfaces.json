@@ -1,8 +1,0 @@
-{
-  "package_name": "msg_interfaces",
-  "non_idl_tuples": [
-    "/home/harshit/mrt_ws/arm_workspace/src/msg_interfaces:msg/UserCommand.msg",
-    "/home/harshit/mrt_ws/arm_workspace/src/msg_interfaces:msg/ArmEndMotion.msg",
-    "/home/harshit/mrt_ws/arm_workspace/src/msg_interfaces:msg/EncoderArm.msg"
-  ]
-}

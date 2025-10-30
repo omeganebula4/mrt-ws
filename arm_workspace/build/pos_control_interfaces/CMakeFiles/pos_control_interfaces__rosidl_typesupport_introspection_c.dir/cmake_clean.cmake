@@ -1,0 +1,21 @@
+file(REMOVE_RECURSE
+  "CMakeFiles/pos_control_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/pos_control_interfaces/action/detail/trajectory__type_support.c.o"
+  "CMakeFiles/pos_control_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/pos_control_interfaces/action/detail/trajectory__type_support.c.o.d"
+  "CMakeFiles/pos_control_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/pos_control_interfaces/msg/detail/arm_end_motion__type_support.c.o"
+  "CMakeFiles/pos_control_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/pos_control_interfaces/msg/detail/arm_end_motion__type_support.c.o.d"
+  "CMakeFiles/pos_control_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/pos_control_interfaces/msg/detail/encoder_arm__type_support.c.o"
+  "CMakeFiles/pos_control_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/pos_control_interfaces/msg/detail/encoder_arm__type_support.c.o.d"
+  "libpos_control_interfaces__rosidl_typesupport_introspection_c.pdb"
+  "libpos_control_interfaces__rosidl_typesupport_introspection_c.so"
+  "rosidl_typesupport_introspection_c/pos_control_interfaces/action/detail/trajectory__rosidl_typesupport_introspection_c.h"
+  "rosidl_typesupport_introspection_c/pos_control_interfaces/action/detail/trajectory__type_support.c"
+  "rosidl_typesupport_introspection_c/pos_control_interfaces/msg/detail/arm_end_motion__rosidl_typesupport_introspection_c.h"
+  "rosidl_typesupport_introspection_c/pos_control_interfaces/msg/detail/arm_end_motion__type_support.c"
+  "rosidl_typesupport_introspection_c/pos_control_interfaces/msg/detail/encoder_arm__rosidl_typesupport_introspection_c.h"
+  "rosidl_typesupport_introspection_c/pos_control_interfaces/msg/detail/encoder_arm__type_support.c"
+)
+
+# Per-language clean rules from dependency scanning.
+foreach(lang C)
+  include(CMakeFiles/pos_control_interfaces__rosidl_typesupport_introspection_c.dir/cmake_clean_${lang}.cmake OPTIONAL)
+endforeach()

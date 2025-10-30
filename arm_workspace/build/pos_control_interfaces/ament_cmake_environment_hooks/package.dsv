@@ -1,0 +1,4 @@
+source;share/pos_control_interfaces/local_setup.bash
+source;share/pos_control_interfaces/local_setup.dsv
+source;share/pos_control_interfaces/local_setup.sh
+source;share/pos_control_interfaces/local_setup.zsh

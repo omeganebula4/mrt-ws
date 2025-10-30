@@ -1,0 +1,4 @@
+[console_scripts]
+commander = arm_pos_control.command_publisher:main
+pid_controller = arm_pos_control.controller:main
+

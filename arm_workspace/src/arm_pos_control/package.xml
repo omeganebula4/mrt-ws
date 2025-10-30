@@ -3,18 +3,22 @@
 <package format="3">
   <name>arm_pos_control</name>
   <version>0.0.0</version>
-  <description>Arm Position Command Controller</description>
+  <description>MRT IITB 2025: Package for Position Control of Robotic Arm</description>
   <maintainer email="harshitsomani09@gmail.com">harshit</maintainer>
-  <license>Apache-2.0</license>
+  <license>Apache License 2.0</license>
+
+  <exec_depend>rclpy</exec_depend>
+  <exec_depend>std_msgs</exec_depend>
+  <exec_depend>geometry_msgs</exec_depend>
+  <exec_depend>pos_control_interfaces</exec_depend>
+  <exec_depend>python3-numpy</exec_depend>
+  <exec_depend>python3-typing-extensions</exec_depend>
 
   <test_depend>ament_copyright</test_depend>
   <test_depend>ament_flake8</test_depend>
   <test_depend>ament_pep257</test_depend>
   <test_depend>python3-pytest</test_depend>
 
-  <exec_depend>rclpy</exec_depend>
-  <exec_depend>msg_interfaces</exec_depend>
-  
   <export>
     <build_type>ament_python</build_type>
   </export>

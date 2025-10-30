@@ -1,0 +1,233 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-bf849014bf2d2b60a912.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17
+					]
+				},
+				{
+					"build" : "aruco_detection_interfaces__py",
+					"jsonFile" : "directory-aruco_detection_interfaces__py-f09abb9ee4bdfdcf3d82.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/home/harshit/mrt_ws/build/aruco_detection_interfaces/aruco_detection_interfaces__py",
+					"targetIndexes" : 
+					[
+						4
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1
+					],
+					"name" : "aruco_detection_interfaces",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_build_aruco_detection_interfaces_egg::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_build_aruco_detection_interfaces_egg-6a9add641e7ee2ed5745.json",
+					"name" : "ament_cmake_python_build_aruco_detection_interfaces_egg",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_symlink_aruco_detection_interfaces::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_symlink_aruco_detection_interfaces-d675d8c92d47634f46f3.json",
+					"name" : "ament_cmake_python_symlink_aruco_detection_interfaces",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "aruco_detection_interfaces::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-aruco_detection_interfaces-59733b8446fe2a22c87d.json",
+					"name" : "aruco_detection_interfaces",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "aruco_detection_interfaces__cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-aruco_detection_interfaces__cpp-2b9f0b2a9937e7c0f77f.json",
+					"name" : "aruco_detection_interfaces__cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "aruco_detection_interfaces__py::@640730ba7915f17ba4d8",
+					"jsonFile" : "target-aruco_detection_interfaces__py-d47d90133e50caf8755e.json",
+					"name" : "aruco_detection_interfaces__py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "aruco_detection_interfaces__rosidl_generator_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-aruco_detection_interfaces__rosidl_generator_c-c5ff176f3df259dd4e03.json",
+					"name" : "aruco_detection_interfaces__rosidl_generator_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "aruco_detection_interfaces__rosidl_generator_py::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-aruco_detection_interfaces__rosidl_generator_py-bcc529b7b5e512487c68.json",
+					"name" : "aruco_detection_interfaces__rosidl_generator_py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "aruco_detection_interfaces__rosidl_typesupport_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-aruco_detection_interfaces__rosidl_typesupport_c-de42232d8e388a78a90a.json",
+					"name" : "aruco_detection_interfaces__rosidl_typesupport_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "aruco_detection_interfaces__rosidl_typesupport_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-aruco_detection_interfaces__rosidl_typesupport_c__pyext-6e426fa6a9ee50ddb21d.json",
+					"name" : "aruco_detection_interfaces__rosidl_typesupport_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "aruco_detection_interfaces__rosidl_typesupport_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-aruco_detection_interfaces__rosidl_typesupport_cpp-96217e5953bff65afdf1.json",
+					"name" : "aruco_detection_interfaces__rosidl_typesupport_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "aruco_detection_interfaces__rosidl_typesupport_fastrtps_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-aruco_detection_interfaces__rosidl_typesupport_fastrtps_c-9f3e1e32df547650baab.json",
+					"name" : "aruco_detection_interfaces__rosidl_typesupport_fastrtps_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "aruco_detection_interfaces__rosidl_typesupport_fastrtps_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-aruco_detection_interfaces__rosidl_typesupport_fastrtps_c__pyext-d33f861e89013fbdc3ab.json",
+					"name" : "aruco_detection_interfaces__rosidl_typesupport_fastrtps_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "aruco_detection_interfaces__rosidl_typesupport_fastrtps_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-aruco_detection_interfaces__rosidl_typesupport_fastrtps_cpp-5b3362387c1e4c7e30ba.json",
+					"name" : "aruco_detection_interfaces__rosidl_typesupport_fastrtps_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "aruco_detection_interfaces__rosidl_typesupport_introspection_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-aruco_detection_interfaces__rosidl_typesupport_introspection_c-29e11774c3da4060722c.json",
+					"name" : "aruco_detection_interfaces__rosidl_typesupport_introspection_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "aruco_detection_interfaces__rosidl_typesupport_introspection_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-aruco_detection_interfaces__rosidl_typesupport_introspection_c__pyext-15629f5d18118d90c4ed.json",
+					"name" : "aruco_detection_interfaces__rosidl_typesupport_introspection_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "aruco_detection_interfaces__rosidl_typesupport_introspection_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-aruco_detection_interfaces__rosidl_typesupport_introspection_cpp-8fb5716ee0198bd2cc79.json",
+					"name" : "aruco_detection_interfaces__rosidl_typesupport_introspection_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "aruco_detection_interfaces_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-aruco_detection_interfaces_uninstall-a11824fd6ea8f21542e0.json",
+					"name" : "aruco_detection_interfaces_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-50ade67301da19f6e48e.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/harshit/mrt_ws/build/aruco_detection_interfaces",
+		"source" : "/home/harshit/mrt_ws/src/aruco_detection_interfaces"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 8
+	}
+}

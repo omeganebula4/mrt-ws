@@ -14,6 +14,10 @@ sauron/__init__.py
 sauron/listener.py
 sauron/talker1.py
 sauron/talker2.py
-test/test_copyright.py
-test/test_flake8.py
-test/test_pep257.py
+sauron.egg-info/PKG-INFO
+sauron.egg-info/SOURCES.txt
+sauron.egg-info/dependency_links.txt
+sauron.egg-info/entry_points.txt
+sauron.egg-info/requires.txt
+sauron.egg-info/top_level.txt
+sauron.egg-info/zip-safe

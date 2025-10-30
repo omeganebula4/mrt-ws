@@ -10,7 +10,11 @@ setup.py
 ../../build/odom_tf_publisher/odom_tf_publisher.egg-info/zip-safe
 odom_tf_publisher/__init__.py
 odom_tf_publisher/odom_tf_publisher.py
+odom_tf_publisher.egg-info/PKG-INFO
+odom_tf_publisher.egg-info/SOURCES.txt
+odom_tf_publisher.egg-info/dependency_links.txt
+odom_tf_publisher.egg-info/entry_points.txt
+odom_tf_publisher.egg-info/requires.txt
+odom_tf_publisher.egg-info/top_level.txt
+odom_tf_publisher.egg-info/zip-safe
 resource/odom_tf_publisher
-test/test_copyright.py
-test/test_flake8.py
-test/test_pep257.py

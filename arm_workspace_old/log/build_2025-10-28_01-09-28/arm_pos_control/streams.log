@@ -1,0 +1,18 @@
+[0.655s] Invoking command in '/home/harshit/mrt_ws/arm_workspace/build/arm_pos_control': PYTHONPATH=/home/harshit/mrt_ws/arm_workspace/build/arm_pos_control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/harshit/mrt_ws/arm_workspace/install/arm_pos_control/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/harshit/mrt_ws/arm_workspace/build/arm_pos_control/build --no-deps symlink_data
+[0.862s] running develop
+[1.006s] running egg_info
+[1.006s] writing arm_pos_control.egg-info/PKG-INFO
+[1.006s] writing dependency_links to arm_pos_control.egg-info/dependency_links.txt
+[1.006s] writing entry points to arm_pos_control.egg-info/entry_points.txt
+[1.006s] writing requirements to arm_pos_control.egg-info/requires.txt
+[1.006s] writing top-level names to arm_pos_control.egg-info/top_level.txt
+[1.007s] reading manifest file 'arm_pos_control.egg-info/SOURCES.txt'
+[1.008s] writing manifest file 'arm_pos_control.egg-info/SOURCES.txt'
+[1.036s] running build_ext
+[1.036s] Creating /home/harshit/mrt_ws/arm_workspace/install/arm_pos_control/lib/python3.10/site-packages/arm-pos-control.egg-link (link to .)
+[1.036s] Installing commander script to /home/harshit/mrt_ws/arm_workspace/install/arm_pos_control/lib/arm_pos_control
+[1.037s] Installing pid_controller script to /home/harshit/mrt_ws/arm_workspace/install/arm_pos_control/lib/arm_pos_control
+[1.037s] 
+[1.037s] Installed /home/harshit/mrt_ws/arm_workspace/build/arm_pos_control
+[1.037s] running symlink_data
+[1.063s] Invoked command in '/home/harshit/mrt_ws/arm_workspace/build/arm_pos_control' returned '0': PYTHONPATH=/home/harshit/mrt_ws/arm_workspace/build/arm_pos_control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/harshit/mrt_ws/arm_workspace/install/arm_pos_control/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/harshit/mrt_ws/arm_workspace/build/arm_pos_control/build --no-deps symlink_data

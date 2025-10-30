@@ -1,0 +1,95 @@
+[0.059s] Invoking command in '/home/harshit/mrt_ws/build/aruco_detection_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/harshit/mrt_ws/arm_workspace/install/arm_pos_control:/home/harshit/mrt_ws/install/week1_tutorials:/home/harshit/mrt_ws/install/week0_tutorials:/home/harshit/mrt_ws/install/sauron:/home/harshit/mrt_ws/install/odom_tf_publisher:/home/harshit/mrt_ws/install/mrs_hudson:/home/harshit/mrt_ws/install/assgn:/home/harshit/mrt_ws/install/aruco_detection:/home/harshit/urdf_rviz/install/urdf_testing:/home/harshit/urdf_rviz/install/robot_car:/opt/ros/humble /usr/bin/cmake /home/harshit/mrt_ws/src/aruco_detection_interfaces -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/harshit/mrt_ws/install/aruco_detection_interfaces
+[1.238s] -- The C compiler identification is GNU 11.4.0
+[1.238s] -- The CXX compiler identification is GNU 11.4.0
+[1.238s] -- Detecting C compiler ABI info
+[1.238s] -- Detecting C compiler ABI info - done
+[1.238s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.238s] -- Detecting C compile features
+[1.238s] -- Detecting C compile features - done
+[1.238s] -- Detecting CXX compiler ABI info
+[1.238s] -- Detecting CXX compiler ABI info - done
+[1.239s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.239s] -- Detecting CXX compile features
+[1.239s] -- Detecting CXX compile features - done
+[1.239s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[1.239s] -- Found ament_cmake_core: 1.3.12 (/opt/ros/humble/share/ament_cmake_core/cmake)
+[1.239s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter
+[1.240s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.240s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.240s] -- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.240s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.240s] -- Found sensor_msgs: 4.9.0 (/opt/ros/humble/share/sensor_msgs/cmake)
+[1.240s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[1.240s] [0mCMake Deprecation Warning at CMakeLists.txt:1 (cmake_minimum_required):
+[1.240s]   Compatibility with CMake < 3.10 will be removed from a future version of
+[1.240s]   CMake.
+[1.240s] 
+[1.240s]   Update the VERSION argument <min> value.  Or, use the <min>...<max> syntax
+[1.240s]   to tell CMake that the project requires at least <min> but has been updated
+[1.240s]   to work with policies introduced by <max> or earlier.
+[1.240s] 
+[1.241s] [0m
+[1.938s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[3.402s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[3.403s] [33mCMake Warning (dev) at /opt/ros/humble/share/rosidl_generator_py/cmake/rosidl_generator_py_generate_interfaces.cmake:20 (find_package):
+[3.403s]   Policy CMP0148 is not set: The FindPythonInterp and FindPythonLibs modules
+[3.404s]   are removed.  Run "cmake --help-policy CMP0148" for policy details.  Use
+[3.404s]   the cmake_policy command to set the policy and suppress this warning.
+[3.404s] 
+[3.404s] Call Stack (most recent call first):
+[3.404s]   /opt/ros/humble/share/ament_cmake_core/cmake/core/ament_execute_extensions.cmake:48 (include)
+[3.404s]   /opt/ros/humble/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:286 (ament_execute_extensions)
+[3.404s]   CMakeLists.txt:7 (rosidl_generate_interfaces)
+[3.404s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[3.404s] [0m
+[3.428s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[3.429s] [33mCMake Warning (dev) at /opt/ros/humble/share/python_cmake_module/cmake/Modules/FindPythonExtra.cmake:52 (find_package):
+[3.429s]   Policy CMP0148 is not set: The FindPythonInterp and FindPythonLibs modules
+[3.429s]   are removed.  Run "cmake --help-policy CMP0148" for policy details.  Use
+[3.429s]   the cmake_policy command to set the policy and suppress this warning.
+[3.429s] 
+[3.429s] Call Stack (most recent call first):
+[3.429s]   /opt/ros/humble/share/rosidl_generator_py/cmake/rosidl_generator_py_generate_interfaces.cmake:23 (find_package)
+[3.429s]   /opt/ros/humble/share/ament_cmake_core/cmake/core/ament_execute_extensions.cmake:48 (include)
+[3.429s]   /opt/ros/humble/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:286 (ament_execute_extensions)
+[3.429s]   CMakeLists.txt:7 (rosidl_generate_interfaces)
+[3.429s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[3.429s] [0m
+[3.457s] [33mCMake Warning (dev) at /opt/ros/humble/share/python_cmake_module/cmake/Modules/FindPythonExtra.cmake:140 (find_package):
+[3.457s]   Policy CMP0148 is not set: The FindPythonInterp and FindPythonLibs modules
+[3.457s]   are removed.  Run "cmake --help-policy CMP0148" for policy details.  Use
+[3.457s]   the cmake_policy command to set the policy and suppress this warning.
+[3.457s] 
+[3.457s] Call Stack (most recent call first):
+[3.457s]   /opt/ros/humble/share/rosidl_generator_py/cmake/rosidl_generator_py_generate_interfaces.cmake:23 (find_package)
+[3.457s]   /opt/ros/humble/share/ament_cmake_core/cmake/core/ament_execute_extensions.cmake:48 (include)
+[3.457s]   /opt/ros/humble/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:286 (ament_execute_extensions)
+[3.457s]   CMakeLists.txt:7 (rosidl_generate_interfaces)
+[3.458s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[3.460s] [0m
+[3.465s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[3.465s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[3.465s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[3.543s] -- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[3.569s] -- Added test 'lint_cmake' to check CMake code style
+[3.569s] -- Added test 'xmllint' to check XML markup files
+[3.578s] -- Configuring done (3.5s)
+[3.645s] -- Generating done (0.1s)
+[3.668s] -- Build files have been written to: /home/harshit/mrt_ws/build/aruco_detection_interfaces
+[3.684s] Invoked command in '/home/harshit/mrt_ws/build/aruco_detection_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/harshit/mrt_ws/arm_workspace/install/arm_pos_control:/home/harshit/mrt_ws/install/week1_tutorials:/home/harshit/mrt_ws/install/week0_tutorials:/home/harshit/mrt_ws/install/sauron:/home/harshit/mrt_ws/install/odom_tf_publisher:/home/harshit/mrt_ws/install/mrs_hudson:/home/harshit/mrt_ws/install/assgn:/home/harshit/mrt_ws/install/aruco_detection:/home/harshit/urdf_rviz/install/urdf_testing:/home/harshit/urdf_rviz/install/robot_car:/opt/ros/humble /usr/bin/cmake /home/harshit/mrt_ws/src/aruco_detection_interfaces -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/harshit/mrt_ws/install/aruco_detection_interfaces
+[3.684s] Invoking command in '/home/harshit/mrt_ws/build/aruco_detection_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/harshit/mrt_ws/arm_workspace/install/arm_pos_control:/home/harshit/mrt_ws/install/week1_tutorials:/home/harshit/mrt_ws/install/week0_tutorials:/home/harshit/mrt_ws/install/sauron:/home/harshit/mrt_ws/install/odom_tf_publisher:/home/harshit/mrt_ws/install/mrs_hudson:/home/harshit/mrt_ws/install/assgn:/home/harshit/mrt_ws/install/aruco_detection:/home/harshit/urdf_rviz/install/urdf_testing:/home/harshit/urdf_rviz/install/robot_car:/opt/ros/humble /usr/bin/cmake --build /home/harshit/mrt_ws/build/aruco_detection_interfaces -- -j8 -l8
+[3.707s] [  1%] [1m[34mGenerating C code for ROS interfaces[0m
+[3.710s] failed to create symbolic link '/home/harshit/mrt_ws/build/aruco_detection_interfaces/ament_cmake_python/aruco_detection_interfaces/aruco_detection_interfaces' because existing path cannot be removed: Is a directory
+[3.712s] gmake[2]: *** [CMakeFiles/ament_cmake_python_symlink_aruco_detection_interfaces.dir/build.make:70: CMakeFiles/ament_cmake_python_symlink_aruco_detection_interfaces] Error 1
+[3.712s] gmake[1]: *** [CMakeFiles/Makefile2:514: CMakeFiles/ament_cmake_python_symlink_aruco_detection_interfaces.dir/all] Error 2
+[3.713s] gmake[1]: *** Waiting for unfinished jobs....
+[3.716s] [  3%] [1m[34mGenerating C++ code for ROS interfaces[0m
+[4.514s] [  3%] Built target aruco_detection_interfaces__cpp
+[4.697s] [  5%] [32mBuilding C object CMakeFiles/aruco_detection_interfaces__rosidl_generator_c.dir/rosidl_generator_c/aruco_detection_interfaces/msg/detail/point__functions.c.o[0m
+[4.697s] [  7%] [32mBuilding C object CMakeFiles/aruco_detection_interfaces__rosidl_generator_c.dir/rosidl_generator_c/aruco_detection_interfaces/msg/detail/image_bounds__functions.c.o[0m
+[4.697s] [  9%] [32mBuilding C object CMakeFiles/aruco_detection_interfaces__rosidl_generator_c.dir/rosidl_generator_c/aruco_detection_interfaces/msg/detail/point_array__functions.c.o[0m
+[4.705s] [ 10%] [32mBuilding C object CMakeFiles/aruco_detection_interfaces__rosidl_generator_c.dir/rosidl_generator_c/aruco_detection_interfaces/srv/detail/process_image__functions.c.o[0m
+[4.921s] [ 12%] [1m[32mLinking C shared library libaruco_detection_interfaces__rosidl_generator_c.so[0m
+[5.004s] [ 12%] Built target aruco_detection_interfaces__rosidl_generator_c
+[5.011s] gmake: *** [Makefile:146: all] Error 2
+[5.021s] Invoked command in '/home/harshit/mrt_ws/build/aruco_detection_interfaces' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/harshit/mrt_ws/arm_workspace/install/arm_pos_control:/home/harshit/mrt_ws/install/week1_tutorials:/home/harshit/mrt_ws/install/week0_tutorials:/home/harshit/mrt_ws/install/sauron:/home/harshit/mrt_ws/install/odom_tf_publisher:/home/harshit/mrt_ws/install/mrs_hudson:/home/harshit/mrt_ws/install/assgn:/home/harshit/mrt_ws/install/aruco_detection:/home/harshit/urdf_rviz/install/urdf_testing:/home/harshit/urdf_rviz/install/robot_car:/opt/ros/humble /usr/bin/cmake --build /home/harshit/mrt_ws/build/aruco_detection_interfaces -- -j8 -l8

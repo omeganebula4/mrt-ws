@@ -3,7 +3,7 @@ import numpy as np
 import scipy.optimize
 from numpy.linalg import inv
 
-# pos [[x1, y1], [x2, y2], [x3, y3]]
+# pos [[x1, y1], [x2, y2], [x3, y3]] - np array
 # dur = 1000
 # vel = None
 # acc = None

@@ -1,0 +1,29 @@
+running develop
+running egg_info
+writing mrs_hudson.egg-info/PKG-INFO
+writing dependency_links to mrs_hudson.egg-info/dependency_links.txt
+writing entry points to mrs_hudson.egg-info/entry_points.txt
+writing requirements to mrs_hudson.egg-info/requires.txt
+writing top-level names to mrs_hudson.egg-info/top_level.txt
+reading manifest file 'mrs_hudson.egg-info/SOURCES.txt'
+writing manifest file 'mrs_hudson.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/harshit/mrt_ws/install/mrs_hudson/lib/python3.10/site-packages/mrs-hudson.egg-link (link to .)
+Installing detect_marker script to /home/harshit/mrt_ws/install/mrs_hudson/lib/mrs_hudson
+Installing display_camera script to /home/harshit/mrt_ws/install/mrs_hudson/lib/mrs_hudson
+Installing mrs_hudson_teleop script to /home/harshit/mrt_ws/install/mrs_hudson/lib/mrs_hudson
+Installing vel_pub script to /home/harshit/mrt_ws/install/mrs_hudson/lib/mrs_hudson
+
+Installed /home/harshit/mrt_ws/build/mrs_hudson
+running symlink_data
+symbolically linking /home/harshit/mrt_ws/build/mrs_hudson/resource/mrs_hudson -> /home/harshit/mrt_ws/install/mrs_hudson/share/ament_index/resource_index/packages
+symbolically linking /home/harshit/mrt_ws/build/mrs_hudson/package.xml -> /home/harshit/mrt_ws/install/mrs_hudson/share/mrs_hudson
+symbolically linking /home/harshit/mrt_ws/build/mrs_hudson/launch/mrs_hudson_empty_world.launch.py -> /home/harshit/mrt_ws/install/mrs_hudson/share/mrs_hudson/launch
+symbolically linking /home/harshit/mrt_ws/build/mrs_hudson/launch/mrs_hudson_gazebo_rviz.launch.py -> /home/harshit/mrt_ws/install/mrs_hudson/share/mrs_hudson/launch
+symbolically linking /home/harshit/mrt_ws/build/mrs_hudson/models/mrs_hudson.urdf -> /home/harshit/mrt_ws/install/mrs_hudson/share/mrs_hudson/models
+symbolically linking /home/harshit/mrt_ws/build/mrs_hudson/config/mrs_hudson.rviz -> /home/harshit/mrt_ws/install/mrs_hudson/share/mrs_hudson/config
+symbolically linking /home/harshit/mrt_ws/build/mrs_hudson/worlds/mrs_hudson.sdf -> /home/harshit/mrt_ws/install/mrs_hudson/share/mrs_hudson/worlds
+symbolically linking /home/harshit/mrt_ws/build/mrs_hudson/launch/mrs_hudson_world.launch.py -> /home/harshit/mrt_ws/install/mrs_hudson/share/mrs_hudson/launch
+symbolically linking /home/harshit/mrt_ws/build/mrs_hudson/worlds/mrs_hudson_arena.sdf -> /home/harshit/mrt_ws/install/mrs_hudson/share/mrs_hudson/worlds
+symbolically linking /home/harshit/mrt_ws/build/mrs_hudson/launch/maze_aruco.launch.py -> /home/harshit/mrt_ws/install/mrs_hudson/share/mrs_hudson/launch
+symbolically linking /home/harshit/mrt_ws/build/mrs_hudson/worlds/maze_aruco.sdf -> /home/harshit/mrt_ws/install/mrs_hudson/share/mrs_hudson/worlds

@@ -1,0 +1,23 @@
+[2.280s] Invoking command in '/home/harshit/mrt_ws/build/assgn': PYTHONPATH=/home/harshit/mrt_ws/build/assgn/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/harshit/mrt_ws/install/assgn/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/harshit/mrt_ws/build/assgn/build --no-deps symlink_data --force
+[2.637s] running develop
+[2.884s] running egg_info
+[2.884s] writing assgn.egg-info/PKG-INFO
+[2.884s] writing dependency_links to assgn.egg-info/dependency_links.txt
+[2.885s] writing entry points to assgn.egg-info/entry_points.txt
+[2.885s] writing requirements to assgn.egg-info/requires.txt
+[2.885s] writing top-level names to assgn.egg-info/top_level.txt
+[2.887s] reading manifest file 'assgn.egg-info/SOURCES.txt'
+[2.894s] writing manifest file 'assgn.egg-info/SOURCES.txt'
+[2.941s] running build_ext
+[2.942s] Creating /home/harshit/mrt_ws/install/assgn/lib/python3.10/site-packages/assgn.egg-link (link to .)
+[2.942s] Installing 96 script to /home/harshit/mrt_ws/install/assgn/lib/assgn
+[2.942s] 
+[2.942s] Installed /home/harshit/mrt_ws/build/assgn
+[2.942s] running symlink_data
+[2.942s] symbolically linking /home/harshit/mrt_ws/build/assgn/resource/assgn -> /home/harshit/mrt_ws/install/assgn/share/ament_index/resource_index/packages
+[2.942s] symbolically linking /home/harshit/mrt_ws/build/assgn/package.xml -> /home/harshit/mrt_ws/install/assgn/share/assgn
+[2.942s] symbolically linking /home/harshit/mrt_ws/build/assgn/launch/mrs_hudson_world.launch.py -> /home/harshit/mrt_ws/install/assgn/share/assgn/launch
+[2.942s] symbolically linking /home/harshit/mrt_ws/build/assgn/models/mrs_hudson.urdf -> /home/harshit/mrt_ws/install/assgn/share/assgn/models
+[2.942s] symbolically linking /home/harshit/mrt_ws/build/assgn/config/mrs_hudson.rviz -> /home/harshit/mrt_ws/install/assgn/share/assgn/config
+[2.942s] symbolically linking /home/harshit/mrt_ws/build/assgn/worlds/mrs_hudson_arena.sdf -> /home/harshit/mrt_ws/install/assgn/share/assgn/worlds
+[2.997s] Invoked command in '/home/harshit/mrt_ws/build/assgn' returned '0': PYTHONPATH=/home/harshit/mrt_ws/build/assgn/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/harshit/mrt_ws/install/assgn/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/harshit/mrt_ws/build/assgn/build --no-deps symlink_data --force

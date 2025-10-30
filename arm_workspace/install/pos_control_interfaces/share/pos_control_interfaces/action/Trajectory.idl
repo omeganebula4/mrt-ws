@@ -1,0 +1,20 @@
+// generated from rosidl_adapter/resource/action.idl.em
+// with input from pos_control_interfaces/action/Trajectory.action
+// generated code does not contain a copyright notice
+
+#include "geometry_msgs/msg/Point.idl"
+#include "std_msgs/msg/String.idl"
+
+module pos_control_interfaces {
+  module action {
+    struct Trajectory_Goal {
+      std_msgs::msg::String command;
+    };
+    struct Trajectory_Result {
+      boolean success;
+    };
+    struct Trajectory_Feedback {
+      geometry_msgs::msg::Point end_effector_pos;
+    };
+  };
+};

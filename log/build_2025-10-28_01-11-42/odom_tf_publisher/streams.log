@@ -1,0 +1,19 @@
+[2.261s] Invoking command in '/home/harshit/mrt_ws/build/odom_tf_publisher': PYTHONPATH=/home/harshit/mrt_ws/build/odom_tf_publisher/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/harshit/mrt_ws/install/odom_tf_publisher/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/harshit/mrt_ws/build/odom_tf_publisher/build --no-deps symlink_data --force
+[2.662s] running develop
+[2.999s] running egg_info
+[2.999s] writing odom_tf_publisher.egg-info/PKG-INFO
+[2.999s] writing dependency_links to odom_tf_publisher.egg-info/dependency_links.txt
+[2.999s] writing entry points to odom_tf_publisher.egg-info/entry_points.txt
+[2.999s] writing requirements to odom_tf_publisher.egg-info/requires.txt
+[3.001s] writing top-level names to odom_tf_publisher.egg-info/top_level.txt
+[3.004s] reading manifest file 'odom_tf_publisher.egg-info/SOURCES.txt'
+[3.008s] writing manifest file 'odom_tf_publisher.egg-info/SOURCES.txt'
+[3.077s] running build_ext
+[3.078s] Creating /home/harshit/mrt_ws/install/odom_tf_publisher/lib/python3.10/site-packages/odom-tf-publisher.egg-link (link to .)
+[3.079s] Installing odom_tf_publisher script to /home/harshit/mrt_ws/install/odom_tf_publisher/lib/odom_tf_publisher
+[3.079s] 
+[3.079s] Installed /home/harshit/mrt_ws/build/odom_tf_publisher
+[3.079s] running symlink_data
+[3.079s] symbolically linking /home/harshit/mrt_ws/build/odom_tf_publisher/resource/odom_tf_publisher -> /home/harshit/mrt_ws/install/odom_tf_publisher/share/ament_index/resource_index/packages
+[3.079s] symbolically linking /home/harshit/mrt_ws/build/odom_tf_publisher/package.xml -> /home/harshit/mrt_ws/install/odom_tf_publisher/share/odom_tf_publisher
+[3.460s] Invoked command in '/home/harshit/mrt_ws/build/odom_tf_publisher' returned '0': PYTHONPATH=/home/harshit/mrt_ws/build/odom_tf_publisher/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/harshit/mrt_ws/install/odom_tf_publisher/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/harshit/mrt_ws/build/odom_tf_publisher/build --no-deps symlink_data --force

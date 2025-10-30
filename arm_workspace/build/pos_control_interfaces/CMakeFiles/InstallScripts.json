@@ -1,0 +1,8 @@
+{
+	"InstallScripts" : 
+	[
+		"/home/harshit/mrt_ws/arm_workspace/build/pos_control_interfaces/cmake_install.cmake",
+		"/home/harshit/mrt_ws/arm_workspace/build/pos_control_interfaces/pos_control_interfaces__py/cmake_install.cmake"
+	],
+	"Parallel" : false
+}

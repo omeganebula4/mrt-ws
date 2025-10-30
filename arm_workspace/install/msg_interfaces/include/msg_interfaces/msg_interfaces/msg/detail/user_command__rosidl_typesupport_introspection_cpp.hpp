@@ -1,1 +1,0 @@
-/home/harshit/mrt_ws/arm_workspace/build/msg_interfaces/rosidl_typesupport_introspection_cpp/msg_interfaces/msg/detail/user_command__rosidl_typesupport_introspection_cpp.hpp

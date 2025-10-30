@@ -4,3 +4,6 @@ source;share/sauron/hook/pythonpath.sh
 source;share/sauron/hook/ament_prefix_path.ps1
 source;share/sauron/hook/ament_prefix_path.dsv
 source;share/sauron/hook/ament_prefix_path.sh
+source;../../build/sauron/share/sauron/hook/pythonpath_develop.ps1
+source;../../build/sauron/share/sauron/hook/pythonpath_develop.dsv
+source;../../build/sauron/share/sauron/hook/pythonpath_develop.sh

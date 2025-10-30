@@ -1,0 +1,19 @@
+running develop
+running egg_info
+writing week1_tutorials.egg-info/PKG-INFO
+writing dependency_links to week1_tutorials.egg-info/dependency_links.txt
+writing entry points to week1_tutorials.egg-info/entry_points.txt
+writing requirements to week1_tutorials.egg-info/requires.txt
+writing top-level names to week1_tutorials.egg-info/top_level.txt
+reading manifest file 'week1_tutorials.egg-info/SOURCES.txt'
+writing manifest file 'week1_tutorials.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/harshit/mrt_ws/install/week1_tutorials/lib/python3.10/site-packages/week1-tutorials.egg-link (link to .)
+
+Installed /home/harshit/mrt_ws/build/week1_tutorials
+running symlink_data
+symbolically linking /home/harshit/mrt_ws/build/week1_tutorials/resource/week1_tutorials -> /home/harshit/mrt_ws/install/week1_tutorials/share/ament_index/resource_index/packages
+symbolically linking /home/harshit/mrt_ws/build/week1_tutorials/package.xml -> /home/harshit/mrt_ws/install/week1_tutorials/share/week1_tutorials
+symbolically linking /home/harshit/mrt_ws/build/week1_tutorials/models/cub_world.sdf -> /home/harshit/mrt_ws/install/week1_tutorials/share/week1_tutorials/models
+symbolically linking /home/harshit/mrt_ws/build/week1_tutorials/launch/cub.launch.py -> /home/harshit/mrt_ws/install/week1_tutorials/share/week1_tutorials/launch
+symbolically linking /home/harshit/mrt_ws/build/week1_tutorials/launch/custom_rviz.launch.py -> /home/harshit/mrt_ws/install/week1_tutorials/share/week1_tutorials/launch

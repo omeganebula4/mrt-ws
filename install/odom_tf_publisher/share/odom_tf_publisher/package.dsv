@@ -4,3 +4,6 @@ source;share/odom_tf_publisher/hook/pythonpath.sh
 source;share/odom_tf_publisher/hook/ament_prefix_path.ps1
 source;share/odom_tf_publisher/hook/ament_prefix_path.dsv
 source;share/odom_tf_publisher/hook/ament_prefix_path.sh
+source;../../build/odom_tf_publisher/share/odom_tf_publisher/hook/pythonpath_develop.ps1
+source;../../build/odom_tf_publisher/share/odom_tf_publisher/hook/pythonpath_develop.dsv
+source;../../build/odom_tf_publisher/share/odom_tf_publisher/hook/pythonpath_develop.sh

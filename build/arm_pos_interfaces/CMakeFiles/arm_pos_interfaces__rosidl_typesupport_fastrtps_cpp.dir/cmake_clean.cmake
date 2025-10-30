@@ -1,0 +1,17 @@
+file(REMOVE_RECURSE
+  "CMakeFiles/arm_pos_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/arm_pos_interfaces/msg/detail/dds_fastrtps/arm_end_motion__type_support.cpp.o"
+  "CMakeFiles/arm_pos_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/arm_pos_interfaces/msg/detail/dds_fastrtps/arm_end_motion__type_support.cpp.o.d"
+  "CMakeFiles/arm_pos_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/arm_pos_interfaces/msg/detail/dds_fastrtps/encoder_arm__type_support.cpp.o"
+  "CMakeFiles/arm_pos_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/arm_pos_interfaces/msg/detail/dds_fastrtps/encoder_arm__type_support.cpp.o.d"
+  "libarm_pos_interfaces__rosidl_typesupport_fastrtps_cpp.pdb"
+  "libarm_pos_interfaces__rosidl_typesupport_fastrtps_cpp.so"
+  "rosidl_typesupport_fastrtps_cpp/arm_pos_interfaces/msg/detail/arm_end_motion__rosidl_typesupport_fastrtps_cpp.hpp"
+  "rosidl_typesupport_fastrtps_cpp/arm_pos_interfaces/msg/detail/dds_fastrtps/arm_end_motion__type_support.cpp"
+  "rosidl_typesupport_fastrtps_cpp/arm_pos_interfaces/msg/detail/dds_fastrtps/encoder_arm__type_support.cpp"
+  "rosidl_typesupport_fastrtps_cpp/arm_pos_interfaces/msg/detail/encoder_arm__rosidl_typesupport_fastrtps_cpp.hpp"
+)
+
+# Per-language clean rules from dependency scanning.
+foreach(lang CXX)
+  include(CMakeFiles/arm_pos_interfaces__rosidl_typesupport_fastrtps_cpp.dir/cmake_clean_${lang}.cmake OPTIONAL)
+endforeach()

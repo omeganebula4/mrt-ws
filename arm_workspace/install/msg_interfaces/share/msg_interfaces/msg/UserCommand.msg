@@ -1,1 +1,0 @@
-/home/harshit/mrt_ws/arm_workspace/src/msg_interfaces/msg/UserCommand.msg

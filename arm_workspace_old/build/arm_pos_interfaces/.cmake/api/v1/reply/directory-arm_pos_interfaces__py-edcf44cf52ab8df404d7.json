@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "arm_pos_interfaces__py",
+		"source" : "/home/harshit/mrt_ws/arm_workspace/build/arm_pos_interfaces/arm_pos_interfaces__py"
+	}
+}

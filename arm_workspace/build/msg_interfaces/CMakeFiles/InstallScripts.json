@@ -1,8 +1,0 @@
-{
-	"InstallScripts" : 
-	[
-		"/home/harshit/mrt_ws/arm_workspace/build/msg_interfaces/cmake_install.cmake",
-		"/home/harshit/mrt_ws/arm_workspace/build/msg_interfaces/msg_interfaces__py/cmake_install.cmake"
-	],
-	"Parallel" : false
-}
