@@ -184,17 +184,14 @@ class Trajectory_Result(metaclass=Metaclass_Trajectory_Result):
     """Message class 'Trajectory_Result'."""
 
     __slots__ = [
-        '_valid_command',
         '_success',
     ]
 
     _fields_and_field_types = {
-        'valid_command': 'boolean',
         'success': 'boolean',
     }
 
     SLOT_TYPES = (
-        rosidl_parser.definition.BasicType('boolean'),  # noqa: E501
         rosidl_parser.definition.BasicType('boolean'),  # noqa: E501
     )
 
@@ -202,7 +199,6 @@ class Trajectory_Result(metaclass=Metaclass_Trajectory_Result):
         assert all('_' + key in self.__slots__ for key in kwargs.keys()), \
             'Invalid arguments passed to constructor: %s' % \
             ', '.join(sorted(k for k in kwargs.keys() if '_' + k not in self.__slots__))
-        self.valid_command = kwargs.get('valid_command', bool())
         self.success = kwargs.get('success', bool())
 
     def __repr__(self):
@@ -234,8 +230,6 @@ class Trajectory_Result(metaclass=Metaclass_Trajectory_Result):
     def __eq__(self, other):
         if not isinstance(other, self.__class__):
             return False
-        if self.valid_command != other.valid_command:
-            return False
         if self.success != other.success:
             return False
         return True
@@ -244,19 +238,6 @@ class Trajectory_Result(metaclass=Metaclass_Trajectory_Result):
     def get_fields_and_field_types(cls):
         from copy import copy
         return copy(cls._fields_and_field_types)
-
-    @builtins.property
-    def valid_command(self):
-        """Message field 'valid_command'."""
-        return self._valid_command
-
-    @valid_command.setter
-    def valid_command(self, value):
-        if __debug__:
-            assert \
-                isinstance(value, bool), \
-                "The 'valid_command' field must be of type 'bool'"
-        self._valid_command = value
 
     @builtins.property
     def success(self):

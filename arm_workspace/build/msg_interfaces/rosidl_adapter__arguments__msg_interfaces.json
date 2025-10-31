@@ -1,0 +1,17 @@
+{
+  "package_name": "msg_interfaces",
+  "non_idl_tuples": [
+    "/home/harshit/rover_control_amaran/rover_control_ws/src/msg_interfaces:msg/Drive.msg",
+    "/home/harshit/rover_control_amaran/rover_control_ws/src/msg_interfaces:msg/ArmEndMotion.msg",
+    "/home/harshit/rover_control_amaran/rover_control_ws/src/msg_interfaces:msg/EncoderArm.msg",
+    "/home/harshit/rover_control_amaran/rover_control_ws/src/msg_interfaces:msg/EncoderDrive.msg",
+    "/home/harshit/rover_control_amaran/rover_control_ws/src/msg_interfaces:msg/ShoulderJointVelocity.msg",
+    "/home/harshit/rover_control_amaran/rover_control_ws/src/msg_interfaces:msg/WristJointVelocity.msg",
+    "/home/harshit/rover_control_amaran/rover_control_ws/src/msg_interfaces:msg/BaseMotion.msg",
+    "/home/harshit/rover_control_amaran/rover_control_ws/src/msg_interfaces:msg/FinalVel.msg",
+    "/home/harshit/rover_control_amaran/rover_control_ws/src/msg_interfaces:msg/TargetPose.msg",
+    "/home/harshit/rover_control_amaran/rover_control_ws/src/msg_interfaces:msg/ArmAngle.msg",
+    "/home/harshit/rover_control_amaran/rover_control_ws/src/msg_interfaces:msg/CamDrive.msg",
+    "/home/harshit/rover_control_amaran/rover_control_ws/src/msg_interfaces:msg/MotorSix.msg"
+  ]
+}

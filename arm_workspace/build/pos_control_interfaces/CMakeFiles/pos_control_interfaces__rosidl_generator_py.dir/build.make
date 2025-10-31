@@ -72,38 +72,10 @@ include CMakeFiles/pos_control_interfaces__rosidl_generator_py.dir/flags.make
 CMakeFiles/pos_control_interfaces__rosidl_generator_py.dir/codegen:
 .PHONY : CMakeFiles/pos_control_interfaces__rosidl_generator_py.dir/codegen
 
-CMakeFiles/pos_control_interfaces__rosidl_generator_py.dir/rosidl_generator_py/pos_control_interfaces/msg/_arm_end_motion_s.c.o: CMakeFiles/pos_control_interfaces__rosidl_generator_py.dir/flags.make
-CMakeFiles/pos_control_interfaces__rosidl_generator_py.dir/rosidl_generator_py/pos_control_interfaces/msg/_arm_end_motion_s.c.o: rosidl_generator_py/pos_control_interfaces/msg/_arm_end_motion_s.c
-CMakeFiles/pos_control_interfaces__rosidl_generator_py.dir/rosidl_generator_py/pos_control_interfaces/msg/_arm_end_motion_s.c.o: CMakeFiles/pos_control_interfaces__rosidl_generator_py.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/harshit/mrt_ws/arm_workspace/build/pos_control_interfaces/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/pos_control_interfaces__rosidl_generator_py.dir/rosidl_generator_py/pos_control_interfaces/msg/_arm_end_motion_s.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/pos_control_interfaces__rosidl_generator_py.dir/rosidl_generator_py/pos_control_interfaces/msg/_arm_end_motion_s.c.o -MF CMakeFiles/pos_control_interfaces__rosidl_generator_py.dir/rosidl_generator_py/pos_control_interfaces/msg/_arm_end_motion_s.c.o.d -o CMakeFiles/pos_control_interfaces__rosidl_generator_py.dir/rosidl_generator_py/pos_control_interfaces/msg/_arm_end_motion_s.c.o -c /home/harshit/mrt_ws/arm_workspace/build/pos_control_interfaces/rosidl_generator_py/pos_control_interfaces/msg/_arm_end_motion_s.c
-
-CMakeFiles/pos_control_interfaces__rosidl_generator_py.dir/rosidl_generator_py/pos_control_interfaces/msg/_arm_end_motion_s.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/pos_control_interfaces__rosidl_generator_py.dir/rosidl_generator_py/pos_control_interfaces/msg/_arm_end_motion_s.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/harshit/mrt_ws/arm_workspace/build/pos_control_interfaces/rosidl_generator_py/pos_control_interfaces/msg/_arm_end_motion_s.c > CMakeFiles/pos_control_interfaces__rosidl_generator_py.dir/rosidl_generator_py/pos_control_interfaces/msg/_arm_end_motion_s.c.i
-
-CMakeFiles/pos_control_interfaces__rosidl_generator_py.dir/rosidl_generator_py/pos_control_interfaces/msg/_arm_end_motion_s.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/pos_control_interfaces__rosidl_generator_py.dir/rosidl_generator_py/pos_control_interfaces/msg/_arm_end_motion_s.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/harshit/mrt_ws/arm_workspace/build/pos_control_interfaces/rosidl_generator_py/pos_control_interfaces/msg/_arm_end_motion_s.c -o CMakeFiles/pos_control_interfaces__rosidl_generator_py.dir/rosidl_generator_py/pos_control_interfaces/msg/_arm_end_motion_s.c.s
-
-CMakeFiles/pos_control_interfaces__rosidl_generator_py.dir/rosidl_generator_py/pos_control_interfaces/msg/_encoder_arm_s.c.o: CMakeFiles/pos_control_interfaces__rosidl_generator_py.dir/flags.make
-CMakeFiles/pos_control_interfaces__rosidl_generator_py.dir/rosidl_generator_py/pos_control_interfaces/msg/_encoder_arm_s.c.o: rosidl_generator_py/pos_control_interfaces/msg/_encoder_arm_s.c
-CMakeFiles/pos_control_interfaces__rosidl_generator_py.dir/rosidl_generator_py/pos_control_interfaces/msg/_encoder_arm_s.c.o: CMakeFiles/pos_control_interfaces__rosidl_generator_py.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/harshit/mrt_ws/arm_workspace/build/pos_control_interfaces/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/pos_control_interfaces__rosidl_generator_py.dir/rosidl_generator_py/pos_control_interfaces/msg/_encoder_arm_s.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/pos_control_interfaces__rosidl_generator_py.dir/rosidl_generator_py/pos_control_interfaces/msg/_encoder_arm_s.c.o -MF CMakeFiles/pos_control_interfaces__rosidl_generator_py.dir/rosidl_generator_py/pos_control_interfaces/msg/_encoder_arm_s.c.o.d -o CMakeFiles/pos_control_interfaces__rosidl_generator_py.dir/rosidl_generator_py/pos_control_interfaces/msg/_encoder_arm_s.c.o -c /home/harshit/mrt_ws/arm_workspace/build/pos_control_interfaces/rosidl_generator_py/pos_control_interfaces/msg/_encoder_arm_s.c
-
-CMakeFiles/pos_control_interfaces__rosidl_generator_py.dir/rosidl_generator_py/pos_control_interfaces/msg/_encoder_arm_s.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/pos_control_interfaces__rosidl_generator_py.dir/rosidl_generator_py/pos_control_interfaces/msg/_encoder_arm_s.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/harshit/mrt_ws/arm_workspace/build/pos_control_interfaces/rosidl_generator_py/pos_control_interfaces/msg/_encoder_arm_s.c > CMakeFiles/pos_control_interfaces__rosidl_generator_py.dir/rosidl_generator_py/pos_control_interfaces/msg/_encoder_arm_s.c.i
-
-CMakeFiles/pos_control_interfaces__rosidl_generator_py.dir/rosidl_generator_py/pos_control_interfaces/msg/_encoder_arm_s.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/pos_control_interfaces__rosidl_generator_py.dir/rosidl_generator_py/pos_control_interfaces/msg/_encoder_arm_s.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/harshit/mrt_ws/arm_workspace/build/pos_control_interfaces/rosidl_generator_py/pos_control_interfaces/msg/_encoder_arm_s.c -o CMakeFiles/pos_control_interfaces__rosidl_generator_py.dir/rosidl_generator_py/pos_control_interfaces/msg/_encoder_arm_s.c.s
-
 CMakeFiles/pos_control_interfaces__rosidl_generator_py.dir/rosidl_generator_py/pos_control_interfaces/action/_trajectory_s.c.o: CMakeFiles/pos_control_interfaces__rosidl_generator_py.dir/flags.make
 CMakeFiles/pos_control_interfaces__rosidl_generator_py.dir/rosidl_generator_py/pos_control_interfaces/action/_trajectory_s.c.o: rosidl_generator_py/pos_control_interfaces/action/_trajectory_s.c
 CMakeFiles/pos_control_interfaces__rosidl_generator_py.dir/rosidl_generator_py/pos_control_interfaces/action/_trajectory_s.c.o: CMakeFiles/pos_control_interfaces__rosidl_generator_py.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/harshit/mrt_ws/arm_workspace/build/pos_control_interfaces/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/pos_control_interfaces__rosidl_generator_py.dir/rosidl_generator_py/pos_control_interfaces/action/_trajectory_s.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/harshit/mrt_ws/arm_workspace/build/pos_control_interfaces/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/pos_control_interfaces__rosidl_generator_py.dir/rosidl_generator_py/pos_control_interfaces/action/_trajectory_s.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/pos_control_interfaces__rosidl_generator_py.dir/rosidl_generator_py/pos_control_interfaces/action/_trajectory_s.c.o -MF CMakeFiles/pos_control_interfaces__rosidl_generator_py.dir/rosidl_generator_py/pos_control_interfaces/action/_trajectory_s.c.o.d -o CMakeFiles/pos_control_interfaces__rosidl_generator_py.dir/rosidl_generator_py/pos_control_interfaces/action/_trajectory_s.c.o -c /home/harshit/mrt_ws/arm_workspace/build/pos_control_interfaces/rosidl_generator_py/pos_control_interfaces/action/_trajectory_s.c
 
 CMakeFiles/pos_control_interfaces__rosidl_generator_py.dir/rosidl_generator_py/pos_control_interfaces/action/_trajectory_s.c.i: cmake_force
@@ -116,15 +88,11 @@ CMakeFiles/pos_control_interfaces__rosidl_generator_py.dir/rosidl_generator_py/p
 
 # Object files for target pos_control_interfaces__rosidl_generator_py
 pos_control_interfaces__rosidl_generator_py_OBJECTS = \
-"CMakeFiles/pos_control_interfaces__rosidl_generator_py.dir/rosidl_generator_py/pos_control_interfaces/msg/_arm_end_motion_s.c.o" \
-"CMakeFiles/pos_control_interfaces__rosidl_generator_py.dir/rosidl_generator_py/pos_control_interfaces/msg/_encoder_arm_s.c.o" \
 "CMakeFiles/pos_control_interfaces__rosidl_generator_py.dir/rosidl_generator_py/pos_control_interfaces/action/_trajectory_s.c.o"
 
 # External object files for target pos_control_interfaces__rosidl_generator_py
 pos_control_interfaces__rosidl_generator_py_EXTERNAL_OBJECTS =
 
-rosidl_generator_py/pos_control_interfaces/libpos_control_interfaces__rosidl_generator_py.so: CMakeFiles/pos_control_interfaces__rosidl_generator_py.dir/rosidl_generator_py/pos_control_interfaces/msg/_arm_end_motion_s.c.o
-rosidl_generator_py/pos_control_interfaces/libpos_control_interfaces__rosidl_generator_py.so: CMakeFiles/pos_control_interfaces__rosidl_generator_py.dir/rosidl_generator_py/pos_control_interfaces/msg/_encoder_arm_s.c.o
 rosidl_generator_py/pos_control_interfaces/libpos_control_interfaces__rosidl_generator_py.so: CMakeFiles/pos_control_interfaces__rosidl_generator_py.dir/rosidl_generator_py/pos_control_interfaces/action/_trajectory_s.c.o
 rosidl_generator_py/pos_control_interfaces/libpos_control_interfaces__rosidl_generator_py.so: CMakeFiles/pos_control_interfaces__rosidl_generator_py.dir/build.make
 rosidl_generator_py/pos_control_interfaces/libpos_control_interfaces__rosidl_generator_py.so: /usr/lib/x86_64-linux-gnu/libpython3.10.so
@@ -149,7 +117,7 @@ rosidl_generator_py/pos_control_interfaces/libpos_control_interfaces__rosidl_gen
 rosidl_generator_py/pos_control_interfaces/libpos_control_interfaces__rosidl_generator_py.so: /opt/ros/humble/lib/librosidl_runtime_c.so
 rosidl_generator_py/pos_control_interfaces/libpos_control_interfaces__rosidl_generator_py.so: /opt/ros/humble/lib/librcutils.so
 rosidl_generator_py/pos_control_interfaces/libpos_control_interfaces__rosidl_generator_py.so: CMakeFiles/pos_control_interfaces__rosidl_generator_py.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/harshit/mrt_ws/arm_workspace/build/pos_control_interfaces/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking C shared library rosidl_generator_py/pos_control_interfaces/libpos_control_interfaces__rosidl_generator_py.so"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/harshit/mrt_ws/arm_workspace/build/pos_control_interfaces/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking C shared library rosidl_generator_py/pos_control_interfaces/libpos_control_interfaces__rosidl_generator_py.so"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/pos_control_interfaces__rosidl_generator_py.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

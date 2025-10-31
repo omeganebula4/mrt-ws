@@ -154,15 +154,6 @@ bool pos_control_interfaces__action__trajectory__result__convert_from_py(PyObjec
     assert(strncmp("pos_control_interfaces.action._trajectory.Trajectory_Result", full_classname_dest, 59) == 0);
   }
   pos_control_interfaces__action__Trajectory_Result * ros_message = _ros_message;
-  {  // valid_command
-    PyObject * field = PyObject_GetAttrString(_pymsg, "valid_command");
-    if (!field) {
-      return false;
-    }
-    assert(PyBool_Check(field));
-    ros_message->valid_command = (Py_True == field);
-    Py_DECREF(field);
-  }
   {  // success
     PyObject * field = PyObject_GetAttrString(_pymsg, "success");
     if (!field) {
@@ -194,17 +185,6 @@ PyObject * pos_control_interfaces__action__trajectory__result__convert_to_py(voi
     }
   }
   pos_control_interfaces__action__Trajectory_Result * ros_message = (pos_control_interfaces__action__Trajectory_Result *)raw_ros_message;
-  {  // valid_command
-    PyObject * field = NULL;
-    field = PyBool_FromLong(ros_message->valid_command ? 1 : 0);
-    {
-      int rc = PyObject_SetAttrString(_pymessage, "valid_command", field);
-      Py_DECREF(field);
-      if (rc) {
-        return NULL;
-      }
-    }
-  }
   {  // success
     PyObject * field = NULL;
     field = PyBool_FromLong(ros_message->success ? 1 : 0);

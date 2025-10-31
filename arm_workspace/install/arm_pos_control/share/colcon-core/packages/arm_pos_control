@@ -1,1 +1,1 @@
-geometry_msgs:pos_control_interfaces:python3-numpy:python3-typing-extensions:rclpy:std_msgs
+geometry_msgs:msg_interfaces:pos_control_interfaces:python3-numpy:python3-typing-extensions:rclpy:std_msgs

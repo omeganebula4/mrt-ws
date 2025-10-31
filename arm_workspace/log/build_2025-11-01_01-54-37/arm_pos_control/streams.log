@@ -1,0 +1,26 @@
+[2.024s] Invoking command in '/home/harshit/mrt_ws/arm_workspace/src/arm_pos_control': PYTHONPATH=/home/harshit/mrt_ws/arm_workspace/build/arm_pos_control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/harshit/mrt_ws/arm_workspace/install/arm_pos_control/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/arm_pos_control build --build-base /home/harshit/mrt_ws/arm_workspace/build/arm_pos_control/build install --record /home/harshit/mrt_ws/arm_workspace/build/arm_pos_control/install.log --single-version-externally-managed install_data
+[2.689s] running egg_info
+[2.691s] writing ../../build/arm_pos_control/arm_pos_control.egg-info/PKG-INFO
+[2.691s] writing dependency_links to ../../build/arm_pos_control/arm_pos_control.egg-info/dependency_links.txt
+[2.691s] writing entry points to ../../build/arm_pos_control/arm_pos_control.egg-info/entry_points.txt
+[2.691s] writing requirements to ../../build/arm_pos_control/arm_pos_control.egg-info/requires.txt
+[2.692s] writing top-level names to ../../build/arm_pos_control/arm_pos_control.egg-info/top_level.txt
+[2.696s] reading manifest file '../../build/arm_pos_control/arm_pos_control.egg-info/SOURCES.txt'
+[2.698s] writing manifest file '../../build/arm_pos_control/arm_pos_control.egg-info/SOURCES.txt'
+[2.698s] running build
+[2.698s] running build_py
+[2.699s] copying arm_pos_control/pid_controller.py -> /home/harshit/mrt_ws/arm_workspace/build/arm_pos_control/build/lib/arm_pos_control
+[2.700s] running install
+[2.701s] running install_lib
+[2.702s] copying /home/harshit/mrt_ws/arm_workspace/build/arm_pos_control/build/lib/arm_pos_control/pid_controller.py -> /home/harshit/mrt_ws/arm_workspace/install/arm_pos_control/lib/python3.10/site-packages/arm_pos_control
+[2.704s] byte-compiling /home/harshit/mrt_ws/arm_workspace/install/arm_pos_control/lib/python3.10/site-packages/arm_pos_control/pid_controller.py to pid_controller.cpython-310.pyc
+[2.710s] running install_data
+[2.710s] running install_egg_info
+[2.714s] removing '/home/harshit/mrt_ws/arm_workspace/install/arm_pos_control/lib/python3.10/site-packages/arm_pos_control-0.0.0-py3.10.egg-info' (and everything under it)
+[2.714s] Copying ../../build/arm_pos_control/arm_pos_control.egg-info to /home/harshit/mrt_ws/arm_workspace/install/arm_pos_control/lib/python3.10/site-packages/arm_pos_control-0.0.0-py3.10.egg-info
+[2.716s] running install_scripts
+[2.766s] Installing input_handler script to /home/harshit/mrt_ws/arm_workspace/install/arm_pos_control/lib/arm_pos_control
+[2.768s] Installing input_queue script to /home/harshit/mrt_ws/arm_workspace/install/arm_pos_control/lib/arm_pos_control
+[2.768s] Installing pid_controller script to /home/harshit/mrt_ws/arm_workspace/install/arm_pos_control/lib/arm_pos_control
+[2.768s] writing list of installed files to '/home/harshit/mrt_ws/arm_workspace/build/arm_pos_control/install.log'
+[2.816s] Invoked command in '/home/harshit/mrt_ws/arm_workspace/src/arm_pos_control' returned '0': PYTHONPATH=/home/harshit/mrt_ws/arm_workspace/build/arm_pos_control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/harshit/mrt_ws/arm_workspace/install/arm_pos_control/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/arm_pos_control build --build-base /home/harshit/mrt_ws/arm_workspace/build/arm_pos_control/build install --record /home/harshit/mrt_ws/arm_workspace/build/arm_pos_control/install.log --single-version-externally-managed install_data

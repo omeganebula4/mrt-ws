@@ -3,8 +3,6 @@
   "output_dir": "/home/harshit/mrt_ws/arm_workspace/build/pos_control_interfaces/rosidl_generator_cpp/pos_control_interfaces",
   "template_dir": "/opt/ros/humble/share/rosidl_generator_cpp/cmake/../resource",
   "idl_tuples": [
-    "/home/harshit/mrt_ws/arm_workspace/build/pos_control_interfaces/rosidl_adapter/pos_control_interfaces:msg/ArmEndMotion.idl",
-    "/home/harshit/mrt_ws/arm_workspace/build/pos_control_interfaces/rosidl_adapter/pos_control_interfaces:msg/EncoderArm.idl",
     "/home/harshit/mrt_ws/arm_workspace/build/pos_control_interfaces/rosidl_adapter/pos_control_interfaces:action/Trajectory.idl"
   ],
   "ros_interface_dependencies": [
@@ -94,8 +92,6 @@
     "/opt/ros/humble/share/rosidl_generator_cpp/cmake/../resource/srv__builder.hpp.em",
     "/opt/ros/humble/share/rosidl_generator_cpp/cmake/../resource/srv__struct.hpp.em",
     "/opt/ros/humble/share/rosidl_generator_cpp/cmake/../resource/srv__traits.hpp.em",
-    "/home/harshit/mrt_ws/arm_workspace/build/pos_control_interfaces/rosidl_adapter/pos_control_interfaces/msg/ArmEndMotion.idl",
-    "/home/harshit/mrt_ws/arm_workspace/build/pos_control_interfaces/rosidl_adapter/pos_control_interfaces/msg/EncoderArm.idl",
     "/home/harshit/mrt_ws/arm_workspace/build/pos_control_interfaces/rosidl_adapter/pos_control_interfaces/action/Trajectory.idl",
     "/opt/ros/humble/share/std_msgs/msg/Bool.idl",
     "/opt/ros/humble/share/std_msgs/msg/Byte.idl",

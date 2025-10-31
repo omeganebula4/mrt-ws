@@ -1,8 +1,6 @@
 {
   "package_name": "pos_control_interfaces",
   "non_idl_tuples": [
-    "/home/harshit/mrt_ws/arm_workspace/src/pos_control_interfaces:msg/ArmEndMotion.msg",
-    "/home/harshit/mrt_ws/arm_workspace/src/pos_control_interfaces:msg/EncoderArm.msg",
     "/home/harshit/mrt_ws/arm_workspace/src/pos_control_interfaces:action/Trajectory.action"
   ]
 }

@@ -1,1 +1,0 @@
-/home/harshit/mrt_ws/arm_workspace/build/arm_pos_interfaces/ament_cmake_python/arm_pos_interfaces/arm_pos_interfaces.egg-info/top_level.txt

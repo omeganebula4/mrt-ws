@@ -373,23 +373,7 @@ if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/pos_control_interfaces/msg" TYPE FILE FILES "/home/harshit/mrt_ws/arm_workspace/build/pos_control_interfaces/rosidl_adapter/pos_control_interfaces/msg/ArmEndMotion.idl")
-endif()
-
-if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/pos_control_interfaces/msg" TYPE FILE FILES "/home/harshit/mrt_ws/arm_workspace/build/pos_control_interfaces/rosidl_adapter/pos_control_interfaces/msg/EncoderArm.idl")
-endif()
-
-if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/pos_control_interfaces/action" TYPE FILE FILES "/home/harshit/mrt_ws/arm_workspace/build/pos_control_interfaces/rosidl_adapter/pos_control_interfaces/action/Trajectory.idl")
-endif()
-
-if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/pos_control_interfaces/msg" TYPE FILE FILES "/home/harshit/mrt_ws/arm_workspace/src/pos_control_interfaces/msg/ArmEndMotion.msg")
-endif()
-
-if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/pos_control_interfaces/msg" TYPE FILE FILES "/home/harshit/mrt_ws/arm_workspace/src/pos_control_interfaces/msg/EncoderArm.msg")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)

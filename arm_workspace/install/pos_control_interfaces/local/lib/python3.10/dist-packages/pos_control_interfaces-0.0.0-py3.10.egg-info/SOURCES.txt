@@ -6,6 +6,3 @@ pos_control_interfaces.egg-info/dependency_links.txt
 pos_control_interfaces.egg-info/top_level.txt
 pos_control_interfaces/action/__init__.py
 pos_control_interfaces/action/_trajectory.py
-pos_control_interfaces/msg/__init__.py
-pos_control_interfaces/msg/_arm_end_motion.py
-pos_control_interfaces/msg/_encoder_arm.py

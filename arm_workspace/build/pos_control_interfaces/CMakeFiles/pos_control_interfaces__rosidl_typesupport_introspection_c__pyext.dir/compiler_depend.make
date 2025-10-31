@@ -5,12 +5,6 @@ CMakeFiles/pos_control_interfaces__rosidl_typesupport_introspection_c__pyext.dir
   rosidl_generator_c/pos_control_interfaces/action/detail/trajectory__functions.h \
   rosidl_generator_c/pos_control_interfaces/action/detail/trajectory__struct.h \
   rosidl_generator_c/pos_control_interfaces/action/detail/trajectory__type_support.h \
-  rosidl_generator_c/pos_control_interfaces/msg/detail/arm_end_motion__functions.h \
-  rosidl_generator_c/pos_control_interfaces/msg/detail/arm_end_motion__struct.h \
-  rosidl_generator_c/pos_control_interfaces/msg/detail/arm_end_motion__type_support.h \
-  rosidl_generator_c/pos_control_interfaces/msg/detail/encoder_arm__functions.h \
-  rosidl_generator_c/pos_control_interfaces/msg/detail/encoder_arm__struct.h \
-  rosidl_generator_c/pos_control_interfaces/msg/detail/encoder_arm__type_support.h \
   rosidl_generator_c/pos_control_interfaces/msg/rosidl_generator_c__visibility_control.h \
   /opt/ros/humble/include/builtin_interfaces/builtin_interfaces/msg/detail/time__struct.h \
   /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/point__struct.h \
@@ -402,13 +396,27 @@ CMakeFiles/pos_control_interfaces__rosidl_typesupport_introspection_c__pyext.dir
 
 /usr/include/python3.10/setobject.h:
 
-/usr/include/x86_64-linux-gnu/bits/types/struct_timeval.h:
+/usr/include/python3.10/cpython/code.h:
 
-/usr/include/x86_64-linux-gnu/asm/errno.h:
+/usr/include/x86_64-linux-gnu/bits/wchar.h:
 
-/usr/include/python3.10/pythread.h:
+/usr/include/x86_64-linux-gnu/bits/types/cookie_io_functions_t.h:
 
-/usr/include/python3.10/pystrcmp.h:
+/usr/include/x86_64-linux-gnu/bits/local_lim.h:
+
+/usr/include/python3.10/cpython/abstract.h:
+
+/usr/include/python3.10/patchlevel.h:
+
+/usr/include/python3.10/warnings.h:
+
+/usr/include/python3.10/pymacro.h:
+
+/usr/include/python3.10/context.h:
+
+/usr/include/python3.10/complexobject.h:
+
+/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/point__struct.h:
 
 /usr/include/python3.10/compile.h:
 
@@ -420,9 +428,9 @@ CMakeFiles/pos_control_interfaces__rosidl_typesupport_introspection_c__pyext.dir
 
 /usr/include/python3.10/boolobject.h:
 
-/usr/include/python3.10/pythonrun.h:
+/usr/include/linux/stddef.h:
 
-/usr/include/python3.10/abstract.h:
+/usr/include/python3.10/cpython/object.h:
 
 /usr/include/x86_64-linux-gnu/bits/types/struct_statx_timestamp.h:
 
@@ -442,21 +450,23 @@ CMakeFiles/pos_control_interfaces__rosidl_typesupport_introspection_c__pyext.dir
 
 /usr/include/python3.10/codecs.h:
 
+/usr/include/x86_64-linux-gnu/bits/posix1_lim.h:
+
+/usr/include/python3.10/weakrefobject.h:
+
+/usr/include/asm-generic/bitsperlong.h:
+
 /usr/include/python3.10/cpython/listobject.h:
 
-/usr/include/python3.10/sliceobject.h:
+/usr/include/x86_64-linux-gnu/bits/iscanonical.h:
 
-/usr/include/features.h:
+/opt/ros/humble/include/rosidl_runtime_c/rosidl_runtime_c/service_type_support_struct.h:
 
-/usr/include/python3.10/pyconfig.h:
+/usr/include/x86_64-linux-gnu/sys/types.h:
 
-/usr/include/x86_64-linux-gnu/asm/posix_types.h:
+/opt/ros/humble/include/rosidl_runtime_c/rosidl_runtime_c/primitives_sequence.h:
 
-/usr/include/python3.10/namespaceobject.h:
-
-/usr/include/python3.10/structseq.h:
-
-/usr/include/assert.h:
+/usr/include/linux/stat.h:
 
 /usr/include/python3.10/pyhash.h:
 
@@ -472,39 +482,9 @@ CMakeFiles/pos_control_interfaces__rosidl_typesupport_introspection_c__pyext.dir
 
 rosidl_generator_c/pos_control_interfaces/action/detail/trajectory__functions.h:
 
-/usr/include/linux/stat.h:
-
-/usr/include/x86_64-linux-gnu/sys/types.h:
-
-/opt/ros/humble/include/rosidl_runtime_c/rosidl_runtime_c/primitives_sequence.h:
-
-/usr/include/linux/stddef.h:
-
-/usr/include/python3.10/cpython/object.h:
-
-rosidl_generator_c/pos_control_interfaces/msg/detail/arm_end_motion__type_support.h:
-
-/usr/include/python3.10/complexobject.h:
-
-/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/point__struct.h:
-
-/usr/include/python3.10/listobject.h:
-
-/usr/include/ctype.h:
-
-/usr/include/python3.10/eval.h:
-
-rosidl_generator_c/pos_control_interfaces/msg/detail/arm_end_motion__functions.h:
-
-/usr/include/x86_64-linux-gnu/bits/math-vector.h:
-
-/usr/include/python3.10/modsupport.h:
-
 rosidl_generator_c/pos_control_interfaces/action/detail/trajectory__struct.h:
 
 /usr/include/pthread.h:
-
-rosidl_generator_c/pos_control_interfaces/msg/detail/encoder_arm__type_support.h:
 
 /usr/include/x86_64-linux-gnu/bits/types/__fpos_t.h:
 
@@ -512,45 +492,25 @@ rosidl_generator_c/pos_control_interfaces/msg/detail/encoder_arm__type_support.h
 
 /opt/ros/humble/include/rosidl_runtime_c/rosidl_runtime_c/message_type_support_struct.h:
 
+/usr/include/python3.10/listobject.h:
+
+/usr/include/ctype.h:
+
 /usr/include/x86_64-linux-gnu/bits/pthreadtypes-arch.h:
 
 /usr/include/x86_64-linux-gnu/asm/bitsperlong.h:
 
 rosidl_generator_c/pos_control_interfaces/action/detail/trajectory__type_support.h:
 
-/usr/include/x86_64-linux-gnu/bits/iscanonical.h:
-
-/opt/ros/humble/include/rosidl_runtime_c/rosidl_runtime_c/service_type_support_struct.h:
-
-/opt/ros/humble/include/rosidl_runtime_c/rosidl_runtime_c/action_type_support_struct.h:
-
-/usr/include/asm-generic/int-ll64.h:
-
-/usr/include/endian.h:
-
-/usr/include/python3.10/methodobject.h:
-
-/usr/include/x86_64-linux-gnu/bits/posix1_lim.h:
-
-/usr/include/python3.10/weakrefobject.h:
-
-/usr/include/asm-generic/bitsperlong.h:
-
-rosidl_generator_c/pos_control_interfaces/msg/detail/encoder_arm__struct.h:
-
-/usr/include/python3.10/context.h:
-
-/usr/include/math.h:
-
-/usr/include/python3.10/cpython/pyctype.h:
-
-/usr/include/python3.10/rangeobject.h:
-
-/usr/include/python3.10/cpython/pyfpe.h:
-
 /usr/include/x86_64-linux-gnu/bits/errno.h:
 
 /usr/include/python3.10/cpython/traceback.h:
+
+/usr/include/asm-generic/int-ll64.h:
+
+/opt/ros/humble/include/rosidl_runtime_c/rosidl_runtime_c/action_type_support_struct.h:
+
+/usr/include/python3.10/pyconfig.h:
 
 /usr/include/x86_64-linux-gnu/bits/types/__mbstate_t.h:
 
@@ -590,21 +550,25 @@ rosidl_generator_py/pos_control_interfaces/_pos_control_interfaces_s.ep.rosidl_t
 
 /usr/include/python3.10/fileutils.h:
 
-/usr/include/x86_64-linux-gnu/bits/wchar.h:
+/usr/include/python3.10/structseq.h:
 
-/usr/include/x86_64-linux-gnu/bits/types/cookie_io_functions_t.h:
+/usr/include/assert.h:
 
-/usr/include/x86_64-linux-gnu/bits/local_lim.h:
+/usr/include/python3.10/cpython/pyctype.h:
 
-/usr/include/python3.10/cpython/abstract.h:
+/usr/include/math.h:
 
-/usr/include/python3.10/patchlevel.h:
+/usr/include/python3.10/methodobject.h:
 
-/usr/include/python3.10/warnings.h:
+/usr/include/endian.h:
 
-/usr/include/python3.10/pymacro.h:
+/usr/include/x86_64-linux-gnu/asm/posix_types.h:
 
-/usr/include/python3.10/cpython/code.h:
+/usr/include/python3.10/namespaceobject.h:
+
+/usr/include/python3.10/sliceobject.h:
+
+/usr/include/features.h:
 
 /usr/include/x86_64-linux-gnu/sys/select.h:
 
@@ -637,6 +601,12 @@ rosidl_generator_py/pos_control_interfaces/_pos_control_interfaces_s.ep.rosidl_t
 /usr/include/x86_64-linux-gnu/bits/statx.h:
 
 /usr/include/python3.10/longobject.h:
+
+/usr/include/x86_64-linux-gnu/bits/types/struct_timeval.h:
+
+/usr/include/x86_64-linux-gnu/asm/errno.h:
+
+/usr/include/python3.10/pythread.h:
 
 /usr/include/python3.10/cpython/import.h:
 
@@ -688,8 +658,6 @@ rosidl_generator_py/pos_control_interfaces/_pos_control_interfaces_s.ep.rosidl_t
 
 /usr/include/python3.10/cpython/pytime.h:
 
-rosidl_generator_c/pos_control_interfaces/msg/detail/encoder_arm__functions.h:
-
 /usr/include/python3.10/dictobject.h:
 
 /usr/include/python3.10/tracemalloc.h:
@@ -726,13 +694,21 @@ rosidl_generator_c/pos_control_interfaces/msg/detail/encoder_arm__functions.h:
 
 /usr/include/python3.10/descrobject.h:
 
-rosidl_generator_c/pos_control_interfaces/msg/detail/arm_end_motion__struct.h:
+/usr/include/python3.10/eval.h:
+
+/usr/include/python3.10/abstract.h:
+
+/usr/include/python3.10/pythonrun.h:
 
 /usr/include/python3.10/floatobject.h:
 
 /usr/include/limits.h:
 
 /usr/include/python3.10/funcobject.h:
+
+/usr/include/python3.10/cpython/pyfpe.h:
+
+/usr/include/python3.10/rangeobject.h:
 
 /usr/include/python3.10/cpython/ceval.h:
 
@@ -747,6 +723,10 @@ rosidl_generator_c/pos_control_interfaces/msg/detail/arm_end_motion__struct.h:
 /usr/include/x86_64-linux-gnu/gnu/stubs-64.h:
 
 /usr/include/python3.10/longintrepr.h:
+
+/usr/include/x86_64-linux-gnu/bits/math-vector.h:
+
+/usr/include/python3.10/modsupport.h:
 
 /usr/include/linux/types.h:
 
@@ -773,3 +753,5 @@ rosidl_generator_c/pos_control_interfaces/msg/detail/arm_end_motion__struct.h:
 /usr/include/python3.10/cellobject.h:
 
 /usr/include/python3.10/pymem.h:
+
+/usr/include/python3.10/pystrcmp.h:

@@ -1,1 +1,0 @@
-/home/harshit/mrt_ws/arm_workspace/build/arm_pos_interfaces/rosidl_generator_py/arm_pos_interfaces/_arm_pos_interfaces_s.ep.rosidl_typesupport_introspection_c.c

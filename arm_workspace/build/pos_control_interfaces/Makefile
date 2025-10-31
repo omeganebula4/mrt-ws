@@ -429,54 +429,6 @@ rosidl_generator_c/pos_control_interfaces/action/detail/trajectory__functions.c.
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/pos_control_interfaces__rosidl_generator_c.dir/build.make CMakeFiles/pos_control_interfaces__rosidl_generator_c.dir/rosidl_generator_c/pos_control_interfaces/action/detail/trajectory__functions.c.s
 .PHONY : rosidl_generator_c/pos_control_interfaces/action/detail/trajectory__functions.c.s
 
-rosidl_generator_c/pos_control_interfaces/msg/detail/arm_end_motion__functions.o: rosidl_generator_c/pos_control_interfaces/msg/detail/arm_end_motion__functions.c.o
-.PHONY : rosidl_generator_c/pos_control_interfaces/msg/detail/arm_end_motion__functions.o
-
-# target to build an object file
-rosidl_generator_c/pos_control_interfaces/msg/detail/arm_end_motion__functions.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/pos_control_interfaces__rosidl_generator_c.dir/build.make CMakeFiles/pos_control_interfaces__rosidl_generator_c.dir/rosidl_generator_c/pos_control_interfaces/msg/detail/arm_end_motion__functions.c.o
-.PHONY : rosidl_generator_c/pos_control_interfaces/msg/detail/arm_end_motion__functions.c.o
-
-rosidl_generator_c/pos_control_interfaces/msg/detail/arm_end_motion__functions.i: rosidl_generator_c/pos_control_interfaces/msg/detail/arm_end_motion__functions.c.i
-.PHONY : rosidl_generator_c/pos_control_interfaces/msg/detail/arm_end_motion__functions.i
-
-# target to preprocess a source file
-rosidl_generator_c/pos_control_interfaces/msg/detail/arm_end_motion__functions.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/pos_control_interfaces__rosidl_generator_c.dir/build.make CMakeFiles/pos_control_interfaces__rosidl_generator_c.dir/rosidl_generator_c/pos_control_interfaces/msg/detail/arm_end_motion__functions.c.i
-.PHONY : rosidl_generator_c/pos_control_interfaces/msg/detail/arm_end_motion__functions.c.i
-
-rosidl_generator_c/pos_control_interfaces/msg/detail/arm_end_motion__functions.s: rosidl_generator_c/pos_control_interfaces/msg/detail/arm_end_motion__functions.c.s
-.PHONY : rosidl_generator_c/pos_control_interfaces/msg/detail/arm_end_motion__functions.s
-
-# target to generate assembly for a file
-rosidl_generator_c/pos_control_interfaces/msg/detail/arm_end_motion__functions.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/pos_control_interfaces__rosidl_generator_c.dir/build.make CMakeFiles/pos_control_interfaces__rosidl_generator_c.dir/rosidl_generator_c/pos_control_interfaces/msg/detail/arm_end_motion__functions.c.s
-.PHONY : rosidl_generator_c/pos_control_interfaces/msg/detail/arm_end_motion__functions.c.s
-
-rosidl_generator_c/pos_control_interfaces/msg/detail/encoder_arm__functions.o: rosidl_generator_c/pos_control_interfaces/msg/detail/encoder_arm__functions.c.o
-.PHONY : rosidl_generator_c/pos_control_interfaces/msg/detail/encoder_arm__functions.o
-
-# target to build an object file
-rosidl_generator_c/pos_control_interfaces/msg/detail/encoder_arm__functions.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/pos_control_interfaces__rosidl_generator_c.dir/build.make CMakeFiles/pos_control_interfaces__rosidl_generator_c.dir/rosidl_generator_c/pos_control_interfaces/msg/detail/encoder_arm__functions.c.o
-.PHONY : rosidl_generator_c/pos_control_interfaces/msg/detail/encoder_arm__functions.c.o
-
-rosidl_generator_c/pos_control_interfaces/msg/detail/encoder_arm__functions.i: rosidl_generator_c/pos_control_interfaces/msg/detail/encoder_arm__functions.c.i
-.PHONY : rosidl_generator_c/pos_control_interfaces/msg/detail/encoder_arm__functions.i
-
-# target to preprocess a source file
-rosidl_generator_c/pos_control_interfaces/msg/detail/encoder_arm__functions.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/pos_control_interfaces__rosidl_generator_c.dir/build.make CMakeFiles/pos_control_interfaces__rosidl_generator_c.dir/rosidl_generator_c/pos_control_interfaces/msg/detail/encoder_arm__functions.c.i
-.PHONY : rosidl_generator_c/pos_control_interfaces/msg/detail/encoder_arm__functions.c.i
-
-rosidl_generator_c/pos_control_interfaces/msg/detail/encoder_arm__functions.s: rosidl_generator_c/pos_control_interfaces/msg/detail/encoder_arm__functions.c.s
-.PHONY : rosidl_generator_c/pos_control_interfaces/msg/detail/encoder_arm__functions.s
-
-# target to generate assembly for a file
-rosidl_generator_c/pos_control_interfaces/msg/detail/encoder_arm__functions.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/pos_control_interfaces__rosidl_generator_c.dir/build.make CMakeFiles/pos_control_interfaces__rosidl_generator_c.dir/rosidl_generator_c/pos_control_interfaces/msg/detail/encoder_arm__functions.c.s
-.PHONY : rosidl_generator_c/pos_control_interfaces/msg/detail/encoder_arm__functions.c.s
-
 rosidl_generator_py/pos_control_interfaces/_pos_control_interfaces_s.ep.rosidl_typesupport_c.o: rosidl_generator_py/pos_control_interfaces/_pos_control_interfaces_s.ep.rosidl_typesupport_c.c.o
 .PHONY : rosidl_generator_py/pos_control_interfaces/_pos_control_interfaces_s.ep.rosidl_typesupport_c.o
 
@@ -573,54 +525,6 @@ rosidl_generator_py/pos_control_interfaces/action/_trajectory_s.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/pos_control_interfaces__rosidl_generator_py.dir/build.make CMakeFiles/pos_control_interfaces__rosidl_generator_py.dir/rosidl_generator_py/pos_control_interfaces/action/_trajectory_s.c.s
 .PHONY : rosidl_generator_py/pos_control_interfaces/action/_trajectory_s.c.s
 
-rosidl_generator_py/pos_control_interfaces/msg/_arm_end_motion_s.o: rosidl_generator_py/pos_control_interfaces/msg/_arm_end_motion_s.c.o
-.PHONY : rosidl_generator_py/pos_control_interfaces/msg/_arm_end_motion_s.o
-
-# target to build an object file
-rosidl_generator_py/pos_control_interfaces/msg/_arm_end_motion_s.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/pos_control_interfaces__rosidl_generator_py.dir/build.make CMakeFiles/pos_control_interfaces__rosidl_generator_py.dir/rosidl_generator_py/pos_control_interfaces/msg/_arm_end_motion_s.c.o
-.PHONY : rosidl_generator_py/pos_control_interfaces/msg/_arm_end_motion_s.c.o
-
-rosidl_generator_py/pos_control_interfaces/msg/_arm_end_motion_s.i: rosidl_generator_py/pos_control_interfaces/msg/_arm_end_motion_s.c.i
-.PHONY : rosidl_generator_py/pos_control_interfaces/msg/_arm_end_motion_s.i
-
-# target to preprocess a source file
-rosidl_generator_py/pos_control_interfaces/msg/_arm_end_motion_s.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/pos_control_interfaces__rosidl_generator_py.dir/build.make CMakeFiles/pos_control_interfaces__rosidl_generator_py.dir/rosidl_generator_py/pos_control_interfaces/msg/_arm_end_motion_s.c.i
-.PHONY : rosidl_generator_py/pos_control_interfaces/msg/_arm_end_motion_s.c.i
-
-rosidl_generator_py/pos_control_interfaces/msg/_arm_end_motion_s.s: rosidl_generator_py/pos_control_interfaces/msg/_arm_end_motion_s.c.s
-.PHONY : rosidl_generator_py/pos_control_interfaces/msg/_arm_end_motion_s.s
-
-# target to generate assembly for a file
-rosidl_generator_py/pos_control_interfaces/msg/_arm_end_motion_s.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/pos_control_interfaces__rosidl_generator_py.dir/build.make CMakeFiles/pos_control_interfaces__rosidl_generator_py.dir/rosidl_generator_py/pos_control_interfaces/msg/_arm_end_motion_s.c.s
-.PHONY : rosidl_generator_py/pos_control_interfaces/msg/_arm_end_motion_s.c.s
-
-rosidl_generator_py/pos_control_interfaces/msg/_encoder_arm_s.o: rosidl_generator_py/pos_control_interfaces/msg/_encoder_arm_s.c.o
-.PHONY : rosidl_generator_py/pos_control_interfaces/msg/_encoder_arm_s.o
-
-# target to build an object file
-rosidl_generator_py/pos_control_interfaces/msg/_encoder_arm_s.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/pos_control_interfaces__rosidl_generator_py.dir/build.make CMakeFiles/pos_control_interfaces__rosidl_generator_py.dir/rosidl_generator_py/pos_control_interfaces/msg/_encoder_arm_s.c.o
-.PHONY : rosidl_generator_py/pos_control_interfaces/msg/_encoder_arm_s.c.o
-
-rosidl_generator_py/pos_control_interfaces/msg/_encoder_arm_s.i: rosidl_generator_py/pos_control_interfaces/msg/_encoder_arm_s.c.i
-.PHONY : rosidl_generator_py/pos_control_interfaces/msg/_encoder_arm_s.i
-
-# target to preprocess a source file
-rosidl_generator_py/pos_control_interfaces/msg/_encoder_arm_s.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/pos_control_interfaces__rosidl_generator_py.dir/build.make CMakeFiles/pos_control_interfaces__rosidl_generator_py.dir/rosidl_generator_py/pos_control_interfaces/msg/_encoder_arm_s.c.i
-.PHONY : rosidl_generator_py/pos_control_interfaces/msg/_encoder_arm_s.c.i
-
-rosidl_generator_py/pos_control_interfaces/msg/_encoder_arm_s.s: rosidl_generator_py/pos_control_interfaces/msg/_encoder_arm_s.c.s
-.PHONY : rosidl_generator_py/pos_control_interfaces/msg/_encoder_arm_s.s
-
-# target to generate assembly for a file
-rosidl_generator_py/pos_control_interfaces/msg/_encoder_arm_s.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/pos_control_interfaces__rosidl_generator_py.dir/build.make CMakeFiles/pos_control_interfaces__rosidl_generator_py.dir/rosidl_generator_py/pos_control_interfaces/msg/_encoder_arm_s.c.s
-.PHONY : rosidl_generator_py/pos_control_interfaces/msg/_encoder_arm_s.c.s
-
 rosidl_typesupport_c/pos_control_interfaces/action/trajectory__type_support.o: rosidl_typesupport_c/pos_control_interfaces/action/trajectory__type_support.cpp.o
 .PHONY : rosidl_typesupport_c/pos_control_interfaces/action/trajectory__type_support.o
 
@@ -644,54 +548,6 @@ rosidl_typesupport_c/pos_control_interfaces/action/trajectory__type_support.s: r
 rosidl_typesupport_c/pos_control_interfaces/action/trajectory__type_support.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/pos_control_interfaces__rosidl_typesupport_c.dir/build.make CMakeFiles/pos_control_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/pos_control_interfaces/action/trajectory__type_support.cpp.s
 .PHONY : rosidl_typesupport_c/pos_control_interfaces/action/trajectory__type_support.cpp.s
-
-rosidl_typesupport_c/pos_control_interfaces/msg/arm_end_motion__type_support.o: rosidl_typesupport_c/pos_control_interfaces/msg/arm_end_motion__type_support.cpp.o
-.PHONY : rosidl_typesupport_c/pos_control_interfaces/msg/arm_end_motion__type_support.o
-
-# target to build an object file
-rosidl_typesupport_c/pos_control_interfaces/msg/arm_end_motion__type_support.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/pos_control_interfaces__rosidl_typesupport_c.dir/build.make CMakeFiles/pos_control_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/pos_control_interfaces/msg/arm_end_motion__type_support.cpp.o
-.PHONY : rosidl_typesupport_c/pos_control_interfaces/msg/arm_end_motion__type_support.cpp.o
-
-rosidl_typesupport_c/pos_control_interfaces/msg/arm_end_motion__type_support.i: rosidl_typesupport_c/pos_control_interfaces/msg/arm_end_motion__type_support.cpp.i
-.PHONY : rosidl_typesupport_c/pos_control_interfaces/msg/arm_end_motion__type_support.i
-
-# target to preprocess a source file
-rosidl_typesupport_c/pos_control_interfaces/msg/arm_end_motion__type_support.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/pos_control_interfaces__rosidl_typesupport_c.dir/build.make CMakeFiles/pos_control_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/pos_control_interfaces/msg/arm_end_motion__type_support.cpp.i
-.PHONY : rosidl_typesupport_c/pos_control_interfaces/msg/arm_end_motion__type_support.cpp.i
-
-rosidl_typesupport_c/pos_control_interfaces/msg/arm_end_motion__type_support.s: rosidl_typesupport_c/pos_control_interfaces/msg/arm_end_motion__type_support.cpp.s
-.PHONY : rosidl_typesupport_c/pos_control_interfaces/msg/arm_end_motion__type_support.s
-
-# target to generate assembly for a file
-rosidl_typesupport_c/pos_control_interfaces/msg/arm_end_motion__type_support.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/pos_control_interfaces__rosidl_typesupport_c.dir/build.make CMakeFiles/pos_control_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/pos_control_interfaces/msg/arm_end_motion__type_support.cpp.s
-.PHONY : rosidl_typesupport_c/pos_control_interfaces/msg/arm_end_motion__type_support.cpp.s
-
-rosidl_typesupport_c/pos_control_interfaces/msg/encoder_arm__type_support.o: rosidl_typesupport_c/pos_control_interfaces/msg/encoder_arm__type_support.cpp.o
-.PHONY : rosidl_typesupport_c/pos_control_interfaces/msg/encoder_arm__type_support.o
-
-# target to build an object file
-rosidl_typesupport_c/pos_control_interfaces/msg/encoder_arm__type_support.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/pos_control_interfaces__rosidl_typesupport_c.dir/build.make CMakeFiles/pos_control_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/pos_control_interfaces/msg/encoder_arm__type_support.cpp.o
-.PHONY : rosidl_typesupport_c/pos_control_interfaces/msg/encoder_arm__type_support.cpp.o
-
-rosidl_typesupport_c/pos_control_interfaces/msg/encoder_arm__type_support.i: rosidl_typesupport_c/pos_control_interfaces/msg/encoder_arm__type_support.cpp.i
-.PHONY : rosidl_typesupport_c/pos_control_interfaces/msg/encoder_arm__type_support.i
-
-# target to preprocess a source file
-rosidl_typesupport_c/pos_control_interfaces/msg/encoder_arm__type_support.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/pos_control_interfaces__rosidl_typesupport_c.dir/build.make CMakeFiles/pos_control_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/pos_control_interfaces/msg/encoder_arm__type_support.cpp.i
-.PHONY : rosidl_typesupport_c/pos_control_interfaces/msg/encoder_arm__type_support.cpp.i
-
-rosidl_typesupport_c/pos_control_interfaces/msg/encoder_arm__type_support.s: rosidl_typesupport_c/pos_control_interfaces/msg/encoder_arm__type_support.cpp.s
-.PHONY : rosidl_typesupport_c/pos_control_interfaces/msg/encoder_arm__type_support.s
-
-# target to generate assembly for a file
-rosidl_typesupport_c/pos_control_interfaces/msg/encoder_arm__type_support.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/pos_control_interfaces__rosidl_typesupport_c.dir/build.make CMakeFiles/pos_control_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/pos_control_interfaces/msg/encoder_arm__type_support.cpp.s
-.PHONY : rosidl_typesupport_c/pos_control_interfaces/msg/encoder_arm__type_support.cpp.s
 
 rosidl_typesupport_cpp/pos_control_interfaces/action/trajectory__type_support.o: rosidl_typesupport_cpp/pos_control_interfaces/action/trajectory__type_support.cpp.o
 .PHONY : rosidl_typesupport_cpp/pos_control_interfaces/action/trajectory__type_support.o
@@ -717,54 +573,6 @@ rosidl_typesupport_cpp/pos_control_interfaces/action/trajectory__type_support.cp
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/pos_control_interfaces__rosidl_typesupport_cpp.dir/build.make CMakeFiles/pos_control_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/pos_control_interfaces/action/trajectory__type_support.cpp.s
 .PHONY : rosidl_typesupport_cpp/pos_control_interfaces/action/trajectory__type_support.cpp.s
 
-rosidl_typesupport_cpp/pos_control_interfaces/msg/arm_end_motion__type_support.o: rosidl_typesupport_cpp/pos_control_interfaces/msg/arm_end_motion__type_support.cpp.o
-.PHONY : rosidl_typesupport_cpp/pos_control_interfaces/msg/arm_end_motion__type_support.o
-
-# target to build an object file
-rosidl_typesupport_cpp/pos_control_interfaces/msg/arm_end_motion__type_support.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/pos_control_interfaces__rosidl_typesupport_cpp.dir/build.make CMakeFiles/pos_control_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/pos_control_interfaces/msg/arm_end_motion__type_support.cpp.o
-.PHONY : rosidl_typesupport_cpp/pos_control_interfaces/msg/arm_end_motion__type_support.cpp.o
-
-rosidl_typesupport_cpp/pos_control_interfaces/msg/arm_end_motion__type_support.i: rosidl_typesupport_cpp/pos_control_interfaces/msg/arm_end_motion__type_support.cpp.i
-.PHONY : rosidl_typesupport_cpp/pos_control_interfaces/msg/arm_end_motion__type_support.i
-
-# target to preprocess a source file
-rosidl_typesupport_cpp/pos_control_interfaces/msg/arm_end_motion__type_support.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/pos_control_interfaces__rosidl_typesupport_cpp.dir/build.make CMakeFiles/pos_control_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/pos_control_interfaces/msg/arm_end_motion__type_support.cpp.i
-.PHONY : rosidl_typesupport_cpp/pos_control_interfaces/msg/arm_end_motion__type_support.cpp.i
-
-rosidl_typesupport_cpp/pos_control_interfaces/msg/arm_end_motion__type_support.s: rosidl_typesupport_cpp/pos_control_interfaces/msg/arm_end_motion__type_support.cpp.s
-.PHONY : rosidl_typesupport_cpp/pos_control_interfaces/msg/arm_end_motion__type_support.s
-
-# target to generate assembly for a file
-rosidl_typesupport_cpp/pos_control_interfaces/msg/arm_end_motion__type_support.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/pos_control_interfaces__rosidl_typesupport_cpp.dir/build.make CMakeFiles/pos_control_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/pos_control_interfaces/msg/arm_end_motion__type_support.cpp.s
-.PHONY : rosidl_typesupport_cpp/pos_control_interfaces/msg/arm_end_motion__type_support.cpp.s
-
-rosidl_typesupport_cpp/pos_control_interfaces/msg/encoder_arm__type_support.o: rosidl_typesupport_cpp/pos_control_interfaces/msg/encoder_arm__type_support.cpp.o
-.PHONY : rosidl_typesupport_cpp/pos_control_interfaces/msg/encoder_arm__type_support.o
-
-# target to build an object file
-rosidl_typesupport_cpp/pos_control_interfaces/msg/encoder_arm__type_support.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/pos_control_interfaces__rosidl_typesupport_cpp.dir/build.make CMakeFiles/pos_control_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/pos_control_interfaces/msg/encoder_arm__type_support.cpp.o
-.PHONY : rosidl_typesupport_cpp/pos_control_interfaces/msg/encoder_arm__type_support.cpp.o
-
-rosidl_typesupport_cpp/pos_control_interfaces/msg/encoder_arm__type_support.i: rosidl_typesupport_cpp/pos_control_interfaces/msg/encoder_arm__type_support.cpp.i
-.PHONY : rosidl_typesupport_cpp/pos_control_interfaces/msg/encoder_arm__type_support.i
-
-# target to preprocess a source file
-rosidl_typesupport_cpp/pos_control_interfaces/msg/encoder_arm__type_support.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/pos_control_interfaces__rosidl_typesupport_cpp.dir/build.make CMakeFiles/pos_control_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/pos_control_interfaces/msg/encoder_arm__type_support.cpp.i
-.PHONY : rosidl_typesupport_cpp/pos_control_interfaces/msg/encoder_arm__type_support.cpp.i
-
-rosidl_typesupport_cpp/pos_control_interfaces/msg/encoder_arm__type_support.s: rosidl_typesupport_cpp/pos_control_interfaces/msg/encoder_arm__type_support.cpp.s
-.PHONY : rosidl_typesupport_cpp/pos_control_interfaces/msg/encoder_arm__type_support.s
-
-# target to generate assembly for a file
-rosidl_typesupport_cpp/pos_control_interfaces/msg/encoder_arm__type_support.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/pos_control_interfaces__rosidl_typesupport_cpp.dir/build.make CMakeFiles/pos_control_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/pos_control_interfaces/msg/encoder_arm__type_support.cpp.s
-.PHONY : rosidl_typesupport_cpp/pos_control_interfaces/msg/encoder_arm__type_support.cpp.s
-
 rosidl_typesupport_fastrtps_c/pos_control_interfaces/action/detail/trajectory__type_support_c.o: rosidl_typesupport_fastrtps_c/pos_control_interfaces/action/detail/trajectory__type_support_c.cpp.o
 .PHONY : rosidl_typesupport_fastrtps_c/pos_control_interfaces/action/detail/trajectory__type_support_c.o
 
@@ -788,54 +596,6 @@ rosidl_typesupport_fastrtps_c/pos_control_interfaces/action/detail/trajectory__t
 rosidl_typesupport_fastrtps_c/pos_control_interfaces/action/detail/trajectory__type_support_c.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/pos_control_interfaces__rosidl_typesupport_fastrtps_c.dir/build.make CMakeFiles/pos_control_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/pos_control_interfaces/action/detail/trajectory__type_support_c.cpp.s
 .PHONY : rosidl_typesupport_fastrtps_c/pos_control_interfaces/action/detail/trajectory__type_support_c.cpp.s
-
-rosidl_typesupport_fastrtps_c/pos_control_interfaces/msg/detail/arm_end_motion__type_support_c.o: rosidl_typesupport_fastrtps_c/pos_control_interfaces/msg/detail/arm_end_motion__type_support_c.cpp.o
-.PHONY : rosidl_typesupport_fastrtps_c/pos_control_interfaces/msg/detail/arm_end_motion__type_support_c.o
-
-# target to build an object file
-rosidl_typesupport_fastrtps_c/pos_control_interfaces/msg/detail/arm_end_motion__type_support_c.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/pos_control_interfaces__rosidl_typesupport_fastrtps_c.dir/build.make CMakeFiles/pos_control_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/pos_control_interfaces/msg/detail/arm_end_motion__type_support_c.cpp.o
-.PHONY : rosidl_typesupport_fastrtps_c/pos_control_interfaces/msg/detail/arm_end_motion__type_support_c.cpp.o
-
-rosidl_typesupport_fastrtps_c/pos_control_interfaces/msg/detail/arm_end_motion__type_support_c.i: rosidl_typesupport_fastrtps_c/pos_control_interfaces/msg/detail/arm_end_motion__type_support_c.cpp.i
-.PHONY : rosidl_typesupport_fastrtps_c/pos_control_interfaces/msg/detail/arm_end_motion__type_support_c.i
-
-# target to preprocess a source file
-rosidl_typesupport_fastrtps_c/pos_control_interfaces/msg/detail/arm_end_motion__type_support_c.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/pos_control_interfaces__rosidl_typesupport_fastrtps_c.dir/build.make CMakeFiles/pos_control_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/pos_control_interfaces/msg/detail/arm_end_motion__type_support_c.cpp.i
-.PHONY : rosidl_typesupport_fastrtps_c/pos_control_interfaces/msg/detail/arm_end_motion__type_support_c.cpp.i
-
-rosidl_typesupport_fastrtps_c/pos_control_interfaces/msg/detail/arm_end_motion__type_support_c.s: rosidl_typesupport_fastrtps_c/pos_control_interfaces/msg/detail/arm_end_motion__type_support_c.cpp.s
-.PHONY : rosidl_typesupport_fastrtps_c/pos_control_interfaces/msg/detail/arm_end_motion__type_support_c.s
-
-# target to generate assembly for a file
-rosidl_typesupport_fastrtps_c/pos_control_interfaces/msg/detail/arm_end_motion__type_support_c.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/pos_control_interfaces__rosidl_typesupport_fastrtps_c.dir/build.make CMakeFiles/pos_control_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/pos_control_interfaces/msg/detail/arm_end_motion__type_support_c.cpp.s
-.PHONY : rosidl_typesupport_fastrtps_c/pos_control_interfaces/msg/detail/arm_end_motion__type_support_c.cpp.s
-
-rosidl_typesupport_fastrtps_c/pos_control_interfaces/msg/detail/encoder_arm__type_support_c.o: rosidl_typesupport_fastrtps_c/pos_control_interfaces/msg/detail/encoder_arm__type_support_c.cpp.o
-.PHONY : rosidl_typesupport_fastrtps_c/pos_control_interfaces/msg/detail/encoder_arm__type_support_c.o
-
-# target to build an object file
-rosidl_typesupport_fastrtps_c/pos_control_interfaces/msg/detail/encoder_arm__type_support_c.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/pos_control_interfaces__rosidl_typesupport_fastrtps_c.dir/build.make CMakeFiles/pos_control_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/pos_control_interfaces/msg/detail/encoder_arm__type_support_c.cpp.o
-.PHONY : rosidl_typesupport_fastrtps_c/pos_control_interfaces/msg/detail/encoder_arm__type_support_c.cpp.o
-
-rosidl_typesupport_fastrtps_c/pos_control_interfaces/msg/detail/encoder_arm__type_support_c.i: rosidl_typesupport_fastrtps_c/pos_control_interfaces/msg/detail/encoder_arm__type_support_c.cpp.i
-.PHONY : rosidl_typesupport_fastrtps_c/pos_control_interfaces/msg/detail/encoder_arm__type_support_c.i
-
-# target to preprocess a source file
-rosidl_typesupport_fastrtps_c/pos_control_interfaces/msg/detail/encoder_arm__type_support_c.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/pos_control_interfaces__rosidl_typesupport_fastrtps_c.dir/build.make CMakeFiles/pos_control_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/pos_control_interfaces/msg/detail/encoder_arm__type_support_c.cpp.i
-.PHONY : rosidl_typesupport_fastrtps_c/pos_control_interfaces/msg/detail/encoder_arm__type_support_c.cpp.i
-
-rosidl_typesupport_fastrtps_c/pos_control_interfaces/msg/detail/encoder_arm__type_support_c.s: rosidl_typesupport_fastrtps_c/pos_control_interfaces/msg/detail/encoder_arm__type_support_c.cpp.s
-.PHONY : rosidl_typesupport_fastrtps_c/pos_control_interfaces/msg/detail/encoder_arm__type_support_c.s
-
-# target to generate assembly for a file
-rosidl_typesupport_fastrtps_c/pos_control_interfaces/msg/detail/encoder_arm__type_support_c.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/pos_control_interfaces__rosidl_typesupport_fastrtps_c.dir/build.make CMakeFiles/pos_control_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/pos_control_interfaces/msg/detail/encoder_arm__type_support_c.cpp.s
-.PHONY : rosidl_typesupport_fastrtps_c/pos_control_interfaces/msg/detail/encoder_arm__type_support_c.cpp.s
 
 rosidl_typesupport_fastrtps_cpp/pos_control_interfaces/action/detail/dds_fastrtps/trajectory__type_support.o: rosidl_typesupport_fastrtps_cpp/pos_control_interfaces/action/detail/dds_fastrtps/trajectory__type_support.cpp.o
 .PHONY : rosidl_typesupport_fastrtps_cpp/pos_control_interfaces/action/detail/dds_fastrtps/trajectory__type_support.o
@@ -861,54 +621,6 @@ rosidl_typesupport_fastrtps_cpp/pos_control_interfaces/action/detail/dds_fastrtp
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/pos_control_interfaces__rosidl_typesupport_fastrtps_cpp.dir/build.make CMakeFiles/pos_control_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/pos_control_interfaces/action/detail/dds_fastrtps/trajectory__type_support.cpp.s
 .PHONY : rosidl_typesupport_fastrtps_cpp/pos_control_interfaces/action/detail/dds_fastrtps/trajectory__type_support.cpp.s
 
-rosidl_typesupport_fastrtps_cpp/pos_control_interfaces/msg/detail/dds_fastrtps/arm_end_motion__type_support.o: rosidl_typesupport_fastrtps_cpp/pos_control_interfaces/msg/detail/dds_fastrtps/arm_end_motion__type_support.cpp.o
-.PHONY : rosidl_typesupport_fastrtps_cpp/pos_control_interfaces/msg/detail/dds_fastrtps/arm_end_motion__type_support.o
-
-# target to build an object file
-rosidl_typesupport_fastrtps_cpp/pos_control_interfaces/msg/detail/dds_fastrtps/arm_end_motion__type_support.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/pos_control_interfaces__rosidl_typesupport_fastrtps_cpp.dir/build.make CMakeFiles/pos_control_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/pos_control_interfaces/msg/detail/dds_fastrtps/arm_end_motion__type_support.cpp.o
-.PHONY : rosidl_typesupport_fastrtps_cpp/pos_control_interfaces/msg/detail/dds_fastrtps/arm_end_motion__type_support.cpp.o
-
-rosidl_typesupport_fastrtps_cpp/pos_control_interfaces/msg/detail/dds_fastrtps/arm_end_motion__type_support.i: rosidl_typesupport_fastrtps_cpp/pos_control_interfaces/msg/detail/dds_fastrtps/arm_end_motion__type_support.cpp.i
-.PHONY : rosidl_typesupport_fastrtps_cpp/pos_control_interfaces/msg/detail/dds_fastrtps/arm_end_motion__type_support.i
-
-# target to preprocess a source file
-rosidl_typesupport_fastrtps_cpp/pos_control_interfaces/msg/detail/dds_fastrtps/arm_end_motion__type_support.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/pos_control_interfaces__rosidl_typesupport_fastrtps_cpp.dir/build.make CMakeFiles/pos_control_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/pos_control_interfaces/msg/detail/dds_fastrtps/arm_end_motion__type_support.cpp.i
-.PHONY : rosidl_typesupport_fastrtps_cpp/pos_control_interfaces/msg/detail/dds_fastrtps/arm_end_motion__type_support.cpp.i
-
-rosidl_typesupport_fastrtps_cpp/pos_control_interfaces/msg/detail/dds_fastrtps/arm_end_motion__type_support.s: rosidl_typesupport_fastrtps_cpp/pos_control_interfaces/msg/detail/dds_fastrtps/arm_end_motion__type_support.cpp.s
-.PHONY : rosidl_typesupport_fastrtps_cpp/pos_control_interfaces/msg/detail/dds_fastrtps/arm_end_motion__type_support.s
-
-# target to generate assembly for a file
-rosidl_typesupport_fastrtps_cpp/pos_control_interfaces/msg/detail/dds_fastrtps/arm_end_motion__type_support.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/pos_control_interfaces__rosidl_typesupport_fastrtps_cpp.dir/build.make CMakeFiles/pos_control_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/pos_control_interfaces/msg/detail/dds_fastrtps/arm_end_motion__type_support.cpp.s
-.PHONY : rosidl_typesupport_fastrtps_cpp/pos_control_interfaces/msg/detail/dds_fastrtps/arm_end_motion__type_support.cpp.s
-
-rosidl_typesupport_fastrtps_cpp/pos_control_interfaces/msg/detail/dds_fastrtps/encoder_arm__type_support.o: rosidl_typesupport_fastrtps_cpp/pos_control_interfaces/msg/detail/dds_fastrtps/encoder_arm__type_support.cpp.o
-.PHONY : rosidl_typesupport_fastrtps_cpp/pos_control_interfaces/msg/detail/dds_fastrtps/encoder_arm__type_support.o
-
-# target to build an object file
-rosidl_typesupport_fastrtps_cpp/pos_control_interfaces/msg/detail/dds_fastrtps/encoder_arm__type_support.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/pos_control_interfaces__rosidl_typesupport_fastrtps_cpp.dir/build.make CMakeFiles/pos_control_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/pos_control_interfaces/msg/detail/dds_fastrtps/encoder_arm__type_support.cpp.o
-.PHONY : rosidl_typesupport_fastrtps_cpp/pos_control_interfaces/msg/detail/dds_fastrtps/encoder_arm__type_support.cpp.o
-
-rosidl_typesupport_fastrtps_cpp/pos_control_interfaces/msg/detail/dds_fastrtps/encoder_arm__type_support.i: rosidl_typesupport_fastrtps_cpp/pos_control_interfaces/msg/detail/dds_fastrtps/encoder_arm__type_support.cpp.i
-.PHONY : rosidl_typesupport_fastrtps_cpp/pos_control_interfaces/msg/detail/dds_fastrtps/encoder_arm__type_support.i
-
-# target to preprocess a source file
-rosidl_typesupport_fastrtps_cpp/pos_control_interfaces/msg/detail/dds_fastrtps/encoder_arm__type_support.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/pos_control_interfaces__rosidl_typesupport_fastrtps_cpp.dir/build.make CMakeFiles/pos_control_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/pos_control_interfaces/msg/detail/dds_fastrtps/encoder_arm__type_support.cpp.i
-.PHONY : rosidl_typesupport_fastrtps_cpp/pos_control_interfaces/msg/detail/dds_fastrtps/encoder_arm__type_support.cpp.i
-
-rosidl_typesupport_fastrtps_cpp/pos_control_interfaces/msg/detail/dds_fastrtps/encoder_arm__type_support.s: rosidl_typesupport_fastrtps_cpp/pos_control_interfaces/msg/detail/dds_fastrtps/encoder_arm__type_support.cpp.s
-.PHONY : rosidl_typesupport_fastrtps_cpp/pos_control_interfaces/msg/detail/dds_fastrtps/encoder_arm__type_support.s
-
-# target to generate assembly for a file
-rosidl_typesupport_fastrtps_cpp/pos_control_interfaces/msg/detail/dds_fastrtps/encoder_arm__type_support.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/pos_control_interfaces__rosidl_typesupport_fastrtps_cpp.dir/build.make CMakeFiles/pos_control_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/pos_control_interfaces/msg/detail/dds_fastrtps/encoder_arm__type_support.cpp.s
-.PHONY : rosidl_typesupport_fastrtps_cpp/pos_control_interfaces/msg/detail/dds_fastrtps/encoder_arm__type_support.cpp.s
-
 rosidl_typesupport_introspection_c/pos_control_interfaces/action/detail/trajectory__type_support.o: rosidl_typesupport_introspection_c/pos_control_interfaces/action/detail/trajectory__type_support.c.o
 .PHONY : rosidl_typesupport_introspection_c/pos_control_interfaces/action/detail/trajectory__type_support.o
 
@@ -933,54 +645,6 @@ rosidl_typesupport_introspection_c/pos_control_interfaces/action/detail/trajecto
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/pos_control_interfaces__rosidl_typesupport_introspection_c.dir/build.make CMakeFiles/pos_control_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/pos_control_interfaces/action/detail/trajectory__type_support.c.s
 .PHONY : rosidl_typesupport_introspection_c/pos_control_interfaces/action/detail/trajectory__type_support.c.s
 
-rosidl_typesupport_introspection_c/pos_control_interfaces/msg/detail/arm_end_motion__type_support.o: rosidl_typesupport_introspection_c/pos_control_interfaces/msg/detail/arm_end_motion__type_support.c.o
-.PHONY : rosidl_typesupport_introspection_c/pos_control_interfaces/msg/detail/arm_end_motion__type_support.o
-
-# target to build an object file
-rosidl_typesupport_introspection_c/pos_control_interfaces/msg/detail/arm_end_motion__type_support.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/pos_control_interfaces__rosidl_typesupport_introspection_c.dir/build.make CMakeFiles/pos_control_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/pos_control_interfaces/msg/detail/arm_end_motion__type_support.c.o
-.PHONY : rosidl_typesupport_introspection_c/pos_control_interfaces/msg/detail/arm_end_motion__type_support.c.o
-
-rosidl_typesupport_introspection_c/pos_control_interfaces/msg/detail/arm_end_motion__type_support.i: rosidl_typesupport_introspection_c/pos_control_interfaces/msg/detail/arm_end_motion__type_support.c.i
-.PHONY : rosidl_typesupport_introspection_c/pos_control_interfaces/msg/detail/arm_end_motion__type_support.i
-
-# target to preprocess a source file
-rosidl_typesupport_introspection_c/pos_control_interfaces/msg/detail/arm_end_motion__type_support.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/pos_control_interfaces__rosidl_typesupport_introspection_c.dir/build.make CMakeFiles/pos_control_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/pos_control_interfaces/msg/detail/arm_end_motion__type_support.c.i
-.PHONY : rosidl_typesupport_introspection_c/pos_control_interfaces/msg/detail/arm_end_motion__type_support.c.i
-
-rosidl_typesupport_introspection_c/pos_control_interfaces/msg/detail/arm_end_motion__type_support.s: rosidl_typesupport_introspection_c/pos_control_interfaces/msg/detail/arm_end_motion__type_support.c.s
-.PHONY : rosidl_typesupport_introspection_c/pos_control_interfaces/msg/detail/arm_end_motion__type_support.s
-
-# target to generate assembly for a file
-rosidl_typesupport_introspection_c/pos_control_interfaces/msg/detail/arm_end_motion__type_support.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/pos_control_interfaces__rosidl_typesupport_introspection_c.dir/build.make CMakeFiles/pos_control_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/pos_control_interfaces/msg/detail/arm_end_motion__type_support.c.s
-.PHONY : rosidl_typesupport_introspection_c/pos_control_interfaces/msg/detail/arm_end_motion__type_support.c.s
-
-rosidl_typesupport_introspection_c/pos_control_interfaces/msg/detail/encoder_arm__type_support.o: rosidl_typesupport_introspection_c/pos_control_interfaces/msg/detail/encoder_arm__type_support.c.o
-.PHONY : rosidl_typesupport_introspection_c/pos_control_interfaces/msg/detail/encoder_arm__type_support.o
-
-# target to build an object file
-rosidl_typesupport_introspection_c/pos_control_interfaces/msg/detail/encoder_arm__type_support.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/pos_control_interfaces__rosidl_typesupport_introspection_c.dir/build.make CMakeFiles/pos_control_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/pos_control_interfaces/msg/detail/encoder_arm__type_support.c.o
-.PHONY : rosidl_typesupport_introspection_c/pos_control_interfaces/msg/detail/encoder_arm__type_support.c.o
-
-rosidl_typesupport_introspection_c/pos_control_interfaces/msg/detail/encoder_arm__type_support.i: rosidl_typesupport_introspection_c/pos_control_interfaces/msg/detail/encoder_arm__type_support.c.i
-.PHONY : rosidl_typesupport_introspection_c/pos_control_interfaces/msg/detail/encoder_arm__type_support.i
-
-# target to preprocess a source file
-rosidl_typesupport_introspection_c/pos_control_interfaces/msg/detail/encoder_arm__type_support.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/pos_control_interfaces__rosidl_typesupport_introspection_c.dir/build.make CMakeFiles/pos_control_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/pos_control_interfaces/msg/detail/encoder_arm__type_support.c.i
-.PHONY : rosidl_typesupport_introspection_c/pos_control_interfaces/msg/detail/encoder_arm__type_support.c.i
-
-rosidl_typesupport_introspection_c/pos_control_interfaces/msg/detail/encoder_arm__type_support.s: rosidl_typesupport_introspection_c/pos_control_interfaces/msg/detail/encoder_arm__type_support.c.s
-.PHONY : rosidl_typesupport_introspection_c/pos_control_interfaces/msg/detail/encoder_arm__type_support.s
-
-# target to generate assembly for a file
-rosidl_typesupport_introspection_c/pos_control_interfaces/msg/detail/encoder_arm__type_support.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/pos_control_interfaces__rosidl_typesupport_introspection_c.dir/build.make CMakeFiles/pos_control_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/pos_control_interfaces/msg/detail/encoder_arm__type_support.c.s
-.PHONY : rosidl_typesupport_introspection_c/pos_control_interfaces/msg/detail/encoder_arm__type_support.c.s
-
 rosidl_typesupport_introspection_cpp/pos_control_interfaces/action/detail/trajectory__type_support.o: rosidl_typesupport_introspection_cpp/pos_control_interfaces/action/detail/trajectory__type_support.cpp.o
 .PHONY : rosidl_typesupport_introspection_cpp/pos_control_interfaces/action/detail/trajectory__type_support.o
 
@@ -1004,54 +668,6 @@ rosidl_typesupport_introspection_cpp/pos_control_interfaces/action/detail/trajec
 rosidl_typesupport_introspection_cpp/pos_control_interfaces/action/detail/trajectory__type_support.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/pos_control_interfaces__rosidl_typesupport_introspection_cpp.dir/build.make CMakeFiles/pos_control_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/pos_control_interfaces/action/detail/trajectory__type_support.cpp.s
 .PHONY : rosidl_typesupport_introspection_cpp/pos_control_interfaces/action/detail/trajectory__type_support.cpp.s
-
-rosidl_typesupport_introspection_cpp/pos_control_interfaces/msg/detail/arm_end_motion__type_support.o: rosidl_typesupport_introspection_cpp/pos_control_interfaces/msg/detail/arm_end_motion__type_support.cpp.o
-.PHONY : rosidl_typesupport_introspection_cpp/pos_control_interfaces/msg/detail/arm_end_motion__type_support.o
-
-# target to build an object file
-rosidl_typesupport_introspection_cpp/pos_control_interfaces/msg/detail/arm_end_motion__type_support.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/pos_control_interfaces__rosidl_typesupport_introspection_cpp.dir/build.make CMakeFiles/pos_control_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/pos_control_interfaces/msg/detail/arm_end_motion__type_support.cpp.o
-.PHONY : rosidl_typesupport_introspection_cpp/pos_control_interfaces/msg/detail/arm_end_motion__type_support.cpp.o
-
-rosidl_typesupport_introspection_cpp/pos_control_interfaces/msg/detail/arm_end_motion__type_support.i: rosidl_typesupport_introspection_cpp/pos_control_interfaces/msg/detail/arm_end_motion__type_support.cpp.i
-.PHONY : rosidl_typesupport_introspection_cpp/pos_control_interfaces/msg/detail/arm_end_motion__type_support.i
-
-# target to preprocess a source file
-rosidl_typesupport_introspection_cpp/pos_control_interfaces/msg/detail/arm_end_motion__type_support.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/pos_control_interfaces__rosidl_typesupport_introspection_cpp.dir/build.make CMakeFiles/pos_control_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/pos_control_interfaces/msg/detail/arm_end_motion__type_support.cpp.i
-.PHONY : rosidl_typesupport_introspection_cpp/pos_control_interfaces/msg/detail/arm_end_motion__type_support.cpp.i
-
-rosidl_typesupport_introspection_cpp/pos_control_interfaces/msg/detail/arm_end_motion__type_support.s: rosidl_typesupport_introspection_cpp/pos_control_interfaces/msg/detail/arm_end_motion__type_support.cpp.s
-.PHONY : rosidl_typesupport_introspection_cpp/pos_control_interfaces/msg/detail/arm_end_motion__type_support.s
-
-# target to generate assembly for a file
-rosidl_typesupport_introspection_cpp/pos_control_interfaces/msg/detail/arm_end_motion__type_support.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/pos_control_interfaces__rosidl_typesupport_introspection_cpp.dir/build.make CMakeFiles/pos_control_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/pos_control_interfaces/msg/detail/arm_end_motion__type_support.cpp.s
-.PHONY : rosidl_typesupport_introspection_cpp/pos_control_interfaces/msg/detail/arm_end_motion__type_support.cpp.s
-
-rosidl_typesupport_introspection_cpp/pos_control_interfaces/msg/detail/encoder_arm__type_support.o: rosidl_typesupport_introspection_cpp/pos_control_interfaces/msg/detail/encoder_arm__type_support.cpp.o
-.PHONY : rosidl_typesupport_introspection_cpp/pos_control_interfaces/msg/detail/encoder_arm__type_support.o
-
-# target to build an object file
-rosidl_typesupport_introspection_cpp/pos_control_interfaces/msg/detail/encoder_arm__type_support.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/pos_control_interfaces__rosidl_typesupport_introspection_cpp.dir/build.make CMakeFiles/pos_control_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/pos_control_interfaces/msg/detail/encoder_arm__type_support.cpp.o
-.PHONY : rosidl_typesupport_introspection_cpp/pos_control_interfaces/msg/detail/encoder_arm__type_support.cpp.o
-
-rosidl_typesupport_introspection_cpp/pos_control_interfaces/msg/detail/encoder_arm__type_support.i: rosidl_typesupport_introspection_cpp/pos_control_interfaces/msg/detail/encoder_arm__type_support.cpp.i
-.PHONY : rosidl_typesupport_introspection_cpp/pos_control_interfaces/msg/detail/encoder_arm__type_support.i
-
-# target to preprocess a source file
-rosidl_typesupport_introspection_cpp/pos_control_interfaces/msg/detail/encoder_arm__type_support.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/pos_control_interfaces__rosidl_typesupport_introspection_cpp.dir/build.make CMakeFiles/pos_control_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/pos_control_interfaces/msg/detail/encoder_arm__type_support.cpp.i
-.PHONY : rosidl_typesupport_introspection_cpp/pos_control_interfaces/msg/detail/encoder_arm__type_support.cpp.i
-
-rosidl_typesupport_introspection_cpp/pos_control_interfaces/msg/detail/encoder_arm__type_support.s: rosidl_typesupport_introspection_cpp/pos_control_interfaces/msg/detail/encoder_arm__type_support.cpp.s
-.PHONY : rosidl_typesupport_introspection_cpp/pos_control_interfaces/msg/detail/encoder_arm__type_support.s
-
-# target to generate assembly for a file
-rosidl_typesupport_introspection_cpp/pos_control_interfaces/msg/detail/encoder_arm__type_support.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/pos_control_interfaces__rosidl_typesupport_introspection_cpp.dir/build.make CMakeFiles/pos_control_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/pos_control_interfaces/msg/detail/encoder_arm__type_support.cpp.s
-.PHONY : rosidl_typesupport_introspection_cpp/pos_control_interfaces/msg/detail/encoder_arm__type_support.cpp.s
 
 # Help Target
 help:
@@ -1087,12 +703,6 @@ help:
 	@echo "... rosidl_generator_c/pos_control_interfaces/action/detail/trajectory__functions.o"
 	@echo "... rosidl_generator_c/pos_control_interfaces/action/detail/trajectory__functions.i"
 	@echo "... rosidl_generator_c/pos_control_interfaces/action/detail/trajectory__functions.s"
-	@echo "... rosidl_generator_c/pos_control_interfaces/msg/detail/arm_end_motion__functions.o"
-	@echo "... rosidl_generator_c/pos_control_interfaces/msg/detail/arm_end_motion__functions.i"
-	@echo "... rosidl_generator_c/pos_control_interfaces/msg/detail/arm_end_motion__functions.s"
-	@echo "... rosidl_generator_c/pos_control_interfaces/msg/detail/encoder_arm__functions.o"
-	@echo "... rosidl_generator_c/pos_control_interfaces/msg/detail/encoder_arm__functions.i"
-	@echo "... rosidl_generator_c/pos_control_interfaces/msg/detail/encoder_arm__functions.s"
 	@echo "... rosidl_generator_py/pos_control_interfaces/_pos_control_interfaces_s.ep.rosidl_typesupport_c.o"
 	@echo "... rosidl_generator_py/pos_control_interfaces/_pos_control_interfaces_s.ep.rosidl_typesupport_c.i"
 	@echo "... rosidl_generator_py/pos_control_interfaces/_pos_control_interfaces_s.ep.rosidl_typesupport_c.s"
@@ -1105,66 +715,24 @@ help:
 	@echo "... rosidl_generator_py/pos_control_interfaces/action/_trajectory_s.o"
 	@echo "... rosidl_generator_py/pos_control_interfaces/action/_trajectory_s.i"
 	@echo "... rosidl_generator_py/pos_control_interfaces/action/_trajectory_s.s"
-	@echo "... rosidl_generator_py/pos_control_interfaces/msg/_arm_end_motion_s.o"
-	@echo "... rosidl_generator_py/pos_control_interfaces/msg/_arm_end_motion_s.i"
-	@echo "... rosidl_generator_py/pos_control_interfaces/msg/_arm_end_motion_s.s"
-	@echo "... rosidl_generator_py/pos_control_interfaces/msg/_encoder_arm_s.o"
-	@echo "... rosidl_generator_py/pos_control_interfaces/msg/_encoder_arm_s.i"
-	@echo "... rosidl_generator_py/pos_control_interfaces/msg/_encoder_arm_s.s"
 	@echo "... rosidl_typesupport_c/pos_control_interfaces/action/trajectory__type_support.o"
 	@echo "... rosidl_typesupport_c/pos_control_interfaces/action/trajectory__type_support.i"
 	@echo "... rosidl_typesupport_c/pos_control_interfaces/action/trajectory__type_support.s"
-	@echo "... rosidl_typesupport_c/pos_control_interfaces/msg/arm_end_motion__type_support.o"
-	@echo "... rosidl_typesupport_c/pos_control_interfaces/msg/arm_end_motion__type_support.i"
-	@echo "... rosidl_typesupport_c/pos_control_interfaces/msg/arm_end_motion__type_support.s"
-	@echo "... rosidl_typesupport_c/pos_control_interfaces/msg/encoder_arm__type_support.o"
-	@echo "... rosidl_typesupport_c/pos_control_interfaces/msg/encoder_arm__type_support.i"
-	@echo "... rosidl_typesupport_c/pos_control_interfaces/msg/encoder_arm__type_support.s"
 	@echo "... rosidl_typesupport_cpp/pos_control_interfaces/action/trajectory__type_support.o"
 	@echo "... rosidl_typesupport_cpp/pos_control_interfaces/action/trajectory__type_support.i"
 	@echo "... rosidl_typesupport_cpp/pos_control_interfaces/action/trajectory__type_support.s"
-	@echo "... rosidl_typesupport_cpp/pos_control_interfaces/msg/arm_end_motion__type_support.o"
-	@echo "... rosidl_typesupport_cpp/pos_control_interfaces/msg/arm_end_motion__type_support.i"
-	@echo "... rosidl_typesupport_cpp/pos_control_interfaces/msg/arm_end_motion__type_support.s"
-	@echo "... rosidl_typesupport_cpp/pos_control_interfaces/msg/encoder_arm__type_support.o"
-	@echo "... rosidl_typesupport_cpp/pos_control_interfaces/msg/encoder_arm__type_support.i"
-	@echo "... rosidl_typesupport_cpp/pos_control_interfaces/msg/encoder_arm__type_support.s"
 	@echo "... rosidl_typesupport_fastrtps_c/pos_control_interfaces/action/detail/trajectory__type_support_c.o"
 	@echo "... rosidl_typesupport_fastrtps_c/pos_control_interfaces/action/detail/trajectory__type_support_c.i"
 	@echo "... rosidl_typesupport_fastrtps_c/pos_control_interfaces/action/detail/trajectory__type_support_c.s"
-	@echo "... rosidl_typesupport_fastrtps_c/pos_control_interfaces/msg/detail/arm_end_motion__type_support_c.o"
-	@echo "... rosidl_typesupport_fastrtps_c/pos_control_interfaces/msg/detail/arm_end_motion__type_support_c.i"
-	@echo "... rosidl_typesupport_fastrtps_c/pos_control_interfaces/msg/detail/arm_end_motion__type_support_c.s"
-	@echo "... rosidl_typesupport_fastrtps_c/pos_control_interfaces/msg/detail/encoder_arm__type_support_c.o"
-	@echo "... rosidl_typesupport_fastrtps_c/pos_control_interfaces/msg/detail/encoder_arm__type_support_c.i"
-	@echo "... rosidl_typesupport_fastrtps_c/pos_control_interfaces/msg/detail/encoder_arm__type_support_c.s"
 	@echo "... rosidl_typesupport_fastrtps_cpp/pos_control_interfaces/action/detail/dds_fastrtps/trajectory__type_support.o"
 	@echo "... rosidl_typesupport_fastrtps_cpp/pos_control_interfaces/action/detail/dds_fastrtps/trajectory__type_support.i"
 	@echo "... rosidl_typesupport_fastrtps_cpp/pos_control_interfaces/action/detail/dds_fastrtps/trajectory__type_support.s"
-	@echo "... rosidl_typesupport_fastrtps_cpp/pos_control_interfaces/msg/detail/dds_fastrtps/arm_end_motion__type_support.o"
-	@echo "... rosidl_typesupport_fastrtps_cpp/pos_control_interfaces/msg/detail/dds_fastrtps/arm_end_motion__type_support.i"
-	@echo "... rosidl_typesupport_fastrtps_cpp/pos_control_interfaces/msg/detail/dds_fastrtps/arm_end_motion__type_support.s"
-	@echo "... rosidl_typesupport_fastrtps_cpp/pos_control_interfaces/msg/detail/dds_fastrtps/encoder_arm__type_support.o"
-	@echo "... rosidl_typesupport_fastrtps_cpp/pos_control_interfaces/msg/detail/dds_fastrtps/encoder_arm__type_support.i"
-	@echo "... rosidl_typesupport_fastrtps_cpp/pos_control_interfaces/msg/detail/dds_fastrtps/encoder_arm__type_support.s"
 	@echo "... rosidl_typesupport_introspection_c/pos_control_interfaces/action/detail/trajectory__type_support.o"
 	@echo "... rosidl_typesupport_introspection_c/pos_control_interfaces/action/detail/trajectory__type_support.i"
 	@echo "... rosidl_typesupport_introspection_c/pos_control_interfaces/action/detail/trajectory__type_support.s"
-	@echo "... rosidl_typesupport_introspection_c/pos_control_interfaces/msg/detail/arm_end_motion__type_support.o"
-	@echo "... rosidl_typesupport_introspection_c/pos_control_interfaces/msg/detail/arm_end_motion__type_support.i"
-	@echo "... rosidl_typesupport_introspection_c/pos_control_interfaces/msg/detail/arm_end_motion__type_support.s"
-	@echo "... rosidl_typesupport_introspection_c/pos_control_interfaces/msg/detail/encoder_arm__type_support.o"
-	@echo "... rosidl_typesupport_introspection_c/pos_control_interfaces/msg/detail/encoder_arm__type_support.i"
-	@echo "... rosidl_typesupport_introspection_c/pos_control_interfaces/msg/detail/encoder_arm__type_support.s"
 	@echo "... rosidl_typesupport_introspection_cpp/pos_control_interfaces/action/detail/trajectory__type_support.o"
 	@echo "... rosidl_typesupport_introspection_cpp/pos_control_interfaces/action/detail/trajectory__type_support.i"
 	@echo "... rosidl_typesupport_introspection_cpp/pos_control_interfaces/action/detail/trajectory__type_support.s"
-	@echo "... rosidl_typesupport_introspection_cpp/pos_control_interfaces/msg/detail/arm_end_motion__type_support.o"
-	@echo "... rosidl_typesupport_introspection_cpp/pos_control_interfaces/msg/detail/arm_end_motion__type_support.i"
-	@echo "... rosidl_typesupport_introspection_cpp/pos_control_interfaces/msg/detail/arm_end_motion__type_support.s"
-	@echo "... rosidl_typesupport_introspection_cpp/pos_control_interfaces/msg/detail/encoder_arm__type_support.o"
-	@echo "... rosidl_typesupport_introspection_cpp/pos_control_interfaces/msg/detail/encoder_arm__type_support.i"
-	@echo "... rosidl_typesupport_introspection_cpp/pos_control_interfaces/msg/detail/encoder_arm__type_support.s"
 .PHONY : help
 
 

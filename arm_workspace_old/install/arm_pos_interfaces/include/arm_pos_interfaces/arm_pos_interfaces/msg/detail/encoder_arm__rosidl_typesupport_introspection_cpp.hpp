@@ -1,1 +1,0 @@
-/home/harshit/mrt_ws/arm_workspace/build/arm_pos_interfaces/rosidl_typesupport_introspection_cpp/arm_pos_interfaces/msg/detail/encoder_arm__rosidl_typesupport_introspection_cpp.hpp

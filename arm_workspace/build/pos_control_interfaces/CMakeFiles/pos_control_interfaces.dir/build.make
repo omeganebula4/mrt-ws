@@ -66,8 +66,6 @@ include CMakeFiles/pos_control_interfaces.dir/compiler_depend.make
 # Include the progress variables for this target.
 include CMakeFiles/pos_control_interfaces.dir/progress.make
 
-CMakeFiles/pos_control_interfaces: /home/harshit/mrt_ws/arm_workspace/src/pos_control_interfaces/msg/ArmEndMotion.msg
-CMakeFiles/pos_control_interfaces: /home/harshit/mrt_ws/arm_workspace/src/pos_control_interfaces/msg/EncoderArm.msg
 CMakeFiles/pos_control_interfaces: /home/harshit/mrt_ws/arm_workspace/src/pos_control_interfaces/action/Trajectory.action
 CMakeFiles/pos_control_interfaces: /opt/ros/humble/share/std_msgs/msg/Bool.idl
 CMakeFiles/pos_control_interfaces: /opt/ros/humble/share/std_msgs/msg/Byte.idl

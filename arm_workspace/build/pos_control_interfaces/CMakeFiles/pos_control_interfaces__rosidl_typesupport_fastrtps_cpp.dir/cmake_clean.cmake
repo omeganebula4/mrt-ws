@@ -1,18 +1,10 @@
 file(REMOVE_RECURSE
   "CMakeFiles/pos_control_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/pos_control_interfaces/action/detail/dds_fastrtps/trajectory__type_support.cpp.o"
   "CMakeFiles/pos_control_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/pos_control_interfaces/action/detail/dds_fastrtps/trajectory__type_support.cpp.o.d"
-  "CMakeFiles/pos_control_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/pos_control_interfaces/msg/detail/dds_fastrtps/arm_end_motion__type_support.cpp.o"
-  "CMakeFiles/pos_control_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/pos_control_interfaces/msg/detail/dds_fastrtps/arm_end_motion__type_support.cpp.o.d"
-  "CMakeFiles/pos_control_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/pos_control_interfaces/msg/detail/dds_fastrtps/encoder_arm__type_support.cpp.o"
-  "CMakeFiles/pos_control_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/pos_control_interfaces/msg/detail/dds_fastrtps/encoder_arm__type_support.cpp.o.d"
   "libpos_control_interfaces__rosidl_typesupport_fastrtps_cpp.pdb"
   "libpos_control_interfaces__rosidl_typesupport_fastrtps_cpp.so"
   "rosidl_typesupport_fastrtps_cpp/pos_control_interfaces/action/detail/dds_fastrtps/trajectory__type_support.cpp"
   "rosidl_typesupport_fastrtps_cpp/pos_control_interfaces/action/detail/trajectory__rosidl_typesupport_fastrtps_cpp.hpp"
-  "rosidl_typesupport_fastrtps_cpp/pos_control_interfaces/msg/detail/arm_end_motion__rosidl_typesupport_fastrtps_cpp.hpp"
-  "rosidl_typesupport_fastrtps_cpp/pos_control_interfaces/msg/detail/dds_fastrtps/arm_end_motion__type_support.cpp"
-  "rosidl_typesupport_fastrtps_cpp/pos_control_interfaces/msg/detail/dds_fastrtps/encoder_arm__type_support.cpp"
-  "rosidl_typesupport_fastrtps_cpp/pos_control_interfaces/msg/detail/encoder_arm__rosidl_typesupport_fastrtps_cpp.hpp"
 )
 
 # Per-language clean rules from dependency scanning.

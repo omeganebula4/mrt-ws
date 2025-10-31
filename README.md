@@ -38,3 +38,10 @@ endif()
 
 -- other code here --
 ```
+
+## Packages from different workspaces
+If you want to use a package from a different workspace in your packages, for example, you want to import package `pkg_name` from `other_ws` into your workspace `mrt_ws`, you should first `cd` into your workspace `mrt_ws` and run
+
+`colcon build --paths /path/to/other_ws/src/pkg_name`
+
+Now you can use `pkg_name` as a dependency in packages inside `mrt_ws`. Make sure to include the dependency in `package.xml`.

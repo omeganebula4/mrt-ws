@@ -20,10 +20,8 @@ def main(args=None):
     
     try:
         while rclpy.ok():
-            # Process any pending ROS callbacks
             rclpy.spin_once(node, timeout_sec=0.1)
             
-            # Check for user input (non-blocking approach)
             try:
                 user_input = input("Enter message to publish (Ctrl+C to exit): ")
                 if user_input:  # Only publish if not empty

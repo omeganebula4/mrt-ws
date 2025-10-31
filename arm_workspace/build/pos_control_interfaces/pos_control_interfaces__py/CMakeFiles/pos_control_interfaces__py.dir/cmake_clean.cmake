@@ -5,11 +5,6 @@ file(REMOVE_RECURSE
   "/home/harshit/mrt_ws/arm_workspace/build/pos_control_interfaces/rosidl_generator_py/pos_control_interfaces/action/__init__.py"
   "/home/harshit/mrt_ws/arm_workspace/build/pos_control_interfaces/rosidl_generator_py/pos_control_interfaces/action/_trajectory.py"
   "/home/harshit/mrt_ws/arm_workspace/build/pos_control_interfaces/rosidl_generator_py/pos_control_interfaces/action/_trajectory_s.c"
-  "/home/harshit/mrt_ws/arm_workspace/build/pos_control_interfaces/rosidl_generator_py/pos_control_interfaces/msg/__init__.py"
-  "/home/harshit/mrt_ws/arm_workspace/build/pos_control_interfaces/rosidl_generator_py/pos_control_interfaces/msg/_arm_end_motion.py"
-  "/home/harshit/mrt_ws/arm_workspace/build/pos_control_interfaces/rosidl_generator_py/pos_control_interfaces/msg/_arm_end_motion_s.c"
-  "/home/harshit/mrt_ws/arm_workspace/build/pos_control_interfaces/rosidl_generator_py/pos_control_interfaces/msg/_encoder_arm.py"
-  "/home/harshit/mrt_ws/arm_workspace/build/pos_control_interfaces/rosidl_generator_py/pos_control_interfaces/msg/_encoder_arm_s.c"
   "CMakeFiles/pos_control_interfaces__py"
 )
 
