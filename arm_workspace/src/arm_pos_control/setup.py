@@ -24,8 +24,8 @@ setup(
     },
     entry_points={
         'console_scripts': [
-            'input_handler = arm_pos_control.input_handler:main',
-            'input_queue = arm_pos_control.input_queue:main',
+            'handler = arm_pos_control.input_handler:main',
+            'queue = arm_pos_control.input_queue:main',
             'pid_controller = arm_pos_control.pid_controller:main',
         ],
     },

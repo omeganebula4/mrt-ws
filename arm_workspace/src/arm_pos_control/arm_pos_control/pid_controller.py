@@ -6,7 +6,7 @@ from rclpy.node import Node
 from rclpy.executors import MultiThreadedExecutor
 
 import ast
-# import threading
+import threading
 import math
 import time
 import numpy as np
@@ -44,6 +44,7 @@ class TrajectoryActionServer(Node):
             callback_group=ReentrantCallbackGroup()
         )
 
+        self.lock = threading.Lock()
         self.get_logger().info("Started PID Controller")
 
         self.ik_handler = IKHandler()
@@ -91,10 +92,10 @@ class TrajectoryActionServer(Node):
         # Convert from continuous joint angles to desired encoder positions
         # motor_side - 0.24, home (middle) - 0.0, other_side - -0.21
 
-        # with self.lock:
-        self.q[0] = -0.21 + ((0.45 * (current_base_pos)) / 117678)
-        self.q[1] = math.pi / 2 + current_shoulder_pos / 5263
-        self.q[2] = math.pi / 2 - current_elbow_pos / 5714
+        with self.lock:
+            self.q[0] = -0.21 + ((0.45 * (current_base_pos)) / 117678)
+            self.q[1] = math.pi / 2 + current_shoulder_pos / 5670.3
+            self.q[2] = math.pi / 2 - current_elbow_pos / 5670.3
 
         end_eff_x, end_eff_y = self.ik_handler.K(self.q[1], self.q[2])
         self.end_eff_pos = np.array([end_eff_x, end_eff_y], dtype=np.float64)
@@ -169,9 +170,9 @@ class TrajectoryActionServer(Node):
     def publishPWM(self, goal_handle: ServerGoalHandle):
         pwm_msg = ArmEndMotion()
         for point, delay in zip(self.traj_pos, self.traj_times):
-            # with self.lock:
-            end_eff_copy = np.copy(self.end_eff_pos)
-            stop_flag = self.stop
+            with self.lock:
+                end_eff_copy = np.copy(self.end_eff_pos)
+                stop_flag = self.stop
 
             # publish feedback
             feedback = Trajectory.Feedback()
@@ -192,14 +193,14 @@ class TrajectoryActionServer(Node):
             print(f'Current Angle Values: {self.q[1], self.q[2]}')
             print(f'Desired Angle Values: {desired_qs, desired_qe}')
 
-            # with self.lock:
-            (pwm_s, dir_s), (pwm_e, dir_e) = self.ik_handler.PIDs(
+            with self.lock:
+                (pwm_s, dir_s), (pwm_e, dir_e) = self.ik_handler.PIDs(
                     desired_qs, desired_qe, self.q[1], self.q[2])
 
-            if pwm_s < 5:
-                pwm_s = 5
-            if pwm_e < 5:
-                pwm_e = 5
+            if pwm_s < 25:
+                pwm_s = 25
+            if pwm_e < 25:
+                pwm_e = 25
 
             pwm_msg.direction = [dir_s, dir_e, 0, 0, 0, 0]
             pwm_msg.speed = [pwm_s, pwm_e, 0, 0, 0, 0]
@@ -211,9 +212,9 @@ class TrajectoryActionServer(Node):
 
             self.wait(float(delay))
 
-        self.loopLastPoint(goal_handle)
+#        self.loopLastPoint(goal_handle)
 
-    def loopLastPoint(self, goal_handle: ServerGoalHandle):
+#    def loopLastPoint(self, goal_handle: ServerGoalHandle):
         self.get_logger().info("Looping last point.")
 
         last_point = self.traj_pos[-1]
@@ -222,12 +223,13 @@ class TrajectoryActionServer(Node):
             desired_qs, desired_qe, self.q[1], self.q[2])
         
         pwm_msg = ArmEndMotion()
+        counter = 0
 
-        while pwm_s != 0 or pwm_e != 0:
+        while (pwm_s > 40 or pwm_e > 40) and counter < 50 :
             # publish feedback
-            # with self.lock:
-            end_eff_copy = np.copy(self.end_eff_pos)
-            stop_flag = self.stop
+            with self.lock:
+                end_eff_copy = np.copy(self.end_eff_pos)
+                stop_flag = self.stop
 
             feedback = Trajectory.Feedback()
             feedback.end_effector_pos = self.arrToPoint(end_eff_copy)
@@ -252,15 +254,22 @@ class TrajectoryActionServer(Node):
 
             self.wait(1 / SAMPLE_FREQ)
 
-            # with self.lock:
-            (pwm_s, dir_s), (pwm_e, dir_e) = self.ik_handler.PIDs(
+            with self.lock:
+                (pwm_s_new, dir_s), (pwm_e_new, dir_e) = self.ik_handler.PIDs(
                     desired_qs, desired_qe, self.q[1], self.q[2])
+            
+            if abs(pwm_s_new - pwm_s) < 2 and abs(pwm_e_new - pwm_e) < 2:
+                counter += 1
+            
+            pwm_s = pwm_s_new
+            pwm_e = pwm_e_new
         
-        pwm_msg.direction = [0,0, 0, 0, 0, 0]
-        pwm_msg.speed = [0,0, 0, 0, 0, 0]
-        pwm_msg.sys_check = False
-        pwm_msg.reset = False
-        self.pwm_publisher.publish(pwm_msg)
+        for _ in range(10):
+            pwm_msg.direction = [0,0, 0, 0, 0, 0]
+            pwm_msg.speed = [0,0, 0, 0, 0, 0]
+            pwm_msg.sys_check = False
+            pwm_msg.reset = False
+            self.pwm_publisher.publish(pwm_msg)
 
     def wait(self, duration: float):
         """Wait for duration"""

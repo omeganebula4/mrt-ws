@@ -12,10 +12,8 @@ arm_pos_control/__init__.py
 arm_pos_control/calculator.py
 arm_pos_control/input_handler.py
 arm_pos_control/input_queue.py
-arm_pos_control/input_queue_old.py
 arm_pos_control/min_jerk.py
 arm_pos_control/pid_controller.py
-arm_pos_control/test.py
 resource/arm_pos_control
 test/test_copyright.py
 test/test_flake8.py
