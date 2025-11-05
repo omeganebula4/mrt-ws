@@ -119,6 +119,7 @@ class TrajectoryActionServer(Node):
 
         # Accept the goal if all checks pass
         self.get_logger().info(f'Goal {inp} ACCEPTED')
+        self.stop = False
         return GoalResponse.ACCEPT
 
     def actionCallback(self, goal_handle: ServerGoalHandle) -> Trajectory.Result:

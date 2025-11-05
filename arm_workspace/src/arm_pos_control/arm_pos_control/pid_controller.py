@@ -23,7 +23,7 @@ from arm_pos_control.min_jerk import min_jerk
 MAX_QUEUE_SIZE = 10
 SAMPLE_FREQ = 100  # Hz
 
-# TODO: Thread Locks(?), stop gets reset on new valid goal, maybe a launch node
+# TODO: maybe a launch node
 
 class TrajectoryActionServer(Node):
 
@@ -119,6 +119,7 @@ class TrajectoryActionServer(Node):
 
         # Accept the goal if all checks pass
         self.get_logger().info(f'Goal {inp} ACCEPTED')
+        self.stop = False
         return GoalResponse.ACCEPT
 
     def actionCallback(self, goal_handle: ServerGoalHandle) -> Trajectory.Result:

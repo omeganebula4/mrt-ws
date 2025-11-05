@@ -2,9 +2,9 @@ import math
 
 
 class IKHandler:
-    meow_s = 0.49
-    meow_e = 0.515
-    meow_nigga = 0.1
+    meow_s = 0.4325
+    meow_e = 0.522
+    meow_nigga = 0.0935
 
     l_s = math.sqrt(meow_s**2 + meow_nigga**2)
     l_e = meow_e
